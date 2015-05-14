@@ -15,3 +15,8 @@ $app->get('code-of-conduct', function() use ($app) {
 $app->get('venue', function() use ($app) {
     return view('venue');
 });
+
+// TODO:
+/*
+ * add routes for schedule (full, events, talks) and speakers, about page
+ * */

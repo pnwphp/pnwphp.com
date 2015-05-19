@@ -44,6 +44,8 @@ $app->singleton(
     'App\Console\Kernel'
 );
 
+$app->singleton('conference', 'App\Model\Conference');
+
 /*
 |--------------------------------------------------------------------------
 | Register Middleware

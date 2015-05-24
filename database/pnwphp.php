@@ -248,16 +248,16 @@ These days, when she\'s not in front of the computer at her home in Beaverton, O
             'company' => 'Clarify, Inc',
             'bio' => 'Keith Casey currently serves as Director of Product for Clarify working to make APIs easier, more consistent, and help solve real world problems. Previously, as a developer evangelist at Twilio, he worked to get good technology into the hands of good people to do great things. In his spare time, he works to build and support the Austin technology community, blogs occasionally at CaseySoftware.com and is completely fascinated by monkeys. Keith is also the author of ["A Practical Approach to API Design" from Leanpub](https://leanpub.com/restful-api-design).',
         ],
-        'bradley-holt' => [
-            'code' => 'bradley-holt',
-            'name' => 'Bradley Holt',
-            'location' => 'Burlington, Vermont',
-            'github' => 'bradley-holt',
-            'twitter' => 'BradleyHolt',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/551b0f1c4f0d7e8c28000099/avatar',
-            'company' => 'IBM Cloudant',
-            'bio' => 'Bradley Holt is a Developer Advocate with [IBM Cloudant](https://cloudant.com/], a globally distributed data layer for web and mobile applications. He is the author of several publications including [Building a Hypermedia API in CouchDB](http://www.phparch.com/magazine/2012-2/november/) (php[architect]], [PHP 5.4 Cheat Sheet](http://refcardz.dzone.com/refcardz/php-54-scalable) (DZone Refcardz], [Scaling CouchDB](http://shop.oreilly.com/product/0636920018407.do) (O\'Reilly Media) and [Writing and Querying MapReduce Views in CouchDB](http://shop.oreilly.com/product/0636920018247.do) (O\'Reilly Media). He has spoken at numerous conferences including ZendCon, OSCON and the jQuery Conference. Bradley is a Code for America Brigade Captain with [Code for BTV](http://codeforbtv.org/) in Burlington, Vermont and has been a co-organizer of [Vermont Code Camp](http://vtcodecamp.org/) and the [Northeast PHP Conference](http://www.northeastphp.org/).',
-        ],
+//        'bradley-holt' => [
+//            'code' => 'bradley-holt',
+//            'name' => 'Bradley Holt',
+//            'location' => 'Burlington, Vermont',
+//            'github' => 'bradley-holt',
+//            'twitter' => 'BradleyHolt',
+//            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/551b0f1c4f0d7e8c28000099/avatar',
+//            'company' => 'IBM Cloudant',
+//            'bio' => 'Bradley Holt is a Developer Advocate with [IBM Cloudant](https://cloudant.com/], a globally distributed data layer for web and mobile applications. He is the author of several publications including [Building a Hypermedia API in CouchDB](http://www.phparch.com/magazine/2012-2/november/) (php[architect]], [PHP 5.4 Cheat Sheet](http://refcardz.dzone.com/refcardz/php-54-scalable) (DZone Refcardz], [Scaling CouchDB](http://shop.oreilly.com/product/0636920018407.do) (O\'Reilly Media) and [Writing and Querying MapReduce Views in CouchDB](http://shop.oreilly.com/product/0636920018247.do) (O\'Reilly Media). He has spoken at numerous conferences including ZendCon, OSCON and the jQuery Conference. Bradley is a Code for America Brigade Captain with [Code for BTV](http://codeforbtv.org/) in Burlington, Vermont and has been a co-organizer of [Vermont Code Camp](http://vtcodecamp.org/) and the [Northeast PHP Conference](http://www.northeastphp.org/).',
+//        ],
         'jeremy-mikola' => [
             'code' => 'jeremy-mikola',
             'name' => 'Jeremy Mikola',
@@ -278,6 +278,57 @@ These days, when she\'s not in front of the computer at her home in Beaverton, O
             'company' => 'Tableau Software Inc.',
             'bio' => 'Benji is currently a Dev Manager in Business Systems at Tableau Software Inc. He and his team build and maintain the online payment, eCommerce, and cloud integration systems for the company.',
         ],
+        'sara-golemon' => [
+            'code' => 'sara-golemon',
+            'name' => 'Sara Golemon',
+            'location' => '',
+            'github' => '',
+            'twitter' => 'SaraMG',
+            'avatar' => 'img/avatars/sara-golemon.jpg',
+            'company' => 'Facebook',
+            'bio' => <<<BIO
+Sara Golemon is a long standing contributor to the PHP runtime, the Open Source maintainer of
+<a href="http://hhvm.com/" target="_blank">HHVM</a>, and the author of
+<a href="http://www.amazon.com/Extending-Embedding-PHP-Sara-Golemon/dp/067232704X" target="_blank">Extending and
+Embedding PHP</a>.
+BIO
+        ],
+        'sara-golemon' => [
+            'code' => 'sara-golemon',
+            'name' => 'Sara Golemon',
+            'location' => '',
+            'github' => '',
+            'twitter' => 'SaraMG',
+            'avatar' => 'img/avatars/sara-golemon.jpg',
+            'company' => 'Facebook',
+            'bio' => <<<BIO
+Sara Golemon is a long standing contributor to the PHP runtime, the Open Source maintainer of
+<a href="http://hhvm.com/" target="_blank">HHVM</a>, and the author of
+<a href="http://www.amazon.com/Extending-Embedding-PHP-Sara-Golemon/dp/067232704X" target="_blank">Extending and
+Embedding PHP</a>.
+BIO
+        ],
+        'davey-shafik' => [
+            'code' => 'davey-shafik',
+            'name' => 'Davey Shafik',
+            'location' => '',
+            'github' => '',
+            'twitter' => 'dshafik',
+            'avatar' => 'img/avatars/davey-shafik.jpg',
+            'company' => 'Engine Yard',
+            'bio' => <<<BIO
+Davey Shafik is a full-time developer with over 14 years of experience in PHP and related technologies. He is a
+Community Engineer at Engine Yard and has written three books, numerous articles, and spoken at conferences the world
+over. He is best known for his books, the <a href="http://zceguide.com/" target="_blank">Zend PHP Certification Study
+Guide</a> and <a href="https://learnable.com/books/php-master-write-cutting-edge-code" target="_blank">PHP Master:
+Write Cutting Edge Code</a>, and as the creator of <a href="http://php.net/phar" target="_blank">PHP Archive (PHAR)</a>
+for PHP 5.3.
+
+Davey is passionate about improving the tech community. He co-organizes the <a href="http://mhprompt.org/"
+target="_blank">Prompt</a> initiative (<a href="http://mhprompt.org" target="_blank">mhprompt.org</a>), dedicated to
+lifting the stigma surrounding mental health discussions, and has worked with PHPWomen since its inception.
+BIO
+        ],
 	],
 	'talks' => [
 		'anatomy-of-a-type-system' => [
@@ -287,7 +338,7 @@ These days, when she\'s not in front of the computer at her home in Beaverton, O
 			'speaker' => 'anthony-ferrara',
 			'type' => 'session',
             'room' => 'main',
-            'time' => new DateTime('2015-09-10T09:00:00+07:00'),
+            'time' => new DateTime('2015-09-12T14:30:00+07:00'),
             'length' => '50',
 			'abstract' => <<<'PROPOSAL'
 PHP 7 is coming quickly. One of the major features that it brings with it is the ability to use scalar typing. Are you
@@ -297,6 +348,23 @@ strict types? We&rsquo;ll cover concept, theory and practical details of the typ
 type system compares to other languages.
 PROPOSAL
 		],
+        'open-source-love' => [
+            'title' => 'Open Source, Love, and Social Responsibility',
+            'code' => 'open-source-love',
+            'tags' => ['open source', 'community'],
+            'speaker' => 'davey-shafik',
+            'type' => 'keynote',
+            'room' => 'main',
+            'time' => new DateTime('2015-09-11T17:45:00+07:00'),
+            'length' => '45',
+            'abstract' => <<<'PROPOSAL'
+This talk looks at the responsibility, we, the Open Source community, have to make things better. How we can use our
+skills to make fundamental, meaningful change to the world around us.
+
+We will explore the motivations around why we do what we do, and look at what the community and others have done for
+us &mdash; and why it's important to do something with it.
+PROPOSAL
+        ],
 	],
 	'sponsors' => [
 		'nexcess' => [

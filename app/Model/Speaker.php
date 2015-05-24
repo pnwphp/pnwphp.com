@@ -4,6 +4,7 @@
  * @property string $code
  * @property string $name
  * @property string $location
+ * @property string $company
  * @property string $github
  * @property string $twitter
  * @property string $avatar

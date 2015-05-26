@@ -37,7 +37,7 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <p class="lead">
-                    Along with the conference, we'll also be having a full day of <em>workshops</em> and a <em>hackathon</em> before the conference, an <em>uncon</em>, <em>social events</em>, <em>muscial numbers</em>, <em>catered food</em>, and more.
+                    Along with the conference, we'll also be having a full day of <em>workshops</em> and a <em>hackathon</em> before the conference, an <em>uncon</em>, <em>social events</em>, <em>musical numbers</em>, <em>catered food</em>, and more.
                 </p>
                 <table class="table table-bordered text-center">
                     <tr>

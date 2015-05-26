@@ -7,7 +7,6 @@
     <div class="head-banner-content head-banner-content-sm">
         <div>
             <h1>Pacific Northwest PHP</h1>
-            <h2>Sponsors</h2>
         </div>
     </div>
     @include('sections.sponsors')

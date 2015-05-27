@@ -606,4 +606,35 @@ p.talk-title {
   border-top: 1px solid #e5e5e5;
 }
 
+.schedule-wrapper {
+  background-color: #FFF;
+  .schedule-header p{
+    margin: 10px 0 10px;
+    font-size: 1.3em;
+
+  }
+  hr {
+    margin: 0;
+    border-top-width: 2px;
+  }
+  .schedule-row {
+    background-color: #CCC;
+    img {
+      width:40px;
+      height: 40px;
+      float: left;
+      margin-right: 10px;
+      margin-top: 10px;
+      border: 2px solid #FFF;
+    }
+    p {
+      margin: 0;
+      padding-top:5px;
+      padding-bottom: 5px;
+      font-size: 1.2em;
+    }
+  }
+}
+
+
 

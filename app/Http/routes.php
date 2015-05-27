@@ -16,6 +16,10 @@ $app->get('venue', function() use ($app) {
     return view('venue');
 });
 
+$app->get('schedule', function() use ($app) {
+    return view('schedule');
+});
+
 function get_sponsor_data($app)
 {
     return [

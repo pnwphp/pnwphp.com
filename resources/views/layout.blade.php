@@ -34,29 +34,24 @@
 
         <div class="navbar-collapse collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="#">Speakers</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Schedule <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Full Schedule</a></li>
-                        <li><a href="#">Talks</a></li>
-                        <li><a href="#">Events</a></li>
-                    </ul>
-                </li>
-                <li><a target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new">Register</a></li>
+                <li><a href="./speakers">Speakers</a></li>
+                <li><a href="./talks">Talks</a></li>
+                <li><a href="./events">Events</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
+                <li><a target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new">Register</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="./events/conference">Conference</a></li>
+                        <li><a href="./events#conference">Conference</a></li>
+                        <li><a href="./venue">Venue</a></li>
                         <li><a target="_blank" href="http://www.meetup.com/seaphp/">SeaPHP User Group</a></li>
                         <li><a href="./code-of-conduct">Code of Conduct</a></li>
-                        <li><a href="#">Contact Organizers</a></li>
+                        <li><a href="mailto:admins@seaphp.com?Subject=Question%20About%20PNWPHP">Contact Organizers</a></li>
                     </ul>
                 </li>
-                <li><a href="./venue">Venue</a></li>
+
                 <li><a href="./sponsors">Sponsors</a></li>
             </ul>
         </div>
@@ -68,6 +63,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
+                <p>
+                    PNWPHP is brought to you by the Seattle PHP User Group (<a href="http://twitter.com/seaphp" target="_blank">@seaphp</a>),
+                    PDX PHP Users Group (<a href="http://twitter.com/phpdx" target="_blank">@phpdx</a>), and Vancouver
+                    PHP Meetup (<a href="http://twitter.com/phpvancouver" target="_blank">@phpvancouver</a>).
+                </p>
                 <p>Copyright © 2015 SeaPHP User Group — All Rights Reserved</p>
             </div>
         </div>

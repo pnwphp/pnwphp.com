@@ -3,7 +3,7 @@
     <p class="lead text-center">Thank you to all of our sponsors who are making it possible to hold this event.</p>
     <div class="container">
         <div class="row sponsors">
-            @foreach ($sponsors as $sponsor)
+            @foreach ($conference->sponsors->sortBy('rank', SORT_REGULAR, true) as $sponsor)
             <div class="col-lg-3 col-sm-6">
                 <div class="panel sponsor-card">
                     <div class="sponsor-label sponsor-{{ $sponsor->level }}">{{ $sponsor->label }}</div>
@@ -28,7 +28,7 @@
                 </div>
             </div>
             <div class="row community-sponsors">
-                @foreach ($communitySponsors as $sponsor)
+                @foreach ($conference->communitySponsors->sortBy('rank', SORT_REGULAR, true) as $sponsor)
                 <div class="col-lg-2 col-sm-6 col-xs-6">
                     <div class="panel sponsor-card">
                         <div class="card-header">

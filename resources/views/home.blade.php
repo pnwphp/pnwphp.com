@@ -8,25 +8,48 @@
     <div>
         <h1>Pacific Northwest PHP</h1>
         <h2>September 10th–12th, 2015 &#8226 Seattle, WA</h2>
-        <a class="btn btn-lg btn-info" target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new">REGISTER NOW <i class="fa fa-ticket"></i></a>
+        <a class="btn btn-lg btn-info" target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new"><i class="fa fa-ticket"></i> REGISTER NOW</a>
     </div>
 </div>
 
 <div class="wrapper wrapper-white">
-    <div class="title">PNWPHP</div>
+    <div class="title">PNWPHP Conference</div>
     <div class="container">
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <p class="lead">
-                    Join us in Seattle this September for the Pacific Northwest PHP conference, the ultimate event for PHP developers in the Pacific Northwest.<br/><br/>Our 3-day event will be overflowing with awesome as we hear from world-renowned speakers from the PHP community and companies like Amazon, AOL, Facebook, Google, Microsoft, Oracle, Zend, and more.
-                </p>
-                <div class="alert alert-info">
-                    <p class="lead text-center">
-                        Official Conference Hashtag: <a href="https://twitter.com/hashtag/pnwphp?f=realtime" target="_blank">#PNWPHP</a>
-                    </p>
-                </div>
+                <p class="lead"><strong>Join us in Seattle for the Pacific Northwest PHP developer conference.</strong></p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-md-2 col-md-offset-2">
+                <img src="img/pnwphp.png" width="160" />
+            </div>
+            <div class="col-md-6">
+                <p class="lead">
+                    Our <em>3-day</em> event will be overflowing with awesome sauce as we hear from world-renowned
+                    speakers from the PHP community and companies like Amazon, AOL, Facebook, Google, Microsoft, Oracle,
+                    and Zend. With topics ranging from <a href="./talks?tag=continuous-delivery">continuous delivery</a>
+                    to <a href="./talks?tag=cloud">the cloud</a>, you'll be full to the brim with new knowledge to take home.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <br>
+            <div class="col-md-4 col-md-offset-2">
+                <a href="http://eepurl.com/9bHLT" target="_blank" class="btn btn-lg btn-info btn-block"><i class="fa fa-envelope"></i>&ensp;Join the
+                    Mailing List</a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://twitter.com/hashtag/pnwphp" target="_blank" class="btn btn-lg btn-info btn-block"><i class="fa fa-retweet"></i> Tweet about #PNWPHP</a>
+            </div>
+        </div>
+        @if ($sponsor = $conference->sponsors->filter(function ($sponsor) {return $sponsor->rank >= 80;})->random(1))
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <br><p class="text-center">The Pacific Northwest PHP conference is sponsored in part by <a href="{{ $sponsor->url }}">{{ $sponsor->name }}</a>.</p>
+            </div>
+        </div>
+        @endif
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <div class="separator separator-dark">
@@ -37,10 +60,12 @@
         <div class="row">
             <div class="col-md-8 col-md-offset-2">
                 <p class="lead">
-                    Along with the conference, we'll also be having a full day of <em>workshops</em> and a <em>hackathon</em> before the conference, an <em>uncon</em>, <em>social events</em>, <em>musical numbers</em>, <em>catered food</em>, and more.
+                    Join us for all the festivities, including <em><a href="./events#pnwphp-workshops">workshops</a></em>,
+                    the <em><a href="./events#aws-hackathon">hackathon</a></em>, the <em><a href="./events#uncon">uncon</a></em>,
+                    <em>social events</em>, <em>musical numbers</em>, <em>catered food</em>, and more.
                 </p>
                 <table class="table table-bordered text-center">
-                    <tr>
+                    <tr class="bg-info">
                         <th class="text-center">SEP 9TH</th>
                         <th class="text-center">SEP 10TH</th>
                         <th class="text-center">SEP 11TH</th>
@@ -50,42 +75,40 @@
                     <tr>
                         <td>
                             <ul class="list-unstyled text-center">
-                                <li>SeaPHP Meetup</li>
-                                <li>Post-Meetup Drinkup</li>
+                                <li><a href="./events#seaphp-meetup">SeaPHP Meetup</a></li>
+                                <li><a href="./events#pnwphp-workshops">SeaPHP Drinkup</a></li>
                             </ul>
                         </td>
                         <td>
                             <ul class="list-unstyled text-center">
-                                <li>Workshops</li>
-                                <li>PHP Embark</li>
-                                <li>AWS Hackathon</li>
+                                <li><a href="./events#pnwphp-workshops">Workshops</a></li>
+                                <li><a href="./events#php-embark">PHP Embark</a></li>
+                                <li><a href="./events#aws-hackathon">AWS Hackathon</a></li>
                             </ul>
                         </td>
                         <td>
                             <ul class="list-unstyled text-center">
-                                <li>PNWPHP Conference</li>
-                                <li>UnCon</li>
-                                <li>Catered Lunch</li>
-                                <li>Evening Social</li>
+                                <li><a href="./events#conference">PNWPHP Conference</a</li>
+                                <li><a href="./events#uncon">UnCon</a</li>
+                                <li><a href="./events#social">Evening Social</a</li>
                             </ul>
                         </td>
                         <td>
                             <ul class="list-unstyled text-center">
-                                <li>PNWPHP Conference</li>
-                                <li>UnCon</li>
-                                <li>Catered Lunch</li>
+                                <li><a href="./events#pnwphp">PNWPHP Conference</a</li>
+                                <li><a href="./events#uncon">UnCon</a</li>
                             </ul>
                         </td>
                         <td>
                             <ul class="list-unstyled text-center">
-                                <li>WurstConSEA</li>
+                                <li><a href="./events#wurstcon">WurstConSEA</a</li>
                             </ul>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="bg-success">
                         <th class="text-center">$5</th>
                         <th class="text-center">$49</th>
-                        <th colspan="2" class="text-center">See below</th>
+                        <th colspan="2" class="text-center">$129&ndash;$349 (see below)</th>
                         <th class="text-center">Free</th>
                     </tr>
                 </table>
@@ -104,11 +127,11 @@
                         <h4 class="text-center">FOR STUDENTS</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$129 <s>$149</s></strong><br><small><em>Early Bird Pricing</em> until June 15th</small></p>
+                        <p class="lead"><strong>$129 <s>$149</s></strong><br><small><em>Early Bird Pricing</em> through June 30th</small></p>
                         <p>Available to full and part time students; student ID required at the event.</p>
                     </div>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-info" href="https://pnwphp2015.busyconf.com/bookings/new">REGISTER NOW</a>
+                        <a class="btn btn-lg btn-block btn-info" href="https://pnwphp2015.busyconf.com/bookings/new"><i class="fa fa-ticket"></i> REGISTER NOW</a>
                     </div>
                 </div>
             </div>
@@ -118,11 +141,11 @@
                         <h4 class="text-center">FOR INDIVIDUALS</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$199 <s>$249</s></strong><br><small><em>Early Bird Pricing</em> until June 15th</small></p>
+                        <p class="lead"><strong>$199 <s>$249</s></strong><br><small><em>Early Bird Pricing</em> through June 30th</small></p>
                         <p>Available to attendees who are paying for their own tickets.</p>
                     </div>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-info" href="https://pnwphp2015.busyconf.com/bookings/new">REGISTER NOW</a>
+                        <a class="btn btn-lg btn-block btn-info" href="https://pnwphp2015.busyconf.com/bookings/new"><i class="fa fa-ticket"></i> REGISTER NOW</a>
                     </div>
                 </div>
             </div>
@@ -136,7 +159,7 @@
                         <p>Available to attendees whose tickets are being paid for or reimbursed by their company/employer.</p>
                     </div>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-info" href="https://pnwphp2015.busyconf.com/bookings/new">REGISTER NOW</a>
+                        <a class="btn btn-lg btn-block btn-info" href="https://pnwphp2015.busyconf.com/bookings/new"><i class="fa fa-ticket"></i> REGISTER NOW</a>
                     </div>
                 </div>
             </div>
@@ -161,7 +184,7 @@
         </div>
         <div class="row">
             <div class="col-md-8">
-                <div id='location-map'></div>
+                <div id="location-map"></div>
             </div>
             <div class="col-md-4">
                 <p>
@@ -171,29 +194,6 @@
                     <a href="http://www.impacthubseattle.com" target="_blank">Impact Hub Seattle</a> is a coworking space, events space, and launch pad for purpose-driven ventures that create more value than they capture. Impact hub is located in the historic Pioneer Square landmark.
                 </p>
                 <p class="lead"><a href="./venue"><i class="fa fa-hand-o-right"></i> More Details</a></p>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="wrapper wrapper-light">
-    <div class="title">Stay Up-to-date</div>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <p class="lead">
-                    The Seattle PHP User Group (<a href="http://twitter.com/seaphp" target="_blank">@seaphp</a>), PDX
-                    PHP Users Group (<a href="http://twitter.com/phpdx" target="_blank">@phpdx</a>), and Vancouver PHP
-                    Meetup (<a href="http://twitter.com/phpvancouver" target="_blank">@phpvancouver</a>) invite PHP
-                    developers everywhere, and of all skill levels, to come learn, network, and hack together with us
-                    in Seattle at the first PNWPHP.
-                </p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-4 col-md-offset-4">
-                <a href="http://eepurl.com/9bHLT" target="_blank" class="btn btn-lg btn-info btn-block">Join the
-                    Mailing List <i class="fa fa-envelope"></i></a>
             </div>
         </div>
     </div>

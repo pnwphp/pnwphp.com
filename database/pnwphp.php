@@ -50,7 +50,7 @@
 			'twitter' => 'ircmaxell',
 			'github' => 'ircmaxell',
             'company' => 'Google',
-			'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54f0cb510ca1df8750000002/avatar',
+			'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54f0cb510ca1df8750000002/avatar_square',
 			'bio' => <<<BIO
 Anthony Ferrara is a Developer Advocate for Google. He specializes in Object Oriented Design, Application Architecture,
 Web Application Security and PHP Internals. He is a contributor to multiple Open Source projects, as well as the PHP
@@ -64,7 +64,7 @@ BIO
             'location' => 'Port Angeles, WA',
             'github' => 'mstaples',
             'twitter' => 'dead_lugosi',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54e8f26b53d328245f000007/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54e8f26b53d328245f000007/avatar_square',
             'company' => 'Aesop Games',
             'bio' => <<<BIO
 As part of the AesopGames team, Margaret writes the code that makes the game work! She takes design documents and
@@ -78,7 +78,7 @@ BIO
             'location' => 'Madison, WI',
             'github' => 'simensen',
             'twitter' => 'beausimensen',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54ea4657a782185269000008/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54ea4657a782185269000008/avatar_square',
             'company' => 'dflydev',
             'bio' => <<<BIO
 Beau Simensen (<a href="https://twitter.com/beausimensen">@beausimensen</a>, <a href="https://beau.io">beau.io</a>) has
@@ -96,7 +96,7 @@ BIO
             'location' => 'Milton, Ontario, Canada',
             'github' => 'chartjes',
             'twitter' => 'grmpyprogrammer',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54eb66c2db6429e6f4000022/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54eb66c2db6429e6f4000022/avatar_square',
             'company' => 'Grumpy Learning Inc.',
             'bio' => 'Chris Hartjes has been building web applications of all shapes and sizes since 1998, ranging from catalogs of CD compilations for professional DJ\'s to portal pages for large US cable television providers. Chris gives back to the programming communities that have helped him by mentoring, speaking at conferences, and by co-organizing TrueNorth PHP. As the author of two books on writing testable PHP code and using testing tools, he believes that testing and automation are secret weapons that organizations can use to deliver high-quality applications quickly. He works from his basement office in the snowy wilds of Canada. He can also be heard semi-regularly on the /dev/hell podcast with Ed Finkler',
         ],
@@ -106,7 +106,7 @@ BIO
             'location' => 'Boca Raton, FL',
             'github' => 'adamculp',
             'twitter' => 'adamculp',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54eb71e1db6429d9ff000002/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54eb71e1db6429d9ff000002/avatar_square',
             'company' => 'Zend Technologies',
             'bio' => 'Adam Culp (@AdamCulp) author of "Refactoring 101" and consultant at Zend Technologies is passionate about developing with PHP and contributes to many open source projects.    He organizes the SunshinePHP Developer Conference and South Florida PHP Users Group (SoFloPHP) where he enjoys helping others write good code, implement standards, refactor efficiently, and incorporate unit and functional testing into their projects.    He is a Zend Certified PHP 5.3 Engineer, and holds a seat on the Zend Framework Certification Advisory Board.    When he is not coding or contributing to various developer communities, he can be found hiking around the United States National Parks, teaching judo, or long(ultra) distance running.',
         ],
@@ -116,7 +116,7 @@ BIO
             'location' => 'Trophy Club, Texas',
             'github' => '',
             'twitter' => 'stoker',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54eb758f4f630c0b68000012/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54eb758f4f630c0b68000012/avatar_square',
             'company' => 'Oracle',
             'bio' => 'Dave Stokes is a MySQL Community Manager for Oracle and has been using PHP & MySQL since they both became available.',
         ],
@@ -126,7 +126,7 @@ BIO
             'location' => 'Brooklyn, NY',
             'github' => 'philsturgeon',
             'twitter' => 'philsturgeon',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54ee8e005fba45a55000000a/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54ee8e005fba45a55000000a/avatar_square',
             'company' => 'Ride.com',
             'bio' => 'Founder of PyroCMS, Senior Developer at Ride, Programming Polyglot, PHP-FIG member, and occasionally gets chased by bears.',
         ],
@@ -136,7 +136,7 @@ BIO
             'location' => 'Lakewood, New Jersey',
             'github' => 'coderabbi',
             'twitter' => 'coderabbi',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54f095b9f88e3dd21b00000e/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54f095b9f88e3dd21b00000e/avatar_square',
             'company' => 'Wisdom as a Service',
             'bio' => 'Yitzchok Willroth is an independent application developer, consultant and coach living in Lakewood, NJ. A start-up vet, dev bootcamp instructor and popular conference speaker, Yitzchok is the organizer of the ShorePHP User Group, co organizer of the NY-PHP User Group, and an active participant in the PHPMentoring Initiative. Passionate about clean code and robust application architecture, he is also a strong proponent of remote teams as a way for organizations to thrive while affording developers a healthy work:life balance.',
         ],
@@ -146,7 +146,7 @@ BIO
             'location' => 'United States',
             'github' => 'mbabker',
             'twitter' => 'mbabker',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54f09cb80ca1df0088000002/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54f09cb80ca1df0088000002/avatar_square',
             'company' => 'WebSpark, Inc.',
             'bio' => 'Michael Babker is a multi-talented IT geek working for WebSpark, Inc. He’s been developing in PHP since 2010 working primarily with Symfony and Joomla code. He’s known to be rather opinionated on all matters code and enjoys learning new platforms and taking in the many sights the world has to offer.',
         ],
@@ -156,7 +156,7 @@ BIO
             'location' => 'United States',
             'github' => 'Crell',
             'twitter' => 'Crell',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54f0ae95f88e3d49b100001d/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54f0ae95f88e3d49b100001d/avatar_square',
             'company' => 'Palantir.net',
             'bio' => 'Larry Garfield has been building web sites since he was a sophomore in high school, which is longer ago than he\'d like to admit. At Palantir, Larry is a Senior Architect and Community Lead, developing solutions for medium to large cultural and educational institutions. He also works to represent both Palantir and Drupal in the broader developer community.
 
@@ -170,7 +170,7 @@ Larry is a co-author of "Drupal 7 Module Development" from Packt Publishing. He 
             'location' => 'Portland, OR',
             'github' => '',
             'twitter' => 'amberhimesmatz',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54f0e5666500a3a8e4000006/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54f0e5666500a3a8e4000006/avatar_square',
             'company' => 'Lullabot/Drupalize.Me',
             'bio' => 'Amber Matz (neé Himes) is an educator with Drupalize.Me. With over a decade of experience as a Web developer, Amber has tackled the hardest problems the web offers, including data migrations and editorial workflows. In the past five years, Amber has focused her talents as a Drupal developer, and readily shares her experience with others. She was the creator and host of the weekly series, DevMunch--an online education Web show designed to help developers upgrade their skills.
 
@@ -184,7 +184,7 @@ These days, when she\'s not in front of the computer at her home in Beaverton, O
             'location' => 'Snohomish, WA',
             'github' => 'rmcfrazier',
             'twitter' => 'rmcfrazier',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54f2740e7ae7c78153000007/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54f2740e7ae7c78153000007/avatar_square',
             'company' => '',
             'bio' => 'I have been in the software industry in the Seattle area for over 15 years in many different roles including LAMP engineer, software developer, technical trainer, architect, technical support, and manager. I enjoy learning new things and working on strong teams. I spend my free time with my wife and my son, trying to stay dry in the pacific northwest. I spend all day with my head in the clouds and containers.',
         ],
@@ -194,7 +194,7 @@ These days, when she\'s not in front of the computer at her home in Beaverton, O
             'location' => 'Dallas, Texas',
             'github' => 'JoshuaSWarren',
             'twitter' => 'JoshuaSWarren',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/550f5ca604f84134dd00000c/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/550f5ca604f84134dd00000c/avatar_square',
             'company' => 'Creatuity',
             'bio' => 'Joshua Warren has been developing web applications with PHP since 1999. He is the Founder & CEO of Creatuity in Dallas, Texas, where he works on eCommerce projects with Magento and the Yii framework. He founded Creatuity in 2008 as a development firm and has grown it to a team of over 25, including 14 developers working across 2 continents. When Joshua isn\'t developing, he enjoys traveling to new countries to try local food and beer while meeting developers at local meetups as well as connecting with developers around the world via Twitter.',
         ],
@@ -204,7 +204,7 @@ These days, when she\'s not in front of the computer at her home in Beaverton, O
             'location' => 'Albuquerque, NM',
             'github' => 'ellotheth',
             'twitter' => 'ellotheth',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/55102d8a46ab610ef2000004/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/55102d8a46ab610ef2000004/avatar_square',
             'company' => 'Giguebytes, LLC',
             'bio' => 'Gemma is a software engineer, video gamer and recovering classical violinist who has been developing PHP web applications since before PHP5 (and applications in C, .NET and Delphi since before then). She is passionate about using pragmatic processes and tooling to support developers of all types and skillsets, and her level of excitement over learning new dev technology tends to correlate strongly with her level of caffeination. Gemma and her husband live with their two dogs in New Mexico, where they climb volcanoes for fun.',
         ],
@@ -214,7 +214,7 @@ These days, when she\'s not in front of the computer at her home in Beaverton, O
             'location' => 'Seattle, WA',
             'github' => 'blobaugh',
             'twitter' => 'benlobaugh',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/55171c8589bee6fb3d000005/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/55171c8589bee6fb3d000005/avatar_square',
             'company' => 'WebDevStudios',
             'bio' => 'Ben Lobaugh has been an avid open source enthusiast for over 15 years. During that time he has work on all sort of projects from mom & pop shops to multinational corporations. In his downtime Ben can be found cruising Puget Sound with on his beautiful sailboat Zippey or play with his dog Bella in the park.',
         ],
@@ -224,7 +224,7 @@ These days, when she\'s not in front of the computer at her home in Beaverton, O
             'location' => 'Vancouver, Canada',
             'github' => 'lkysow',
             'twitter' => 'lkysow',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/55173d5389bee61bf600001a/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/55173d5389bee61bf600001a/avatar_square',
             'company' => 'Hootsuite',
             'bio' => 'Luke is a Software Engineer on the Platform Team at Hootsuite in Vancouver. He\'s currently working on splitting Hootsuite\'s PHP monolith into a distributed microsystems architecture so they can scale even further. When he\'s not at his laptop you can probably find Luke hanging off a cliff rock climbing somewhere.',
         ],
@@ -234,7 +234,7 @@ These days, when she\'s not in front of the computer at her home in Beaverton, O
             'location' => 'Isle of Palms, SC',
             'github' => 'benmarks',
             'twitter' => 'benmarks',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/551acdfb4f0d7e8c2800001f/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/551acdfb4f0d7e8c2800001f/avatar_square',
             'company' => 'Magento',
             'bio' => 'Ben has been developing with, teaching, and talking about Magento for seven years. He enjoys helping merchants and developers solve the challenges of commerce as much as he enjoys helping to improve Magento for everyone\'s benefit.',
         ],
@@ -244,7 +244,7 @@ These days, when she\'s not in front of the computer at her home in Beaverton, O
             'location' => 'United States',
             'github' => 'CaseySoftware',
             'twitter' => 'CaseySoftware',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/551ae9504f0d7e8c28000048/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/551ae9504f0d7e8c28000048/avatar_square',
             'company' => 'Clarify, Inc',
             'bio' => 'Keith Casey currently serves as Director of Product for Clarify working to make APIs easier, more consistent, and help solve real world problems. Previously, as a developer evangelist at Twilio, he worked to get good technology into the hands of good people to do great things. In his spare time, he works to build and support the Austin technology community, blogs occasionally at CaseySoftware.com and is completely fascinated by monkeys. Keith is also the author of ["A Practical Approach to API Design" from Leanpub](https://leanpub.com/restful-api-design).',
         ],
@@ -254,7 +254,7 @@ These days, when she\'s not in front of the computer at her home in Beaverton, O
 //            'location' => 'Burlington, Vermont',
 //            'github' => 'bradley-holt',
 //            'twitter' => 'BradleyHolt',
-//            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/551b0f1c4f0d7e8c28000099/avatar',
+//            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/551b0f1c4f0d7e8c28000099/avatar_square',
 //            'company' => 'IBM Cloudant',
 //            'bio' => 'Bradley Holt is a Developer Advocate with [IBM Cloudant](https://cloudant.com/], a globally distributed data layer for web and mobile applications. He is the author of several publications including [Building a Hypermedia API in CouchDB](http://www.phparch.com/magazine/2012-2/november/) (php[architect]], [PHP 5.4 Cheat Sheet](http://refcardz.dzone.com/refcardz/php-54-scalable) (DZone Refcardz], [Scaling CouchDB](http://shop.oreilly.com/product/0636920018407.do) (O\'Reilly Media) and [Writing and Querying MapReduce Views in CouchDB](http://shop.oreilly.com/product/0636920018247.do) (O\'Reilly Media). He has spoken at numerous conferences including ZendCon, OSCON and the jQuery Conference. Bradley is a Code for America Brigade Captain with [Code for BTV](http://codeforbtv.org/) in Burlington, Vermont and has been a co-organizer of [Vermont Code Camp](http://vtcodecamp.org/) and the [Northeast PHP Conference](http://www.northeastphp.org/).',
 //        ],
@@ -264,7 +264,7 @@ These days, when she\'s not in front of the computer at her home in Beaverton, O
             'location' => 'Hoboken, NJ',
             'github' => 'jmikola',
             'twitter' => 'jmikola',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/551b3779ae44cd0dd300009a/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/551b3779ae44cd0dd300009a/avatar_square',
             'company' => 'MongoDB',
             'bio' => 'Jeremy Mikola is a software engineer at MongoDB\'s NYC office. As a member of the driver and evangelism team, he helps develop the PHP driver and contributes to various OSS projects, such as Doctrine ODM and React PHP. Jeremy lives in Hoboken, NJ and is known to enjoy a good sandwich.',
         ],
@@ -274,7 +274,7 @@ These days, when she\'s not in front of the computer at her home in Beaverton, O
             'location' => 'Seattle, WA',
             'github' => '',
             'twitter' => '',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/551b94ff84e600d55500001f/avatar',
+            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/551b94ff84e600d55500001f/avatar_square',
             'company' => 'Tableau Software Inc.',
             'bio' => 'Benji is currently a Dev Manager in Business Systems at Tableau Software Inc. He and his team build and maintain the online payment, eCommerce, and cloud integration systems for the company.',
         ],
@@ -293,19 +293,20 @@ Sara Golemon is a long standing contributor to the PHP runtime, the Open Source 
 Embedding PHP</a>.
 BIO
         ],
-        'sara-golemon' => [
-            'code' => 'sara-golemon',
-            'name' => 'Sara Golemon',
-            'location' => '',
+        'eryn-oneil' => [
+            'code' => 'eryn-oneil',
+            'name' => 'Eryn O\'Niel',
+            'location' => 'Minneapolis, MN',
             'github' => '',
-            'twitter' => 'SaraMG',
-            'avatar' => 'img/avatars/sara-golemon.jpg',
-            'company' => 'Facebook',
+            'twitter' => 'eryno',
+            'avatar' => 'img/avatars/eryn-oneil.jpg',
+            'company' => 'Clockwork Active Media',
             'bio' => <<<BIO
-Sara Golemon is a long standing contributor to the PHP runtime, the Open Source maintainer of
-<a href="http://hhvm.com/" target="_blank">HHVM</a>, and the author of
-<a href="http://www.amazon.com/Extending-Embedding-PHP-Sara-Golemon/dp/067232704X" target="_blank">Extending and
-Embedding PHP</a>.
+Eryn O&rsquo;Neil is a web developer and technical lead at Clockwork Active Media in Minneapolis, MN. As part of an
+interactive agency, she has worked on everything from e-commerce to online promotions to creating and maintaining an
+internal framework and CMS. Her philosophy is to build software by placing humans first: both the people who will use it
+and the developers who will build it alongside you (and maintain it afterwards). Based in Minneapolis, MN, Eryn spends
+most of her free time swing and blues dancing, rock climbing, and wishing it weren&rsquo;t snowing.
 BIO
         ],
         'davey-shafik' => [
@@ -339,31 +340,118 @@ BIO
 			'type' => 'session',
             'room' => 'main',
             'time' => new DateTime('2015-09-12T14:30:00+07:00'),
-            'length' => '50',
-			'abstract' => <<<'PROPOSAL'
+            'length' => 50,
+			'description' => <<<DESC
 PHP 7 is coming quickly. One of the major features that it brings with it is the ability to use scalar typing. Are you
 ready for it? Join me as we take a tour through PHP 7&rsquo;s type system from end to end. Don&rsquo;t know what a type
 is? Come and find out! Are you a seasoned type user? Come learn how to leverage the new options! Confused about weak vs.
 strict types? We&rsquo;ll cover concept, theory and practical details of the type system while exploring how PHP&rsquo;s
 type system compares to other languages.
-PROPOSAL
+DESC
 		],
+        'battled-hardened-laravel-lessons-in-scale' => [
+            'code' => 'battled-hardened-laravel-lessons-in-scale',
+            'title' => 'Battled-hardened Laravel: Lessons in Scale',
+            'tags' => ['laravel', 'scaling', 'aws', 'cloud', 'framework'],
+            'speaker' => 'benji-schwartz-gilbert',
+            'type' => 'session',
+            'room' => 'main',
+            'time' => NULL,
+            'length' => 50,
+            'description' => <<<DESC
+In this talk we'll cover how Tableau is using Laravel to deliver some of it's critical online infrastructure, why we
+chose the framework, and lessons we've learned deploying it at scale. We'll also cover how we develop, test, and deploy
+the framework from the first feature branch to production sign off.
+DESC
+        ],
+        'adventures-in-symfony-building-an-mmorpg' => [
+            'code' => 'adventures-in-symfony-building-an-mmorpg',
+            'title' => 'Adventures in Symfony - Building an MMORPG',
+            'tags' => ['symfony', 'twig', 'doctrine', 'framework', 'games'],
+            'speaker' => 'margaret-staples',
+            'type' => 'session',
+            'room' => 'main',
+            'time' => NULL,
+            'length' => 50,
+            'description' => <<<DESC
+Ride along on a tour of my latest adventure! I will unpack my process for turning design ideas into game mechanics,
+talk about the tools that were used (including Symfony and other open source goodies like Twig and Doctrine), examine
+major roadblocks and how they were overcome, give a postmortem on key implementation decisions, and share the highlights
+of what I learned along the way.
+DESC
+        ],
+        'never-stop-pushing-strategies-and-tools-for-delivering-continuously' => [
+            'code' => 'never-stop-pushing-strategies-and-tools-for-delivering-continuously',
+            'title' => 'Never Stop Pushing: Strategies and Tools for Delivering Continuously',
+            'tags' => ['continuous-delivery', 'continuous-integration', 'testing', 'deployment'],
+            'speaker' => 'benji-schwartz-gilbert',
+            'type' => 'session',
+            'room' => 'main',
+            'time' => NULL,
+            'length' => 50,
+            'description' => <<<DESC
+Getting your features integrated, tested, and out the door for a single application can be a vicious cycle. Your testers
+are complaining the feature isn't available in their environment, your MySQL box just crashed in production, and you
+still have bugs to fix for your next release. Now what do you do when you find yourself maintaining <i>2 or 3 dozen</i>?
+(Without losing your sanity)
+
+<b>We've got you covered.</b>
+
+We'll go over some of the tools and strategies for getting your PHP (and other) applications easily and automatically
+continuously deployed. We'll cover how to automate testing, integrating changes, deploying, failover, and rolling back.
+You'll come away from this talk with a workflow for assembling a leaner and meaner delivery cycle for reliable and
+repeatable development.
+DESC
+        ],
         'open-source-love' => [
             'title' => 'Open Source, Love, and Social Responsibility',
             'code' => 'open-source-love',
-            'tags' => ['open source', 'community'],
+            'tags' => ['open-source', 'community'],
             'speaker' => 'davey-shafik',
             'type' => 'keynote',
             'room' => 'main',
             'time' => new DateTime('2015-09-11T17:45:00+07:00'),
-            'length' => '45',
-            'abstract' => <<<'PROPOSAL'
+            'length' => 45,
+            'description' => <<<DESC
 This talk looks at the responsibility, we, the Open Source community, have to make things better. How we can use our
 skills to make fundamental, meaningful change to the world around us.
 
 We will explore the motivations around why we do what we do, and look at what the community and others have done for
 us &mdash; and why it's important to do something with it.
-PROPOSAL
+DESC
+        ],
+        'project-triage' => [
+            'title' => 'Project Triage: What to Do When It All Hits The Fan',
+            'code' => 'project-triage',
+            'tags' => ['project-management'],
+            'speaker' => 'eryn-oneil',
+            'type' => 'session',
+            'room' => 'main',
+            'time' => null,
+            'length' => 50,
+            'description' => <<<DESC
+&ldquo;Hope for the best and plan for the worst.&rdquo; We spend a lot of time talking about best practices: the ways we
+should run our projects and write our software so that everything turns out as well as possible. But when you add human
+beings to the mix &mdash; whether they&rsquo;re coworkers, clients, or, well, you and I &mdash; something will
+eventually go wrong.
+
+Using case studies from the interactive agency world (where no two clients are ever the same), we&rsquo;ll talk about
+methods for triage, what to do when you sense a project is on shaky ground, and ways to ensure everyone gets to the
+other side in one piece.
+DESC
+        ],
+        'tba1' => [
+            'title' => 'TBA',
+            'code' => 'tba1',
+            'tags' => [],
+            'speaker' => 'sara-golemon',
+            'type' => 'keynote',
+            'room' => 'main',
+            'time' => new DateTime('2015-09-12T13:30:00+07:00'),
+            'length' => 45,
+            'description' => <<<DESC
+TBA
+DESC
         ],
 	],
 	'sponsors' => [

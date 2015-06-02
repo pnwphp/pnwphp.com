@@ -10,7 +10,4 @@
  * @property string $avatar
  * @property string $bio
  */
-class Speaker extends Model
-{
-	
-}
+class Speaker extends Model {}

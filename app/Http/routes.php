@@ -1,5 +1,6 @@
 <?php
 
+use App\Model\Speaker;
 use App\Model\Talk;
 use Illuminate\Http\Request;
 
@@ -27,8 +28,30 @@ $app->get('schedule', function() use ($app) {
     return page('schedule');
 });
 
-$app->get('speakers', function(Request $request) use ($app) {
-    return page('speakers');
+$app->get('speakers', function() use ($app) {
+    $talkFilter = function (Speaker $speaker) {
+        return function (Talk $talk) use ($speaker) {
+            return $speaker->code === $talk->speaker
+               || (is_array($talk->speaker) && in_array($speaker->code, $talk->speaker, true));
+        };
+    };
+    return page('speakers', ['talkFilter' => $talkFilter]);
+});
+
+$app->get('tags', function(Request $request) use ($app) {
+    $tags = [];
+    foreach ($app['conference']->talks as $talk) {
+        foreach ($talk->tags as $tag) {
+            if (isset($tags[$tag])) {
+                $tags[$tag]++;
+            } else {
+                $tags[$tag] = 1;
+            }
+        }
+    }
+    arsort($tags);
+
+    return page('tags', ['tags' => $tags]);
 });
 
 $app->get('talks', function(Request $request) use ($app) {

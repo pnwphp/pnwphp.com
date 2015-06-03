@@ -44,8 +44,8 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="./events#conference">Conference</a></li>
-                        <li><a href="./venue">Venue</a></li>
+                        {{--<li><a href="./events#conference">Conference</a></li>--}}
+                        {{--<li><a href="./venue">Venue</a></li>--}}
                         <li><a target="_blank" href="http://www.meetup.com/seaphp/">SeaPHP User Group</a></li>
                         <li><a href="./code-of-conduct">Code of Conduct</a></li>
                         <li><a href="mailto:admins@seaphp.com?Subject=Question%20About%20PNWPHP">Contact Organizers</a></li>

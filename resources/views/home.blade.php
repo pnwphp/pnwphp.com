@@ -40,7 +40,7 @@
                     Mailing List</a>
             </div>
             <div class="col-md-4">
-                <a href="https://twitter.com/hashtag/pnwphp" target="_blank" class="btn btn-lg btn-info btn-block"><i class="fa fa-retweet"></i> Tweet about #PNWPHP</a>
+                <a href="https://twitter.com/hashtag/pnwphp" target="_blank" class="btn btn-lg btn-info btn-block"><i class="fa fa-twitter"></i> Tweet about #PNWPHP</a>
             </div>
         </div>
         @if ($sponsor = $conference->sponsors->filter(function ($sponsor) {return $sponsor->rank >= 80;})->random(1))
@@ -193,7 +193,7 @@
                 <p class="lead">
                     <a href="http://www.impacthubseattle.com" target="_blank">Impact Hub Seattle</a> is a coworking space, events space, and launch pad for purpose-driven ventures that create more value than they capture. Impact hub is located in the historic Pioneer Square landmark.
                 </p>
-                <p class="lead"><a href="./venue"><i class="fa fa-hand-o-right"></i> More Details</a></p>
+                {{--<p class="lead"><a href="./venue"><i class="fa fa-hand-o-right"></i> More Details</a></p>--}}
             </div>
         </div>
     </div>

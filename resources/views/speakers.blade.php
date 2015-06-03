@@ -37,8 +37,22 @@
                                     <p>{!! str_replace("\n\n", "<p/><p>", $speaker->bio) !!}</p>
                                     <h4>Talks</h4>
                                     <ul>
-                                    @forelse ($conference->talks->where('speaker', $speaker->code) as $talk)
-                                        <li><a href="{{ url('talks#' . $talk->code) }}">{{ $talk->title }}</a></li>
+                                    @if ($speaker->code === 'jeremy-lindblom')
+                                        <li>I'm your PNWPHP master of ceremonies!</li>
+                                    @endif
+                                    @forelse ($conference->talks->filter($talkFilter($speaker)) as $talk)
+                                        <li>
+                                            @if ($talk->type === 'keynote')
+                                                <span class="label label-primary">KEYNOTE</span>
+                                            @elseif ($talk->type === 'workshop')
+                                                <span class="label label-warning">WORKSHOP</span>
+                                            @elseif ($talk->type === 'hackathon')
+                                                <span class="label label-info">HACKATHON</span>
+                                            @elseif ($talk->type === 'meetup')
+                                                <span class="label label-success">MEETUP</span>
+                                            @endif
+                                            <a href="{{ url('talks#' . $talk->code) }}">{{ $talk->title }}</a>
+                                        </li>
                                     @empty
                                         <li>TBA</li>
                                     @endforelse

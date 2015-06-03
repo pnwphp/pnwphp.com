@@ -15,9 +15,8 @@
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <p class="lead text-center">
-                    From <a href="./talks?tag=continuous-delivery">continuous delivery</a> to
-                    <a href="./talks?tag=cloud">the cloud</a>, PNWPHP will be covering a variety of PHP and PHP-related
-                    topics, delivered by world-renowned speakers.
+                    From continuous delivery to the cloud, PNWPHP will be covering a variety of PHP and PHP-related
+                    topics, delivered by world-renowned speakers.<br><a href="./tags"><i class="fa fa-search"></i> See all the topics.</a>
                 </p>
             </div>
             @foreach ($conference->talks->filter($tagFilter)->sortBy('title', SORT_REGULAR) as $talk)
@@ -27,8 +26,30 @@
                             <div class="panel-body">
                                 <h3>
                                     <a name="{{ $talk->code }}" href="#{{ $talk->code }}">{{ $talk->title }}</a>
+                                    @if ($talk->type === 'keynote')
+                                        <span class="label label-primary">KEYNOTE</span>
+                                    @elseif ($talk->type === 'workshop')
+                                        <span class="label label-warning">WORKSHOP</span>
+                                    @elseif ($talk->type === 'hackathon')
+                                        <span class="label label-info">HACKATHON</span>
+                                    @elseif ($talk->type === 'meetup')
+                                        <span class="label label-success">MEETUP</span>
+                                    @endif
                                 </h3>
-                                <p>Presented by <a href="./speakers#{{ $talk->speaker }}">{{ $conference->speakers->get($talk->speaker)->name }}</a></p>
+                                <p>
+                                    Presented by
+                                    @if(is_array($talk->speaker))
+                                        @foreach($talk->speaker as $speaker)
+                                            <a href="./speakers#{{ $speaker }}">
+                                                {{ $conference->speakers->get($speaker)->name }}
+                                            </a>&ensp;
+                                        @endforeach
+                                    @else
+                                        <a href="./speakers#{{ $talk->speaker }}">
+                                            {{ $conference->speakers->get($talk->speaker)->name }}
+                                        </a>
+                                    @endif
+                                </p>
                                 @if ($talk->tags)
                                     <p>
                                         @foreach ($talk->tags as $tag)

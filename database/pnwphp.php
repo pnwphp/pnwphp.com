@@ -309,15 +309,6 @@ These days, when she\'s not in front of the computer at her home in Beaverton, O
             'company' => 'clarify',
             'bio' => 'Keith Casey currently serves as Director of Product for Clarify working to make APIs easier, more consistent, and help solve real world problems. Previously, as a developer evangelist at Twilio, he worked to get good technology into the hands of good people to do great things. In his spare time, he works to build and support the Austin technology community, blogs occasionally at CaseySoftware.com and is completely fascinated by monkeys. Keith is also the author of ["A Practical Approach to API Design" from Leanpub](https://leanpub.com/restful-api-design).',
         ],
-//        'bradley-holt' => [
-//            'code' => 'bradley-holt',
-//            'name' => 'Bradley Holt',
-//            'location' => 'Burlington, Vermont',
-//            'twitter' => 'BradleyHolt',
-//            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/551b0f1c4f0d7e8c28000099/avatar_square',
-//            'company' => 'ibm',
-//            'bio' => 'Bradley Holt is a Developer Advocate with [IBM Cloudant](https://cloudant.com/], a globally distributed data layer for web and mobile applications. He is the author of several publications including [Building a Hypermedia API in CouchDB](http://www.phparch.com/magazine/2012-2/november/) (php[architect]], [PHP 5.4 Cheat Sheet](http://refcardz.dzone.com/refcardz/php-54-scalable) (DZone Refcardz], [Scaling CouchDB](http://shop.oreilly.com/product/0636920018407.do) (O\'Reilly Media) and [Writing and Querying MapReduce Views in CouchDB](http://shop.oreilly.com/product/0636920018247.do) (O\'Reilly Media). He has spoken at numerous conferences including ZendCon, OSCON and the jQuery Conference. Bradley is a Code for America Brigade Captain with [Code for BTV](http://codeforbtv.org/) in Burlington, Vermont and has been a co-organizer of [Vermont Code Camp](http://vtcodecamp.org/) and the [Northeast PHP Conference](http://www.northeastphp.org/).',
-//        ],
         'jeremy-mikola' => [
             'code' => 'jeremy-mikola',
             'name' => 'Jeremy Mikola',

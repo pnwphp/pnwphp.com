@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Collection;
 
-abstract class Model extends Collection
+class Model extends Collection
 {
 	protected $database;
 

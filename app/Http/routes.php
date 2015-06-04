@@ -1,7 +1,5 @@
 <?php
 
-use App\Model\Speaker;
-use App\Model\Talk;
 use Illuminate\Http\Request;
 
 $app->get('/', function() use ($app) {
@@ -29,10 +27,10 @@ $app->get('schedule', function() use ($app) {
 });
 
 $app->get('speakers', function() use ($app) {
-    $talkFilter = function (Speaker $speaker) {
-        return function (Talk $talk) use ($speaker) {
-            return $speaker->code === $talk->speaker
-               || (is_array($talk->speaker) && in_array($speaker->code, $talk->speaker, true));
+    $talkFilter = function ($speaker) {
+        return function ($talk) use ($speaker) {
+            return $speaker['code'] === $talk['speaker']
+               || (is_array($talk['speaker']) && in_array($speaker['code'], $talk['speaker'], true));
         };
     };
     return page('speakers', ['talkFilter' => $talkFilter]);
@@ -41,7 +39,7 @@ $app->get('speakers', function() use ($app) {
 $app->get('tags', function(Request $request) use ($app) {
     $tags = [];
     foreach ($app['conference']->talks as $talk) {
-        foreach ($talk->tags as $tag) {
+        foreach ($talk['tags'] as $tag) {
             if (isset($tags[$tag])) {
                 $tags[$tag]++;
             } else {
@@ -56,12 +54,10 @@ $app->get('tags', function(Request $request) use ($app) {
 
 $app->get('talks', function(Request $request) use ($app) {
     return page('talks', [
-        'tagFilter' => function (Talk $talk) use ($request) {
-            if ($query = $request->query->get('tag')) {
-                return in_array($query, $talk->tags);
-            } else {
-                return true;
-            }
+        'tagFilter' => function ($talk) use ($request) {
+            return ($query = $request->query->get('tag'))
+                ? in_array($query, $talk['tags'])
+                : true;
         },
     ]);
 });

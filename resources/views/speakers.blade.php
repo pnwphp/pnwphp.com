@@ -31,7 +31,7 @@
                                     <h3 style="margin-top:0;">
                                         <a name="{{ $speaker->code }}" href="#{{ $speaker->code }}">{{ $speaker->name }}</a>
                                         @if ($speaker->twitter)
-                                            <small> (<a href="twitter.com/{{ $speaker->twitter }}">{{ '@'.$speaker->twitter }}</a>)</small>
+                                            <small> (<a href="http://twitter.com/{{ $speaker->twitter }}">{{ '@'.$speaker->twitter }}</a>)</small>
                                         @endif
                                     </h3>
                                     <p>{!! str_replace("\n\n", "<p/><p>", $speaker->bio) !!}</p>

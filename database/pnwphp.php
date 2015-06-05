@@ -343,7 +343,7 @@ BIO
         ],
         'eryn-oneil' => [
             'code' => 'eryn-oneil',
-            'name' => 'Eryn O\'Niel',
+            'name' => 'Eryn O\'Neil',
             'location' => 'Minneapolis, MN',
             'twitter' => 'eryno',
             'avatar' => 'img/avatars/eryn-oneil.jpg',

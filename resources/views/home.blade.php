@@ -27,9 +27,9 @@
             <div class="col-md-6">
                 <p class="lead">
                     Our <em>3-day</em> event will be overflowing with awesome sauce as we hear from world-renowned
-                    speakers from the PHP community and companies like Amazon, AOL, Facebook, Google, Microsoft, Oracle,
-                    and Zend. With topics ranging from <a href="./talks?tag=continuous-delivery">continuous delivery</a>
-                    to <a href="./talks?tag=cloud">the cloud</a>, you'll be full to the brim with new knowledge to take home.
+                    <a href="./speakers">speakers</a> from the PHP community and companies like Amazon, AOL, Facebook,
+                    Google, Microsoft, Oracle, and Zend. With <a href="./tags">topics</a> ranging from continuous
+                    delivery to the cloud, you'll be full to the brim with new knowledge to take home.
                 </p>
             </div>
         </div>

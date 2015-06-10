@@ -21,6 +21,15 @@
             </div>
             @endforeach
             <div class="row">
+                <div class="col-md-12">
+                    <p class="text-center">
+                        If you are interested in becoming a sponsor, take a look at our
+                        <a href="./pnwphp-2015-sponsorship-prospectus.pdf">Sponsorship Prospectus</a> and contact
+                        <a href="mailto:jeremy@seaphp.com?Subject=PNWPHP%20Sponsorship%20Request">jeremy@seaphp.com</a>
+                    </p>
+                </div>
+            </div>
+            <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <div class="separator separator-light">
                         <p>Community Sponsors</p>

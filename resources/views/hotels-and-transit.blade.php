@@ -65,18 +65,22 @@
             <div class="col-md-8 col-md-offset-2">
                 <h2 id="light-rail">Light Rail</h2>
                 <div class="lead">
-                    On the day before the main conference event, we will be hosting a set of workshops to cover
-                    some topics in depth. Tickets for the workshop day are sold separately for ONLY $49.
+                    The <a href="http://www.soundtransit.org/Schedules/Link-light-rail?tab=Map">Link Light Rail</a>
+                    is the most cost effective way to get from Sea-Tac airport to Downtown Seattle.
+                    For $2.50, you can get to Downtown in about 40 minutes.
                 </div>
 
                 <h2 id="php-embark">Buses</h2>
                 <div class="lead">
-                    Seattle has an extensive Bus system. Here are a few great routes
-                    to get you around downtown Seattle.
+                    Seattle has an extensive Bus system. There are several great routes to get you
+                    around downtown Seattle. The bus routes of interest depend upon
+                    which neighborhood you'll be staying in. We recommend getting a hotel room
+                    or AirBNB in Seattle's Downtown or Belltown neighborhoods.
                 </div>
 
                 <div class="bus-routes">
-                   A, B, C, D, E, 10, 11, 16
+                   C, D, E, 16 are aa few of the most convenient routes, as they are convenient
+                   for getting to and from the venue.
                 </div>
 
             </div>

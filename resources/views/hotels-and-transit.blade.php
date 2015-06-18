@@ -29,24 +29,30 @@
                 </div>
             </div>
 
+            @foreach ($conference->hotels as $hotel)
             <div class="col-md-8 col-md-offset-2">
-                <h2 id="hotel-max"><a href="#">Hotel Max</a></h2>
+                <h2 id="hotel-max"><a href="#">{{ $hotel->name }}</a></h2>
                 <div class="lead">
-                    <span class="address">400 pine St </span>
-                    <span class="address2"> Westlake Plaza</span>
+                    <span class="address">{{ $hotel->address }}</span>
+                    <span class="address2">{{ $hotel->address-2 }}</span>
                     <div class="locale">
-                        <span class="city">Seattle</span>
-                        <span class="state">WA</span>
-                        <span class="zipcode">98101</span>
+                        <span class="city">{{ $hotel->city }}</span>
+                        <span class="state">{{ $hotel->state }}</span>
+                        <span class="zipcode">{{ $hotel->zipcode }}</span>
                     </div>
                 </div>
                 <div class="contact">
-                   <span class="phone">(206) 555-1234</span>
-                   <a href="#">Twitter</a>
-                   <a href="#">Facebook</a>
+                   <span class="phone">{{ $hotel->tel }}</span>
+                   @if ($hotel->twitter_url)
+                       <a href="{{ $hotel->twitter_url }}">Twitter</a>
+                   @endif
+                   @if ($hotel->facebook_url)
+                        <a href="{{ $hotel->facebook_url }}">Facebook</a>
+                   @endif
                 </div>
 
             </div>
+            @endforeach
 
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">

@@ -15,7 +15,7 @@ class Conference extends Model
 	
 	public function __get($key)
 	{
-		static $collections = ['speakers', 'sponsors', 'communitySponsors', 'talks', 'rooms'];
+		static $collections = ['speakers', 'sponsors', 'communitySponsors', 'talks', 'rooms', 'hotels'];
 		if (in_array($key, $collections, true)) {
 			$data = $this->database->get($key);
 			foreach ($data as &$item) {

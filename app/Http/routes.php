@@ -22,6 +22,10 @@ $app->get('events', function() use ($app) {
     return page('events');
 });
 
+$app->get('hotels-and-transit', function() use ($app) {
+    return page('hotels-and-transit');
+});
+
 $app->get('schedule', function() use ($app) {
     return page('schedule');
 });

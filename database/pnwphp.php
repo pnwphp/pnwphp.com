@@ -1323,7 +1323,7 @@ DESC
         'hotel-max' =>  [
             'name' => 'Hotel Max',
             'address' => '620 Stewart St.',
-            'address-2' => '',
+            'address2' => '',
             'city' => 'Seattle',
             'state' => 'WA',
             'zipcode' => '98101',
@@ -1336,7 +1336,7 @@ DESC
         'mayflower-park-hotel' =>  [
             'name' => 'Mayflower Park Hotel',
             'address' => '405 Olive Way',
-            'address-2' => '',
+            'address2' => '',
             'city' => 'Seattle',
             'state' => 'WA',
             'zipcode' => '98101',
@@ -1349,7 +1349,7 @@ DESC
         'courtyard-marriot' =>  [
             'name' => 'Courtyard Marriot',
             'address' => '612 2nd Avenue',
-            'address-2' => '',
+            'address2' => '',
             'city' => 'Seattle',
             'state' => 'WA',
             'zipcode' => '98104',
@@ -1362,7 +1362,7 @@ DESC
         'moore-hotel' =>  [
             'name' => 'Moore Hotel',
             'address' => '1926 2nd Avenue',
-            'address-2' => '',
+            'address2' => '',
             'city' => 'Seattle',
             'state' => 'WA',
             'zipcode' => '98101',
@@ -1375,7 +1375,7 @@ DESC
         'hilton-seattle' =>  [
             'name' => 'Hilton Seattle',
             'address' => '1301 6th Ave',
-            'address-2' => '',
+            'address2' => '',
             'city' => 'Seattle',
             'state' => 'WA',
             'zipcode' => '98101-2304',
@@ -1388,7 +1388,7 @@ DESC
         'westin-seattle' =>  [
             'name' => 'Westin Seattle',
             'address' => '1900 5th Avenue',
-            'address-2' => '',
+            'address2' => '',
             'city' => 'Seattle',
             'state' => 'WA',
             'zipcode' => '98101',

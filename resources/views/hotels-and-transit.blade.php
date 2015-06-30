@@ -34,7 +34,7 @@
                 <h2 id="hotel-max"><a href="#">{{ $hotel->name }}</a></h2>
                 <div class="lead">
                     <span class="address">{{ $hotel->address }}</span>
-                    <span class="address2">{{ $hotel->address-2 }}</span>
+                    <span class="address2">{{ $hotel->address2 }}</span>
                     <div class="locale">
                         <span class="city">{{ $hotel->city }}</span>
                         <span class="state">{{ $hotel->state }}</span>
@@ -80,7 +80,7 @@
                 </div>
 
                 <div class="bus-routes">
-                   C, D, E, 16 are aa few of the most convenient routes, as they are convenient
+                   C, D, E, 16 are a few of the most convenient routes, as they are convenient
                    for getting to and from the venue.
                 </div>
 

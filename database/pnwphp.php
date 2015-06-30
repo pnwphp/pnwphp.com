@@ -1331,6 +1331,7 @@ DESC
             'url' => 'http://www.hotelmaxseattle.com/',
             'twitter_url' => 'https://twitter.com/hotel_max',
             'facebook_url' => 'https://www.facebook.com/hotelmaxseattle',
+            'distance' => '1.2 miles',
         ],
         'mayflower-park-hotel' =>  [
             'name' => 'Mayflower Park Hotel',
@@ -1343,6 +1344,7 @@ DESC
             'url' => 'http://www.mayflowerpark.com/',
             'twitter_url' => 'http://twitter.com/mayflowerpark',
             'facebook_url' => 'https://www.facebook.com/MayflowerPark',
+            'distance' => '1.1 miles',
         ],
         'courtyard-marriot' =>  [
             'name' => 'Courtyard Marriot',
@@ -1355,6 +1357,7 @@ DESC
             'url' => 'http://www.marriott.com/hotels/travel/seaps-courtyard-seattle-downtown-pioneer-square/',
             'twitter_url' => '',
             'facebook_url' => '',
+            'distance' => '0.2 mile',
         ],
         'moore-hotel' =>  [
             'name' => 'Moore Hotel',
@@ -1367,6 +1370,7 @@ DESC
             'url' => 'http://www.moorehotel.com/',
             'twitter_url' => '',
             'facebook_url' => '',
+            'distance' => '1.0 mile',
         ],
         'hilton-seattle' =>  [
             'name' => 'Hilton Seattle',
@@ -1379,6 +1383,7 @@ DESC
             'url' => 'http://www3.hilton.com/en/hotels/washington/hilton-seattle-SEASHHF/index.html',
             'twitter_url' => '',
             'facebook_url' => '',
+            'distance' => '0.8 mile',
         ],
         'westin-seattle' =>  [
             'name' => 'Westin Seattle',
@@ -1391,6 +1396,7 @@ DESC
             'url' => 'http://www.westinseattle.com/',
             'twitter_url' => '',
             'facebook_url' => 'http://www.facebook.com/TheWestinSeattleHotel',
+            'distance' => '1.1 miles',
         ],
     ],
 ];

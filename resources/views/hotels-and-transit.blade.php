@@ -40,6 +40,7 @@
                         <span class="state">{{ $hotel->state }}</span>
                         <span class="zipcode">{{ $hotel->zipcode }}</span>
                     </div>
+                    <span class="distance">{{ $hotel->distance }}</span>
                 </div>
                 <div class="contact">
                    <span class="phone">{{ $hotel->tel }}</span>

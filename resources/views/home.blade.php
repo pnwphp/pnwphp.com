@@ -127,7 +127,7 @@
                         <h4 class="text-center">FOR STUDENTS</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$129 <s>$149</s></strong><br><small><em>Early Bird Pricing</em> through June 30th</small></p>
+                        <p class="lead"><strong>$129 <s>$149</s></strong><br><small><em>Early Bird Pricing</em> through July 18th</small></p>
                         <p>Available to full and part time students; student ID required at the event.</p>
                     </div>
                     <div class="panel-footer">
@@ -141,7 +141,7 @@
                         <h4 class="text-center">FOR INDIVIDUALS</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$199 <s>$249</s></strong><br><small><em>Early Bird Pricing</em> through June 30th</small></p>
+                        <p class="lead"><strong>$199 <s>$249</s></strong><br><small><em>Early Bird Pricing</em> through July 18th</small></p>
                         <p>Available to attendees who are paying for their own tickets.</p>
                     </div>
                     <div class="panel-footer">

@@ -1261,6 +1261,17 @@ DESC
 Coming soon.
 DESC
         ],
+        'joule' => [
+            'name' => 'Joule',
+            'code' => 'joule',
+            'level' => 'copper',
+            'rank' => 20,
+            'label' => 'Copper',
+            'description' => 'Copper-level Sponsor',
+            'url' => 'http://joule.club/',
+            'logo' => 'img/logos/joule.jpg',
+            'about' => '',
+        ],
 	],
     'communitySponsors' => [
         'devhell' => [

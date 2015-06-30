@@ -450,11 +450,13 @@ DESC
             'time' => null,
             'length' => 45,
 			'description' => <<<DESC
-PHP 7 is coming quickly. One of the major features that it brings with it is the ability to use scalar typing. Are you
-ready for it? Join me as we take a tour through PHP 7&rsquo;s type system from end to end. Don&rsquo;t know what a type
-is? Come and find out! Are you a seasoned type user? Come learn how to leverage the new options! Confused about weak vs.
-strict types? We&rsquo;ll cover concept, theory and practical details of the type system while exploring how PHP&rsquo;s
-type system compares to other languages.
+The common mantra is "Community Works", but does it? How does burning vacation days to speak at a conference "work"?
+How does staying up until the wee hours of the morning working on a project, just to turn around and go work your day
+job "work"? Exactly how does community pay the bills each month? Let me show you how it works.
+
+Let's jog through my career as a programmer. Along the way, we will take a look at how community has not only affected
+my career in a positive manner; it has been a JATO strapped to my career. I'm just a programmer, not even a great one.
+If community can help my career, it can help anyone's.
 DESC
 		],
 		'stronger-than-fear' => [
@@ -1172,7 +1174,7 @@ DESC
             'name' => 'Digital Ocean',
             'code' => 'digitalocean',
             'level' => 'bronze',
-            'rank' => 47,
+            'rank' => 48,
             'label' => 'Lanyard',
             'description' => 'Lanyard Sponsor',
             'url' => 'https://www.digitalocean.com/',
@@ -1185,7 +1187,7 @@ DESC
             'name' => 'Roave',
             'code' => 'roave',
             'level' => 'bronze',
-            'rank' => 48,
+            'rank' => 54,
             'label' => 'Bronze',
             'description' => 'Bronze-level Sponsor',
             'url' => 'https://roave.com/',
@@ -1197,10 +1199,10 @@ DESC
         'creatuity' => [
             'name' => 'Creatuity',
             'code' => 'creatuity',
-            'level' => 'copper',
-            'rank' => 44,
-            'label' => 'Copper',
-            'description' => 'Copper-level Sponsor',
+            'level' => 'bronze',
+            'rank' => 62,
+            'label' => 'Bronze',
+            'description' => 'Bronze-level Sponsor',
             'url' => 'http://www.creatuity.com',
             'logo' => 'img/logos/creatuity.jpg',
             'about' => <<<DESC
@@ -1211,11 +1213,50 @@ DESC
             'name' => 'coolblueweb',
             'code' => 'coolblueweb',
             'level' => 'copper',
-            'rank' => 40,
+            'rank' => 36,
             'label' => 'Copper',
             'description' => 'Copper-level Sponsor',
             'url' => 'http://www.coolblueweb.com/php',
             'logo' => 'img/logos/coolblueweb.jpg',
+            'about' => <<<DESC
+Coming soon.
+DESC
+        ],
+//        'mercutio' => [
+//            'name' => 'Mercutio',
+//            'code' => 'mercutio',
+//            'level' => 'silver',
+//            'rank' => 74, // 2500
+//            'label' => 'T-Shirt',
+//            'description' => 'T-Shirt Sponsor',
+//            'url' => 'http://getmercutio.com',
+//            'logo' => 'img/logos/mercutio.jpg',
+//            'about' => <<<DESC
+//Coming soon.
+//DESC
+//        ],
+        'gosolid' => [
+            'name' => 'GoSolid',
+            'code' => 'gosolid',
+            'level' => 'bronze',
+            'rank' => 63, // 1500
+            'label' => 'Bronze',
+            'description' => 'Bronze-level Sponsor',
+            'url' => 'http://www.gosolid.net/',
+            'logo' => 'img/logos/gosolid.jpg',
+            'about' => <<<DESC
+Coming soon.
+DESC
+        ],
+        'clarify' => [
+            'name' => 'Clarify',
+            'code' => 'clarify',
+            'level' => 'bronze',
+            'rank' => 40,
+            'label' => 'Bronze',
+            'description' => 'Bronze-level Sponsor',
+            'url' => 'http://clarify.io/',
+            'logo' => 'img/logos/clarify.jpg',
             'about' => <<<DESC
 Coming soon.
 DESC
@@ -1313,10 +1354,18 @@ DESC
         'wurstcon' => [
             'name' => 'WurstCon',
             'code' => 'wurstcon',
-            'rank' => 50,
+            'rank' => 45,
             'url' => 'http://wurstcon.com',
             'logo' => 'img/logos/wurstcon.jpg',
             'type' => 'sausage',
+        ],
+        'austinphp' => [
+            'name' => 'Austin PHP',
+            'code' => 'austinphp',
+            'rank' => 40,
+            'url' => 'http://www.meetup.com/austinphp/',
+            'logo' => 'img/logos/austinphp.jpg',
+            'type' => 'group',
         ],
     ],
    'hotels' => [

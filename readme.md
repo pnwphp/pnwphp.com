@@ -1,7 +1,8 @@
 
 # Pacific Northwest PHP
-# September 10th–12th, 2015 • Seattle, WA
+## September 10th–12th, 2015 • Seattle, WA
 
+http://pnwphp.com/
 
 **Join us in Seattle for the Pacific Northwest PHP developer conference.**
 
@@ -11,6 +12,10 @@ With topics ranging from continuous delivery to the cloud, you will be full to t
 knowledge to take home.
 
 
+## GitHub Repo
+
+This [GitHub Repo](https://github.com/pnwphp/pnwphp.com) is the code base for the
+[PNWPHP conference website ](http://pnwphp.com/ )
 
 ## Lumen PHP Framework
 

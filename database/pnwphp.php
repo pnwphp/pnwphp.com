@@ -639,7 +639,7 @@ DESC
             'time' => null,
             'length' => 50,
             'description' => <<<DESC
-Beyond your standard CRUD operations, MongoDB offers a potpourri of special features. Looking for a quick search API? Full text indexes have you covered. Churning through large amounts of data? Consider map/reduce or the aggregation framework. Querying geospatial data? Create a 2dsphere index and go to town. Digging a bit deeper, we\'ll look at a few techniques for creating backend services, such as event long-polling and job queue processing.
+Event-driven programing is a familiar and useful tool for crafting client/server apps and asynchronous libraries. Akin to Node.js or Python's Twisted, React brings PHP up to speed with all of the necessary pieces in a well-packaged framework. This session will introduce the concept of event loops, non-blocking IO, and async programming in PHP, and explore ways it can serve in your technology stack.
 DESC
         ],
         'from-procedural-to-object-oriented-php-in-drupal' => [
@@ -896,18 +896,18 @@ Let’s explore the lessons learned by engineers at one of the world’s top web
             'time' => NULL,
             'length' => 50,
             'description' => <<<DESC
-There’s a ton of buzz and hype around the internet of things (IoT) but what is it actually? IoT is the next evolution of
-distributed and connected systems at scale. It’s more than just connecting your phone to your thermostat, it’s about
+There's a ton of buzz and hype around the internet of things (IoT) but what is it actually? IoT is the next evolution of
+distributed and connected systems at scale. It's more than just connecting your phone to your thermostat, it's about
 connected systems at scale so devices and people can interact in ways that was the realm of sci-fi just a few years ago.
 It gets interesting when devices are connected and able to inform and act based on their own environment and from an
-outside perspective, the world is just a smarter place. In this session, we’ll discuss what IoT actually means and how
-it’s different (or not) from the connected systems of the past and dive into some implementation details with various
+outside perspective, the world is just a smarter place. In this session, we'll discuss what IoT actually means and how
+it's different (or not) from the connected systems of the past and dive into some implementation details with various
 devices connected to the Azure IoT platform on the backend.
 DESC
         ],
         'nosql-lightning-talks' => [
             'code' => 'nosql-lightning-talks',
-            'title' => 'NoSQL Lightning Talks',
+            'title' => 'NoSQL Showdown - Lightning Talks Edition',
             'speaker' => ['robert-mcfrazier', 'jeremy-mikola', 'dave-stokes'],
             'tags' => ['database', 'nosql', 'mongodb', 'mysql', 'dynamodb', 'cassandra'],
             'type' => 'session',
@@ -915,7 +915,10 @@ DESC
             'time' => NULL,
             'length' => 50,
             'description' => <<<DESC
-Lightning talks about NoSQL databases. More details coming soon.
+NoSQL database systems are non-relational and are typically designed for distributed systems with scalability needs.
+NoSQL databases are being increasingly used in big data and real-time web applications. However, it is hard to decide
+which of the many NoSQL databases to use, so we've gathered together some experts in the area of NoSQL to help you
+understand MongoDB, Cassandra, Amazon DynamoDB, and MySQL's NoSQL system.
 DESC
         ],
         'git-and-github-for-php-projects' => [
@@ -1006,7 +1009,7 @@ DESC
 			'name' => 'Nexcess',
 			'code' => 'nexcess',
 			'level' => 'platinum',
-			'rank' => 100,
+			'rank' => 1100,
 			'label' => 'Platinum',
 			'description' => 'Platinum-level Sponsor',
 			'url' => 'https://www.nexcess.net/',
@@ -1019,7 +1022,7 @@ DESC
 			'name' => 'Tableau',
 			'code' => 'tableau',
 			'level' => 'platinum',
-			'rank' => 96,
+			'rank' => 1097,
 			'label' => 'Platinum',
 			'description' => 'Platinum-level Sponsor',
 			'url' => 'http://www.tableau.com/',
@@ -1036,7 +1039,7 @@ DESC
 			'name' => 'Amazon Web Services',
 			'code' => 'aws',
 			'level' => 'gold',
-			'rank' => 92,
+			'rank' => 1094,
 			'label' => 'Hackathon',
 			'description' => 'Hackathon Sponsor',
 			'url' => 'http://aws.amazon.com/',
@@ -1045,11 +1048,28 @@ DESC
 Coming soon.
 DESC
 		],
+        'pluralsight' => [
+            'name' => 'PluralSight, Inc.',
+            'code' => 'pluralsight',
+            'level' => 'gold',
+            'rank' => 1091,
+            'label' => 'Speaker Dinner',
+            'description' => 'Speaker Dinner Sponsor',
+            'url' => 'http://www.pluralsight.com/',
+            'logo' => 'img/logos/pluralsight.jpg',
+            'about' => <<<DESC
+Founded in 2004, Pluralsight is the global leader in online learning for professional software developers, IT
+specialists and creative technologists. As the world's largest curated professional development platform for
+professionals, the company offers instant access to over 4,000 courses authored by top experts. With customers in more
+than 150 countries, Pluralsight serves as a career catalyst, delivering hands-on, practical training for the most
+in-demand and understaffed jobs of today. For more information, visit Pluralsight.com.
+DESC
+        ],
 		'mysql' => [
 			'name' => 'MySQL',
 			'code' => 'mysql',
 			'level' => 'gold',
-			'rank' => 88,
+			'rank' => 1088,
 			'label' => 'Gold',
 			'description' => 'Gold-level Sponsor',
 			'url' => 'http://www.mysql.com/',
@@ -1065,7 +1085,7 @@ DESC
 			'name' => 'Joomla',
 			'code' => 'joomla',
 			'level' => 'gold',
-			'rank' => 84,
+			'rank' => 1085,
 			'label' => 'Gold',
 			'description' => 'Gold-level Sponsor',
 			'url' => 'http://www.joomla.org/',
@@ -1083,7 +1103,7 @@ DESC
 			'name' => 'Mandrill',
 			'code' => 'mandrill',
 			'level' => 'gold',
-			'rank' => 80,
+			'rank' => 1082,
 			'label' => 'Party',
 			'description' => 'Party Sponsor',
 			'url' => 'http://www.mandrill.com/',
@@ -1096,7 +1116,7 @@ DESC
 			'name' => 'iSpot.tv',
 			'code' => 'ispottv',
 			'level' => 'silver',
-			'rank' => 76,
+			'rank' => 1079,
 			'label' => 'Silver',
 			'description' => 'Silver-level Sponsor',
 			'url' => 'http://www.ispot.tv/',
@@ -1105,11 +1125,24 @@ DESC
 Coming soon.
 DESC
 		],
+//        'mercutio' => [
+//            'name' => 'Mercutio',
+//            'code' => 'mercutio',
+//            'level' => 'silver',
+//            'rank' => 1076,
+//            'label' => 'T-Shirt',
+//            'description' => 'T-Shirt Sponsor',
+//            'url' => 'http://getmercutio.com',
+//            'logo' => 'img/logos/mercutio.jpg',
+//            'about' => <<<DESC
+//Mercutio is web development firm in Seattle that specializes in strategy, design, and technology for e-Commerce companies.
+//DESC
+//        ],
         'alegion' => [
             'name' => 'ALegion',
             'code' => 'alegion',
             'level' => 'silver',
-            'rank' => 72,
+            'rank' => 1073,
             'label' => 'Silver',
             'description' => 'Silver-level Sponsor',
             'url' => 'http://alegion.com/',
@@ -1122,7 +1155,7 @@ DESC
             'name' => 'TUNE',
             'code' => 'tune',
             'level' => 'silver',
-            'rank' => 68,
+            'rank' => 1070,
             'label' => 'Lunch',
             'description' => 'Lunch Sponsor',
             'url' => 'http://www.tune.com',
@@ -1135,7 +1168,7 @@ DESC
             'name' => 'Engine Yard',
             'code' => 'engineyard',
             'level' => 'silver',
-            'rank' => 64,
+            'rank' => 1067,
             'label' => 'Video',
             'description' => 'Video Sponsor',
             'url' => 'http://www.engineyard.com',
@@ -1144,63 +1177,27 @@ DESC
 Coming soon.
 DESC
         ],
-        'roberthalf' => [
-            'name' => 'Robert Half',
-            'code' => 'roberthalf',
+        'gosolid' => [
+            'name' => 'GoSolid',
+            'code' => 'gosolid',
             'level' => 'bronze',
-            'rank' => 60,
+            'rank' => 1064,
             'label' => 'Bronze',
             'description' => 'Bronze-level Sponsor',
-            'url' => 'http://www.roberthalf.com/seattle-tacoma',
-            'logo' => 'img/logos/roberthalf.jpg',
+            'url' => 'http://www.gosolid.net/',
+            'logo' => 'img/logos/gosolid.jpg',
             'about' => <<<DESC
-Coming soon.
-DESC
-        ],
-        'in2it' => [
-            'name' => 'In2it',
-            'code' => 'in2it',
-            'level' => 'bronze',
-            'rank' => 56,
-            'label' => 'Bronze',
-            'description' => 'Bronze-level Sponsor',
-            'url' => 'http://www.in2it.be',
-            'logo' => 'img/logos/in2it.jpg',
-            'about' => <<<DESC
-Coming soon.
-DESC
-        ],
-        'digitalocean' => [
-            'name' => 'Digital Ocean',
-            'code' => 'digitalocean',
-            'level' => 'bronze',
-            'rank' => 48,
-            'label' => 'Lanyard',
-            'description' => 'Lanyard Sponsor',
-            'url' => 'https://www.digitalocean.com/',
-            'logo' => 'img/logos/digitalocean.jpg',
-            'about' => <<<DESC
-Coming soon.
-DESC
-        ],
-        'roave' => [
-            'name' => 'Roave',
-            'code' => 'roave',
-            'level' => 'bronze',
-            'rank' => 54,
-            'label' => 'Bronze',
-            'description' => 'Bronze-level Sponsor',
-            'url' => 'https://roave.com/',
-            'logo' => 'img/logos/roave.jpg',
-            'about' => <<<DESC
-Coming soon.
+Nestled in the heart of Georgetown, GoSolid has been raising the bar in ecommerce since 2009. We value understanding
+the unique needs of each client, continual innovation, frequent communication, and providing exceptional value.
+GoSolid's hand-picked staff delivers the best custom development and design available and enjoys a flexible working
+environment with great benefits.
 DESC
         ],
         'creatuity' => [
             'name' => 'Creatuity',
             'code' => 'creatuity',
             'level' => 'bronze',
-            'rank' => 62,
+            'rank' => 1061,
             'label' => 'Bronze',
             'description' => 'Bronze-level Sponsor',
             'url' => 'http://www.creatuity.com',
@@ -1209,41 +1206,75 @@ DESC
 Coming soon.
 DESC
         ],
-        'coolblueweb' => [
-            'name' => 'coolblueweb',
-            'code' => 'coolblueweb',
-            'level' => 'copper',
-            'rank' => 36,
-            'label' => 'Copper',
-            'description' => 'Copper-level Sponsor',
-            'url' => 'http://www.coolblueweb.com/php',
-            'logo' => 'img/logos/coolblueweb.jpg',
+        'digitalocean' => [
+            'name' => 'Digital Ocean',
+            'code' => 'digitalocean',
+            'level' => 'bronze',
+            'rank' => 1058,
+            'label' => 'Lanyard',
+            'description' => 'Lanyard Sponsor',
+            'url' => 'https://www.digitalocean.com/',
+            'logo' => 'img/logos/digitalocean.jpg',
             'about' => <<<DESC
 Coming soon.
 DESC
         ],
-//        'mercutio' => [
-//            'name' => 'Mercutio',
-//            'code' => 'mercutio',
-//            'level' => 'silver',
-//            'rank' => 74, // 2500
-//            'label' => 'T-Shirt',
-//            'description' => 'T-Shirt Sponsor',
-//            'url' => 'http://getmercutio.com',
-//            'logo' => 'img/logos/mercutio.jpg',
-//            'about' => <<<DESC
-//Coming soon.
-//DESC
-//        ],
-        'gosolid' => [
-            'name' => 'GoSolid',
-            'code' => 'gosolid',
+        'in2it' => [
+            'name' => 'In2it',
+            'code' => 'in2it',
             'level' => 'bronze',
-            'rank' => 63, // 1500
+            'rank' => 1055,
             'label' => 'Bronze',
             'description' => 'Bronze-level Sponsor',
-            'url' => 'http://www.gosolid.net/',
-            'logo' => 'img/logos/gosolid.jpg',
+            'url' => 'http://www.in2it.be',
+            'logo' => 'img/logos/in2it.jpg',
+            'about' => <<<DESC
+Coming soon.
+DESC
+        ],
+        'roberthalf' => [
+            'name' => 'Robert Half',
+            'code' => 'roberthalf',
+            'level' => 'bronze',
+            'rank' => 1052,
+            'label' => 'Bronze',
+            'description' => 'Bronze-level Sponsor',
+            'url' => 'http://www.roberthalf.com/seattle-tacoma',
+            'logo' => 'img/logos/roberthalf.jpg',
+            'about' => <<<DESC
+Coming soon.
+DESC
+        ],
+        'cdkglobal' => [
+            'name' => 'CDK GLobal',
+            'code' => 'cdkglobal',
+            'level' => 'bronze',
+            'rank' => 1049,
+            'label' => 'Bronze',
+            'description' => 'Bronze-level Sponsor',
+            'url' => 'http://www.cdk.com',
+            'logo' => 'img/logos/cdkglobal.jpg',
+            'about' => <<<DESC
+Who is CDK? We're the technology that keeps the auto industry moving &emsp; from the first advertisement, to credit
+checks and approvals, to maintenance and service reminders. And we're not limited to just cars &emsp; we provide
+services for heavy trucks, agricultural and construction equipment, RVs, boats and motorcycles. <strong>Stability meets
+agility.</strong> At CDK Global, we have based our business on stability &emsp; the auto industry is one of the top
+three economic indicators. It's a barometer for the health of the global economy and offers insight into business
+cycles, market trends and consumer confidence. Our 40-year background in dealer services and data solutions gives us
+stability in a fluctuating market. Though we're stable, we pride ourselves on our agility. We're fast, we're modern
+and we're innovative. We're solving problems that haven't even been considered yet. We don't believe in cubes, silos
+and walls. We've shifted our focus and designed our buildings to reflect innovation and foster collaboration.
+DESC
+        ],
+        'roave' => [
+            'name' => 'Roave',
+            'code' => 'roave',
+            'level' => 'bronze',
+            'rank' => 1046,
+            'label' => 'Bronze',
+            'description' => 'Bronze-level Sponsor',
+            'url' => 'https://roave.com/',
+            'logo' => 'img/logos/roave.jpg',
             'about' => <<<DESC
 Coming soon.
 DESC
@@ -1252,25 +1283,72 @@ DESC
             'name' => 'Clarify',
             'code' => 'clarify',
             'level' => 'bronze',
-            'rank' => 40,
+            'rank' => 1043,
             'label' => 'Bronze',
             'description' => 'Bronze-level Sponsor',
             'url' => 'http://clarify.io/',
             'logo' => 'img/logos/clarify.jpg',
             'about' => <<<DESC
+More audio and video is recorded every day than was recorded over the entire 20th century, and that rate is
+accelerating.  Unfortunately, most recorded media is wasted because it is "invisible" to our current computer systems
+without a lot of effort in organization and tagging. Clarify is a cloud-based, REST API that processes your audio and
+video for data like words spoken, keywords, and topics. The API also allows you to assign custom or arbitrary metadata
+such as title, description, tags, subject, producer, or publish date to any media. The data is then organized by a
+powerful search engine and exposed through search queries, filters, and reports.  Human-powered transcription services
+are available on-demand through the API, too.
+DESC
+        ],
+        'mongodb' => [
+            'name' => 'MongoDB',
+            'code' => 'mongodb',
+            'level' => 'bronze',
+            'rank' => 1040,
+            'label' => 'Bronze',
+            'description' => 'Bronze-level Sponsor',
+            'url' => 'http://mongodb.com',
+            'logo' => 'img/logos/mongodb.jpg',
+            'about' => <<<DESC
 Coming soon.
+DESC
+        ],
+        'coolblueweb' => [
+            'name' => 'coolblueweb',
+            'code' => 'coolblueweb',
+            'level' => 'copper',
+            'rank' => 1028,
+            'label' => 'Copper',
+            'description' => 'Copper-level Sponsor',
+            'url' => 'http://www.coolblueweb.com/php',
+            'logo' => 'img/logos/coolblueweb.jpg',
+            'about' => <<<DESC
+Coming soon.
+DESC
+        ],
+        'osmi' => [
+            'name' => 'OSMI',
+            'code' => 'osmi',
+            'level' => 'copper',
+            'rank' => 1025,
+            'label' => 'Copper',
+            'description' => 'Copper-level Sponsor',
+            'url' => 'http://funkatron.com/osmi',
+            'logo' => 'img/logos/osmi.jpg',
+            'about' => <<<DESC
+Open Sourcing Mental Illness is a speaking campaign by Ed Finkler to change how we deal with mental health in the tech community.
 DESC
         ],
         'joule' => [
             'name' => 'Joule',
             'code' => 'joule',
             'level' => 'copper',
-            'rank' => 20,
+            'rank' => 1022,
             'label' => 'Copper',
             'description' => 'Copper-level Sponsor',
             'url' => 'http://joule.club/',
             'logo' => 'img/logos/joule.jpg',
-            'about' => '',
+            'about' => <<<DESC
+Coming soon.
+DESC
         ],
 	],
     'communitySponsors' => [
@@ -1377,6 +1455,30 @@ DESC
             'url' => 'http://www.meetup.com/austinphp/',
             'logo' => 'img/logos/austinphp.jpg',
             'type' => 'group',
+        ],
+        'northeastphp' => [
+            'name' => 'Northeast PHP Conference',
+            'code' => 'northeastphp',
+            'rank' => 37,
+            'url' => 'http://2015.northeastphp.org/',
+            'logo' => 'img/logos/northeastphp.jpg',
+            'type' => 'conference',
+        ],
+        'seagl' => [
+            'name' => 'Seattle GNU/Linux Conference',
+            'code' => 'seagl',
+            'rank' => 34,
+            'url' => 'http://seagl.org/',
+            'logo' => 'img/logos/seagl.jpg',
+            'type' => 'conference',
+        ],
+        'pnwdrupalsummit' => [
+            'name' => 'Pacific Northwest Drupal Summit',
+            'code' => 'pnwdrupalsummit',
+            'rank' => 31,
+            'url' => 'http://2015.pnwdrupalsummit.org/2015',
+            'logo' => 'img/logos/pnwdrupalsummit.jpg',
+            'type' => 'conference',
         ],
     ],
    'hotels' => [

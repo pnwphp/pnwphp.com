@@ -37,6 +37,7 @@
                 <li><a href="./speakers">Speakers</a></li>
                 <li><a href="./talks">Talks</a></li>
                 <li><a href="./events">Events</a></li>
+                <li><a href="./sponsors">Sponsors</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">

@@ -1,5 +1,5 @@
 <div class="wrapper wrapper-purple">
-    <div class="title">Sponsors</div>
+    <div class="title"><a href="/sponsors">Sponsors</a></div>
     <p class="lead text-center">Thank you to all of our sponsors who are making it possible to hold this event.</p>
     <div class="container">
         <div class="row sponsors">

@@ -1257,8 +1257,11 @@ DESC
             'about' => <<<DESC
 Who is CDK? We're the technology that keeps the auto industry moving &emsp; from the first advertisement, to credit
 checks and approvals, to maintenance and service reminders. And we're not limited to just cars &emsp; we provide
-services for heavy trucks, agricultural and construction equipment, RVs, boats and motorcycles. <strong>Stability meets
-agility.</strong> At CDK Global, we have based our business on stability &emsp; the auto industry is one of the top
+services for heavy trucks, agricultural and construction equipment, RVs, boats and motorcycles.
+
+<strong>Stability meets agility.</strong>
+
+At CDK Global, we have based our business on stability &emsp; the auto industry is one of the top
 three economic indicators. It's a barometer for the health of the global economy and offers insight into business
 cycles, market trends and consumer confidence. Our 40-year background in dealer services and data solutions gives us
 stability in a fluctuating market. Though we're stable, we pride ourselves on our agility. We're fast, we're modern

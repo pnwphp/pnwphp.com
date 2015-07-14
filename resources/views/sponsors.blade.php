@@ -41,5 +41,7 @@
                 </div>
             @endforeach
         </div>
+
+        @include('sections.community-sponsors')
     </div>
 @stop

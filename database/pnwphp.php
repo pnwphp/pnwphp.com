@@ -1246,7 +1246,7 @@ Coming soon.
 DESC
         ],
         'cdkglobal' => [
-            'name' => 'CDK GLobal',
+            'name' => 'CDK Global',
             'code' => 'cdkglobal',
             'level' => 'bronze',
             'rank' => 1049,

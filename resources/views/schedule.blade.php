@@ -191,6 +191,213 @@
                 </div>
 
             </div>
+
+			<br>
+			<hr noshade="noshade" />
+			<br>
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3>Saturday - Sept 12, Conference Day 2</h3>
+                </div>
+            </div>
+            <div class="schedule-wrapper">
+                <div class="row">
+                    <div class="col-md-12 text-center schedule-header">
+                        <p>Welcome &amp; Keynote</p>
+                    </div>
+                </div>
+                <div class="row schedule-row">
+                    <div class="col-md-6 col-md-offset-3">
+                    <?php
+                        $keynote_id = 'eating-elephpants';
+                        $talk = $conference->talks[ $keynote_id ];
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                    ?>
+                        <p>9:00 - Welcome</p>
+                        <p>9:15 - Keynote: <a href="#">{{ $speaker['name'] }}</a> on <a href="#">{{ $talk['title'] }}</a></p>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-center schedule-header">
+                        <p>10:15am - 12:00 Sessions</p>
+                    </div>
+                </div>
+                <div class="row schedule-row">
+                    <div class="col-md-4">
+                    <?php 
+                        $talk = $conference->talks['refactoring-101'];
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                    ?>
+                    </div>
+                    <div class="col-md-4">
+                    <?php
+                        $talk = $conference->talks['integrating-joomla-with-the-php-community'];
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                    ?>
+                    </div>
+                    <div class="col-md-4">
+                        <strong>To Be Determined</strong>
+                    </div>
+                </div>
+
+                <div class="row schedule-row">
+                    <div class="col-md-4">
+                    <?php 
+                        $talk = $conference->talks['symfony-create-mmorpg'];
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                    ?>
+                    </div>
+                    <div class="col-md-4">
+                    <?php
+                        $talk = $conference->talks['an-introduction-to-containers-and-docker-for-php-developers'];
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                    ?>
+                    </div>
+                    <div class="col-md-4">
+
+                    <?php
+                        $talk = $conference->talks['monolith-to-microservices-lessons-from-the-trenches'];
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                    ?>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-12 text-center schedule-header">
+                        <p>12:15pm - 1:30 LUNCH</p>
+                        <hr/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center schedule-header">
+                        <p>1:30pm - 2:30 Keynote</p>
+                    </div>
+                </div>
+                <div class="row schedule-row">
+                    <div class="col-md-3 col-md-offset-5">
+                    <?php
+                        $talk = $conference->talks['sara-golemon-keynote'];
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                    ?>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-center schedule-header">
+                        <p>2:30pm - 3:30 Sessions</p>
+                    </div>
+                </div>
+                <div class="row schedule-row">
+                    <div class="col-md-4">
+                    <?php
+                        $talk = $conference->talks['anatomy-of-a-type-system'];
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                    ?>
+                    </div>
+                    <div class="col-md-4">
+                    <?php
+                        $talk = $conference->talks['building-extraordinary-packages'];
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                    ?>
+                    </div>
+                    <div class="col-md-4">
+                    <?php
+                        $talk = $conference->talks['async-php-with-react'];
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                    ?>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-center schedule-header">
+                        <p>3:30pm - 4:30 Sessions</p>
+                    </div>
+                </div>
+                <div class="row schedule-row">
+                    <div class="col-md-4">
+                    <?php
+                        $talk = $conference->talks['smelly-tests'];
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                    ?>
+                    </div>
+                    <div class="col-md-4">
+                    <?php
+                        $talk = $conference->talks['building-your-api-utility-belt'];
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                    ?>
+                    </div>
+                    <div class="col-md-4">
+                    <?php
+                        $talk = $conference->talks['navigating-your-git-repository'];
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                    ?>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-12 text-center schedule-header">
+                        <p>4:30pm - 5:30 Sessions</p>
+                    </div>
+                </div>
+                <div class="row schedule-row">
+                    <div class="col-md-4">
+                    <?php
+                        $talk = $conference->talks['drinking-from-the-firehose'];
+
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                    ?>
+                    </div>
+                    <div class="col-md-4">
+                    <?php
+                        $talk = $conference->talks['never-stop-pushing-strategies-and-tools-for-delivering-continuously'];
+
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                    ?>
+                    </div>
+                    <div class="col-md-4">
+                    <?php
+                        $talk = $conference->talks['hello-psr-7'];
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                    ?>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-center schedule-header">
+                        <p>End of Day Keynote</p>
+                    </div>
+                </div>
+                <div class="row schedule-row">
+                    <div class="col-md-3 col-md-offset-5">
+                    <?php
+                        $talk = $conference->talks['down-the-rabbit-hole'];
+                        $speaker = $conference->speakers[ $talk['speaker'] ];
+                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                    ?>
+                    </div>
+                </div>
+
+            </div>
+
         </div>
     </div>
 

@@ -429,9 +429,6 @@ BIO
 			'tags' => ['types', 'php7', 'theory'],
 			'speaker' => 'anthony-ferrara',
 			'type' => 'session',
-            'room' => 'main',
-            'time' => new DateTime('2015-09-12T14:30:00+07:00'),
-            'length' => 50,
 			'description' => <<<DESC
 PHP 7 is coming quickly. One of the major features that it brings with it is the ability to use scalar typing. Are you
 ready for it? Join me as we take a tour through PHP 7&rsquo;s type system from end to end. Don&rsquo;t know what a type
@@ -446,9 +443,6 @@ DESC
 			'tags' => ['community', 'career-growth'],
 			'speaker' => 'cal-evans',
 			'type' => 'keynote',
-            'room' => 'main',
-            'time' => null,
-            'length' => 45,
 			'description' => <<<DESC
 The common mantra is "Community Works", but does it? How does burning vacation days to speak at a conference "work"?
 How does staying up until the wee hours of the morning working on a project, just to turn around and go work your day
@@ -465,9 +459,6 @@ DESC
 			'tags' => ['mental-health'],
 			'speaker' => 'ed-finkler',
 			'type' => 'keynote',
-            'room' => 'main',
-            'time' => null,
-            'length' => 45,
 			'description' => <<<DESC
 Mental disorders are the largest contributor to disease burden in North America, but the developer community and those
 who employ us are afraid to face the problem head-on. In this keynote, we'll examine the state of mental health
@@ -481,9 +472,6 @@ DESC
 			'tags' => ['cloud', 'aws', 'architecture'],
 			'speaker' => 'jeff-barr',
 			'type' => 'keynote',
-            'room' => 'main',
-            'time' => null,
-            'length' => 45,
 			'description' => <<<DESC
 TBA
 DESC
@@ -494,9 +482,6 @@ DESC
             'tags' => ['laravel', 'scaling', 'aws', 'cloud', 'framework'],
             'speaker' => 'benji-schwartz-gilbert',
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => <<<DESC
 In this talk we'll cover how Tableau is using Laravel to deliver some of it's critical online infrastructure, why we
 chose the framework, and lessons we've learned deploying it at scale. We'll also cover how we develop, test, and deploy
@@ -509,24 +494,18 @@ DESC
             'tags' => ['leadership', 'management', 'career-growth'],
             'speaker' => 'robert-purcell',
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => <<<DESC
 One career advancement path common for a developer is into management. One thing that's not always common for a
 developer, though, is managerial skills. Let's discuss what it takes to be a manager, the management of other
 developers, and the unique challenges of a programmer acting as manager.
 DESC
         ],
-        'adventures-in-symfony-building-an-mmorpg' => [
-            'code' => 'adventures-in-symfony-building-an-mmorpg',
-            'title' => 'Adventures in Symfony - Building an MMORPG',
+        'symfony-create-mmorpg' => [
+            'code' => 'symfony-create-mmorpg',
+            'title' => 'How I Used Symfony to Create an MMORPG',
             'tags' => ['symfony', 'twig', 'doctrine', 'framework'],
             'speaker' => 'margaret-staples',
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => <<<DESC
 Ride along on a tour of my latest adventure! I will unpack my process for turning design ideas into game mechanics,
 talk about the tools that were used (including Symfony and other open source goodies like Twig and Doctrine), examine
@@ -540,9 +519,6 @@ DESC
             'tags' => ['drupal', 'modernize', 'composer'],
             'speaker' => 'larry-garfield',
             'type' => 'keynote',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 45,
             'description' => <<<DESC
 "Big ships turn slowly", the saying goes. That's true nautically and in software. Software grows over time, and the
 bigger it gets the harder it is to make significant changes. When those changes are not just technical but cultural the
@@ -562,9 +538,6 @@ DESC
             'tags' => ['continuous-delivery', 'continuous-integration', 'testing', 'deployment'],
             'speaker' => 'benji-schwartz-gilbert',
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => <<<DESC
 Getting your features integrated, tested, and out the door for a single application can be a vicious cycle. Your testers
 are complaining the feature isn't available in their environment, your MySQL box just crashed in production, and you
@@ -585,9 +558,6 @@ DESC
             'tags' => ['open-source', 'community'],
             'speaker' => 'davey-shafik',
             'type' => 'keynote',
-            'room' => 'main',
-            'time' => new DateTime('2015-09-11T17:45:00+07:00'),
-            'length' => 45,
             'description' => <<<DESC
 This talk looks at the responsibility, we, the Open Source community, have to make things better. How we can use our
 skills to make fundamental, meaningful change to the world around us.
@@ -602,9 +572,6 @@ DESC
             'tags' => ['project-management'],
             'speaker' => 'eryn-oneil',
             'type' => 'session',
-            'room' => 'main',
-            'time' => null,
-            'length' => 50,
             'description' => <<<DESC
 &ldquo;Hope for the best and plan for the worst.&rdquo; We spend a lot of time talking about best practices: the ways we
 should run our projects and write our software so that everything turns out as well as possible. But when you add human
@@ -616,15 +583,12 @@ methods for triage, what to do when you sense a project is on shaky ground, and 
 other side in one piece.
 DESC
         ],
-        'tba1' => [
+        'sara-golemon-keynote' => [
             'title' => 'TBA',
-            'code' => 'tba1',
+            'code' => 'sara-golemon-keynote',
             'tags' => [],
             'speaker' => 'sara-golemon',
             'type' => 'keynote',
-            'room' => 'main',
-            'time' => new DateTime('2015-09-12T13:30:00+07:00'),
-            'length' => 45,
             'description' => <<<DESC
 TBA
 DESC
@@ -635,9 +599,6 @@ DESC
             'tags' => ['async', 'reactphp'],
             'speaker' => 'jeremy-mikola',
             'type' => 'session',
-            'room' => 'main',
-            'time' => null,
-            'length' => 50,
             'description' => <<<DESC
 Event-driven programing is a familiar and useful tool for crafting client/server apps and asynchronous libraries. Akin to Node.js or Python's Twisted, React brings PHP up to speed with all of the necessary pieces in a well-packaged framework. This session will introduce the concept of event loops, non-blocking IO, and async programming in PHP, and explore ways it can serve in your technology stack.
 DESC
@@ -648,9 +609,6 @@ DESC
             'speaker' => 'amber-matz',
             'tags' => ['drupal', 'oop'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'One of the central changes in Drupal 8 is a shift to an object-oriented architecture. This represents a significant change in how module developers will utilize PHP in the context of Drupal. In the first part of this presentation, I will provide an overview of object-oriented PHP, why it was introduced into the Drupal 8 code base, how it differs from procedural programming, and the major object-oriented PHP concepts you\'ll find in Drupal 8 core.
 
 Following this overview, I\'ll demonstrate two tools, one a Drupal module and the other a Symfony console application, both designed to help you get up to speed with the Drupal 8 systems and APIs.
@@ -668,9 +626,6 @@ Who will benefit from this presentation?
             'speaker' => 'keith-casey',
             'tags' => ['api', 'testing', 'debugging', 'tools'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'No matter the situation, Batman always had the perfect tool on hand. It didn\'t matter how rare, bizarre, or unique the situation was, he was ready to save the day. Unfortunately, in software development, we don\'t have a utility belt. At best, our tools are scripts we\'ve cobbled together over the years that solve particular problems but leave us stuck more often than not. In this talk, we\'ll work to change that. I\'ll introduce you to seven tools that I find vital to my everyday API usage and development.',
         ],
         'magento-2-modernizing-an-open-source-ecommerce-powerhouse' => [
@@ -679,9 +634,6 @@ Who will benefit from this presentation?
             'speaker' => 'ben-marks',
             'tags' => ['magento', 'ecommerce', 'framework'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'Whether you work with it daily, infrequently, or never, Magento 1 has been the ascendant PHP eCommerce platform for five years. The Magento 2 era is now upon us, featuring an updated architecture with full, configurable DI, aspect-oriented programming, and a truly decoupled, Composer-based system of modules which allows Magento components to be integrated into PHP app environments. This talk looks at some of the improvements and remaining challenges facing Magento 2.x on its way to a GA release and informs participants on how to get involved with the development and documentation on GitHub.',
         ],
         'monolith-to-microservices-lessons-from-the-trenches' => [
@@ -690,9 +642,6 @@ Who will benefit from this presentation?
             'speaker' => 'luke-kysow',
             'tags' => ['microservices', 'soa', 'scaling', 'architecture'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'Hootsuite is undergoing an architectural transformation. We\'re moving from our large monolithic PHP app to a microservices architecture. Microservices hold the promise of faster performance scaling, reduced technical debt, higher reliability, and increased speed of innovation, however the journey to get there isn\'t easy. How do you carve out parts of your app, rebuild them as services, and then switch to using those services, all while the plane is still flying--without any downtime and without your users noticing.
 
 In this talk I\'ll define what exactly a microservices architecture looks like, discuss its pros and cons, and speak about how to best partition your app into services. We\'ll then go over lessons learned at Hootsuite as we\'ve carved up our own app into microservices; what worked and what fell flat on its face.',
@@ -703,9 +652,6 @@ In this talk I\'ll define what exactly a microservices architecture looks like, 
             'speaker' => 'ben-lobaugh',
             'tags' => ['scaling', 'cloud', 'azure', 'wordpress', 'architecture'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'With over 23% of the web utilizing WordPress as a content management platform it has become a powerhouse, but can it scale? In this session I will show you how I leveraged the Azure Cloud with WordPress to scale a real client site to 10 million hits per hour.',
         ],
         'navigating-your-git-repository' => [
@@ -714,9 +660,6 @@ In this talk I\'ll define what exactly a microservices architecture looks like, 
             'speaker' => 'gemma-anible',
             'tags' => ['git', 'tools', 'graphs'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'You can git pull, merge, and even force-push with the best of them, but what\'s really going on in that .git folder? What\'s a commit, and how does it know where it came from? What does checking out a tag have to do with detaching your head, and why does rebase mess things up so thoroughly?
 
 In this talk, we’ll get inside individual commits and learn to push them around, then zoom out to the whole repository. Come find out how Git\'s glorified game of Connect-the-Dots can improve the development workflow and collaboration opportunities for your whole team!',
@@ -727,9 +670,6 @@ In this talk, we’ll get inside individual commits and learn to push them aroun
             'speaker' => 'joshua-warren',
             'tags' => ['behat', 'phpspec', 'tdd', 'bdd', 'testing'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'PHPSpec and Behat are two amazing PHP tools that empower specification-driven development and behavior-driven development. These two tools combined can help you build test coverage, but many people don\'t realize they can also write much of your code for you. In this talk, we\'ll see what PHPSpec and Behat can do, through a series of examples and use cases. In other words, I heard you like to code, so I wrote code that writes code while you code.',
         ],
         'integrating-joomla-with-the-php-community' => [
@@ -738,9 +678,6 @@ In this talk, we’ll get inside individual commits and learn to push them aroun
             'speaker' => 'michael-babker',
             'tags' => ['framework', 'joomla', 'modernize'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'After nearly a decade of growth and development, Joomla! has proven itself as a strong and mature platform to build everything from the simplest of blogs to the most complex e-commerce solutions. However, this platform has its weaknesses, including the technical debt of a decade of development and often requiring Joomla or extension specific solutions to solve common problems. Enter the Joomla! Framework.
 
 By extracting the API that has powered the Joomla! CMS since its birth into standalone and modular packages, we enable developers to use an API they are already familiar with to create standalone applications specific to client needs. This also enables developers to more easily consume code written for and shared with the full PHP community. Lastly, we are now able to offer the core APIs powering Joomla for use in Drupal or Laravel based projects.
@@ -753,9 +690,6 @@ We’ll take a look at how lowering the barriers to using and developing with Jo
             'speaker' => 'robert-mcfrazier',
             'tags' => ['docker', 'containers', 'vagrant', 'virtual-machines'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'In this session we will discuss the basics of containers and how to use Docker, running in a Vagrant VM to allow any PHP developer to create an extremely flexible development environment and also learn more about these powerful technologies.    Using a practical example of building a development environment allows you to create something other that a basic “hello world” example while learning about containers.',
         ],
         'talmudic-maxims-to-maximize-your-growth-as-a-software-developer' => [
@@ -764,9 +698,6 @@ We’ll take a look at how lowering the barriers to using and developing with Jo
             'speaker' => 'yitzchok-willroth',
             'tags' => ['career-growth', 'community', 'craftsmanship', 'leadership'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'You’ve been programming for a while now.    You’re beginning to feel that you’ve got a handle on things but at the same time can’t escape the feeling that you’ve somehow plateaued in your growth as a software developer.    In this talk Yitzchok, a rabbinic scholar and software developer, shares the “wisdom of the sages” as practical, actionable advice – strategies and tactics – that you can use to reinvigorate your growth as a software developer.',
         ],
         'building-extraordinary-packages' => [
@@ -775,9 +706,6 @@ We’ll take a look at how lowering the barriers to using and developing with Jo
             'speaker' => 'phil-sturgeon',
             'tags' => ['composer', 'oop', 'packages', 'psr'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'Back in the day, we had PEAR packages. These were often very well written, but due to PEARs lack of popularity we ended up just using mega-frameworks and writing bundles, modules, cells and sparks for that framework. Since then Composer has been a bit of a savior, but the way in which we make these packages is still new and scary.
 
 There are a lot of talks about building good code, and writing OOP well, but how do you make a Composer package that is as high in quality as you can? Things like SemVer, avoiding NIH syndrome verses knowing WHEN to fork or make a new package, responsible deprecation and loads more.
@@ -790,9 +718,6 @@ The League of Extraordinary Packages is a group of developers who have banded to
             'speaker' => 'dave-stokes',
             'tags' => ['sql', 'mysql', 'theory', 'database', 'rdms'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'Databases!    Why are they such a PITA!    Well, part of it is that SQL is a procedural language and PHP is Object Oriented/Procedural Language, so they don\'t mesh well.    A SQL query can be syntax perfect, look great, and have rotten performance so visual examinations are almost useless.    Database are designed to use set theory and too many programmers generate N+1 type programming errors because they do not think in sets. . This session covers the hows and the whys of databases & SQL so that you can use them to your best advantage.    Discover why database optimizers are like bad GPS systems, why the WHERE clause is the wrong place to trim queries, which heavy lifting functions are best for a database, and how to cleanly write PHP code to efficiently use databases.',
         ],
         'foundations-of-zend-framework-2' => [
@@ -801,9 +726,6 @@ The League of Extraordinary Packages is a group of developers who have banded to
             'speaker' => 'adam-culp',
             'tags' => ['zend-framework', 'framework'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'Adam Culp will give a basic intro to Zend Framework 2 (ZF2) and how to use the foundational pieces.    We will get a Zend Framework 2 application up and running quickly using the Zend Framework 2 Skeleton Application, and Zend Skeleton Module to add modules. Adam will also introduce some useful resources to help attendees continue learning on their own. The talk will give attendees enough information to get a jump start into using ZF2.',
         ],
         'refactoring-101' => [
@@ -812,9 +734,6 @@ The League of Extraordinary Packages is a group of developers who have banded to
             'speaker' => 'adam-culp',
             'tags' => ['refactoring', 'code-quality'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'We hate to refactor. (The practice of altering code to make it cleaner, simpler, and sometimes faster, while not altering functionality.) Adam Culp will talk about how to do it better, and will discuss: When to refactor. How to refactor. Why refactor. How a refactor can help us write better code in the future. A common methodology and steps to follow while refactoring, and resources to help us all on our refactor journey.',
         ],
         'smelly-tests' => [
@@ -823,9 +742,6 @@ The League of Extraordinary Packages is a group of developers who have banded to
             'speaker' => 'chris-hartjes',
             'tags' => ['testing', 'modernize'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'You\'re now writing unit tests for your code...but you can\'t help but wonder if you are writing them the Right Way(tm). Given that learning to write good tests is no different from learning to write good code, it\'s inevitable that we make mistakes as we learn to create effective unit test suites.
 In this talk testing evangelist Chris Hartjes talks about his own experiences in learning how to create good test cases by showing people examples of where things might not have gone the way the developer expected.',
         ],
@@ -835,9 +751,6 @@ In this talk testing evangelist Chris Hartjes talks about his own experiences in
             'speaker' => 'beau-simensen',
             'tags' => ['semver', 'composer', 'dependency-management'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'Understanding stability and semantic versioning makes a huge impact on daily life with Composer. Learn how to decode Composer\'s solver errors, get a better understanding of semantic versioning, how dependencies interact with each other when it comes to stability, and how to use Composer features like branch aliases to make things run more smoothly.',
         ],
         'hello-psr-7' => [
@@ -846,9 +759,6 @@ In this talk testing evangelist Chris Hartjes talks about his own experiences in
             'speaker' => 'beau-simensen',
             'tags' => ['psr', 'http'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'PSR-7 HTTP Message Interface has been kicking around in one form or another since March of 2012. Get a brief history of how PSR-7 evolved from its humble beginnings as a simple HTTP client interface to the game-changing PHP-FIG proposal we have today. Learn how to work with the HTTP Message Interfaces and how they will be used by frameworks in the not to distant future. Find out what it will mean to have a healthy ecosystem of PHP software all speak HTTP the same way. Say hello to your new best friend in PHP, PSR-7.',
         ],
         'inside-laravel-5.1' => [
@@ -857,9 +767,6 @@ In this talk testing evangelist Chris Hartjes talks about his own experiences in
             'speaker' => 'yitzchok-willroth',
             'tags' => ['framework', 'laravel'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'One of PHP\'s most popular frameworks has undergone a major version upgrade! Join us to explore what\'s new in Laravel 5.0. We\'ll explore putting your Controllers on a crash diet with Custom Request Objects and Method Level Dependency Injection, increasing contexuality with Route & Event Annotations, managing 3rd party authentication with Socialite, understanding the new Directory Structure and Service Provider Architecture, leveraging FlySystem Integration, improving performance with Route Caching and increasing decoupling using Contracts. Special attention will be given to contributing to the framework using the exciting new contribution tool, Liferaft.',
         ],
         'demystifying-the-rest-api' => [
@@ -868,9 +775,6 @@ In this talk testing evangelist Chris Hartjes talks about his own experiences in
             'speaker' => 'samantha-quinones',
             'tags' => ['rest', 'api', 'computer-science', 'architecture'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'Are you confused by REST APIs? Can\'t tell a PUT from a POST? No idea what a non-idempotent operation is? Despite their ubiquity, the details of what makes an API RESTful are often lost even on experienced developers. We\'ll cover the basics of the HTTP protocol that drives most REST services, break down the lingo, and clear up some misconceptions about this powerful and popular methodology.',
         ],
         'drinking-from-the-firehose' => [
@@ -879,9 +783,6 @@ In this talk testing evangelist Chris Hartjes talks about his own experiences in
             'speaker' => 'samantha-quinones',
             'tags' => ['big-data', 'metrics', 'queues', 'elasticsearch', 'hadoop', 'aws'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => 'To understand an application’s performance, first you have to know what to measure. That’s the easy part. How do you take those measurements? Store them? Analyze them? Get them to the people who need them? Well, that’s where things get complicated, especially in the    high-traffic distributed systems of the modern web! Like careful scientists, we must observe our subjects without altering them, and we must report our findings quickly so that we have the data necessary to make smart choices about the health and growth of the system.
 
 Let’s explore the lessons learned by engineers at one of the world’s top web companies in their quest to find meaning at 5 MB/s. We’ll discuss the tools and techniques that enable the collection, indexing, and analysis of billions or more datapoints each hour, and learn how these same approaches can empower your applications and your business, no matter the scale.',
@@ -892,9 +793,6 @@ Let’s explore the lessons learned by engineers at one of the world’s top web
             'speaker' => 'josh-holmes',
             'tags' => ['iot', 'cloud', 'azure'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => <<<DESC
 There's a ton of buzz and hype around the internet of things (IoT) but what is it actually? IoT is the next evolution of
 distributed and connected systems at scale. It's more than just connecting your phone to your thermostat, it's about
@@ -911,9 +809,6 @@ DESC
             'speaker' => ['robert-mcfrazier', 'jeremy-mikola', 'dave-stokes'],
             'tags' => ['database', 'nosql', 'mongodb', 'mysql', 'dynamodb', 'cassandra'],
             'type' => 'session',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => <<<DESC
 NoSQL database systems are non-relational and are typically designed for distributed systems with scalability needs.
 NoSQL databases are being increasingly used in big data and real-time web applications. However, it is hard to decide
@@ -927,9 +822,6 @@ DESC
             'speaker' => 'beau-simensen',
             'tags' => ['database', 'nosql', 'mongodb', 'mysql', 'dynamodb', 'cassandra'],
             'type' => 'workshop',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 180,
             'description' => <<<DESC
 Thanks largely to Composer and its tight integration with GitHub, it has never been easier for people to share and
 contribute to the PHP ecosystem. These days it more or less required that contributors have a working knowledge of Git
@@ -944,9 +836,6 @@ DESC
             'speaker' => 'jeremy-lindblom',
             'tags' => ['aws', 'async', 'psr', 'http', 'guzzle', 'cloud'],
             'type' => 'hackathon',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 50,
             'description' => <<<DESC
 More details coming soon.
 DESC
@@ -957,9 +846,6 @@ DESC
             'speaker' => 'josh-holmes',
             'tags' => ['speaking'],
             'type' => 'workshop',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 180,
             'description' => <<<DESC
 More details coming soon.
 DESC
@@ -970,9 +856,6 @@ DESC
             'speaker' => 'adam-culp',
             'tags' => ['code-quality'],
             'type' => 'workshop',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 180,
             'description' => <<<DESC
 More details coming soon.
 DESC
@@ -983,9 +866,6 @@ DESC
             'speaker' => 'anthony-ferrara',
             'tags' => ['security'],
             'type' => 'workshop',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 180,
             'description' => <<<DESC
 More details coming soon.
 DESC
@@ -996,9 +876,6 @@ DESC
             'speaker' => 'davey-shafik',
             'tags' => ['php', 'mysql'],
             'type' => 'workshop',
-            'room' => 'main',
-            'time' => NULL,
-            'length' => 180,
             'description' => <<<DESC
 More details coming soon.
 DESC
@@ -1246,7 +1123,7 @@ Coming soon.
 DESC
         ],
         'cdkglobal' => [
-            'name' => 'CDK GLobal',
+            'name' => 'CDK Global',
             'code' => 'cdkglobal',
             'level' => 'bronze',
             'rank' => 1049,
@@ -1257,8 +1134,11 @@ DESC
             'about' => <<<DESC
 Who is CDK? We're the technology that keeps the auto industry moving &emsp; from the first advertisement, to credit
 checks and approvals, to maintenance and service reminders. And we're not limited to just cars &emsp; we provide
-services for heavy trucks, agricultural and construction equipment, RVs, boats and motorcycles. <strong>Stability meets
-agility.</strong> At CDK Global, we have based our business on stability &emsp; the auto industry is one of the top
+services for heavy trucks, agricultural and construction equipment, RVs, boats and motorcycles.
+
+<strong>Stability meets agility.</strong>
+
+At CDK Global, we have based our business on stability &emsp; the auto industry is one of the top
 three economic indicators. It's a barometer for the health of the global economy and offers insight into business
 cycles, market trends and consumer confidence. Our 40-year background in dealer services and data solutions gives us
 stability in a fluctuating market. Though we're stable, we pride ourselves on our agility. We're fast, we're modern
@@ -1307,6 +1187,19 @@ DESC
             'description' => 'Bronze-level Sponsor',
             'url' => 'http://mongodb.com',
             'logo' => 'img/logos/mongodb.jpg',
+            'about' => <<<DESC
+Coming soon.
+DESC
+        ],
+        'magento' => [
+            'name' => 'Magento',
+            'code' => 'magento',
+            'level' => 'bronze',
+            'rank' => 1037,
+            'label' => 'Bronze',
+            'description' => 'Bronze-level Sponsor',
+            'url' => 'http://magento.com/',
+            'logo' => 'img/logos/magento.jpg',
             'about' => <<<DESC
 Coming soon.
 DESC

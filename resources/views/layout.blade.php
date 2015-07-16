@@ -36,6 +36,7 @@
             <ul class="nav navbar-nav">
                 <li><a href="./speakers">Speakers</a></li>
                 <li><a href="./talks">Talks</a></li>
+                <li><a href="./schedule">Schedule</a></li>
                 <li><a href="./events">Events</a></li>
             </ul>
 

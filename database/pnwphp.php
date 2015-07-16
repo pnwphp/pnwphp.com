@@ -1191,6 +1191,19 @@ DESC
 Coming soon.
 DESC
         ],
+        'magento' => [
+            'name' => 'Magento',
+            'code' => 'magento',
+            'level' => 'bronze',
+            'rank' => 1037,
+            'label' => 'Bronze',
+            'description' => 'Bronze-level Sponsor',
+            'url' => 'http://magento.com/',
+            'logo' => 'img/logos/magento.jpg',
+            'about' => <<<DESC
+Coming soon.
+DESC
+        ],
         'coolblueweb' => [
             'name' => 'coolblueweb',
             'code' => 'coolblueweb',

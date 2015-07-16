@@ -307,4 +307,5 @@
         </div>
     </div>
 
+    @include('sections.sponsors')
 @stop

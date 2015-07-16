@@ -518,9 +518,9 @@ developer, though, is managerial skills. Let's discuss what it takes to be a man
 developers, and the unique challenges of a programmer acting as manager.
 DESC
         ],
-        'adventures-in-symfony-building-an-mmorpg' => [
-            'code' => 'adventures-in-symfony-building-an-mmorpg',
-            'title' => 'Adventures in Symfony - Building an MMORPG',
+        'symfony-create-mmorpg' => [
+            'code' => 'symfony-create-mmorpg',
+            'title' => 'How I Used Symfony to Create an MMORPG',
             'tags' => ['symfony', 'twig', 'doctrine', 'framework'],
             'speaker' => 'margaret-staples',
             'type' => 'session',
@@ -616,9 +616,9 @@ methods for triage, what to do when you sense a project is on shaky ground, and 
 other side in one piece.
 DESC
         ],
-        'tba1' => [
+        'sara-golemon-keynote' => [
             'title' => 'TBA',
-            'code' => 'tba1',
+            'code' => 'sara-golemon-keynote',
             'tags' => [],
             'speaker' => 'sara-golemon',
             'type' => 'keynote',

@@ -153,9 +153,17 @@
                     <div class="col-md-4">
                     <?php
                         $talk = $conference->talks['nosql-lightning-talks'];
+                        if ( is_array( $talk['speaker'] ) ):
+                            $speakers = $conference->speakers;
+                            echo view('session-multi', [
+                                'talk' => $talk,
+                                'speakers' => $speakers,
+                                'speaker_ids' => $talk['speaker']
+                            ] );
+                        else:
+                            echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
+                        endif;
 
-                        $speaker = $conference->speakers[ $talk['speaker'] ];
-                        echo view('session', [ 'talk' => $talk, 'speaker' => $speaker ] );
                     ?>
                     </div>
                     <div class="col-md-4">

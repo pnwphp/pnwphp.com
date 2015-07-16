@@ -908,8 +908,7 @@ DESC
         'nosql-lightning-talks' => [
             'code' => 'nosql-lightning-talks',
             'title' => 'NoSQL Showdown - Lightning Talks Edition',
-            'speaker' => 'robert-mcfrazier',
-            // 'speaker' => ['robert-mcfrazier', 'jeremy-mikola', 'dave-stokes'],
+            'speaker' => ['robert-mcfrazier', 'jeremy-mikola', 'dave-stokes'],
             'tags' => ['database', 'nosql', 'mongodb', 'mysql', 'dynamodb', 'cassandra'],
             'type' => 'session',
             'room' => 'main',

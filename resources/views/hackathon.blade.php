@@ -54,7 +54,7 @@
                 </div>
                 <div class="row schedule-row">
                     <div class="col-md-12">
-                        @include('session', ['talk_id' => 'aws-solutions-and-services'])
+                        @include('session', ['talk_id' => 'php-approach-to-infrastructure'])
                     </div>
                     <div class="col-md-12">
                         @include('session', ['talk_id' => 'using-the-aws-sdk-for-php'])

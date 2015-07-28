@@ -30,6 +30,10 @@ $app->get('schedule', function() use ($app) {
     return page('schedule');
 });
 
+$app->get('events-hackathon', function() use ($app) {
+    return page('hackathon');
+});
+
 $app->get('speakers', function() use ($app) {
     $talkFilter = function ($speaker) {
         return function ($talk) use ($speaker) {

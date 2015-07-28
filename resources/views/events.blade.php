@@ -66,14 +66,12 @@
                     sold separately for ONLY $49.
                 </div>
 
-                <h2 id="aws-hackathon"><a href="./events#aws-hackathon">AWS Workshop &amp; Hackathon</a></h2>
+                <h2 id="aws-hackathon"><a href="./events-hackathon">AWS Workshop/Hackathon</a></h2>
                 <div class="lead">
-                    Are you interested in Amazon Web Services or cloud computing? AWS is sponsoring and helping SeaPHP
-                    to provide an AWS workshop to teach you about running your PHP apps on AWS and using the
-                    <a href="https://github.com/aws/aws-sdk-php">AWS SDK for PHP</a> in your apps. Following the
-                    workshop in the morning, attendees will team up for a hackathon to showcase their newly learned
-                    skills. AWS credits, pizza, beer, &amp; prizes included. Tickets for the AWS workshop/hackathon day
-                    are sold separately for ONLY $49. Limited availability.
+                    Amazon Web Services (AWS) is sponsoring an AWS-themed workshop and hackathon for PNWPHP. There will
+                    be 4 awesome presentations in the morning followed by an afternoon and evening of hacking, food,
+                    free AWS credits, and prizes. See the <a href="./events-hackathon">AWS Workshop/Hackathon page</a> for the
+                    schedule and additional details.
                 </div>
             </div>
 

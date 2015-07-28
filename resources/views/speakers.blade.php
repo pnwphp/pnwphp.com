@@ -16,7 +16,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <p class="lead text-center">
                     At PNWPHP, you'll have the opportunity to hear from world-renowned speakers from the PHP community
-                    and companies like Amazon, AOL, Facebook, Google, Microsoft, Oracle, Zend, and more.
+                    and companies like Amazon, Facebook, Microsoft, Oracle, Zend, and more.
                 </p>
             </div>
             @foreach ($conference->speakers->sortBy('name', SORT_REGULAR) as $speaker)

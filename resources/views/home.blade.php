@@ -27,8 +27,8 @@
             <div class="col-md-6">
                 <p class="lead">
                     Our <em>3-day</em> event will be overflowing with awesome sauce as we hear from world-renowned
-                    <a href="./speakers">speakers</a> from the PHP community and companies like Amazon, AOL, Facebook,
-                    Google, Microsoft, Oracle, and Zend. With <a href="./tags">topics</a> ranging from continuous
+                    <a href="./speakers">speakers</a> from the PHP community and companies like Amazon, Facebook,
+                    Microsoft, Oracle, and Zend. With <a href="./tags">topics</a> ranging from continuous
                     delivery to the cloud, you'll be full to the brim with new knowledge to take home.
                 </p>
             </div>
@@ -61,7 +61,7 @@
             <div class="col-md-8 col-md-offset-2">
                 <p class="lead">
                     Join us for all the festivities, including <em><a href="./events#pnwphp-workshops">workshops</a></em>,
-                    the <em><a href="./events#aws-hackathon">hackathon</a></em>, the <em><a href="./events#uncon">uncon</a></em>,
+                    the <em><a href="./events-hackathon">hackathon</a></em>, the <em><a href="./events#uncon">uncon</a></em>,
                     <em>social events</em>, <em>musical numbers</em>, <em>catered food</em>, and more.
                 </p>
                 <table class="table table-bordered text-center">
@@ -83,7 +83,7 @@
                             <ul class="list-unstyled text-center">
                                 <li><a href="./events#pnwphp-workshops">Workshops</a></li>
                                 <li><a href="./events#php-embark">PHP Embark</a></li>
-                                <li><a href="./events#aws-hackathon">AWS Hackathon</a></li>
+                                <li><a href="./events-hackathon">AWS Hackathon</a></li>
                             </ul>
                         </td>
                         <td>
@@ -108,7 +108,7 @@
                     <tr class="bg-success">
                         <th class="text-center">$5</th>
                         <th class="text-center">$49</th>
-                        <th colspan="2" class="text-center">$129&ndash;$349 (see below)</th>
+                        <th colspan="2" class="text-center">$99&ndash;$349 (see below)</th>
                         <th class="text-center">Free</th>
                     </tr>
                 </table>
@@ -127,7 +127,7 @@
                         <h4 class="text-center">FOR STUDENTS</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$129 <s>$149</s></strong><br><small><em>Early Bird Pricing</em> through July 18th</small></p>
+                        <p class="lead"><strong>$99</strong><br><small><em>Price goes up to $149 after 8/16</em></small></p>
                         <p>Available to full and part time students; student ID required at the event.</p>
                     </div>
                     <div class="panel-footer">
@@ -141,7 +141,7 @@
                         <h4 class="text-center">FOR INDIVIDUALS</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$199 <s>$249</s></strong><br><small><em>Early Bird Pricing</em> through July 18th</small></p>
+                        <p class="lead"><strong>$199</strong><br><small><em>Price goes up to $249 after 8/16</em></small></p>
                         <p>Available to attendees who are paying for their own tickets.</p>
                     </div>
                     <div class="panel-footer">

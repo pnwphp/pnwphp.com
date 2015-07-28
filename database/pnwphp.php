@@ -361,10 +361,12 @@ BIO
             'name' => 'Robert Purcell',
             'location' => '',
             'twitter' => '',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54f0cb510ca1df8750000002/avatar_square',
+            'avatar' => 'img/avatars/robert-purcell.png',
             'company' => 'nexcess',
             'bio' => <<<BIO
-TBA
+Programming from the age of eight (BASIC), Robert is now Sr. Software Engineer and head of the internal development
+team at Nexcess.net working in PHP and javascript all day. Based in Michigan, husband, and father of three with the dad
+jokes to prove it.
 BIO
         ],
         'jeff-barr' => [
@@ -377,6 +379,41 @@ BIO
             'bio' => <<<BIO
 Chief Evangelist for the Amazon Web Services (follow me for AWS updates and chatter). Father of 5, grandfather of 2.
 Author. UW MCDM Graduate.
+BIO
+        ],
+        'jonathan-weiss' => [
+            'code' => 'jonathan-weiss',
+            'name' => 'Jonathan Weiss',
+            'location' => 'Berlin, Germany',
+            'twitter' => 'jweiss',
+            'avatar' => 'https://pnwphp2015.busyconf.com/speakers/54feb7ce43e08249c200001e/avatar_square?t=1425979342',
+            'company' => 'aws',
+            'bio' => <<<BIO
+Jonathan Weiss is leading the AWS OpsWorks team in Berlin. Before building a company and ending up selling it to Amazon,
+he was a Ruby consultant. Running an Amazon Web Service is the perfect opportunity for Jonathan to experience first hand
+the perils of large distributed applications and learn every day.
+BIO
+        ],
+        'michael-dowling' => [
+            'code' => 'michael-dowling',
+            'name' => 'Michael Dowling',
+            'location' => 'Seattle, WA',
+            'twitter' => 'mtdowling',
+            'avatar' => 'img/avatars/michael-dowling.jpg',
+            'company' => 'aws',
+            'bio' => <<<BIO
+Coming soon.
+BIO
+        ],
+        'joseph-fontes' => [
+            'code' => 'joseph-fontes',
+            'name' => 'Joseph Fontes',
+            'location' => 'Seattle, WA',
+            'twitter' => null,
+            'avatar' => 'img/avatars/joseph-fontes.jpg',
+            'company' => 'aws',
+            'bio' => <<<BIO
+Coming soon.
 BIO
         ],
         'davey-shafik' => [
@@ -834,7 +871,27 @@ DESC
             'code' => 'using-the-aws-sdk-for-php',
             'title' => 'Using Version 3 of the AWS SDK for PHP',
             'speaker' => 'jeremy-lindblom',
-            'tags' => ['aws', 'async', 'psr', 'http', 'guzzle', 'cloud'],
+            'tags' => ['aws', 'psr', 'http', 'guzzle', 'cloud', 'api'],
+            'type' => 'hackathon',
+            'description' => <<<DESC
+More details coming soon.
+DESC
+        ],
+        'async-requests-and-promises-sdk' => [
+            'code' => 'async-requests-and-promises-sdk',
+            'title' => 'Asynchronous Requests and Promises in the SDK',
+            'speaker' => 'michael-dowling',
+            'tags' => ['aws', 'async', 'http', 'guzzle', 'cloud', 'api'],
+            'type' => 'hackathon',
+            'description' => <<<DESC
+More details coming soon.
+DESC
+        ],
+        'aws-solutions-and-services' => [
+            'code' => 'aws-solutions-and-services',
+            'title' => 'TBA',
+            'speaker' => 'joseph-fontes',
+            'tags' => ['aws', 'cloud', 'architecture'],
             'type' => 'hackathon',
             'description' => <<<DESC
 More details coming soon.
@@ -845,7 +902,7 @@ DESC
             'title' => 'Speaking for Speakers',
             'speaker' => 'josh-holmes',
             'tags' => ['speaking'],
-            'type' => 'workshop',
+            'type' => 'session',
             'description' => <<<DESC
 More details coming soon.
 DESC
@@ -880,6 +937,19 @@ DESC
 More details coming soon.
 DESC
         ],
+        'running-php-on-aws' => [
+            'code' => 'running-php-on-aws',
+            'title' => 'Running PHP on AWS',
+            'speaker' => 'jonathan-weiss',
+            'tags' => ['aws', 'cloud', 'continuous-deployment', 'continuous-integration', 'deployment', 'docker', 'chef'],
+            'type' => 'hackathon',
+            'description' => <<<DESC
+Amazon Web Services offers different ways to run scalable PHP application: EC2, Beanstalk, OpsWorks or with Docker on
+ECS. This session will provide an overview of these and dive deep into their PHP support. We will look at how to
+integrate tools like composer or tweak the PHP installation as part of the deployment. We will cover PHP Continuous
+Integration and Continuous Deployment setups as well as debugging live apps on AWS.
+DESC
+        ],
     ],
 	'sponsors' => [
 		'nexcess' => [
@@ -892,7 +962,13 @@ DESC
 			'url' => 'https://www.nexcess.net/',
 			'logo' => 'img/logos/nexcess.jpg',
 			'about' => <<<DESC
-Coming soon.
+Since the dawn of the millennium, Nexcess has been the leader at running LAMP-style hosting environments that benefit
+from professional-grade optimization in performance and security.<br><br>As developers themselves, the Nexcess team has
+launched several PHP applications over the years, which includes their data center management platform (NOCWorx), a
+server management interface (InterWorx), and a leading Magento plugin that integrates Varnish caching with e-commerce
+storefronts (Turpentine).<br><br>In addition to bestowing lessons learned in maintaining a cutting edge platform for
+PHP applications, representatives from Nexcess will be seeking the brightest development minds in the community at
+PNWPHP with the intent to grow their team of open source experts.
 DESC
 		],
 		'tableau' => [

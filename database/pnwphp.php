@@ -409,11 +409,13 @@ BIO
             'code' => 'joseph-fontes',
             'name' => 'Joseph Fontes',
             'location' => 'Seattle, WA',
-            'twitter' => null,
+            'twitter' => 'joedangerfontes',
             'avatar' => 'img/avatars/joseph-fontes.jpg',
             'company' => 'aws',
             'bio' => <<<BIO
-Coming soon.
+Joe Fontes is a Solutions Architect with Amazon Web Services in Seattle. Joe has an extensive history working with
+infrastructure as a Systems and Network Architect. An open source evangelist, educator, and technologist, Joe has
+designed and implemented infrastructure across numerous industries.
 BIO
         ],
         'davey-shafik' => [
@@ -887,14 +889,16 @@ DESC
 More details coming soon.
 DESC
         ],
-        'aws-solutions-and-services' => [
-            'code' => 'aws-solutions-and-services',
-            'title' => 'TBA',
+        'php-approach-to-infrastructure' => [
+            'code' => 'php-approach-to-infrastructure',
+            'title' => 'A PHP Approach to Infrastructure',
             'speaker' => 'joseph-fontes',
-            'tags' => ['aws', 'cloud', 'architecture'],
+            'tags' => ['aws', 'cloud', 'architecture', 'automation'],
             'type' => 'hackathon',
             'description' => <<<DESC
-More details coming soon.
+This session will explore the evolution of software-defined system control from varying methods of systems interaction
+(networking, DNS, syslog, hypervisor controls, storage/systems/network monitoring, provisioning, etc.) to PHP
+functionality of the same capabilities within AWS (VPC, Route 53, EBS, ELB, EC2, CloudWatch, etc.).
 DESC
         ],
         'speaking-for-speakers' => [

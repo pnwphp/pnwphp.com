@@ -889,7 +889,7 @@ DESC
         ],
         'async-requests-and-promises-sdk' => [
             'code' => 'async-requests-and-promises-sdk',
-            'title' => 'Asynchronous Requests and Promises in the SDK',
+            'title' => 'Asynchronous Requests in the AWS SDK for PHP',
             'speaker' => 'michael-dowling',
             'tags' => ['aws', 'async', 'http', 'guzzle', 'cloud', 'reactphp'],
             'type' => 'hackathon',

@@ -402,7 +402,11 @@ BIO
             'avatar' => 'img/avatars/michael-dowling.jpg',
             'company' => 'aws',
             'bio' => <<<BIO
-Coming soon.
+Michael Dowling is a software development engineer at Amazon Web Services
+and the creator of Guzzle, a PHP HTTP client. At AWS, Michael works on the
+AWS SDK for PHP, the AWS CLI, and Boto (the AWS SDK for Python). In his
+spare time, Michael enjoys fighting with the Rust compiler and playing
+around with functional programming in Clojure.
 BIO
         ],
         'joseph-fontes' => [
@@ -876,17 +880,24 @@ DESC
             'tags' => ['aws', 'psr', 'http', 'guzzle', 'cloud', 'api'],
             'type' => 'hackathon',
             'description' => <<<DESC
-More details coming soon.
+Amazon Web Services (AWS) offers a broad set of global compute, storage, database, analytics, application, and
+deployment services that can help PHP developers build scalable applications in the cloud. These services provide APIs
+that allow you to control all of your resources programmatically, even through your PHP code. Let's talk about how to
+use Version 3 of the open source AWS SDK for PHP (built on the Guzzle library and PSR-7) to control your AWS resources
+and use the AWS services from within your applications.
 DESC
         ],
         'async-requests-and-promises-sdk' => [
             'code' => 'async-requests-and-promises-sdk',
             'title' => 'Asynchronous Requests and Promises in the SDK',
             'speaker' => 'michael-dowling',
-            'tags' => ['aws', 'async', 'http', 'guzzle', 'cloud', 'api'],
+            'tags' => ['aws', 'async', 'http', 'guzzle', 'cloud', 'reactphp'],
             'type' => 'hackathon',
             'description' => <<<DESC
-More details coming soon.
+Version 3 of the AWS SDK for PHP introduces a powerful new asynchronous programming model for PHP developers using AWS
+APIs. In this session, you will learn how to perform asynchronous and concurrent requests using the AWS SDK by using
+<em>promises</em>, which are baked into almost every SDK feature. You will also see how concurrency models like
+ReactPHP's event loop can be integrated with the SDK to make its asynchronous capabilities even more powerful.
 DESC
         ],
         'php-approach-to-infrastructure' => [

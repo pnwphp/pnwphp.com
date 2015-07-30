@@ -40,7 +40,7 @@
                     Mailing List</a>
             </div>
             <div class="col-md-4">
-                <a href="https://twitter.com/hashtag/pnwphp" target="_blank" class="btn btn-lg btn-info btn-block"><i class="fa fa-twitter"></i> Tweet about #PNWPHP</a>
+                <a href="https://twitter.com/PNWPHP" target="_blank" class="btn btn-lg btn-info btn-block"><i class="fa fa-twitter"></i> Follow @PNWPHP</a>
             </div>
         </div>
         @if ($sponsor = $conference->sponsors->filter(function ($sponsor) {return $sponsor->rank >= 80;})->random(1))
@@ -97,6 +97,9 @@
                             <ul class="list-unstyled text-center">
                                 <li><a href="./events#pnwphp">PNWPHP Conference</a</li>
                                 <li><a href="./events#uncon">UnCon</a</li>
+                                <li>Prizes</li>
+                                <li><a href="./events#podcast-devhell">/dev/hell Podcast</a</li>
+                                <li><a href="./events#podcast-townhall">PHP Townhall Podcast</a</li>
                             </ul>
                         </td>
                         <td>

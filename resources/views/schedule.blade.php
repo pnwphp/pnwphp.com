@@ -16,7 +16,7 @@
 
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3>Wednesday, September 9 &mdash; Meetup Day</h3>
+                    <h3 id="wednesday">Wednesday, September 9 &mdash; Meetup Day</h3>
                 </div>
             </div>
             <div class="schedule-wrapper">
@@ -42,7 +42,7 @@
 
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3>Thursday, September 10 &mdash; Workshop Day</h3>
+                    <h3 id="thursday">Thursday, September 10 &mdash; Workshop Day</h3>
                 </div>
             </div>
             <div class="schedule-wrapper">
@@ -132,7 +132,7 @@
 
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3>Friday, September 11 &mdash; Conference Day 1</h3>
+                    <h3 id="friday">Friday, September 11 &mdash; Conference Day 1</h3>
                 </div>
             </div>
             <div class="schedule-wrapper">
@@ -261,7 +261,7 @@
 
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3>Saturday, September 12 &mdash; Conference Day 2</h3>
+                    <h3 id="saturday">Saturday, September 12 &mdash; Conference Day 2</h3>
                 </div>
             </div>
             <div class="schedule-wrapper">

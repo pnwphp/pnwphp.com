@@ -902,7 +902,7 @@ DESC
         ],
         'php-approach-to-infrastructure' => [
             'code' => 'php-approach-to-infrastructure',
-            'title' => 'A PHP Approach to Infrastructure',
+            'title' => 'A PHP Approach to Cloud Infrastructure',
             'speaker' => 'joseph-fontes',
             'tags' => ['aws', 'cloud', 'architecture', 'automation'],
             'type' => 'hackathon',

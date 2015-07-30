@@ -88,23 +88,23 @@
                         </td>
                         <td>
                             <ul class="list-unstyled text-center">
-                                <li><a href="./events#conference">PNWPHP Conference</a</li>
-                                <li><a href="./events#uncon">UnCon</a</li>
-                                <li><a href="./events#social">Evening Social</a</li>
+                                <li><a href="./events#conference">PNWPHP Conference</a></li>
+                                <li><a href="./events#uncon">UnCon</a></li>
+                                <li><a href="./events#social">Evening Social</a></li>
                             </ul>
                         </td>
                         <td>
                             <ul class="list-unstyled text-center">
-                                <li><a href="./events#pnwphp">PNWPHP Conference</a</li>
-                                <li><a href="./events#uncon">UnCon</a</li>
+                                <li><a href="./events#pnwphp">PNWPHP Conference</a></li>
+                                <li><a href="./events#uncon">UnCon</a></li>
                                 <li>Prizes</li>
-                                <li><a href="./events#podcast-devhell">/dev/hell Podcast</a</li>
-                                <li><a href="./events#podcast-townhall">PHP Townhall Podcast</a</li>
+                                <li><a href="./events#podcast-devhell">/dev/hell Podcast</a></li>
+                                <li><a href="./events#podcast-townhall">PHP Townhall Podcast</a></li>
                             </ul>
                         </td>
                         <td>
                             <ul class="list-unstyled text-center">
-                                <li><a href="./events#wurstcon">WurstConSEA</a</li>
+                                <li><a href="./events#wurstcon">WurstConSEA</a></li>
                             </ul>
                         </td>
                     </tr>

@@ -45,7 +45,6 @@
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        {{--<li><a href="./events#conference">Conference</a></li>--}}
                         {{--<li><a href="./venue">Venue</a></li>--}}
                         <li><a target="_blank" href="http://www.meetup.com/seaphp/">SeaPHP User Group</a></li>
                         <li><a href="./hotels-and-transit">Hotels & Transit</a></li>

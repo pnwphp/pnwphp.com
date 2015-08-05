@@ -40,7 +40,7 @@
                     If you're in town early, please join us for our
                     <a href="http://www.meetup.com/seaphp/events/222390720/">September SeaPHP Meetup</a>, and help
                     us kick off the conference celebration. Our meetup will be hosted by one of our wonderful
-                    sponsors, <a href="http://www.tune.com/">TUNE</a>. Food and drinks provided. (Cost: $5)
+                    sponsors, <a href="http://www.tune.com/">TUNE</a>. Food and drinks provided.
                 </div>
 
                 <h2 id="seaphp-drinkup">
@@ -195,6 +195,9 @@
             <div class="col-md-8 col-md-offset-2">
                 <h2 id="wurstcon">
                     <a href="./events#wurstcon">WurstConSEA</a> <small>(11:30am&ndash;2:00pm)</small>
+                    <a class="btn btn-default btn-info pull-right" href="http://www.meetup.com/seaphp/events/223517866/">
+                        <i class="fa fa-link"></i> RSVP Now
+                    </a>
                 </h2>
                 <div class="lead">
                     The <em>wurst</em> PHP conference ever is assembling in Seattle on the day after PNWPHP to accompany

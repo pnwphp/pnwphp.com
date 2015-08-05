@@ -182,14 +182,13 @@ BIO
             'avatar' => 'img/avatars/jeremy-lindblom.jpg',
             'company' => 'aws',
             'bio' => <<<BIO
-Jeremy is a PHP Software Engineer at <a href="http://aws.amazon.com/">Amazon Web Services (AWS)</a>, co-author of the
-<a href="https://github.com/aws/aws-sdk-php">AWS SDK for PHP</a> (<a href="https://twitter.com/awsforphp">@awsforphp</a>),
-organizer of the <a href="http://pnwphp.com/">Pacific Northwest PHP (PNWPHP)</a> conference, president of the
-<a href="http://www.meetup.com/seaphp/">Seattle PHP User Group</a> (<a href="https://twitter.com/seaphp">@seaphp</a>),
-voting representative of the <a href="http://guzzlephp.org/">Guzzle</a> project for
-<a href="http://www.php-fig.org/">PHP-FIG</a>, member of the Zend Certification Advisory Board for the PHP 5.5 exam,
-purveyor of <a href="http://phpbard.tumblr.com/">PHP poetry</a> (<a href="https://twitter.com/phpbard">@phpbard</a>),
-and a maker of funny faces.
+Jeremy is a Software Engineer at <a href="http://www.mheducation.com">McGraw-Hill Education</a> (and formerly at
+<a href="http://aws.amazon.com/">Amazon Web Services</a>), co-author of the <a href="https://github.com/aws/aws-sdk-php">AWS SDK for PHP</a>
+(<a href="https://twitter.com/awsforphp">@awsforphp</a>), organizer of the <a href="http://pnwphp.com/">Pacific Northwest PHP (PNWPHP)</a> conference,
+president of the <a href="http://www.meetup.com/seaphp/">Seattle PHP User Group</a> (<a href="https://twitter.com/seaphp">@seaphp</a>),
+voting representative of the <a href="http://guzzlephp.org/">Guzzle</a> project for <a href="http://www.php-fig.org/">PHP-FIG</a>,
+member of the Zend Certification Advisory Board for the PHP 5.5 exam, purveyor of <a href="http://phpbard.tumblr.com/">PHP poetry</a>
+(<a href="https://twitter.com/phpbard">@phpbard</a>), and a maker of funny faces.
 BIO
         ],
         'samantha-quinones' => [

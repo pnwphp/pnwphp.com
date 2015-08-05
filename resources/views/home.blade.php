@@ -109,7 +109,7 @@
                         </td>
                     </tr>
                     <tr class="bg-success">
-                        <th class="text-center">$5</th>
+                        <th class="text-center">Free</th>
                         <th class="text-center">$49</th>
                         <th colspan="2" class="text-center">$99&ndash;$349 (see below)</th>
                         <th class="text-center">Free</th>

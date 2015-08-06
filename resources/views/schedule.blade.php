@@ -16,7 +16,7 @@
 
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3>Wednesday, September 9 &mdash; Meetup Day</h3>
+                    <h3 id="wednesday">Wednesday, September 9 &mdash; Meetup Day</h3>
                 </div>
             </div>
             <div class="schedule-wrapper">
@@ -42,12 +42,89 @@
 
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3>Thursday, September 10 &mdash; Workshop Day</h3>
+                    <h3 id="thursday">Thursday, September 10 &mdash; Workshop Day</h3>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h3>TBA</h3>
+            <div class="schedule-wrapper">
+
+                <div class="row">
+                    <div class="col-md-12 text-center schedule-header">
+                        <p>Registration & Coffee - 8:00am&ndash;9:00 <small>(Lobby)</small></p>
+                        <hr/>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-3 schedule-header">
+                        <strong>1918 8th Ave. (3rd Floor)</strong>
+                    </div>
+                    <div class="col-md-3 schedule-header">
+                        <strong>Learning Studio 1 (3rd Floor)</strong>
+                    </div>
+                    <div class="col-md-3 schedule-header">
+                        <strong>Learning Studio 2 (4th Floor)</strong>
+                    </div>
+                    <div class="col-md-3 schedule-header">
+                        <strong>Globe Room (2nd Floor)</strong>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-center schedule-header">
+                        <p>Workshops - 9:00am&ndash;12:00</p>
+                    </div>
+                </div>
+                <div class="row schedule-row">
+                    <div class="col-md-3">
+                        <div class="session">
+                            <p><a href="./events-hackathon">AWS Workshop</a><br><small>(Includes 4 presentations)</small></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        @include('session', ['talk_id' => 'clean-application-development'])
+                    </div>
+                    <div class="col-md-3">
+                        @include('session', ['talk_id' => 'git-and-github-for-php-projects'])
+                    </div>
+                    <div class="col-md-3">
+                        @include('session', ['talk_id' => 'php-embark'])
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-center schedule-header">
+                        <p>Break - 12:00pm&ndash;2:00</p>
+                        <hr/>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-center schedule-header">
+                        <p>Workshops - 2:00pm&ndash;5:00</p>
+                    </div>
+                </div>
+                <div class="row schedule-row">
+                    <div class="col-md-3">
+                        <div class="session">
+                            <p><a href="./events-hackathon">AWS Hackathon</a><br><small>(Lasts until 11:00pm)</small></p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        @include('session', ['talk_id' => 'code-review-for-security'])
+                    </div>
+                    <div class="col-md-3">
+                        @include('session', ['talk_id' => 'tba'])
+                    </div>
+                    <div class="col-md-3">
+                        @include('session', ['talk_id' => 'php-embark'])
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 text-center schedule-header">
+                        <p>AWS Hackathon Continues - 5:00pm&ndash;11:00 <small>(AWS Blackfoot Building - 3rd Floor)</small></p>
+                        <hr/>
+                    </div>
                 </div>
             </div>
 
@@ -55,7 +132,7 @@
 
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3>Friday, September 11 &mdash; Conference Day 1</h3>
+                    <h3 id="friday">Friday, September 11 &mdash; Conference Day 1</h3>
                 </div>
             </div>
             <div class="schedule-wrapper">
@@ -184,7 +261,7 @@
 
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <h3>Saturday, September 12 &mdash; Conference Day 2</h3>
+                    <h3 id="saturday">Saturday, September 12 &mdash; Conference Day 2</h3>
                 </div>
             </div>
             <div class="schedule-wrapper">
@@ -228,7 +305,7 @@
                     'talks' => [
                         'refactoring-101',
                         'integrating-joomla-with-the-php-community',
-                        'tba',
+                        'speaking-for-speakers',
                     ]
                 ])
 
@@ -288,7 +365,7 @@
 
                 <div class="row">
                     <div class="col-md-12 text-center schedule-header">
-                        <p>Evening Keynote - 5:30pm-7:00 <small>(Main Event Room)</small></p>
+                        <p>Evening Keynote &amp; Closing - 5:30pm-7:00 <small>(Main Event Room)</small></p>
                     </div>
                 </div>
                 <div class="row schedule-row">

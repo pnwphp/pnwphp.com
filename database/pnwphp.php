@@ -182,14 +182,13 @@ BIO
             'avatar' => 'img/avatars/jeremy-lindblom.jpg',
             'company' => 'aws',
             'bio' => <<<BIO
-Jeremy is a PHP Software Engineer at <a href="http://aws.amazon.com/">Amazon Web Services (AWS)</a>, co-author of the
-<a href="https://github.com/aws/aws-sdk-php">AWS SDK for PHP</a> (<a href="https://twitter.com/awsforphp">@awsforphp</a>),
-organizer of the <a href="http://pnwphp.com/">Pacific Northwest PHP (PNWPHP)</a> conference, president of the
-<a href="http://www.meetup.com/seaphp/">Seattle PHP User Group</a> (<a href="https://twitter.com/seaphp">@seaphp</a>),
-voting representative of the <a href="http://guzzlephp.org/">Guzzle</a> project for
-<a href="http://www.php-fig.org/">PHP-FIG</a>, member of the Zend Certification Advisory Board for the PHP 5.5 exam,
-purveyor of <a href="http://phpbard.tumblr.com/">PHP poetry</a> (<a href="https://twitter.com/phpbard">@phpbard</a>),
-and a maker of funny faces.
+Jeremy is a Software Engineer at <a href="http://www.mheducation.com">McGraw-Hill Education</a> (and formerly at
+<a href="http://aws.amazon.com/">Amazon Web Services</a>), co-author of the <a href="https://github.com/aws/aws-sdk-php">AWS SDK for PHP</a>
+(<a href="https://twitter.com/awsforphp">@awsforphp</a>), organizer of the <a href="http://pnwphp.com/">Pacific Northwest PHP (PNWPHP)</a> conference,
+president of the <a href="http://www.meetup.com/seaphp/">Seattle PHP User Group</a> (<a href="https://twitter.com/seaphp">@seaphp</a>),
+voting representative of the <a href="http://guzzlephp.org/">Guzzle</a> project for <a href="http://www.php-fig.org/">PHP-FIG</a>,
+member of the Zend Certification Advisory Board for the PHP 5.5 exam, purveyor of <a href="http://phpbard.tumblr.com/">PHP poetry</a>
+(<a href="https://twitter.com/phpbard">@phpbard</a>), and a maker of funny faces.
 BIO
         ],
         'samantha-quinones' => [
@@ -361,10 +360,12 @@ BIO
             'name' => 'Robert Purcell',
             'location' => '',
             'twitter' => '',
-            'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54f0cb510ca1df8750000002/avatar_square',
+            'avatar' => 'img/avatars/robert-purcell.png',
             'company' => 'nexcess',
             'bio' => <<<BIO
-TBA
+Programming from the age of eight (BASIC), Robert is now Sr. Software Engineer and head of the internal development
+team at Nexcess.net working in PHP and javascript all day. Based in Michigan, husband, and father of three with the dad
+jokes to prove it.
 BIO
         ],
         'jeff-barr' => [
@@ -377,6 +378,47 @@ BIO
             'bio' => <<<BIO
 Chief Evangelist for the Amazon Web Services (follow me for AWS updates and chatter). Father of 5, grandfather of 2.
 Author. UW MCDM Graduate.
+BIO
+        ],
+        'jonathan-weiss' => [
+            'code' => 'jonathan-weiss',
+            'name' => 'Jonathan Weiss',
+            'location' => 'Berlin, Germany',
+            'twitter' => 'jweiss',
+            'avatar' => 'https://pnwphp2015.busyconf.com/speakers/54feb7ce43e08249c200001e/avatar_square?t=1425979342',
+            'company' => 'aws',
+            'bio' => <<<BIO
+Jonathan Weiss is leading the AWS OpsWorks team in Berlin. Before building a company and ending up selling it to Amazon,
+he was a Ruby consultant. Running an Amazon Web Service is the perfect opportunity for Jonathan to experience first hand
+the perils of large distributed applications and learn every day.
+BIO
+        ],
+        'michael-dowling' => [
+            'code' => 'michael-dowling',
+            'name' => 'Michael Dowling',
+            'location' => 'Seattle, WA',
+            'twitter' => 'mtdowling',
+            'avatar' => 'img/avatars/michael-dowling.jpg',
+            'company' => 'aws',
+            'bio' => <<<BIO
+Michael Dowling is a software development engineer at Amazon Web Services
+and the creator of Guzzle, a PHP HTTP client. At AWS, Michael works on the
+AWS SDK for PHP, the AWS CLI, and Boto (the AWS SDK for Python). In his
+spare time, Michael enjoys fighting with the Rust compiler and playing
+around with functional programming in Clojure.
+BIO
+        ],
+        'joseph-fontes' => [
+            'code' => 'joseph-fontes',
+            'name' => 'Joseph Fontes',
+            'location' => 'Seattle, WA',
+            'twitter' => 'joedangerfontes',
+            'avatar' => 'img/avatars/joseph-fontes.jpg',
+            'company' => 'aws',
+            'bio' => <<<BIO
+Joe Fontes is a Solutions Architect with Amazon Web Services in Seattle. Joe has an extensive history working with
+infrastructure as a Systems and Network Architect. An open source evangelist, educator, and technologist, Joe has
+designed and implemented infrastructure across numerous industries.
 BIO
         ],
         'davey-shafik' => [
@@ -834,10 +876,39 @@ DESC
             'code' => 'using-the-aws-sdk-for-php',
             'title' => 'Using Version 3 of the AWS SDK for PHP',
             'speaker' => 'jeremy-lindblom',
-            'tags' => ['aws', 'async', 'psr', 'http', 'guzzle', 'cloud'],
+            'tags' => ['aws', 'psr', 'http', 'guzzle', 'cloud', 'api'],
             'type' => 'hackathon',
             'description' => <<<DESC
-More details coming soon.
+Amazon Web Services (AWS) offers a broad set of global compute, storage, database, analytics, application, and
+deployment services that can help PHP developers build scalable applications in the cloud. These services provide APIs
+that allow you to control all of your resources programmatically, even through your PHP code. Let's talk about how to
+use Version 3 of the open source AWS SDK for PHP (built on the Guzzle library and PSR-7) to control your AWS resources
+and use the AWS services from within your applications.
+DESC
+        ],
+        'async-requests-and-promises-sdk' => [
+            'code' => 'async-requests-and-promises-sdk',
+            'title' => 'Asynchronous Requests in the AWS SDK for PHP',
+            'speaker' => 'michael-dowling',
+            'tags' => ['aws', 'async', 'http', 'guzzle', 'cloud', 'reactphp'],
+            'type' => 'hackathon',
+            'description' => <<<DESC
+Version 3 of the AWS SDK for PHP introduces a powerful new asynchronous programming model for PHP developers using AWS
+APIs. In this session, you will learn how to perform asynchronous and concurrent requests using the AWS SDK by using
+<em>promises</em>, which are baked into almost every SDK feature. You will also see how concurrency models like
+ReactPHP's event loop can be integrated with the SDK to make its asynchronous capabilities even more powerful.
+DESC
+        ],
+        'php-approach-to-infrastructure' => [
+            'code' => 'php-approach-to-infrastructure',
+            'title' => 'A PHP Approach to Cloud Infrastructure',
+            'speaker' => 'joseph-fontes',
+            'tags' => ['aws', 'cloud', 'architecture', 'automation'],
+            'type' => 'hackathon',
+            'description' => <<<DESC
+This session will explore the evolution of software-defined system control from varying methods of systems interaction
+(networking, DNS, syslog, hypervisor controls, storage/systems/network monitoring, provisioning, etc.) to PHP
+functionality of the same capabilities within AWS (VPC, Route 53, EBS, ELB, EC2, CloudWatch, etc.).
 DESC
         ],
         'speaking-for-speakers' => [
@@ -845,7 +916,7 @@ DESC
             'title' => 'Speaking for Speakers',
             'speaker' => 'josh-holmes',
             'tags' => ['speaking'],
-            'type' => 'workshop',
+            'type' => 'session',
             'description' => <<<DESC
 More details coming soon.
 DESC
@@ -880,6 +951,19 @@ DESC
 More details coming soon.
 DESC
         ],
+        'running-php-on-aws' => [
+            'code' => 'running-php-on-aws',
+            'title' => 'Running PHP on AWS',
+            'speaker' => 'jonathan-weiss',
+            'tags' => ['aws', 'cloud', 'continuous-deployment', 'continuous-integration', 'deployment', 'docker', 'chef'],
+            'type' => 'hackathon',
+            'description' => <<<DESC
+Amazon Web Services offers different ways to run scalable PHP application: EC2, Beanstalk, OpsWorks or with Docker on
+ECS. This session will provide an overview of these and dive deep into their PHP support. We will look at how to
+integrate tools like composer or tweak the PHP installation as part of the deployment. We will cover PHP Continuous
+Integration and Continuous Deployment setups as well as debugging live apps on AWS.
+DESC
+        ],
     ],
 	'sponsors' => [
 		'nexcess' => [
@@ -892,7 +976,13 @@ DESC
 			'url' => 'https://www.nexcess.net/',
 			'logo' => 'img/logos/nexcess.jpg',
 			'about' => <<<DESC
-Coming soon.
+Since the dawn of the millennium, Nexcess has been the leader at running LAMP-style hosting environments that benefit
+from professional-grade optimization in performance and security.<br><br>As developers themselves, the Nexcess team has
+launched several PHP applications over the years, which includes their data center management platform (NOCWorx), a
+server management interface (InterWorx), and a leading Magento plugin that integrates Varnish caching with e-commerce
+storefronts (Turpentine).<br><br>In addition to bestowing lessons learned in maintaining a cutting edge platform for
+PHP applications, representatives from Nexcess will be seeking the brightest development minds in the community at
+PNWPHP with the intent to grow their team of open source experts.
 DESC
 		],
 		'tableau' => [

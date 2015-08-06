@@ -567,7 +567,7 @@ bigger it gets the harder it is to make significant changes. When those changes 
 task becomes even harder.
 
 But harder doesn't have to mean impossible. If Drupal can modernize itself from a PHP 4 procedural application to a PHP
-5.4+ object-oriented platform, you can do the same with your project. It just requires being pragmatic.
+5.5+ object-oriented platform, you can do the same with your project. It just requires being pragmatic.
 
 No matter how old your code base, there is still hope! Let's see what it takes to modernize a legacy code base, and how
 to build toward the system you want to have. Refactoring legacy code is just like eating an elePHPant... you do it one

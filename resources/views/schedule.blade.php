@@ -113,7 +113,7 @@
                         @include('session', ['talk_id' => 'code-review-for-security'])
                     </div>
                     <div class="col-md-3">
-                        @include('session', ['talk_id' => 'tba'])
+                        @include('session', ['talk_id' => 'wax-on-wax-off-code-kata-dojo'])
                     </div>
                     <div class="col-md-3">
                         @include('session', ['talk_id' => 'php-embark'])

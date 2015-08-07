@@ -29,13 +29,16 @@
                         <li>You have true financial need for this scholarship, and wouldn't be able to attend otherwise</li>
                     </ul>
 
+                    <p>
+                        <strong>Deadline</strong><br/>
+                        Friday, August 28, 2015
+                    </p>
 
-                    <strong>Deadline</strong><br/>
-                    Friday, August 28, 2015
-
-                    <strong>Want to donate to help with someones travel and ticket?</strong>
-                    If you are interested in adding to the pool for the scholarship, we would be more than happy to help
-                    more people from the area join the conference! Please contact <a href="mailto:tessa@seaphp.com">Tessa Mero</a>.
+                    <p>
+                        <strong>Want to donate to help with someones travel and ticket?</strong>
+                        If you are interested in adding to the pool for the scholarship, we would be more than happy to help
+                        more people from the area join the conference! Please contact <a href="mailto:tessa@seaphp.com">Tessa Mero</a>.
+                    </p>
                 </div>
             </div>
 

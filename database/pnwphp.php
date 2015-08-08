@@ -51,9 +51,11 @@
             'company' => 'google',
 			'avatar' => 'img/avatars/anthony-ferrara.jpg',
 			'bio' => <<<BIO
-Anthony Ferrara is a Developer Advocate for Google. He specializes in Object Oriented Design, Application Architecture,
-Web Application Security and PHP Internals. He is a contributor to multiple Open Source projects, as well as the PHP
-community as a whole. You can follow his blog at <a href="http://blog.ircmaxell.com"> or on Twitter at
+Anthony Ferrara is the Director of Engineering at Grovo. He
+specializes in Object Oriented Design, Application Architecture, Web
+Application Security and PHP Internals. He is a contributor to
+multiple Open Source projects, as well as the PHP community as a
+whole. You can follow his blog at <a href="http://blog.ircmaxell.com">blog.ircmaxell.com</a> or on Twitter at
 <a href="http://twitter.com/ircmaxell">@ircmaxell</a>.
 BIO
 		],
@@ -239,11 +241,15 @@ BIO
             'twitter' => 'amberhimesmatz',
             'avatar' => 'http://pnwphp2015.busyconf.com/speakers/54f0e5666500a3a8e4000006/avatar_square',
             'company' => null,
-            'bio' => 'Amber Matz (neé Himes) is an educator with Drupalize.Me. With over a decade of experience as a Web developer, Amber has tackled the hardest problems the web offers, including data migrations and editorial workflows. In the past five years, Amber has focused her talents as a Drupal developer, and readily shares her experience with others. She was the creator and host of the weekly series, DevMunch--an online education Web show designed to help developers upgrade their skills.
+            'bio' => <<<BIO
+Amber Matz creates and manages educational content for Drupalize.Me. Amber has over 14 years of experience as a full-stack web developer. She has built PHP/MySQL applications and Drupal sites for small businesses, educational institutions, and major corporations.
 
-Through her training as a massage therapist, volunteer community mediator, and project manager, Amber learned the importance of being a responsive communicator especially during times of stress. Her commitment to asking the right questions, and modifying her approach based on feedback, has made her effective at team process improvements, and learner-centered instruction. Amber has developed a reputation as an agile team member, ready to tackle any problem which is presented to her.
+Amber enjoys sharing her knowledge with others and jumps at the opportunity to speak at local user groups and conferences on a variety of technical topics for beginning to advanced-level audiences. She is a regular speaker at the Portland Drupal User Group and recently presented at DrupalCon North America, Devsigner — a conference for designers and developers in Portland, and will present at PNWPHP in Seattle in the Fall of 2015. She also regularly participates in a code mentoring group here in Portland.
 
-These days, when she\'s not in front of the computer at her home in Beaverton, Oregon, she\'s crocheting gifts for her nieces and nephew, tending her flowers and veggies at a local community garden, exploring the Pacific Northwest with her camera, and practicing rock-and-roll power chords on the accordion.',
+One of Amber's primary responsibilities is creating Drupal tutorials for Drupalize.Me. You can find her training materials on Webform, Mapping with Leaflet, Panels, Getting Started with Responsive Web Design and others in the Drupalize.Me Library. She also contributes regularly to the Drupalize.Me blog, writing on topics related to Drupal 8, Object-oriented PHP, the Drupal Community, and upcoming releases to Drupalize.Me's training library. She is also a regular hostess of the Drupalize.Me podcast, a bi-weekly show featuring guests from the Drupal community and beyond.
+
+Amber lives out in the 'burbs of Portland, Oregon with her husband and kitty cat and enjoys a variety of hobbies including crocheting and gardening.
+BIO
         ],
         'robert-mcfrazier' => [
             'code' => 'robert-mcfrazier',
@@ -334,10 +340,13 @@ These days, when she\'s not in front of the computer at her home in Beaverton, O
             'avatar' => 'img/avatars/sara-golemon.jpg',
             'company' => 'facebook',
             'bio' => <<<BIO
-Sara Golemon is a long standing contributor to the PHP runtime, the Open Source maintainer of
-<a href="http://hhvm.com/" target="_blank">HHVM</a>, and the author of
-<a href="http://www.amazon.com/Extending-Embedding-PHP-Sara-Golemon/dp/067232704X" target="_blank">Extending and
-Embedding PHP</a>.
+Sara Golemon is a Compiler Nerd and Open Source Fanatic. She's
+made many contributions to both PHP and HHVM as well as a host of PECL
+extensions and other projects. Sara is the author of "Extending and
+Embedding PHP", large parts of the PHP documentation, numerous
+tutorials on PHP and HHVM internals, and helped produce the official
+PHP language specification.
+<a href="https://twitter.com/search?q=%23ILookLikeAnEngineer&src=tyah" target="_blank">#iLookLikeAnEngineer</a>
 BIO
         ],
         'eryn-oneil' => [
@@ -465,6 +474,21 @@ BIO
         ],
 	],
 	'talks' => [
+        'wax-on-wax-off-code-kata-dojo' => [
+            'title' => 'Wax On, Wax Off: Code Kata Dojo',
+            'code' => 'wax-on-wax-off-code-kata-dojo',
+            'tags' => ['kata', 'dojo'],
+            'speaker' => 'yitzchok-willroth',
+            'type' => 'session',
+            'description' => <<<DESC
+As software developers we tend to practice our craft in the way of doctors and lawyers rather than the way of athletes
+and musicians, failing to recognize the impact the trade offs and half measures dictated by many projects have on our
+growth as craftspeople. Code katas - deliberate practice, free of the pressures of "getting things done" - are an
+excellent way to strengthen our mental "muscle memory" and grow our craft. In this three hour workshop, we will examine
+the case for regular, deliberate practice and engage in guided, collaborative, hands-on learning designed to give you
+the skills to incorporate code katas and deliberate practice into your training regimen.
+DESC
+        ],
 		'anatomy-of-a-type-system' => [
 			'title' => 'Anatomy Of A Type System',
 			'code' => 'anatomy-of-a-type-system',
@@ -626,13 +650,21 @@ other side in one piece.
 DESC
         ],
         'sara-golemon-keynote' => [
-            'title' => 'TBA',
+            'title' => 'Stronger Than Ever: Into the Future, Together',
             'code' => 'sara-golemon-keynote',
             'tags' => [],
             'speaker' => 'sara-golemon',
             'type' => 'keynote',
             'description' => <<<DESC
-TBA
+For 20 years, PHP has emerged as a quickly, and sometimes
+haphazardly evolving language and runtime responding to the needs of
+the nascent "world wide web" which was growing up alongside it. Other
+implementations have appeared and fallen away over time, but one has
+made a real lasting impact, not just on the ecosystem, but on the
+language and reference implementation themselves. I'll take you on a
+journey through the history of "the other PHPs", what makes
+reimplementing the double-claw so hard, how competition is good, and
+why the next five years are poised to be some of PHP's best.
 DESC
         ],
         'async-php-with-react' => [
@@ -928,7 +960,12 @@ DESC
             'tags' => ['code-quality'],
             'type' => 'workshop',
             'description' => <<<DESC
-More details coming soon.
+No matter what level of development we are at in our careers we all face a daily battle to write good code for ourselves
+ and others, deliver finished applications fast to satisfy business, and ensure everything is properly tested to prevent
+ end-user fails. In this session we will discuss what clean application development is, and how it can help us win those
+ battles. The talk will provide practical and usable examples to take with you, integrate into your workflow, and
+ continue to grow into good habits. (Topics: Version control, refactoring, coding standards, frameworks, architecture,
+ automation, time management, and more.)
 DESC
         ],
         'code-review-for-security' => [
@@ -938,7 +975,43 @@ DESC
             'tags' => ['security'],
             'type' => 'workshop',
             'description' => <<<DESC
-More details coming soon.
+Imagine the day where you get an email from your CEO: “Our site has
+been hacked! Millions of user records have been leaked! And we’re
+being sued!”… Unfortunately, that situation appears to be quite common
+place in the modern world. In the past year alone LinkedIn, Sony,
+Zappos, Twitter, Apple, Yahoo and LastFM (and a lot more) have
+compromised, leaking over 100 million user records. How has this
+become common place? Developers traditionally haven’t focused on
+security (that’s someone else’s problem, right?)… Wrong! Security is
+everyone’s job!
+
+Come and learn more about how to identify and fix security issues! In
+this workshop, we’ll cover the most dangerous and prevalent security
+vulnerabilities in PHP applications today. We’ll look at how those
+vulnerabilities work under the hood, and how to prevent them. Then,
+we’ll spend time reviewing actual code with actual vulnerabilities.
+Once we’ve identified a potential vulnerability, you will actually
+execute an attack against it! By the end of the workshop, you should
+be able to identify insecure code and fix it!
+
+Who is the target audience of this workshop?
+<ul>
+<li>Any developer who has preformed code-review before</li>
+<li>Any developer who wants to understand security better</li>
+</ul>
+
+How experienced do I need to be?
+<ul>
+<li>If you understand how to read code, you have enough experience to attend this workshop!</li>
+</ul>
+
+Tutorial requirements:
+<ul>
+<li>A laptop</li>
+</ul>
+
+A cursory understanding of the <a href="https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project">OWASP Top 10</a>
+will be very helpful.
 DESC
         ],
         'php-embark' => [

@@ -476,10 +476,11 @@ BIO
 	'talks' => [
         'wax-on-wax-off-code-kata-dojo' => [
             'title' => 'Wax On, Wax Off: Code Kata Dojo',
+            'reviewId' => '14998',
             'code' => 'wax-on-wax-off-code-kata-dojo',
             'tags' => ['kata', 'dojo'],
             'speaker' => 'yitzchok-willroth',
-            'type' => 'session',
+            'type' => 'workshop',
             'description' => <<<DESC
 As software developers we tend to practice our craft in the way of doctors and lawyers rather than the way of athletes
 and musicians, failing to recognize the impact the trade offs and half measures dictated by many projects have on our

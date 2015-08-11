@@ -1,8 +1,5 @@
 @extends('layout')
 
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
-<script src="//joind.in/widget/widget.php"></script>
-
 @section('content')
     <div class="head-banner head-banner-sm">
         <div class="bg"></div>
@@ -61,13 +58,6 @@
                                     </p>
                                 @endif
                                 <p>{!! str_replace("\n\n", "<p/><p>", $talk->description) !!}</p>
-                                @if($talk->reviewId !== '')
-                                    <p>
-                                        <script type="application/javascript">
-                                            joindin.draw({{ $talk->reviewId }});
-                                        </script>
-                                    </p>
-                                @endif
                             </div>
                         </div>
                     </div>

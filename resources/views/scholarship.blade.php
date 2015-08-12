@@ -47,7 +47,7 @@
                     <a class="btn btn-default btn-info" href="#">
                         <i class="fa fa-money"></i> Donate
                     </a>
-                    <a class="btn btn-default btn-success" href="#">
+                    <a class="btn btn-default btn-success" href="http://goo.gl/forms/KahYv83fcL" target="_blank">
                         <i class="fa fa-info"></i> Fill Out Application Form
                     </a>
                 </div>

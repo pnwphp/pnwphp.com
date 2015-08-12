@@ -493,6 +493,7 @@ DESC
 		'anatomy-of-a-type-system' => [
 			'title' => 'Anatomy Of A Type System',
 			'code' => 'anatomy-of-a-type-system',
+            'reviewId' => '14934',
 			'tags' => ['types', 'php7', 'theory'],
 			'speaker' => 'anthony-ferrara',
 			'type' => 'session',
@@ -507,6 +508,7 @@ DESC
 		'down-the-rabbit-hole' => [
 			'title' => 'Down the Rabbit Hole: Combining Career & Community',
 			'code' => 'down-the-rabbit-hole',
+            'reviewId' => '14943',
 			'tags' => ['community', 'career-growth'],
 			'speaker' => 'cal-evans',
 			'type' => 'keynote',
@@ -523,6 +525,7 @@ DESC
 		'stronger-than-fear' => [
 			'title' => 'Stronger Than Fear: Mental Health in the Developer Community',
 			'code' => 'stronger-than-fear',
+            'reviewId' => '14924',
 			'tags' => ['mental-health'],
 			'speaker' => 'ed-finkler',
 			'type' => 'keynote',
@@ -536,6 +539,7 @@ DESC
 		'cloud-is-the-new-normal' => [
 			'title' => 'Cloud is the New Normal',
 			'code' => 'cloud-is-the-new-normal',
+            'reviewId' => '14917',
 			'tags' => ['cloud', 'aws', 'architecture'],
 			'speaker' => 'jeff-barr',
 			'type' => 'keynote',
@@ -545,6 +549,7 @@ DESC
 		],
         'battled-hardened-laravel-lessons-in-scale' => [
             'code' => 'battled-hardened-laravel-lessons-in-scale',
+            'reviewId' => '14920',
             'title' => 'Battled-hardened Laravel: Lessons in Scale',
             'tags' => ['laravel', 'scaling', 'aws', 'cloud', 'framework'],
             'speaker' => 'benji-schwartz-gilbert',
@@ -557,6 +562,7 @@ DESC
         ],
         'from-dev-to-dev-management' => [
             'code' => 'from-dev-to-dev-management',
+            'reviewId' => '14916',
             'title' => 'From Dev to Dev Management',
             'tags' => ['leadership', 'management', 'career-growth'],
             'speaker' => 'robert-purcell',
@@ -569,6 +575,7 @@ DESC
         ],
         'symfony-create-mmorpg' => [
             'code' => 'symfony-create-mmorpg',
+            'reviewId' => '14930',
             'title' => 'How I Used Symfony to Create an MMORPG',
             'tags' => ['symfony', 'twig', 'doctrine', 'framework'],
             'speaker' => 'margaret-staples',
@@ -582,6 +589,7 @@ DESC
         ],
         'eating-elephpants' => [
             'code' => 'eating-elephpants',
+            'reviewId' => '14925',
             'title' => 'Eating ElePHPants',
             'tags' => ['drupal', 'modernize', 'composer'],
             'speaker' => 'larry-garfield',
@@ -601,6 +609,7 @@ DESC
         ],
         'never-stop-pushing-strategies-and-tools-for-delivering-continuously' => [
             'code' => 'never-stop-pushing-strategies-and-tools-for-delivering-continuously',
+            'reviewId' => '14941',
             'title' => 'Never Stop Pushing: Strategies and Tools for Delivering Continuously',
             'tags' => ['continuous-delivery', 'continuous-integration', 'testing', 'deployment'],
             'speaker' => 'benji-schwartz-gilbert',
@@ -622,6 +631,7 @@ DESC
         'open-source-love' => [
             'title' => 'Open Source, Love, and Social Responsibility',
             'code' => 'open-source-love',
+            'reviewId' => '14910',
             'tags' => ['open-source', 'community'],
             'speaker' => 'davey-shafik',
             'type' => 'keynote',
@@ -636,6 +646,7 @@ DESC
         'project-triage' => [
             'title' => 'Project Triage: What to Do When It All Hits The Fan',
             'code' => 'project-triage',
+            'reviewId' => '14918',
             'tags' => ['project-management'],
             'speaker' => 'eryn-oneil',
             'type' => 'session',
@@ -653,6 +664,7 @@ DESC
         'sara-golemon-keynote' => [
             'title' => 'Stronger Than Ever: Into the Future, Together',
             'code' => 'sara-golemon-keynote',
+            'reviewId' => '14933',
             'tags' => [],
             'speaker' => 'sara-golemon',
             'type' => 'keynote',
@@ -671,6 +683,7 @@ DESC
         'async-php-with-react' => [
             'title' => 'Async PHP with ReactPHP',
             'code' => 'async-php-with-react',
+            'reviewId' => '14936',
             'tags' => ['async', 'reactphp'],
             'speaker' => 'jeremy-mikola',
             'type' => 'session',
@@ -680,6 +693,7 @@ DESC
         ],
         'from-procedural-to-object-oriented-php-in-drupal' => [
             'code' => 'from-procedural-to-object-oriented-php-in-drupal',
+            'reviewId' => '14915',
             'title' => 'From Procedural to Object-Oriented PHP in Drupal',
             'speaker' => 'amber-matz',
             'tags' => ['drupal', 'oop'],
@@ -697,6 +711,7 @@ Who will benefit from this presentation?
         ],
         'building-your-api-utility-belt' => [
             'code' => 'building-your-api-utility-belt',
+            'reviewId' => '14938',
             'title' => 'Building your API Utility Belt',
             'speaker' => 'keith-casey',
             'tags' => ['api', 'testing', 'debugging', 'tools'],
@@ -705,6 +720,7 @@ Who will benefit from this presentation?
         ],
         'magento-2-modernizing-an-open-source-ecommerce-powerhouse' => [
             'code' => 'magento-2-modernizing-an-open-source-ecommerce-powerhouse',
+            'reviewId' => '14993',
             'title' => 'Magento 2 > 1: Modernizing an Open Source eCommerce Powerhouse',
             'speaker' => 'ben-marks',
             'tags' => ['magento', 'ecommerce', 'framework'],
@@ -713,6 +729,7 @@ Who will benefit from this presentation?
         ],
         'monolith-to-microservices-lessons-from-the-trenches' => [
             'code' => 'monolith-to-microservices-lessons-from-the-trenches',
+            'reviewId' => '14932',
             'title' => 'Monolith to Microservices: Lessons from the Trenches',
             'speaker' => 'luke-kysow',
             'tags' => ['microservices', 'soa', 'scaling', 'architecture'],
@@ -723,6 +740,7 @@ In this talk I\'ll define what exactly a microservices architecture looks like, 
         ],
         'massively-scaling-wordpress-in-the-cloud-a-case-study' => [
             'code' => 'massively-scaling-wordpress-in-the-cloud-a-case-study',
+            'reviewId' => '14914',
             'title' => 'Massively Scaling WordPress in the Cloud - A Case Study',
             'speaker' => 'ben-lobaugh',
             'tags' => ['scaling', 'cloud', 'azure', 'wordpress', 'architecture'],
@@ -731,6 +749,7 @@ In this talk I\'ll define what exactly a microservices architecture looks like, 
         ],
         'navigating-your-git-repository' => [
             'code' => 'navigating-your-git-repository',
+            'reviewId' => '14939',
             'title' => 'Navigating Your Git Repository',
             'speaker' => 'gemma-anible',
             'tags' => ['git', 'tools', 'graphs'],
@@ -741,6 +760,7 @@ In this talk, we’ll get inside individual commits and learn to push them aroun
         ],
         'phpspec-behat-two-testing-tools-that-write-code-for-you' => [
             'code' => 'phpspec-behat-two-testing-tools-that-write-code-for-you',
+            'reviewId' => '14919',
             'title' => 'PHPSpec & Behat: Two Testing Tools That Write Code For You',
             'speaker' => 'joshua-warren',
             'tags' => ['behat', 'phpspec', 'tdd', 'bdd', 'testing'],
@@ -749,6 +769,7 @@ In this talk, we’ll get inside individual commits and learn to push them aroun
         ],
         'integrating-joomla-with-the-php-community' => [
             'code' => 'integrating-joomla-with-the-php-community',
+            'reviewId' => '14928',
             'title' => 'Integrating Joomla! with the PHP Community',
             'speaker' => 'michael-babker',
             'tags' => ['framework', 'joomla', 'modernize'],
@@ -761,6 +782,7 @@ We’ll take a look at how lowering the barriers to using and developing with Jo
         ],
         'an-introduction-to-containers-and-docker-for-php-developers' => [
             'code' => 'an-introduction-to-containers-and-docker-for-php-developers',
+            'reviewId' => '14931',
             'title' => 'An Introduction to Containers and Docker for PHP Developers',
             'speaker' => 'robert-mcfrazier',
             'tags' => ['docker', 'containers', 'vagrant', 'virtual-machines'],
@@ -769,6 +791,7 @@ We’ll take a look at how lowering the barriers to using and developing with Jo
         ],
         'talmudic-maxims-to-maximize-your-growth-as-a-software-developer' => [
             'code' => 'talmudic-maxims-to-maximize-your-growth-as-a-software-developer',
+            'reviewId' => '14994',
             'title' => 'Talmudic Maxims to Maximize Your Growth as a Software Developer',
             'speaker' => 'yitzchok-willroth',
             'tags' => ['career-growth', 'community', 'craftsmanship', 'leadership'],
@@ -777,6 +800,7 @@ We’ll take a look at how lowering the barriers to using and developing with Jo
         ],
         'building-extraordinary-packages' => [
             'code' => 'building-extraordinary-packages',
+            'reviewId' => '14935',
             'title' => 'Building Extraordinary Packages',
             'speaker' => 'phil-sturgeon',
             'tags' => ['composer', 'oop', 'packages', 'psr'],
@@ -789,6 +813,7 @@ The League of Extraordinary Packages is a group of developers who have banded to
         ],
         'why-are-databases-so-difficult' => [
             'code' => 'why-are-databases-so-difficult',
+            'reviewId' => '14913',
             'title' => 'Why are Databases so &#%-ing Difficult!?',
             'speaker' => 'dave-stokes',
             'tags' => ['sql', 'mysql', 'theory', 'database', 'rdms'],
@@ -797,6 +822,7 @@ The League of Extraordinary Packages is a group of developers who have banded to
         ],
         'foundations-of-zend-framework-2' => [
             'code' => 'foundations-of-zend-framework-2',
+            'reviewId' => '14923',
             'title' => 'Foundations of Zend Framework 2',
             'speaker' => 'adam-culp',
             'tags' => ['zend-framework', 'framework'],
@@ -805,6 +831,7 @@ The League of Extraordinary Packages is a group of developers who have banded to
         ],
         'refactoring-101' => [
             'code' => 'refactoring-101',
+            'reviewId' => '14927',
             'title' => 'Refactoring 101',
             'speaker' => 'adam-culp',
             'tags' => ['refactoring', 'code-quality'],
@@ -813,6 +840,7 @@ The League of Extraordinary Packages is a group of developers who have banded to
         ],
         'smelly-tests' => [
             'code' => 'smelly-tests',
+            'reviewId' => '14937',
             'title' => 'Smelly Tests',
             'speaker' => 'chris-hartjes',
             'tags' => ['testing', 'modernize'],
@@ -822,6 +850,7 @@ In this talk testing evangelist Chris Hartjes talks about his own experiences in
         ],
         'composer-stability-and-semantic-versioning-demystified' => [
             'code' => 'composer-stability-and-semantic-versioning-demystified',
+            'reviewId' => '14922',
             'title' => 'Composer: Stability and Semantic Versioning Demystified',
             'speaker' => 'beau-simensen',
             'tags' => ['semver', 'composer', 'dependency-management'],
@@ -830,6 +859,7 @@ In this talk testing evangelist Chris Hartjes talks about his own experiences in
         ],
         'hello-psr-7' => [
             'code' => 'hello-psr-7',
+            'reviewId' => '14942',
             'title' => 'Hello, PSR-7',
             'speaker' => 'beau-simensen',
             'tags' => ['psr', 'http'],
@@ -838,6 +868,7 @@ In this talk testing evangelist Chris Hartjes talks about his own experiences in
         ],
         'inside-laravel-5.1' => [
             'code' => 'inside-laravel-5.1',
+            'reviewId' => '14912',
             'title' => 'Inside Laravel 5.1',
             'speaker' => 'yitzchok-willroth',
             'tags' => ['framework', 'laravel'],
@@ -846,6 +877,7 @@ In this talk testing evangelist Chris Hartjes talks about his own experiences in
         ],
         'demystifying-the-rest-api' => [
             'code' => 'demystifying-the-rest-api',
+            'reviewId' => '14995',
             'title' => 'Demystifying the REST API',
             'speaker' => 'samantha-quinones',
             'tags' => ['rest', 'api', 'computer-science', 'architecture'],
@@ -854,6 +886,7 @@ In this talk testing evangelist Chris Hartjes talks about his own experiences in
         ],
         'drinking-from-the-firehose' => [
             'code' => 'drinking-from-the-firehose',
+            'reviewId' => '14940',
             'title' => 'Drinking from the Firehose - Real-time Metrics',
             'speaker' => 'samantha-quinones',
             'tags' => ['big-data', 'metrics', 'queues', 'elasticsearch', 'hadoop', 'aws'],
@@ -864,6 +897,7 @@ Let’s explore the lessons learned by engineers at one of the world’s top web
         ],
         'making-the-world-a-smarter-place-through-iot' => [
             'code' => 'making-the-world-a-smarter-place-through-iot',
+            'reviewId' => '14911',
             'title' => 'Making the World a Smarter Place through IoT',
             'speaker' => 'josh-holmes',
             'tags' => ['iot', 'cloud', 'azure'],
@@ -880,6 +914,7 @@ DESC
         ],
         'nosql-lightning-talks' => [
             'code' => 'nosql-lightning-talks',
+            'reviewId' => '14921',
             'title' => 'NoSQL Showdown - Lightning Talks Edition',
             'speaker' => ['robert-mcfrazier', 'jeremy-mikola', 'dave-stokes'],
             'tags' => ['database', 'nosql', 'mongodb', 'mysql', 'dynamodb', 'cassandra'],
@@ -893,6 +928,7 @@ DESC
         ],
         'git-and-github-for-php-projects' => [
             'code' => 'git-and-github-for-php-projects',
+            'reviewId' => '14906',
             'title' => 'Git and GitHub for PHP Projects',
             'speaker' => 'beau-simensen',
             'tags' => ['database', 'nosql', 'mongodb', 'mysql', 'dynamodb', 'cassandra'],
@@ -907,6 +943,7 @@ DESC
         ],
         'using-the-aws-sdk-for-php' => [
             'code' => 'using-the-aws-sdk-for-php',
+            'reviewId' => '14948',
             'title' => 'Using Version 3 of the AWS SDK for PHP',
             'speaker' => 'jeremy-lindblom',
             'tags' => ['aws', 'psr', 'http', 'guzzle', 'cloud', 'api'],
@@ -921,6 +958,7 @@ DESC
         ],
         'async-requests-and-promises-sdk' => [
             'code' => 'async-requests-and-promises-sdk',
+            'reviewId' => '14949',
             'title' => 'Asynchronous Requests in the AWS SDK for PHP',
             'speaker' => 'michael-dowling',
             'tags' => ['aws', 'async', 'http', 'guzzle', 'cloud', 'reactphp'],
@@ -934,6 +972,7 @@ DESC
         ],
         'php-approach-to-infrastructure' => [
             'code' => 'php-approach-to-infrastructure',
+            'reviewId' => '14947',
             'title' => 'A PHP Approach to Cloud Infrastructure',
             'speaker' => 'joseph-fontes',
             'tags' => ['aws', 'cloud', 'architecture', 'automation'],
@@ -946,6 +985,7 @@ DESC
         ],
         'speaking-for-speakers' => [
             'code' => 'speaking-for-speakers',
+            'reviewId' => '14929',
             'title' => 'Speaking for Speakers',
             'speaker' => 'josh-holmes',
             'tags' => ['speaking'],
@@ -956,6 +996,7 @@ DESC
         ],
         'clean-application-development' => [
             'code' => 'clean-application-development',
+            'reviewId' => '14905',
             'title' => 'Clean Application Development',
             'speaker' => 'adam-culp',
             'tags' => ['code-quality'],
@@ -971,6 +1012,7 @@ DESC
         ],
         'code-review-for-security' => [
             'code' => 'code-review-for-security',
+            'reviewId' => '14908',
             'title' => 'Code Review for Security',
             'speaker' => 'anthony-ferrara',
             'tags' => ['security'],
@@ -1015,18 +1057,9 @@ A cursory understanding of the <a href="https://www.owasp.org/index.php/Category
 will be very helpful.
 DESC
         ],
-        'php-embark' => [
-            'code' => 'php-embark',
-            'title' => 'PHP Embark',
-            'speaker' => 'davey-shafik',
-            'tags' => ['php', 'mysql'],
-            'type' => 'workshop',
-            'description' => <<<DESC
-More details coming soon.
-DESC
-        ],
         'running-php-on-aws' => [
             'code' => 'running-php-on-aws',
+            'reviewId' => '14950',
             'title' => 'Running PHP on AWS',
             'speaker' => 'jonathan-weiss',
             'tags' => ['aws', 'cloud', 'continuous-deployment', 'continuous-integration', 'deployment', 'docker', 'chef'],
@@ -1146,7 +1179,7 @@ DESC
 			'level' => 'gold',
 			'rank' => 1082,
 			'label' => 'Party',
-			'description' => 'Party Sponsor',
+			'description' => 'Evening Social Sponsor',
 			'url' => 'http://www.mandrill.com/',
 			'logo' => 'img/logos/mandrill.jpg',
 			'about' => <<<DESC
@@ -1159,7 +1192,7 @@ DESC
 			'level' => 'silver',
 			'rank' => 1079,
 			'label' => 'Silver',
-			'description' => 'Silver-level Sponsor',
+			'description' => 'Silver-level &amp; Scholarship Sponsor',
 			'url' => 'http://www.ispot.tv/',
 			'logo' => 'img/logos/ispottv.jpg',
 			'about' => <<<DESC
@@ -1198,7 +1231,7 @@ DESC
             'level' => 'silver',
             'rank' => 1070,
             'label' => 'Lunch',
-            'description' => 'Lunch Sponsor',
+            'description' => 'Lunch &amp; Meetup Sponsor',
             'url' => 'http://www.tune.com',
             'logo' => 'img/logos/tune.jpg',
             'about' => <<<DESC
@@ -1209,7 +1242,7 @@ DESC
             'name' => 'Engine Yard',
             'code' => 'engineyard',
             'level' => 'silver',
-            'rank' => 1067,
+            'rank' => 1057,
             'label' => 'Video',
             'description' => 'Video Sponsor',
             'url' => 'http://www.engineyard.com',
@@ -1224,7 +1257,7 @@ DESC
             'level' => 'bronze',
             'rank' => 1064,
             'label' => 'Bronze',
-            'description' => 'Bronze-level Sponsor',
+            'description' => 'Bronze-level &amp; Scholarship Sponsor',
             'url' => 'http://www.gosolid.net/',
             'logo' => 'img/logos/gosolid.jpg',
             'about' => <<<DESC
@@ -1240,7 +1273,7 @@ DESC
             'level' => 'bronze',
             'rank' => 1061,
             'label' => 'Bronze',
-            'description' => 'Bronze-level Sponsor',
+            'description' => 'Bronze-level &amp; Kickstarter Sponsor',
             'url' => 'http://www.creatuity.com',
             'logo' => 'img/logos/creatuity.jpg',
             'about' => <<<DESC
@@ -1266,7 +1299,7 @@ DESC
             'level' => 'bronze',
             'rank' => 1055,
             'label' => 'Bronze',
-            'description' => 'Bronze-level Sponsor',
+            'description' => 'Bronze-level Sponsor &amp; Kickstarter Sponsor',
             'url' => 'http://www.in2it.be',
             'logo' => 'img/logos/in2it.jpg',
             'about' => <<<DESC
@@ -1327,9 +1360,9 @@ DESC
             'name' => 'Clarify',
             'code' => 'clarify',
             'level' => 'bronze',
-            'rank' => 1043,
+            'rank' => 1063,
             'label' => 'Bronze',
-            'description' => 'Bronze-level Sponsor',
+            'description' => 'Bronze-level &amp; Hackathon Pizza/Prize Sponsor',
             'url' => 'http://clarify.io/',
             'logo' => 'img/logos/clarify.jpg',
             'about' => <<<DESC
@@ -1392,6 +1425,32 @@ DESC
             'logo' => 'img/logos/osmi.jpg',
             'about' => <<<DESC
 Open Sourcing Mental Illness is a speaking campaign by Ed Finkler to change how we deal with mental health in the tech community.
+DESC
+        ],
+        'efelle-creative' => [
+            'name' => 'efelle creative',
+            'code' => 'efelle-creative',
+            'level' => 'bronze',
+            'rank' => 1047,
+            'label' => 'Bronze',
+            'description' => 'Bronze-level Sponsor',
+            'url' => 'hhtp://www.seattlewebdesign.com',
+            'logo' => 'img/logos/efelle-creative.jpg',
+            'about' => <<<DESC
+Coming soon.
+DESC
+        ],
+        'php-architect' => [
+            'name' => 'php[architect]',
+            'code' => 'php-architect',
+            'level' => 'bronze',
+            'rank' => 1044,
+            'label' => 'Bronze',
+            'description' => 'Bronze-level Sponsor',
+            'url' => 'http://www.phparch.com/',
+            'logo' => 'img/logos/php-architect.png',
+            'about' => <<<DESC
+Coming soon.
 DESC
         ],
         'joule' => [

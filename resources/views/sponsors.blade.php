@@ -31,7 +31,7 @@
                                 <div class="col-md-8">
                                     <h3 style="margin-top:0;">
                                         <a name="{{ $sponsor->code }}" href="#{{ $sponsor->code }}">{{ $sponsor->name }}</a>
-                                        <small> ({{ $sponsor->label }})</small>
+                                        <br><small>{{ $sponsor->description }}</small>
                                     </h3>
                                     <p>{!! str_replace("\n\n", "</p><p>", $sponsor->about) !!}</p>
                                 </div>

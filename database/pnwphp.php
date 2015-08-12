@@ -664,7 +664,7 @@ DESC
         'sara-golemon-keynote' => [
             'title' => 'Stronger Than Ever: Into the Future, Together',
             'code' => 'sara-golemon-keynote',
-            'reviewId' => '',
+            'reviewId' => '14933',
             'tags' => [],
             'speaker' => 'sara-golemon',
             'type' => 'keynote',
@@ -1057,17 +1057,6 @@ A cursory understanding of the <a href="https://www.owasp.org/index.php/Category
 will be very helpful.
 DESC
         ],
-        'php-embark' => [
-            'code' => 'php-embark',
-            'reviewId' => '14909',
-            'title' => 'PHP Embark',
-            'speaker' => 'davey-shafik',
-            'tags' => ['php', 'mysql'],
-            'type' => 'workshop',
-            'description' => <<<DESC
-More details coming soon.
-DESC
-        ],
         'running-php-on-aws' => [
             'code' => 'running-php-on-aws',
             'reviewId' => '14950',
@@ -1190,7 +1179,7 @@ DESC
 			'level' => 'gold',
 			'rank' => 1082,
 			'label' => 'Party',
-			'description' => 'Party Sponsor',
+			'description' => 'Evening Social Sponsor',
 			'url' => 'http://www.mandrill.com/',
 			'logo' => 'img/logos/mandrill.jpg',
 			'about' => <<<DESC
@@ -1203,7 +1192,7 @@ DESC
 			'level' => 'silver',
 			'rank' => 1079,
 			'label' => 'Silver',
-			'description' => 'Silver-level Sponsor',
+			'description' => 'Silver-level &amp; Scholarship Sponsor',
 			'url' => 'http://www.ispot.tv/',
 			'logo' => 'img/logos/ispottv.jpg',
 			'about' => <<<DESC
@@ -1242,7 +1231,7 @@ DESC
             'level' => 'silver',
             'rank' => 1070,
             'label' => 'Lunch',
-            'description' => 'Lunch Sponsor',
+            'description' => 'Lunch &amp; Meetup Sponsor',
             'url' => 'http://www.tune.com',
             'logo' => 'img/logos/tune.jpg',
             'about' => <<<DESC
@@ -1253,7 +1242,7 @@ DESC
             'name' => 'Engine Yard',
             'code' => 'engineyard',
             'level' => 'silver',
-            'rank' => 1067,
+            'rank' => 1057,
             'label' => 'Video',
             'description' => 'Video Sponsor',
             'url' => 'http://www.engineyard.com',
@@ -1268,7 +1257,7 @@ DESC
             'level' => 'bronze',
             'rank' => 1064,
             'label' => 'Bronze',
-            'description' => 'Bronze-level Sponsor',
+            'description' => 'Bronze-level &amp; Scholarship Sponsor',
             'url' => 'http://www.gosolid.net/',
             'logo' => 'img/logos/gosolid.jpg',
             'about' => <<<DESC
@@ -1284,7 +1273,7 @@ DESC
             'level' => 'bronze',
             'rank' => 1061,
             'label' => 'Bronze',
-            'description' => 'Bronze-level Sponsor',
+            'description' => 'Bronze-level &amp; Kickstarter Sponsor',
             'url' => 'http://www.creatuity.com',
             'logo' => 'img/logos/creatuity.jpg',
             'about' => <<<DESC
@@ -1310,7 +1299,7 @@ DESC
             'level' => 'bronze',
             'rank' => 1055,
             'label' => 'Bronze',
-            'description' => 'Bronze-level Sponsor',
+            'description' => 'Bronze-level Sponsor &amp; Kickstarter Sponsor',
             'url' => 'http://www.in2it.be',
             'logo' => 'img/logos/in2it.jpg',
             'about' => <<<DESC
@@ -1371,9 +1360,9 @@ DESC
             'name' => 'Clarify',
             'code' => 'clarify',
             'level' => 'bronze',
-            'rank' => 1043,
+            'rank' => 1063,
             'label' => 'Bronze',
-            'description' => 'Bronze-level Sponsor',
+            'description' => 'Bronze-level &amp; Hackathon Pizza/Prize Sponsor',
             'url' => 'http://clarify.io/',
             'logo' => 'img/logos/clarify.jpg',
             'about' => <<<DESC
@@ -1436,6 +1425,32 @@ DESC
             'logo' => 'img/logos/osmi.jpg',
             'about' => <<<DESC
 Open Sourcing Mental Illness is a speaking campaign by Ed Finkler to change how we deal with mental health in the tech community.
+DESC
+        ],
+        'efelle-creative' => [
+            'name' => 'efelle creative',
+            'code' => 'efelle-creative',
+            'level' => 'bronze',
+            'rank' => 1047,
+            'label' => 'Bronze',
+            'description' => 'Bronze-level Sponsor',
+            'url' => 'hhtp://www.seattlewebdesign.com',
+            'logo' => 'img/logos/efelle-creative.jpg',
+            'about' => <<<DESC
+Coming soon.
+DESC
+        ],
+        'php-architect' => [
+            'name' => 'php[architect]',
+            'code' => 'php-architect',
+            'level' => 'bronze',
+            'rank' => 1044,
+            'label' => 'Bronze',
+            'description' => 'Bronze-level Sponsor',
+            'url' => 'http://www.phparch.com/',
+            'logo' => 'img/logos/php-architect.png',
+            'about' => <<<DESC
+Coming soon.
 DESC
         ],
         'joule' => [

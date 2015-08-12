@@ -82,7 +82,6 @@
                         <td>
                             <ul class="list-unstyled text-center">
                                 <li><a href="./events#pnwphp-workshops">Workshops</a></li>
-                                <li><a href="./events#php-embark">PHP Embark</a></li>
                                 <li><a href="./events-hackathon">AWS Hackathon</a></li>
                             </ul>
                         </td>
@@ -130,7 +129,7 @@
                         <h4 class="text-center">FOR STUDENTS</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$99</strong><br><small><em>Price goes up to $149 after 8/16</em></small></p>
+                        <p class="lead"><strong>$99</strong><br><small><em>Price goes up to $149 after 8/31</em></small></p>
                         <p>Available to full and part time students; student ID required at the event.</p>
                     </div>
                     <div class="panel-footer">
@@ -144,7 +143,7 @@
                         <h4 class="text-center">FOR INDIVIDUALS</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$199</strong><br><small><em>Price goes up to $249 after 8/16</em></small></p>
+                        <p class="lead"><strong>$199</strong><br><small><em>Price goes up to $249 after 8/31</em></small></p>
                         <p>Available to attendees who are paying for their own tickets.</p>
                     </div>
                     <div class="panel-footer">

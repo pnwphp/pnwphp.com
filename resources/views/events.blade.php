@@ -77,18 +77,6 @@
                     <a href="./schedule#thursday">workshops schedule</a>.
                 </div>
 
-                <h2 id="php-embark">
-                    <a href="./events#php-embark">PHP Embark</a> <small>(9:00am&ndash;5:00pm)</small>
-                    <a class="btn btn-default btn-info pull-right" href="https://pnwphp2015.busyconf.com/bookings/new">
-                        <i class="fa fa-link"></i> Register Now
-                    </a>
-                </h2>
-                <div class="lead">
-                    If you are new to PHP or programming, then you should sign up for PHP Embark, a day-long workshop
-                    designed to help you hit the ground running with web development in PHP. Tickets for PHP Embark are
-                    sold separately for ONLY $49.
-                </div>
-
                 <h2 id="aws-hackathon">
                     <a href="./events-hackathon">AWS Workshop/Hackathon</a> <small>(9:00am&ndash;11:00pm)</small>
                     <a class="btn btn-default btn-info pull-right" href="https://pnwphp2015.busyconf.com/bookings/new">

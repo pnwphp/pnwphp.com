@@ -294,7 +294,7 @@ BIO
             'twitter' => 'lkysow',
             'avatar' => 'http://pnwphp2015.busyconf.com/speakers/55173d5389bee61bf600001a/avatar_square',
             'company' => null,
-            'bio' => 'Luke is a Software Engineer on the Platform Team at Hootsuite in Vancouver. He\'s currently working on splitting Hootsuite\'s PHP monolith into a distributed microsystems architecture so they can scale even further. When he\'s not at his laptop you can probably find Luke hanging off a cliff rock climbing somewhere.',
+            'bio' => 'Luke is a Software Engineer on the Platform Team at <a href="https://hootsuite.com/">Hootsuite</a> in Vancouver and co-organizer of Vancouver’s <a href="http://www.meetup.com/Vancouver-PHP/">PHP Meetup</a>. He\'s working on splitting Hootsuite\'s PHP monolith into distributed microservices so they can scale even further. When he\'s not at his laptop you can probably find Luke climbing up, or falling off, a cliff somewhere.',
         ],
         'ben-marks' => [
             'code' => 'ben-marks',

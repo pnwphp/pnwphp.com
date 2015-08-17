@@ -15,7 +15,7 @@
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <p class="lead text-center">
-                    Pacific Northwest PHP Conference currently has some funds to disburse in scholarship funds to bring locals from the Pacific Northwest.
+                    Pacific Northwest PHP Conference currently has some funds to disburse for scholarships to bring locals from the Pacific Northwest.
                 </p>
             </div>
 
@@ -44,9 +44,9 @@
 
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 scholarship-buttons">
-                    <a class="btn btn-default btn-info" href="#">
-                        <i class="fa fa-money"></i> Donate
-                    </a>
+                    {{--<a class="btn btn-default btn-info" href="#">--}}
+                        {{--<i class="fa fa-money"></i> Donate--}}
+                    {{--</a>--}}
                     <a class="btn btn-default btn-success" href="http://goo.gl/forms/KahYv83fcL" target="_blank">
                         <i class="fa fa-info"></i> Fill Out Application Form
                     </a>

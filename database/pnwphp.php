@@ -294,7 +294,7 @@ BIO
             'twitter' => 'lkysow',
             'avatar' => 'http://pnwphp2015.busyconf.com/speakers/55173d5389bee61bf600001a/avatar_square',
             'company' => null,
-            'bio' => 'Luke is a Software Engineer on the Platform Team at Hootsuite in Vancouver. He\'s currently working on splitting Hootsuite\'s PHP monolith into a distributed microsystems architecture so they can scale even further. When he\'s not at his laptop you can probably find Luke hanging off a cliff rock climbing somewhere.',
+            'bio' => 'Luke is a Software Engineer on the Platform Team at <a href="https://hootsuite.com/">Hootsuite</a> in Vancouver and co-organizer of Vancouver’s <a href="http://www.meetup.com/Vancouver-PHP/">PHP Meetup</a>. He\'s working on splitting Hootsuite\'s PHP monolith into distributed microservices so they can scale even further. When he\'s not at his laptop you can probably find Luke climbing up, or falling off, a cliff somewhere.',
         ],
         'ben-marks' => [
             'code' => 'ben-marks',
@@ -544,7 +544,19 @@ DESC
 			'speaker' => 'jeff-barr',
 			'type' => 'keynote',
 			'description' => <<<DESC
-TBA
+Every PHP developer needs to know about cloud computing! With roots in simple yet powerful foundational services for
+compute and storage, the cloud has grown to become one of the most dynamic and interesting technologies of our day.
+Traditionally, infrastructure was that noisy, boring stuff in the dark room that someone else took care of for you.
+With the cloud, infrastructure is front and center, and much easier to use. With a couple of clicks (or API calls) you
+can spin up the resources you need, configure them in minutes, and use them to build, run, and scale your application.
+
+This talk is designed to give you a whirlwind tour of the cloud that is simultaneously big-picture and detailed. We'll
+make four scenic steps (all backed by demos and sample code) along the way. First, we'll look at the cloud at a better
+host for your existing PHP apps, spinning up an EC2 server and getting a database-powered app running. Then we'll make
+it a bit more sophisticated, with some automated scaling, load balancing, and a more sophisticated database solution.
+From there we will look a higher-level tools like Elastic Beanstalk and CloudFormation that will add structure and
+automation to your development, testing, and hosting discipline. Finally, we'll hang out with the native cloud APIs,
+and look at how to create applications that make use of specific cloud services such as DynamoDB.
 DESC
 		],
         'battled-hardened-laravel-lessons-in-scale' => [

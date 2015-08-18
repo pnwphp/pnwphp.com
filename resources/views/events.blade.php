@@ -50,7 +50,7 @@
                     </a>
                 </h2>
                 <div class="lead">
-                    After the SeaPHP Meetup, we will walk down the street to <a href=http://belltownpub.com/">Belltown
+                    After the SeaPHP Meetup, we will walk down the street to <a href="http://belltownpub.com/">Belltown
                     Pub</a> and hang out in their private mezzanine area for our
                     <a href="http://www.meetup.com/seaphp/events/224275198/">Post-Meetup Drinkup</a>.
                 </div>
@@ -75,18 +75,6 @@
                     On the day before the main conference event, we will be hosting a set of workshops to cover
                     some topics in depth. Tickets for the workshop day are sold separately for ONLY $49. Check out the
                     <a href="./schedule#thursday">workshops schedule</a>.
-                </div>
-
-                <h2 id="php-embark">
-                    <a href="./events#php-embark">PHP Embark</a> <small>(9:00am&ndash;5:00pm)</small>
-                    <a class="btn btn-default btn-info pull-right" href="https://pnwphp2015.busyconf.com/bookings/new">
-                        <i class="fa fa-link"></i> Register Now
-                    </a>
-                </h2>
-                <div class="lead">
-                    If you are new to PHP or programming, then you should sign up for PHP Embark, a day-long workshop
-                    designed to help you hit the ground running with web development in PHP. Tickets for PHP Embark are
-                    sold separately for ONLY $49.
                 </div>
 
                 <h2 id="aws-hackathon">

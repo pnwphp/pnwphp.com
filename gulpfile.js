@@ -19,11 +19,24 @@ var rename = require('gulp-rename');
 var minifycss = require('gulp-minify-css');
 var size = require('gulp-size');
 var bytediff = require('gulp-bytediff');
+var imagemin = require('gulp-imagemin');
+var pngquant = require('imagemin-pngquant');
+var jpegtran = require('imagemin-jpegtran');
 
 // Copy the icon fonts to dist folder
 gulp.task('copy_fonts', function () {
   gulp.src('frontend/fonts/**')
     .pipe(gulp.dest('public/fonts/bootstrap'));
+});
+
+gulp.task('optimize_images', function () {
+    return gulp.src('frontend/img/*')
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [{removeViewBox: false}],
+            use: [pngquant(), jpegtran()]
+        }))
+        .pipe(gulp.dest('public/img'));
 });
 
 // Define Lint Task for JS
@@ -127,5 +140,5 @@ gulp.task('watch', function () {
 });
 
 // Define a default task
-gulp.task('default', ['copy_fonts', 'sass', 'scripts','watch']);
+gulp.task('default', ['copy_fonts', 'optimize_images', 'sass', 'scripts','watch']);
 //gulp.task('default', ['copy_fonts', 'sass', 'lint', 'scripts', 'build-ace', 'bro','scripts-admin','watch']);

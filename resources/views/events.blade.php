@@ -50,7 +50,7 @@
                     </a>
                 </h2>
                 <div class="lead">
-                    After the SeaPHP Meetup, we will walk down the street to <a href=http://belltownpub.com/">Belltown
+                    After the SeaPHP Meetup, we will walk down the street to <a href="http://belltownpub.com/">Belltown
                     Pub</a> and hang out in their private mezzanine area for our
                     <a href="http://www.meetup.com/seaphp/events/224275198/">Post-Meetup Drinkup</a>.
                 </div>

@@ -88,10 +88,6 @@
                         <a href="mailto:ian@seaphp.com">ian@seaphp.com</a>
                     </li>
                     <li>
-                        Ben Edmunds (@benedmunds)<br />
-                        (706) 289-4115 | <a href="mailto:ben@seaphp.com">ben@seaphp.com</a>
-                    </li>
-                    <li>
                         Andrew Woods (@awoods)<br />
                         <a href="mailto:andrew@seaphp.com">andrew@seaphp.com</a>
                     </li>

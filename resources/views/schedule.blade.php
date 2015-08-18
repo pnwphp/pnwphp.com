@@ -55,17 +55,14 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-3 schedule-header">
+                    <div class="col-md-4 schedule-header">
                         <strong>1918 8th Ave. (3rd Floor)</strong>
                     </div>
-                    <div class="col-md-3 schedule-header">
+                    <div class="col-md-4 schedule-header">
                         <strong>Learning Studio 1 (3rd Floor)</strong>
                     </div>
-                    <div class="col-md-3 schedule-header">
+                    <div class="col-md-4 schedule-header">
                         <strong>Learning Studio 2 (4th Floor)</strong>
-                    </div>
-                    <div class="col-md-3 schedule-header">
-                        <strong>Globe Room (2nd Floor)</strong>
                     </div>
                 </div>
 
@@ -75,19 +72,16 @@
                     </div>
                 </div>
                 <div class="row schedule-row">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="session">
                             <p><a href="./events-hackathon">AWS Workshop</a><br><small>(Includes 4 presentations)</small></p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         @include('session', ['talk_id' => 'clean-application-development'])
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         @include('session', ['talk_id' => 'git-and-github-for-php-projects'])
-                    </div>
-                    <div class="col-md-3">
-                        @include('session', ['talk_id' => 'php-embark'])
                     </div>
                 </div>
 
@@ -104,19 +98,16 @@
                     </div>
                 </div>
                 <div class="row schedule-row">
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         <div class="session">
                             <p><a href="./events-hackathon">AWS Hackathon</a><br><small>(Lasts until 11:00pm)</small></p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4">
                         @include('session', ['talk_id' => 'code-review-for-security'])
                     </div>
-                    <div class="col-md-3">
-                        @include('session', ['talk_id' => 'tba'])
-                    </div>
-                    <div class="col-md-3">
-                        @include('session', ['talk_id' => 'php-embark'])
+                    <div class="col-md-4">
+                        @include('session', ['talk_id' => 'wax-on-wax-off-code-kata-dojo'])
                     </div>
                 </div>
 

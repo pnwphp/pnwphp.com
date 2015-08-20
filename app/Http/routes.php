@@ -26,6 +26,10 @@ $app->get('hotels-and-transit', function() use ($app) {
     return page('hotels-and-transit');
 });
 
+$app->get('scholarship', function() use ($app) {
+    return page('scholarship');
+});
+
 $app->get('schedule', function() use ($app) {
     return page('schedule');
 });

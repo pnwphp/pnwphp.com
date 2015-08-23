@@ -47,7 +47,10 @@
                 our best to assist you.</p>
 
                 <h3>Unconference</h3>
-                <p>As part of the conference, we will have an Un-Con track. This will allow </p>
+                <p>As part of the conference, we will have an Un-Con track. This will allow
+                people to share their ideas. This is a good opportunity who want to try
+                public speaking. It's also a great way to further discuss ideas that
+                have been raised in previous sessions.</p>
 
                 <h2>Food and Drink</h2>
                 <p>Lunch will be provided on-site. If you have any dietary 

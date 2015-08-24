@@ -16,12 +16,12 @@
     <div class="title">PNWPHP Conference</div>
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-12 ">
                 <div class="alert alert-success">
                     <p class="lead text-center">
                         <strong>New:</strong> Can't make it in person?
-                        <a href="https://pnwphp2015.busyconf.com/bookings/new">register for our live stream</a>
-                        of the event.
+                        <a href="https://pnwphp2015.busyconf.com/bookings/new#ticket_type_54dd586d49a161a49e00000c">
+                        Register as a Virtual Attendee</a> to watch the live stream of the event.
                     </p>
                 </div>
             </div>

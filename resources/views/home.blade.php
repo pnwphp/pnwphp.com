@@ -16,54 +16,33 @@
     <div class="title">PNWPHP Conference</div>
     <div class="container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <p class="lead"><strong>Join us in Seattle for the Pacific Northwest PHP developer conference.</strong></p>
+            <div class="col-md-12 ">
+                <div class="alert alert-success">
+                    <p class="lead text-center">
+                        <strong>New:</strong> Can't make it in person?
+                        <a href="https://pnwphp2015.busyconf.com/bookings/new#ticket_type_54dd586d49a161a49e00000c">
+                        Register as a Virtual Attendee</a> to watch the live stream of the event.
+                    </p>
+                </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-2 col-md-offset-2">
                 <img src="img/pnwphp.png" width="160" />
             </div>
             <div class="col-md-6">
                 <p class="lead">
-                    Our <em>3-day</em> event will be overflowing with awesome sauce as we hear from world-renowned
-                    <a href="./speakers">speakers</a> from the PHP community and companies like Amazon, Facebook,
-                    Microsoft, Oracle, and Zend. With <a href="./tags">topics</a> ranging from continuous
-                    delivery to the cloud, you'll be full to the brim with new knowledge to take home.
+                    The <strong>Pacific Northwest PHP Conference</strong> is a <em>3-day</em> event for PHP developers
+                    living in the Pacific Northwest region. We've invited world-renowned <a href="./speakers">speakers</a>
+                    from the PHP community to teach about <a href="./tags">topics</a> ranging from continuous
+                    integration to the cloud. Join us for the amazing presentations, catered food, musical numbers,
+                    the <a href="./events-hackathon">hackathon</a>, and the live blog.
                 </p>
             </div>
         </div>
         <div class="row">
-            <br>
-            <div class="col-md-4 col-md-offset-2">
-                <a href="http://eepurl.com/9bHLT" target="_blank" class="btn btn-lg btn-info btn-block"><i class="fa fa-envelope"></i>&ensp;Join the
-                    Mailing List</a>
-            </div>
-            <div class="col-md-4">
-                <a href="https://twitter.com/PNWPHP" target="_blank" class="btn btn-lg btn-info btn-block"><i class="fa fa-twitter"></i> Follow @PNWPHP</a>
-            </div>
-        </div>
-        @if ($sponsor = $conference->sponsors->filter(function ($sponsor) {return $sponsor->rank >= 80;})->random(1))
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <br><p class="text-center">The Pacific Northwest PHP conference is sponsored in part by <a href="{{ $sponsor->url }}">{{ $sponsor->name }}</a>.</p>
-            </div>
-        </div>
-        @endif
-        <div class="row">
             <div class="col-md-8 col-md-offset-2">
-                <div class="separator separator-dark">
-                    <p>Events</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <p class="lead">
-                    Join us for all the festivities, including <em><a href="./events#pnwphp-workshops">workshops</a></em>,
-                    the <em><a href="./events-hackathon">hackathon</a></em>, the <em><a href="./events#uncon">uncon</a></em>,
-                    <em>social events</em>, <em>musical numbers</em>, <em>catered food</em>, and more.
-                </p>
                 <table class="table table-bordered text-center">
                     <tr class="bg-info">
                         <th class="text-center">SEP 9TH</th>
@@ -73,13 +52,13 @@
                         <th class="text-center">SEP 13TH</th>
                     </tr>
                     <tr>
-                        <td>
+                        <td rowspan="2">
                             <ul class="list-unstyled text-center">
                                 <li><a href="./events#seaphp-meetup">SeaPHP Meetup</a></li>
                                 <li><a href="./events#pnwphp-workshops">SeaPHP Drinkup</a></li>
                             </ul>
                         </td>
-                        <td>
+                        <td rowspan="2">
                             <ul class="list-unstyled text-center">
                                 <li><a href="./events#pnwphp-workshops">Workshops</a></li>
                                 <li><a href="./events-hackathon">AWS Hackathon</a></li>
@@ -101,11 +80,14 @@
                                 <li><a href="./events#podcast-townhall">PHP Townhall Podcast</a></li>
                             </ul>
                         </td>
-                        <td>
+                        <td rowspan="2">
                             <ul class="list-unstyled text-center">
                                 <li><a href="./events#wurstcon">WurstConSEA</a></li>
                             </ul>
                         </td>
+                    </tr>
+                    <tr class="bg-warning">
+                        <th colspan="2" class="text-center">Live Stream</th>
                     </tr>
                     <tr class="bg-success">
                         <th class="text-center">Free</th>
@@ -116,6 +98,23 @@
                 </table>
             </div>
         </div>
+        <div class="row">
+            <br>
+            <div class="col-md-4 col-md-offset-2">
+                <a href="http://eepurl.com/9bHLT" target="_blank" class="btn btn-lg btn-info btn-block"><i class="fa fa-envelope"></i>&ensp;Join the
+                    Mailing List</a>
+            </div>
+            <div class="col-md-4">
+                <a href="https://twitter.com/PNWPHP" target="_blank" class="btn btn-lg btn-info btn-block"><i class="fa fa-twitter"></i> Follow @PNWPHP</a>
+            </div>
+        </div>
+        @if ($sponsor = $conference->sponsors->filter(function ($sponsor) {return $sponsor->rank >= 80;})->random(1))
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <br><p class="text-center">The Pacific Northwest PHP conference is sponsored in part by <a href="{{ $sponsor->url }}">{{ $sponsor->name }}</a>.</p>
+                </div>
+            </div>
+        @endif
     </div>
 </div>
 

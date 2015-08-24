@@ -1131,7 +1131,10 @@ DESC
 			'url' => 'http://aws.amazon.com/',
 			'logo' => 'img/logos/aws.jpg',
 			'about' => <<<DESC
-Coming soon.
+Built upon the same world-class technology that powers Amazon.com, Amazon Web Services (AWS) provides businesses with a
+secure, reliable, easy-to-scale, low-cost computing platform "in the cloud." Companies of all sizes, from all around
+the globe use AWS to build applications, store data, manage business processes, and more. Learn more:
+http://aws.amazon.com.
 DESC
 		],
         'pluralsight' => [
@@ -1195,7 +1198,10 @@ DESC
 			'url' => 'http://www.mandrill.com/',
 			'logo' => 'img/logos/mandrill.jpg',
 			'about' => <<<DESC
-Coming soon.
+Mandrill is an affordable, scalable, and secure email infrastructure service that's easy to set up and integrate with
+existing apps. It's really fast, too. With servers all over the world, we can deliver your email in milliseconds. Our
+detailed delivery reports, advanced analytics, and friendly interface mean your entire team &mdash; from developers to
+marketers &mdash; can easily monitor and evaluate email performance.
 DESC
 		],
 		'ispottv' => [
@@ -1208,22 +1214,23 @@ DESC
 			'url' => 'http://www.ispot.tv/',
 			'logo' => 'img/logos/ispottv.jpg',
 			'about' => <<<DESC
-Coming soon.
+We are the go-to platform for Brands, Agencies, Networks, Actors and Developers to track in real-time paid TV media and
+related earned digital activity across social, search &amp; video.
 DESC
 		],
-//        'mercutio' => [
-//            'name' => 'Mercutio',
-//            'code' => 'mercutio',
-//            'level' => 'silver',
-//            'rank' => 1076,
-//            'label' => 'T-Shirt',
-//            'description' => 'T-Shirt Sponsor',
-//            'url' => 'http://getmercutio.com',
-//            'logo' => 'img/logos/mercutio.jpg',
-//            'about' => <<<DESC
-//Mercutio is web development firm in Seattle that specializes in strategy, design, and technology for e-Commerce companies.
-//DESC
-//        ],
+        'mercutio' => [
+            'name' => 'Mercutio',
+            'code' => 'mercutio',
+            'level' => 'silver',
+            'rank' => 1076,
+            'label' => 'T-Shirt',
+            'description' => 'T-Shirt Sponsor',
+            'url' => 'http://getmercutio.com',
+            'logo' => 'img/logos/mercutio.jpg',
+            'about' => <<<DESC
+Mercutio is web development firm in Seattle that specializes in strategy, design, and technology for e-Commerce companies.
+DESC
+        ],
         'alegion' => [
             'name' => 'ALegion',
             'code' => 'alegion',
@@ -1234,7 +1241,14 @@ DESC
             'url' => 'http://alegion.com/',
             'logo' => 'img/logos/alegion.jpg',
             'about' => <<<DESC
-Coming soon.
+Enterprises require speed and flexibility, and the Alegion Platform delivers both with our self-service crowdsourcing
+platform. Businesses can choose from a set of templates, or create their own process using the Alegion Workflow
+Designer. Within just minutes, the business can build and submit tasks to the crowd and review the results. Alegion
+allows the customer to determine the per-task price as well as the volume of tasks to be submitted. Using the Task
+Designer, businesses can rapidly test variations of their tasks and review the results for quality. Before Alegion,
+this iterative testing process that would takes weeks or months can be reduced to hours or days.<br> Built into the
+Alegion Platform are quality control measures such as gold standards and worker scoring. These and other techniques
+are used to ensure high quality in the task results.
 DESC
         ],
         'tune' => [
@@ -1247,20 +1261,21 @@ DESC
             'url' => 'http://www.tune.com',
             'logo' => 'img/logos/tune.jpg',
             'about' => <<<DESC
-Coming soon.
+The name TUNE describes what we help marketers do.
 DESC
         ],
         'engineyard' => [
             'name' => 'Engine Yard',
             'code' => 'engineyard',
-            'level' => 'silver',
+            'level' => 'bronze',
             'rank' => 1057,
             'label' => 'Video',
             'description' => 'Video Sponsor',
             'url' => 'http://www.engineyard.com',
             'logo' => 'img/logos/engineyard.jpg',
             'about' => <<<DESC
-Coming soon.
+Engine Yard is the leading cloud application management platform empowering developers and DevOps to provision, manage,
+monitor and control applications in the public and cloud.
 DESC
         ],
         'gosolid' => [
@@ -1289,7 +1304,8 @@ DESC
             'url' => 'http://www.creatuity.com',
             'logo' => 'img/logos/creatuity.jpg',
             'about' => <<<DESC
-Coming soon.
+We're here to help with your eCommerce and Magento needs.
+Call us at 214-810-5005 or email us at contact@creatuity.com
 DESC
         ],
         'digitalocean' => [
@@ -1302,7 +1318,9 @@ DESC
             'url' => 'https://www.digitalocean.com/',
             'logo' => 'img/logos/digitalocean.jpg',
             'about' => <<<DESC
-Coming soon.
+DigitalOcean is the world's fastest growing cloud provider built for developers. Our mission is to simplify web
+infrastructure and delight our customers with a seamless experience. Users can easily deploy a blazing fast cloud
+server in 55 seconds with an intuitive control panel interface and straightforward API.
 DESC
         ],
         'in2it' => [
@@ -1315,7 +1333,10 @@ DESC
             'url' => 'http://www.in2it.be',
             'logo' => 'img/logos/in2it.jpg',
             'about' => <<<DESC
-Coming soon.
+In2it is the leading PHP consulting firm in the Benelux offering services to international enterprises, small to
+mid-sized businesses, governmental institutes, educational and non-profit organisations. We’re market leader in regards
+consulting for PHP and Zend Framework application architectures, quality assurance on PHP projects and we provide
+training courses on-site and online.
 DESC
         ],
         'roberthalf' => [
@@ -1328,7 +1349,9 @@ DESC
             'url' => 'http://www.roberthalf.com/seattle-tacoma',
             'logo' => 'img/logos/roberthalf.jpg',
             'about' => <<<DESC
-Coming soon.
+Backed by more than 65 years of experience in specialized staffing, Robert Half Technology connects the best technology
+talent with the best IT jobs. We provide a full spectrum of IT staffing services worldwide to organizations that require
+on-demand technical expertise. Innovation starts with people, and people start with us.
 DESC
         ],
         'cdkglobal' => [
@@ -1365,7 +1388,9 @@ DESC
             'url' => 'https://roave.com/',
             'logo' => 'img/logos/roave.jpg',
             'about' => <<<DESC
-Coming soon.
+Roave is a full-service web development firm, offering services such as consulting, training, software development, and
+more. Roave employs some of the most recognized and accomplished experts in the industry to ensure that organizations
+have access to the talent they need, when they need it.
 DESC
         ],
         'clarify' => [
@@ -1397,7 +1422,9 @@ DESC
             'url' => 'http://mongodb.com',
             'logo' => 'img/logos/mongodb.jpg',
             'about' => <<<DESC
-Coming soon.
+MongoDB, Inc. is the company behind MongoDB. We build MongoDB and the drivers, and sell software and services to make
+your life easier. We also run MongoDB University and sponsor the community, hosting MongoDB World and MongoDB Days all
+over the globe. With offices across North America, Europe, and Asia, we are close to where you do business.
 DESC
         ],
         'magento' => [
@@ -1410,7 +1437,8 @@ DESC
             'url' => 'http://magento.com/',
             'logo' => 'img/logos/magento.jpg',
             'about' => <<<DESC
-Coming soon.
+More than 240,000 merchants worldwide put their trust in our eCommerce software. Magento's eCommerce platform gives you
+the tools you need to attract more prospects, sell more products, and make more money. It's what we do.
 DESC
         ],
         'coolblueweb' => [
@@ -1423,7 +1451,7 @@ DESC
             'url' => 'http://www.coolblueweb.com/php',
             'logo' => 'img/logos/coolblueweb.jpg',
             'about' => <<<DESC
-Coming soon.
+A Seattle-based, full-service Web Development Company specializing in Magento, WordPress and Custom Web Development.
 DESC
         ],
         'osmi' => [
@@ -1436,7 +1464,8 @@ DESC
             'url' => 'http://funkatron.com/osmi',
             'logo' => 'img/logos/osmi.jpg',
             'about' => <<<DESC
-Open Sourcing Mental Illness is a speaking campaign by Ed Finkler to change how we deal with mental health in the tech community.
+Open Sourcing Mental Illness is a speaking campaign by Ed Finkler to change how we deal with mental health in the tech
+community.
 DESC
         ],
         'efelle-creative' => [
@@ -1446,10 +1475,11 @@ DESC
             'rank' => 1047,
             'label' => 'Bronze',
             'description' => 'Bronze-level Sponsor',
-            'url' => 'hhtp://www.seattlewebdesign.com',
+            'url' => 'http://www.seattlewebdesign.com',
             'logo' => 'img/logos/efelle-creative.jpg',
             'about' => <<<DESC
-Coming soon.
+Seattle's premier Website Design & Web Development firm since 2005. A different kind of digital agency: designing
+creative, results-driven websites that WORK.
 DESC
         ],
         'php-architect' => [
@@ -1462,7 +1492,10 @@ DESC
             'url' => 'http://www.phparch.com/',
             'logo' => 'img/logos/php-architect.png',
             'about' => <<<DESC
-Coming soon.
+Published continuously since 2002, php[architect] magazine is the only technical journal dedicated exclusively to the
+world of PHP. We are committed to spreading knowledge of best practices in PHP. With that purpose, the brand has
+expanded into producing a full line of books, hosting online and in-person web training, as well as organizing multiple
+conferences per year.
 DESC
         ],
         'joule' => [
@@ -1475,7 +1508,11 @@ DESC
             'url' => 'http://joule.club/',
             'logo' => 'img/logos/joule.jpg',
             'about' => <<<DESC
-Coming soon.
+Joule is a long term car share. More flexibility than car ownership. More freedom than ride share. Check out a Joule
+vehicle and keep it as long as you like. When your needs change, pick a new one and we'll come to you with the exchange!
+You'll always have the right vehicle for whatever you're doing, whether it's the daily commute, the big camping trip,
+or a fancy night out. Joule takes care of all of the maintenance, and your insurance is built right in. All you have to
+do is fill it up!
 DESC
         ],
 	],

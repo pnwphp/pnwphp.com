@@ -87,7 +87,7 @@
                         </td>
                     </tr>
                     <tr class="bg-warning">
-                        <th colspan="2" class="text-center">Live Stream</th>
+                        <th colspan="2" class="text-center"><a href="./online-events">Live Stream</a></th>
                     </tr>
                     <tr class="bg-success">
                         <th class="text-center">Free</th>

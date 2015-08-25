@@ -38,6 +38,10 @@ $app->get('events-hackathon', function() use ($app) {
     return page('hackathon');
 });
 
+$app->get('online-events', function() use ($app) {
+    return page('online-events');
+});
+
 $app->get('speakers', function() use ($app) {
     $talkFilter = function ($speaker) {
         return function ($talk) use ($speaker) {
@@ -72,6 +76,10 @@ $app->get('talks', function(Request $request) use ($app) {
                 : true;
         },
     ]);
+});
+
+$app->get('live', function(Request $request) use ($app) {
+    return page('live');
 });
 
 function page($view, $args = [])

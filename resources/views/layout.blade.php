@@ -34,27 +34,51 @@
 
         <div class="navbar-collapse collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav">
-                <li><a href="./speakers">Speakers</a></li>
-                <li><a href="./talks">Talks</a></li>
-                <li><a href="./schedule">Schedule</a></li>
-                <li><a href="./events">Events</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Schedule <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="./schedule">Full Schedule</a></li>
+                        <li><a href="./talks">Talks</a></li>
+                        <li><a href="./speakers">Speakers</a></li>
+                        <li><a href="./tags">Topics</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="./events#conference">Main Conference</a></li>
+                        <li><a href="./events#pnwphp-workshops">Half-Day Workshops</a></li>
+                        <li><a href="./events-hackathon">AWS Hackathon</a></li>
+                        <li><a href="./online-events">Live Stream</a></li>
+                        <li><a href="./live">Live Blog</a></li>
+                        <li><a href="./events#seaphp-meetup">SeaPHP Meetup</a></li>
+                        <li><a href="./events#uncon">UnCon</a></li>
+                        <li><a href="./events#podcast-devhell">Podcasts</a></li>
+                        <li><a href="./events#wurstcon">WurstCon</a></li>
+                    </ul>
+                </li>
+                <li><a href="./live">Live Blog</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
                 <li><a target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new">Register</a></li>
                 <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources <b class="caret"></b></a>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         {{--<li><a href="./venue">Venue</a></li>--}}
+                        <li><a href="./hotels-and-transit">Hotels &amp; Transit</a></li>
+                        <li><a href="./sponsors">Sponsors</a></li>
                         <li><a target="_blank" href="http://www.meetup.com/seaphp/">SeaPHP User Group</a></li>
-                        <li><a href="./hotels-and-transit">Hotels & Transit</a></li>
+                    </ul></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Help <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
                         <li><a href="./code-of-conduct">Code of Conduct</a></li>
                         <li><a href="./scholarship">Scholarships</a></li>
+                        <li><a href="https://gitter.im/pnwphp/PNWPHP">Chat Room</a></li>
                         <li><a href="mailto:admins@seaphp.com?Subject=Question%20About%20PNWPHP">Contact Organizers</a></li>
                     </ul>
                 </li>
-
-                <li><a href="./sponsors">Sponsors</a></li>
             </ul>
         </div>
 

@@ -11,7 +11,7 @@
     </div>
 
     <div class="wrapper wrapper-light">
-        <div class="title">Live Events</div>
+        <div class="title">Online Events</div>
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <h2 id="live-stream">
@@ -24,8 +24,8 @@
                     <strong>PNWPHP is broadcasting live on September 11th &amp; 12th.</strong><br>
                     <a href="https://pnwphp2015.busyconf.com/bookings/new#ticket_type_54dd586d49a161a49e00000c">
                     Register as a &ldquo;Virtual Attendee&rdquo;</a> to get access to the live stream from our main
-                    event room. Live stream attendees will also get access to the videos<sup><a href="#footnote">&dagger;</a></sup>
-                    once they are published.
+                    event room, which will include 16 general sessions and keynotes. Live stream attendees will also
+                    get access to the videos<sup><a href="#footnote">&dagger;</a></sup> once they are published.
                 </div>
             </div>
 
@@ -38,9 +38,9 @@
                 </h2>
                 <div class="lead">
                     In our live blog, we'll give you a play-by-play of the whole conference, so it'll feel like you are
-                    right there with us. Add if you are with us, you be able to get a peek at what happened in the other
-                    sessions that are happening concurrently. Keep your browsers open to the live blog during the event
-                    to catch every nugget of wisdom and cool picture or tweet.
+                    right there with us. Add if you are with us, you'll be able to get a peek at what happened in the
+                    other sessions that are happening concurrently. Keep your browsers open to the live blog during the
+                    event to catch every nugget of wisdom and cool picture or tweet.
                 </div>
             </div>
 

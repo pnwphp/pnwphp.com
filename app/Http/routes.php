@@ -18,6 +18,10 @@ $app->get('venue', function() use ($app) {
     return page('venue');
 });
 
+$app->get('what-to-expect', function() use ($app) {
+    return page('what-to-expect');
+});
+
 $app->get('events', function() use ($app) {
     return page('events');
 });

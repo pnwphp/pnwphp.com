@@ -6,6 +6,11 @@ $app->get('/', function() use ($app) {
     return page('home');
 });
 
+$app->get('jobs', function() use ($app) {
+    return page('jobs');
+});
+
+
 $app->get('sponsors', function() use ($app) {
     return page('sponsors');
 });

@@ -1729,13 +1729,12 @@ DESC
     'jobs' => [
         'csi' => [
             'title' => 'Crime Scene Investigator II',
-            'id' => '14998',
-            'code' => 'csi-vegas',
-            'languages' => ['php', 'js', 'html5'],
-            'company' => 'Las Vegas Crime Lab',
+            'location' => 'Las Vegas, NV',
+            'url' => 'http://jobs.crimelab.lvpd.gov/csi-ii',
+            'company_name' => 'Las Vegas Crime Lab',
             'company_url' => 'http://crimelab.lvpd.gov',
-            'company_job_url' => 'http://jobs.crimelab.lvpd.gov/csi-ii',
-            'type' => 'front-end-developer',
+            'contact_name' => 'D.B. Russell',
+            'contact_email' => 'jobs@crimelab.lvpd.gov',
             'description' => <<<DESC
                 Come work as an investigator at the Las Vegas Crime Lab,
                 -- the best lab in the country. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 

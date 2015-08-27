@@ -17,7 +17,7 @@
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <p class="lead text-center">
-                Learn about the great jobs in the PHP Community. 
+                Learn about the great jobs in the PHP Community here at PNWPHP.
                 </p>
             </div>
             @foreach ($conference->jobs as $job)
@@ -27,19 +27,13 @@
                             <div class="panel-body">
                                 <h3>{{ $job->title }}</h3>
                                 <p>
-                                <a href="{{ $job->company_url }}">{{ $job->company }}</a>
+                                <strong>Contact:</strong>  {{ $job->contact_name }} &lt;{{ $job->contact_email }}&gt;<br>
+                                <strong>Location:</strong>  {{ $job->location }}<br>
+                                <strong>Company:</strong> <a href="{{ $job->company_url }}">{{ $job->company_name }}</a>
                                 </p>
-                                <div class="languages">
-                                    <strong>Languages</strong>
-                                    <ul>
-                                    @foreach ($job->languages as $lang)
-                                        <li>{{ $lang }}</li>
-                                    @endforeach
-                                    </ul>
-                                </div>
                                 <p>{!! str_replace("\n\n", "<p/><p>", $job->description) !!}</p>
                                 <p>
-                                <strong>Learn more</strong> about the <a href="{{ $job->company_job_url }}">{{ $job->title }}</a> job.
+                                <strong>Learn more</strong> about the <a href="{{ $job->url }}">{{ $job->title }}</a> job.
                                 </p>
                             </div>
                         </div>

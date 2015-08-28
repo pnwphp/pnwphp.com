@@ -1726,4 +1726,95 @@ DESC
             'distance' => '1.1 miles',
         ],
     ],
+    'jobs' => [
+        "cdk-global--software-engineer-i" => [
+            "company_name" => "CDK Global",
+            "company_url" => "http://www.cdk.com",
+            "contact_name" => "John Kelly",
+            "contact_email" => "john.m.kelly@cdk.com",
+            "title" => "Software Engineer I",
+            "location" => "Portland, OR",
+            "description" => "This is a growth position engineering the next generation of enterprise class software solutions at CDK. This role is ideal for entry-level engineers and the primary responsibilities include framework extensions, development of services and components (design, coding, testing). It's a hands-on role that will leverage your ability to blend your technical expertise with your ingenuity, product knowledge, industry knowledge, and communication skills. Will work with other team members (including offshore), architects and product owners in the early and continuous delivery of high quality software products that delight our customers.
+
+        Must be a results oriented individual, who can readily learn and apply the use of agile software development principles to achieve the desired business outcome.",
+            "url" => "http://www.cdkjobs.com/jobs/technology/portland-or-usa/software-engineer-i-82820-/82820?lang=en",
+
+        ],
+        "cdk-global--software-ui-engineer" => [
+            "company_name" => "CDK Global",
+            "company_url" => "http://www.cdk.com",
+            "contact_name" => "John Kelly",
+            "contact_email" => "john.m.kelly@cdk.com",
+            "title" => "Software UI Engineer",
+            "location" => "Seattle, WA",
+            "description" => "At CDK Global, we are driven by your success. We engage your unique talents and perspectives. We welcome your ideas on how to do things differently and better. In your efforts to achieve, learn and grow, we support you all the way.
+
+         In this role, you'll have the opportunity to create tools and features used by over a million unique web visitors each day. You'll work in small agile teams to rapidly prototype and deploy new product features.
+
+        Use comprehensive knowledge of current web technologies and best practices to create sophisticated, imaginative and efficient reusable UI solutions across multiple browsers for various devices and operating systems.
+        Design reusable components by utilizing various standard frameworks
+        Evaluate requirements and initial mock-ups; make technology recommendations that support optimal construction, maintenance and performance
+        ...",
+            "url" => "http://www.cdkjobs.com/jobs/technology/seattle-wa-usa/software-ui-engineer/82616?lang=en",
+
+        ],
+        "cdk-global--ui-software-engineer-/-web-developer" => [
+            "company_name" => "CDK Global",
+            "company_url" => "http://www.cdk.com",
+            "contact_name" => "John Kelly",
+            "contact_email" => "john.m.kelly@cdk.com",
+            "title" => "UI Software Engineer / Web Developer",
+            "location" => "Seattle, WA",
+            "description" => "At CDK Global, we are driven by your success. We engage your unique talents and perspectives. We welcome your ideas on how to do things differently and better. In your efforts to achieve, learn and grow, we support you all the way.
+
+        If success motivates you, you belong at CDK Global. We are the largest digital advertising platform provider for automotive industry and we are transforming $8 Billion dollars in advertising spending from traditional offline media to online advertising.We have an opening for a highly motivated, skilled, and experienced Web Developer. We're looking for someone who can provide technical leadership, direction, and design expertise to our UI development teams. You will work closely with other team members on technical issues and complex problems and take ownership of application development and design. You will frequently extend our core platform and will develop new features that become candidates for our core applications in the future.",
+            "url" => "http://www.cdkjobs.com/jobs/technology/seattle-wa-usa/ui-software-engineer-web-developer/82720?lang=en",
+
+        ],
+        "ispot.tv--director-engineering" => [
+            "company_name" => "iSpot.TV",
+            "company_url" => "http://www.ispot.tv",
+            "contact_name" => "Al Castle",
+            "contact_email" => "al@ispot.tv",
+            "title" => "Director Engineering",
+            "location" => "Bellevue",
+            "description" => "We do: Real-Time TV Advertising Metrics
+
+        We're stable, growing, innovating & are looking for Sr PHP Engineers.
+
+        Ideal candidate has many years of experience with:
+        <ul>
+        <li>Building enterprise platforms (SaaS) in Symfony2 or Laravel.</li>
+        <li>Owns their projects & code. From spec to deployment.</li>
+        <li>Experienced building internal tooling, full-stack. (CRUD front-end)</li>
+        <li>RESTful APIs for public and private usage.</li>
+        </ul>
+        ",
+            "url" => "https://hire.jobvite.com/j?cj=oMPkYfwD&s=PNWPHP",
+
+        ],
+        "nexcess.net--software-engineer" => [
+            "company_name" => "Nexcess.net",
+            "company_url" => "http://www.nexcess.net",
+            "contact_name" => "Robert Purcell",
+            "contact_email" => "rpurcell@nexcess.net",
+            "title" => "Software Engineer",
+            "location" => "Southfield, MI / Remote",
+            "description" => "You will be joining our small team of developers on an established project. The software you'll be working on is a data center management all-in-one solution. We have a large list of features to add and other aspects to tweak/fix. You will be working with the rest of the team to accomplish those goals. The software is written almost entirely in PHP (5.4) with a good amount of javascript. If these are not your core languages but you are a good fit otherwise, we will work with you to bring you up to speed.",
+            "url" => "http://nexcess.applicantstack.com/x/detail/a2a5ksftuery",
+
+        ],
+        "nexcess.net--software-quality-assurance-engineer" => [
+            "company_name" => "Nexcess.net",
+            "company_url" => "http://www.nexcess.net/",
+            "contact_name" => "Robert Purcell",
+            "contact_email" => "rpurcell@nexcess.net",
+            "title" => "Software Quality Assurance Engineer",
+            "location" => "Southfield, MI / Remote",
+            "description" => "We are hiring a Quality Assurance Engineer to spearhead a redoubled initiative of softwarequality for our internal systems. As this initiative’s “gatekeeper of quality,” you will require masterful planning skills coupled with a keen sense of how to help our software engineers achieve their high standards of quality.",
+            "url" => "http://nexcess.applicantstack.com/x/detail/a2a5ksfdgr7y",
+
+        ],
+
+    ],
 ];

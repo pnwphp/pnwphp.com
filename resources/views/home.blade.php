@@ -16,7 +16,7 @@
     <div class="title">PNWPHP Conference</div>
     <div class="container">
         <div class="row">
-            <div class="col-md-12 ">
+            <div class="col-md-12">
                 <div class="alert alert-success">
                     <p class="lead text-center">
                         <strong>New:</strong> Can't make it in person?
@@ -28,7 +28,7 @@
         </div>
 
         <div class="row">
-            <div class="col-md-2 col-md-offset-2">
+            <div class="col-md-2">
                 <img src="img/pnwphp.png" width="160" />
             </div>
             <div class="col-md-6">
@@ -40,9 +40,23 @@
                     the <a href="./events-hackathon">hackathon</a>, and the live blog.
                 </p>
             </div>
+            <div class="col-md-4">
+                <a href="https://twitter.com/PNWPHP" target="_blank" class="btn btn-lg btn-info btn-block">
+                    <i class="fa fa-twitter"></i>&ensp;Follow @PNWPHP
+                </a>
+                <a href="http://joind.in/event/view/3451" target="_blank" class="btn btn-lg btn-info btn-block">
+                    <i class="fa fa-star-half-o"></i>&ensp;Rate Talks on Joind.in
+                </a>
+                <a href="https://gitter.im/pnwphp/PNWPHP" target="_blank" class="btn btn-lg btn-info btn-block">
+                    <i class="fa fa-users"></i>&ensp;Chat w/ Us on Gitter
+                </a>
+                <a href="http://eepurl.com/9bHLT" target="_blank" class="btn btn-lg btn-info btn-block">
+                    <i class="fa fa-envelope"></i>&ensp;Join the Mailing List
+                </a>
+            </div>
         </div>
         <div class="row">
-            <div class="col-md-8 col-md-offset-2">
+            <div class="col-md-8">
                 <table class="table table-bordered text-center">
                     <tr class="bg-info">
                         <th class="text-center">SEP 9TH</th>
@@ -97,24 +111,15 @@
                     </tr>
                 </table>
             </div>
-        </div>
-        <div class="row">
-            <br>
-            <div class="col-md-4 col-md-offset-2">
-                <a href="http://eepurl.com/9bHLT" target="_blank" class="btn btn-lg btn-info btn-block"><i class="fa fa-envelope"></i>&ensp;Join the
-                    Mailing List</a>
-            </div>
             <div class="col-md-4">
-                <a href="https://twitter.com/PNWPHP" target="_blank" class="btn btn-lg btn-info btn-block"><i class="fa fa-twitter"></i> Follow @PNWPHP</a>
+                @if ($sponsor = $conference->sponsors->filter(function ($sponsor) {return $sponsor->rank >= 1070;})->random(1))
+                    <p class="text-center">PNWPHP is sponsored in part by:</p>
+                    <a target="_blank" href="{{ $sponsor->url }}" title="{{ $sponsor->name }}">
+                        <img src="{{ $sponsor->logo }}" alt="{{ $sponsor->name }}" class="img-responsive center-block"/>
+                    </a>
+                @endif
             </div>
         </div>
-        @if ($sponsor = $conference->sponsors->filter(function ($sponsor) {return $sponsor->rank >= 80;})->random(1))
-            <div class="row">
-                <div class="col-md-10 col-md-offset-1">
-                    <br><p class="text-center">The Pacific Northwest PHP conference is sponsored in part by <a href="{{ $sponsor->url }}">{{ $sponsor->name }}</a>.</p>
-                </div>
-            </div>
-        @endif
     </div>
 </div>
 

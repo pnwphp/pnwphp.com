@@ -19,6 +19,15 @@
                 Conduct</a>. We take all Code of Conduct reports seriously, and our Code 
                 of Conduct will be enforced.</p>
 
+                <h2>What To Bring</h2>
+                <p><em>Bring your Identification</em>, as you'll need it for registration. A 
+                wi-fi network is available, so you'll have access to the web.  
+                There are some power outlets available, but we have to share. Try 
+                to fully charge any of your devices before arriving.  Bring your 
+                laptop, or your moleskine - however you enjoy taking notes.  We'll 
+                be live blogging and tweeting, which we hope you'll help us with.  
+                Other than that, just bring a desire to learn, and an open mind.</p>
+
                 <h2>Getting to PNWPHP</h2>
                 <p>Parking can be difficult in Downtown Seattle. We suggest taking 
                 public transportation if you live nearby. Several bus routes, and 

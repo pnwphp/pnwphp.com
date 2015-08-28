@@ -20,7 +20,7 @@
                 Learn about the great jobs in the PHP Community here at PNWPHP.
                 </p>
             </div>
-            @foreach ($conference->jobs as $job)
+            @foreach ($conference->jobs->shuffle() as $job)
                 <div class="row talks">
                     <div class="col-md-10 col-md-offset-1">
                         <div class="panel panel-default">

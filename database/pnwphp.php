@@ -1771,12 +1771,12 @@ DESC
             "url" => "http://www.cdkjobs.com/jobs/technology/seattle-wa-usa/ui-software-engineer-web-developer/82720?lang=en",
 
         ],
-        "ispot.tv--director-engineering" => [
+        "ispot.tv-sr-software-engineer" => [
             "company_name" => "iSpot.TV",
             "company_url" => "http://www.ispot.tv",
             "contact_name" => "Al Castle",
             "contact_email" => "al@ispot.tv",
-            "title" => "Director Engineering",
+            "title" => "Sr Software Engineer - PHP",
             "location" => "Bellevue",
             "description" => "We do: Real-Time TV Advertising Metrics
 

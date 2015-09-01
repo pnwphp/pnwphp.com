@@ -145,6 +145,7 @@
 
         }
     })();
+    window.onload=function(){if(window.location.hash)window.scrollTo(0,window.scrollY-80);};
 </script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

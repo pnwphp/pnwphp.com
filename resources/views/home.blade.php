@@ -68,30 +68,30 @@
                     <tr>
                         <td rowspan="2">
                             <ul class="list-unstyled text-center">
-                                <li><a href="./events#seaphp-meetup">SeaPHP Meetup</a></li>
-                                <li><a href="./events#pnwphp-workshops">SeaPHP Drinkup</a></li>
+                                <li><a href="./events#seaphp-meetup">Meetup</a></li>
+                                <li><a href="./events#pnwphp-workshops">Drinkup</a></li>
                             </ul>
                         </td>
                         <td rowspan="2">
                             <ul class="list-unstyled text-center">
                                 <li><a href="./events#pnwphp-workshops">Workshops</a></li>
-                                <li><a href="./events-hackathon">AWS Hackathon</a></li>
+                                <li><a href="./events-hackathon">Hackathon</a></li>
                             </ul>
                         </td>
                         <td>
                             <ul class="list-unstyled text-center">
-                                <li><a href="./events#conference">PNWPHP Conference</a></li>
+                                <li><a href="./events#conference">Conference</a></li>
                                 <li><a href="./events#uncon">UnCon</a></li>
-                                <li><a href="./events#social">Evening Social</a></li>
+                                <li><a href="./events#social">Social</a></li>
+                                <li><a href="./events#social">JeoPHPardy</a></li>
                             </ul>
                         </td>
                         <td>
                             <ul class="list-unstyled text-center">
-                                <li><a href="./events#pnwphp">PNWPHP Conference</a></li>
+                                <li><a href="./events#pnwphp">Conference</a></li>
                                 <li><a href="./events#uncon">UnCon</a></li>
                                 <li>Prizes</li>
-                                <li><a href="./events#podcast-devhell">/dev/hell Podcast</a></li>
-                                <li><a href="./events#podcast-townhall">PHP Townhall Podcast</a></li>
+                                <li><a href="./events#podcast-devhell">Podcasts</a></li>
                             </ul>
                         </td>
                         <td rowspan="2">
@@ -101,12 +101,12 @@
                         </td>
                     </tr>
                     <tr class="bg-warning">
-                        <th colspan="2" class="text-center"><a href="./online-events">Live Stream</a></th>
+                        <th colspan="2" class="text-center"><a href="./online-events">Live Stream</a> - $39</th>
                     </tr>
                     <tr class="bg-success">
                         <th class="text-center">Free</th>
                         <th class="text-center">$49</th>
-                        <th colspan="2" class="text-center">$99&ndash;$349 (see below)</th>
+                        <th colspan="2" class="text-center">$249&ndash;$349 (see below)</th>
                         <th class="text-center">Free</th>
                     </tr>
                 </table>
@@ -133,7 +133,7 @@
                         <h4 class="text-center">FOR STUDENTS</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$99</strong><br><small><em>Price goes up to $149 after 8/31</em></small></p>
+                        <p class="lead"><strong>$99</strong></p>
                         <p>Available to full and part time students; student ID required at the event.</p>
                     </div>
                     <div class="panel-footer">
@@ -147,7 +147,7 @@
                         <h4 class="text-center">FOR INDIVIDUALS</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$199</strong><br><small><em>Price goes up to $249 after 8/31</em></small></p>
+                        <p class="lead"><strong>$249</strong></p>
                         <p>Available to attendees who are paying for their own tickets.</p>
                     </div>
                     <div class="panel-footer">
@@ -161,7 +161,7 @@
                         <h4 class="text-center">FOR EMPLOYEES</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$349</strong><br><small><em>Corporate Pricing</em></small></p>
+                        <p class="lead"><strong>$349</strong></p>
                         <p>Available to attendees whose tickets are being paid for or reimbursed by their company/employer.</p>
                     </div>
                     <div class="panel-footer">

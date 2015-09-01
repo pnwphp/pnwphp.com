@@ -125,7 +125,8 @@
                 <h2 id="social"><a href="./events#social">Evening Social</a> <small>(6:30pm&ndash;10:00pm)</small></h2>
                 <div class="lead">
                     Linger longer with us on the first night of the conference for our evening social. We'll have games,
-                    food, drinks, and plenty of time to get to know others in the PHP community.
+                    food, drinks, and plenty of time to get to know others in the PHP community. We'll also play a couple
+                    of rounds of PHP Jeopardy (or JeoPHPardy) with Jeremy Mikola and Jeremy Lindblom.
                 </div>
             </div>
 

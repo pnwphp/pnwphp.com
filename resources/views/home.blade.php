@@ -133,7 +133,7 @@
                         <h4 class="text-center">FOR STUDENTS</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$99</strong><br><small><em>Price goes up to $149 after 8/31</em></small></p>
+                        <p class="lead"><strong>$99</strong></p>
                         <p>Available to full and part time students; student ID required at the event.</p>
                     </div>
                     <div class="panel-footer">
@@ -147,7 +147,7 @@
                         <h4 class="text-center">FOR INDIVIDUALS</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$199</strong><br><small><em>Price goes up to $249 after 8/31</em></small></p>
+                        <p class="lead"><strong>$249</strong></p>
                         <p>Available to attendees who are paying for their own tickets.</p>
                     </div>
                     <div class="panel-footer">
@@ -161,7 +161,7 @@
                         <h4 class="text-center">FOR EMPLOYEES</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$349</strong><br><small><em>Corporate Pricing</em></small></p>
+                        <p class="lead"><strong>$349</strong></p>
                         <p>Available to attendees whose tickets are being paid for or reimbursed by their company/employer.</p>
                     </div>
                     <div class="panel-footer">

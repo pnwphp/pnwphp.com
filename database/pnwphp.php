@@ -1,56 +1,56 @@
 <?php return [
-	'conference' => [
-		'title' => 'Pacific Northwest PHP',
-		'abbr' => 'PNWPHP',
-		'startDate' => new DateTime('2015-09-10T09:00:00+07:00'),
-		'endDate' => new DateTime('2015-09-12T19:00:00+07:00'),
-	],
-	'rooms' => [
-		'main' => [
-			'name' => 'Main Event Room',
-			'code' => 'main',
-			'location' => 'Impact Hub Seattle',
-			'floor' => '1st',
-			'capacity' => 200,
-		],
-		'globe' => [
-			'name' => 'Globe Room',
-			'code' => 'globe',
-			'location' => 'Impact Hub Seattle',
-			'floor' => '2nd',
-			'capacity' => 30,
-		],
-		'learning-1' => [
-			'name' => 'Learning Studio 1',
-			'code' => 'learning-1',
-			'location' => 'Impact Hub Seattle',
-			'floor' => '3rd',
-			'capacity' => 50,
-		],
-		'learning-2' => [
-			'name' => 'Learning Studio 2',
-			'code' => 'learning-2',
-			'location' => 'Impact Hub Seattle',
-			'floor' => '4th',
-			'capacity' => 50,
-		],
-		'puget-sound' => [
-			'name' => 'Puget Sound Room',
-			'code' => 'puget-sound',
-			'location' => '1918 Eighth Avenue',
-			'floor' => '3rd',
-			'capacity' => 60,
-		],
-	],
-	'speakers' => [
-		'anthony-ferrara' => [
-			'name' => 'Anthony Ferrara',
-			'code' => 'anthony-ferrara',
-			'location' => 'New York, NY',
-			'twitter' => 'ircmaxell',
+    'conference' => [
+        'title' => 'Pacific Northwest PHP',
+        'abbr' => 'PNWPHP',
+        'startDate' => new DateTime('2015-09-10T09:00:00+07:00'),
+        'endDate' => new DateTime('2015-09-12T19:00:00+07:00'),
+    ],
+    'rooms' => [
+        'main' => [
+            'name' => 'Main Event Room',
+            'code' => 'main',
+            'location' => 'Impact Hub Seattle',
+            'floor' => '1st',
+            'capacity' => 200,
+        ],
+        'globe' => [
+            'name' => 'Globe Room',
+            'code' => 'globe',
+            'location' => 'Impact Hub Seattle',
+            'floor' => '2nd',
+            'capacity' => 30,
+        ],
+        'learning-1' => [
+            'name' => 'Learning Studio 1',
+            'code' => 'learning-1',
+            'location' => 'Impact Hub Seattle',
+            'floor' => '3rd',
+            'capacity' => 50,
+        ],
+        'learning-2' => [
+            'name' => 'Learning Studio 2',
+            'code' => 'learning-2',
+            'location' => 'Impact Hub Seattle',
+            'floor' => '4th',
+            'capacity' => 50,
+        ],
+        'puget-sound' => [
+            'name' => 'Puget Sound Room',
+            'code' => 'puget-sound',
+            'location' => '1918 Eighth Avenue',
+            'floor' => '3rd',
+            'capacity' => 60,
+        ],
+    ],
+    'speakers' => [
+        'anthony-ferrara' => [
+            'name' => 'Anthony Ferrara',
+            'code' => 'anthony-ferrara',
+            'location' => 'New York, NY',
+            'twitter' => 'ircmaxell',
             'company' => 'google',
-			'avatar' => 'img/avatars/anthony-ferrara.jpg',
-			'bio' => <<<BIO
+            'avatar' => 'img/avatars/anthony-ferrara.jpg',
+            'bio' => <<<BIO
 Anthony Ferrara is the Director of Engineering at Grovo. He
 specializes in Object Oriented Design, Application Architecture, Web
 Application Security and PHP Internals. He is a contributor to
@@ -58,18 +58,21 @@ multiple Open Source projects, as well as the PHP community as a
 whole. You can follow his blog at <a href="http://blog.ircmaxell.com">blog.ircmaxell.com</a> or on Twitter at
 <a href="http://twitter.com/ircmaxell">@ircmaxell</a>.
 BIO
-		],
-		'josh-holmes' => [
-			'name' => 'Josh Holmes',
-			'code' => 'josh-holmes',
-			'location' => 'Seattle, WA',
-			'twitter' => 'joshholmes',
+        ],
+        'josh-holmes' => [
+            'name' => 'Josh Holmes',
+            'code' => 'josh-holmes',
+            'location' => 'Seattle, WA',
+            'twitter' => 'joshholmes',
             'company' => 'microsoft',
-			'avatar' => 'img/avatars/josh-holmes.jpg',
-			'bio' => <<<BIO
-Passionate soul who gets his kicks solving problems with deep fried awesomeness. Currently employed by Microsoft.
+            'avatar' => 'img/avatars/josh-holmes.jpg',
+            'bio' => <<<BIO
+Josh Holmes has spoken at hundreds of conferences, is a former president of his Toastmasters club and a
+classically trained actor and director. In this workshop, he brings all of that experience to bear to coach and
+mentor the speakers that participate as we run exercises to make you more aware and better connected to your audience
+in everything from word choice to moving on stage.
 BIO
-		],
+        ],
         'margaret-staples' => [
             'code' => 'margaret-staples',
             'name' => 'Margaret Staples',
@@ -472,8 +475,8 @@ Ed's current passion is raising mental health awareness in the tech community wi
 <a href="http://funkatron.com" target="_blank">funkatron.com</a>.
 BIO
         ],
-	],
-	'talks' => [
+    ],
+    'talks' => [
         'wax-on-wax-off-code-kata-dojo' => [
             'title' => 'Wax On, Wax Off: Code Kata Dojo',
             'reviewId' => '14998',
@@ -490,29 +493,29 @@ the case for regular, deliberate practice and engage in guided, collaborative, h
 the skills to incorporate code katas and deliberate practice into your training regimen.
 DESC
         ],
-		'anatomy-of-a-type-system' => [
-			'title' => 'Anatomy Of A Type System',
-			'code' => 'anatomy-of-a-type-system',
+        'anatomy-of-a-type-system' => [
+            'title' => 'Anatomy Of A Type System',
+            'code' => 'anatomy-of-a-type-system',
             'reviewId' => '14934',
-			'tags' => ['types', 'php7', 'theory'],
-			'speaker' => 'anthony-ferrara',
-			'type' => 'session',
-			'description' => <<<DESC
+            'tags' => ['types', 'php7', 'theory'],
+            'speaker' => 'anthony-ferrara',
+            'type' => 'session',
+            'description' => <<<DESC
 PHP 7 is coming quickly. One of the major features that it brings with it is the ability to use scalar typing. Are you
 ready for it? Join me as we take a tour through PHP 7&rsquo;s type system from end to end. Don&rsquo;t know what a type
 is? Come and find out! Are you a seasoned type user? Come learn how to leverage the new options! Confused about weak vs.
 strict types? We&rsquo;ll cover concept, theory and practical details of the type system while exploring how PHP&rsquo;s
 type system compares to other languages.
 DESC
-		],
-		'down-the-rabbit-hole' => [
-			'title' => 'Down the Rabbit Hole: Combining Career & Community',
-			'code' => 'down-the-rabbit-hole',
+        ],
+        'down-the-rabbit-hole' => [
+            'title' => 'Down the Rabbit Hole: Combining Career & Community',
+            'code' => 'down-the-rabbit-hole',
             'reviewId' => '14943',
-			'tags' => ['community', 'career-growth'],
-			'speaker' => 'cal-evans',
-			'type' => 'keynote',
-			'description' => <<<DESC
+            'tags' => ['community', 'career-growth'],
+            'speaker' => 'cal-evans',
+            'type' => 'keynote',
+            'description' => <<<DESC
 The common mantra is "Community Works", but does it? How does burning vacation days to speak at a conference "work"?
 How does staying up until the wee hours of the morning working on a project, just to turn around and go work your day
 job "work"? Exactly how does community pay the bills each month? Let me show you how it works.
@@ -521,29 +524,29 @@ Let's jog through my career as a programmer. Along the way, we will take a look 
 my career in a positive manner; it has been a JATO strapped to my career. I'm just a programmer, not even a great one.
 If community can help my career, it can help anyone's.
 DESC
-		],
-		'stronger-than-fear' => [
-			'title' => 'Stronger Than Fear: Mental Health in the Developer Community',
-			'code' => 'stronger-than-fear',
+        ],
+        'stronger-than-fear' => [
+            'title' => 'Stronger Than Fear: Mental Health in the Developer Community',
+            'code' => 'stronger-than-fear',
             'reviewId' => '14924',
-			'tags' => ['mental-health'],
-			'speaker' => 'ed-finkler',
-			'type' => 'keynote',
-			'description' => <<<DESC
+            'tags' => ['mental-health'],
+            'speaker' => 'ed-finkler',
+            'type' => 'keynote',
+            'description' => <<<DESC
 Mental disorders are the largest contributor to disease burden in North America, but the developer community and those
 who employ us are afraid to face the problem head-on. In this keynote, we'll examine the state of mental health
 awareness in the developer workplace, why most developers feel it isn't safe to talk about mental health, and what we
 can do to change the culture and save lives.
 DESC
-		],
-		'cloud-is-the-new-normal' => [
-			'title' => 'Cloud is the New Normal',
-			'code' => 'cloud-is-the-new-normal',
+        ],
+        'cloud-is-the-new-normal' => [
+            'title' => 'Cloud is the New Normal',
+            'code' => 'cloud-is-the-new-normal',
             'reviewId' => '14917',
-			'tags' => ['cloud', 'aws', 'architecture'],
-			'speaker' => 'jeff-barr',
-			'type' => 'keynote',
-			'description' => <<<DESC
+            'tags' => ['cloud', 'aws', 'architecture'],
+            'speaker' => 'jeff-barr',
+            'type' => 'keynote',
+            'description' => <<<DESC
 Every PHP developer needs to know about cloud computing! With roots in simple yet powerful foundational services for
 compute and storage, the cloud has grown to become one of the most dynamic and interesting technologies of our day.
 Traditionally, infrastructure was that noisy, boring stuff in the dark room that someone else took care of for you.
@@ -558,7 +561,7 @@ From there we will look a higher-level tools like Elastic Beanstalk and CloudFor
 automation to your development, testing, and hosting discipline. Finally, we'll hang out with the native cloud APIs,
 and look at how to create applications that make use of specific cloud services such as DynamoDB.
 DESC
-		],
+        ],
         'battled-hardened-laravel-lessons-in-scale' => [
             'code' => 'battled-hardened-laravel-lessons-in-scale',
             'reviewId' => '14920',
@@ -1003,7 +1006,9 @@ DESC
             'tags' => ['speaking'],
             'type' => 'session',
             'description' => <<<DESC
-More details coming soon.
+Speaking is a skill and like most skills, you can learn it and hone it over time. Speakers of all experience are
+welcome to come to this workshop to enhance their skills. There are many things that make a great presentation
+ranging from the presentation to how you manage questions at the end and everything in between.
 DESC
         ],
         'clean-application-development' => [
@@ -1084,17 +1089,17 @@ Integration and Continuous Deployment setups as well as debugging live apps on A
 DESC
         ],
     ],
-	'sponsors' => [
-		'nexcess' => [
-			'name' => 'Nexcess',
-			'code' => 'nexcess',
-			'level' => 'platinum',
-			'rank' => 1100,
-			'label' => 'Platinum',
-			'description' => 'Platinum-level Sponsor',
-			'url' => 'https://www.nexcess.net/',
-			'logo' => 'img/logos/nexcess.jpg',
-			'about' => <<<DESC
+    'sponsors' => [
+        'nexcess' => [
+            'name' => 'Nexcess',
+            'code' => 'nexcess',
+            'level' => 'platinum',
+            'rank' => 1100,
+            'label' => 'Platinum',
+            'description' => 'Platinum-level Sponsor',
+            'url' => 'https://www.nexcess.net/',
+            'logo' => 'img/logos/nexcess.jpg',
+            'about' => <<<DESC
 Since the dawn of the millennium, Nexcess has been the leader at running LAMP-style hosting environments that benefit
 from professional-grade optimization in performance and security.<br><br>As developers themselves, the Nexcess team has
 launched several PHP applications over the years, which includes their data center management platform (NOCWorx), a
@@ -1103,40 +1108,40 @@ storefronts (Turpentine).<br><br>In addition to bestowing lessons learned in mai
 PHP applications, representatives from Nexcess will be seeking the brightest development minds in the community at
 PNWPHP with the intent to grow their team of open source experts.
 DESC
-		],
-		'tableau' => [
-			'name' => 'Tableau',
-			'code' => 'tableau',
-			'level' => 'platinum',
-			'rank' => 1097,
-			'label' => 'Platinum',
-			'description' => 'Platinum-level Sponsor',
-			'url' => 'http://www.tableau.com/',
-			'logo' => 'img/logos/tableu.jpg',
-			'about' => <<<DESC
+        ],
+        'tableau' => [
+            'name' => 'Tableau',
+            'code' => 'tableau',
+            'level' => 'platinum',
+            'rank' => 1097,
+            'label' => 'Platinum',
+            'description' => 'Platinum-level Sponsor',
+            'url' => 'http://www.tableau.com/',
+            'logo' => 'img/logos/tableu.jpg',
+            'about' => <<<DESC
 Tableau is one of the fastest-growing technology companies in the world. Our mission is simple: we help people see and
 understand their data. We currently serve everyone from the executive suites of Fortune 500 companies to the jungles of
 Central America, from immunology research labs to high school robotics club meetings. Our software can be found anywhere
 people have data and questions. Tableau's culture is casual and high-energy. We value work/life balance, efficiency,
 simplicity, freakishly friendly customer service, and making a difference in the world.
 DESC
-		],
-		'aws' => [
-			'name' => 'Amazon Web Services',
-			'code' => 'aws',
-			'level' => 'gold',
-			'rank' => 1094,
-			'label' => 'Hackathon',
-			'description' => 'Hackathon Sponsor',
-			'url' => 'http://aws.amazon.com/',
-			'logo' => 'img/logos/aws.jpg',
-			'about' => <<<DESC
+        ],
+        'aws' => [
+            'name' => 'Amazon Web Services',
+            'code' => 'aws',
+            'level' => 'gold',
+            'rank' => 1094,
+            'label' => 'Hackathon',
+            'description' => 'Hackathon Sponsor',
+            'url' => 'http://aws.amazon.com/',
+            'logo' => 'img/logos/aws.jpg',
+            'about' => <<<DESC
 Built upon the same world-class technology that powers Amazon.com, Amazon Web Services (AWS) provides businesses with a
 secure, reliable, easy-to-scale, low-cost computing platform "in the cloud." Companies of all sizes, from all around
 the globe use AWS to build applications, store data, manage business processes, and more. Learn more:
 http://aws.amazon.com.
 DESC
-		],
+        ],
         'pluralsight' => [
             'name' => 'PluralSight, Inc.',
             'code' => 'pluralsight',
@@ -1154,32 +1159,32 @@ than 150 countries, Pluralsight serves as a career catalyst, delivering hands-on
 in-demand and understaffed jobs of today. For more information, visit Pluralsight.com.
 DESC
         ],
-		'mysql' => [
-			'name' => 'MySQL',
-			'code' => 'mysql',
-			'level' => 'gold',
-			'rank' => 1088,
-			'label' => 'Gold',
-			'description' => 'Gold-level Sponsor',
-			'url' => 'http://www.mysql.com/',
-			'logo' => 'img/logos/mysql.jpg',
-			'about' => <<<DESC
+        'mysql' => [
+            'name' => 'MySQL',
+            'code' => 'mysql',
+            'level' => 'gold',
+            'rank' => 1088,
+            'label' => 'Gold',
+            'description' => 'Gold-level Sponsor',
+            'url' => 'http://www.mysql.com/',
+            'logo' => 'img/logos/mysql.jpg',
+            'about' => <<<DESC
 MySQL is the world's most popular open source database. With its proven cost-effective delivery, ease-of-use,
 performance, and scalability, MySQL has become the leading database choice for Web-based applications, used by high
 profile web properties including Facebook, Twitter, YouTube, Yahoo!, and many more. Visit
 <a href="http://www.mysql.com">http://www.mysql.com</a> today!
 DESC
-		],
-		'joomla' => [
-			'name' => 'Joomla',
-			'code' => 'joomla',
-			'level' => 'gold',
-			'rank' => 1085,
-			'label' => 'Gold',
-			'description' => 'Gold-level Sponsor',
-			'url' => 'http://www.joomla.org/',
-			'logo' => 'img/logos/joomla.jpg',
-			'about' => <<<DESC
+        ],
+        'joomla' => [
+            'name' => 'Joomla',
+            'code' => 'joomla',
+            'level' => 'gold',
+            'rank' => 1085,
+            'label' => 'Gold',
+            'description' => 'Gold-level Sponsor',
+            'url' => 'http://www.joomla.org/',
+            'logo' => 'img/logos/joomla.jpg',
+            'about' => <<<DESC
 Joomla is an award-winning content management system (CMS), which enables you to build Web sites and powerful online
 applications. Many aspects, including its ease-of-use and extensibility, have made Joomla the most popular website
 software available. Best of all, Joomla is an open source solution that is freely available to everyone. Many companies
@@ -1187,37 +1192,37 @@ and organizations have requirements that go beyond what is available in the basi
 Joomla's powerful application framework makes it easy for developers to create sophisticated add-ons that extend the
 power of Joomla into virtually unlimited directions.
 DESC
-		],
-		'mandrill' => [
-			'name' => 'Mandrill',
-			'code' => 'mandrill',
-			'level' => 'gold',
-			'rank' => 1082,
-			'label' => 'Party',
-			'description' => 'Evening Social Sponsor',
-			'url' => 'http://www.mandrill.com/',
-			'logo' => 'img/logos/mandrill.jpg',
-			'about' => <<<DESC
+        ],
+        'mandrill' => [
+            'name' => 'Mandrill',
+            'code' => 'mandrill',
+            'level' => 'gold',
+            'rank' => 1082,
+            'label' => 'Party',
+            'description' => 'Evening Social Sponsor',
+            'url' => 'http://www.mandrill.com/',
+            'logo' => 'img/logos/mandrill.jpg',
+            'about' => <<<DESC
 Mandrill is an affordable, scalable, and secure email infrastructure service that's easy to set up and integrate with
 existing apps. It's really fast, too. With servers all over the world, we can deliver your email in milliseconds. Our
 detailed delivery reports, advanced analytics, and friendly interface mean your entire team &mdash; from developers to
 marketers &mdash; can easily monitor and evaluate email performance.
 DESC
-		],
-		'ispottv' => [
-			'name' => 'iSpot.tv',
-			'code' => 'ispottv',
-			'level' => 'silver',
-			'rank' => 1079,
-			'label' => 'Silver',
-			'description' => 'Silver-level &amp; Scholarship Sponsor',
-			'url' => 'http://www.ispot.tv/',
-			'logo' => 'img/logos/ispottv.jpg',
-			'about' => <<<DESC
+        ],
+        'ispottv' => [
+            'name' => 'iSpot.tv',
+            'code' => 'ispottv',
+            'level' => 'silver',
+            'rank' => 1079,
+            'label' => 'Silver',
+            'description' => 'Silver-level &amp; Scholarship Sponsor',
+            'url' => 'http://www.ispot.tv/',
+            'logo' => 'img/logos/ispottv.jpg',
+            'about' => <<<DESC
 We are the go-to platform for Brands, Agencies, Networks, Actors and Developers to track in real-time paid TV media and
 related earned digital activity across social, search &amp; video.
 DESC
-		],
+        ],
         'mercutio' => [
             'name' => 'Mercutio',
             'code' => 'mercutio',
@@ -1515,7 +1520,7 @@ or a fancy night out. Joule takes care of all of the maintenance, and your insur
 do is fill it up!
 DESC
         ],
-	],
+    ],
     'communitySponsors' => [
         'devhell' => [
             'name' => '/dev/hell',

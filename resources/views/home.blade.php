@@ -69,7 +69,7 @@
                         <td rowspan="2">
                             <ul class="list-unstyled text-center">
                                 <li><a href="./events#seaphp-meetup">Meetup</a></li>
-                                <li><a href="./events#pnwphp-workshops">Drinkup</a></li>
+                                <li><a href="./events#seaphp-drinkup">Drinkup</a></li>
                             </ul>
                         </td>
                         <td rowspan="2">

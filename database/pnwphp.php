@@ -713,16 +713,14 @@ DESC
             'speaker' => 'amber-matz',
             'tags' => ['drupal', 'oop'],
             'type' => 'session',
-            'description' => 'One of the central changes in Drupal 8 is a shift to an object-oriented architecture. This represents a significant change in how module developers will utilize PHP in the context of Drupal. In the first part of this presentation, I will provide an overview of object-oriented PHP, why it was introduced into the Drupal 8 code base, how it differs from procedural programming, and the major object-oriented PHP concepts you\'ll find in Drupal 8 core.
-
-Following this overview, I\'ll demonstrate two tools, one a Drupal module and the other a Symfony console application, both designed to help you get up to speed with the Drupal 8 systems and APIs.
-
-By the end of this presentation, you\'ll be armed with tools, resources, concepts, and terminology that will enable you to boldly jump into Drupal 8 module development.
-
-Who will benefit from this presentation?
-- Developers who are familiar with Drupal 7 and are curious about the OO-PHP changes in Drupal 8
-- Developers who are familiar with Drupal but are just starting to learn OO-PHP
-- Developers who are not primarily Drupal developers, but are familiar with OO-PHP and are curious about the shift to an object-oriented architecture in Drupal 8',
+            'description' => <<<DESC
+In this presentation, I have chosen a Drupal core module as a case study for upgrading from Drupal 7's procedural PHP to
+Drupal 8's object-oriented PHP structure. I hope to show you that as a Drupal developer, your knowledge of Drupal 7's APIs
+and procedural PHP will still remain useful, but you will also learn to make use of Drupal 8's new systems and APIs as well
+as Drupal 8's object-oriented PHP architecture. As a PHP developer, if you are new to Drupal, you will learn some examples
+of how Drupal 8 has implemented object-oriented PHP. And for both audiences, I will show you some tools and resources you
+can use to get up to speed with learning Drupal 8 development.
+DESC
         ],
         'building-your-api-utility-belt' => [
             'code' => 'building-your-api-utility-belt',
@@ -1476,9 +1474,9 @@ DESC
         'efelle-creative' => [
             'name' => 'efelle creative',
             'code' => 'efelle-creative',
-            'level' => 'bronze',
-            'rank' => 1047,
-            'label' => 'Bronze',
+            'level' => 'copper',
+            'rank' => 1027,
+            'label' => 'Copper',
             'description' => 'Bronze-level Sponsor',
             'url' => 'http://www.seattlewebdesign.com',
             'logo' => 'img/logos/efelle-creative.jpg',
@@ -1501,6 +1499,25 @@ Published continuously since 2002, php[architect] magazine is the only technical
 world of PHP. We are committed to spreading knowledge of best practices in PHP. With that purpose, the brand has
 expanded into producing a full line of books, hosting online and in-person web training, as well as organizing multiple
 conferences per year.
+DESC
+        ],
+        'mhe' => [
+            'name' => 'McGraw-Hill',
+            'code' => 'mhe',
+            'level' => 'bronze',
+            'rank' => 1036,
+            'label' => 'Bronze',
+            'description' => 'Bronze-level Sponsor',
+            'url' => 'http://mhedcuation.com',
+            'logo' => 'img/logos/mhe.jpg',
+            'about' => <<<DESC
+At McGraw-Hill Education, we believe that our contribution to unlocking a brighter future lies within the application of our deep understanding of how learning happens and how the mind develops. It exists where the science of learning meets the art of teaching.
+
+Educators have been and always will be at the core of the learning experience. The solutions we develop help educators impart their knowledge to students more efficiently. We believe that harnessing technology can enhance learning inside and outside of the classroom and deepen the connections between students and teachers to empower greater success.
+
+By partnering with educators around the globe, our learning engineers, content developers and pedagogical experts are developing increasingly open learning ecosystems that are proven to improve pass rates, elevate grades and increase engagement for each individual learner while improving outcomes for all.
+
+Why? Because learning changes everything.
 DESC
         ],
         'joule' => [

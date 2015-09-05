@@ -102,9 +102,6 @@
             <div class="col-md-8 col-md-offset-2">
                 <h2 id="conference">
                     <a href="./events#conference">PNWPHP Conference</a> <small>(9:00am&ndash;6:30pm)</small>
-                    <a class="btn btn-default btn-info pull-right" href="https://pnwphp2015.busyconf.com/bookings/new">
-                        <i class="fa fa-link"></i> Register Now
-                    </a>
                 </h2>
                 <div class="lead">
                     The main conference event will take place over two days with 30 presentations, 6 keynotes, catered
@@ -141,12 +138,9 @@
             <div class="col-md-8 col-md-offset-2">
                 <h2>
                     <a href="./events#conference">PNWPHP Conference</a> - Day 2 <small>(9:00am&ndash;7:00pm)</small>
-                    <a class="btn btn-default btn-info pull-right" href="https://pnwphp2015.busyconf.com/bookings/new">
-                        <i class="fa fa-link"></i> Register Now
-                    </a>
                 </h2>
                 <div class="lead">
-                    PNWPHP continues with more presentations, food, and fun.
+                    PNWPHP continues on Day 2 with more presentations, food, and fun.
                 </div>
 
                 <h2><a href="./events#uncon">UnCon</a> - Day 2 <small>(10:00am&ndash;5:30pm)</small></h2>

@@ -8,14 +8,16 @@
     <div>
         <h1>Pacific Northwest PHP</h1>
         <h2>September 10th–12th, 2015 &#8226 Seattle, WA</h2>
-        <a class="btn btn-lg btn-info" target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new"><i class="fa fa-ticket"></i> REGISTER NOW</a>
+        <a class="btn btn-lg btn-info" target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new"><i class="fa fa-ticket"></i> Register for Workshops - $49</a>
+        &emsp;
+        <a class="btn btn-lg btn-info" target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new#ticket_type_54dd586d49a161a49e00000c"><i class="fa fa-ticket"></i> Register for Live Stream - $39</a>
     </div>
 </div>
 
 <div class="wrapper wrapper-white">
     <div class="title">PNWPHP Conference</div>
     <div class="container">
-        <div class="row">
+        <!--<div class="row">
             <div class="col-md-12">
                 <div class="alert alert-success">
                     <p class="lead text-center">
@@ -25,7 +27,7 @@
                     </p>
                 </div>
             </div>
-        </div>
+        </div>-->
 
         <div class="row">
             <div class="col-md-2">
@@ -37,7 +39,7 @@
                     living in the Pacific Northwest region. We've invited world-renowned <a href="./speakers">speakers</a>
                     from the PHP community to teach about <a href="./tags">topics</a> ranging from continuous
                     integration to the cloud. Join us for the amazing presentations, catered food, musical numbers,
-                    the <a href="./events-hackathon">hackathon</a>, and the live blog.
+                    the <a href="./events-hackathon">hackathon</a>, and the <a href="./live">live blog</a>.
                 </p>
             </div>
             <div class="col-md-4">
@@ -100,14 +102,8 @@
                             </ul>
                         </td>
                     </tr>
-                    <tr class="bg-warning">
-                        <th colspan="2" class="text-center"><a href="./online-events">Live Stream</a> - $39</th>
-                    </tr>
                     <tr class="bg-success">
-                        <th class="text-center">Free</th>
-                        <th class="text-center">$49</th>
-                        <th colspan="2" class="text-center">$249&ndash;$349 (see below)</th>
-                        <th class="text-center">Free</th>
+                        <th colspan="2" class="text-center"><a href="./online-events">Live Stream</a></th>
                     </tr>
                 </table>
             </div>
@@ -115,7 +111,7 @@
                 @if ($sponsor = $conference->sponsors->filter(function ($sponsor) {return $sponsor->rank >= 1070;})->random(1))
                     <p class="text-center">PNWPHP is sponsored in part by:</p>
                     <a target="_blank" href="{{ $sponsor->url }}" title="{{ $sponsor->name }}">
-                        <img src="{{ $sponsor->logo }}" alt="{{ $sponsor->name }}" class="img-responsive center-block"/>
+                        <img src="{{ $sponsor->logo }}" alt="{{ $sponsor->name }}" class="img-responsive center-block" />
                     </a>
                 @endif
             </div>
@@ -130,11 +126,15 @@
             <div class="col-md-4">
                 <div class="panel panel-primary">
                     <div class="panel-heading">
-                        <h4 class="text-center">FOR STUDENTS</h4>
+                        <h4 class="text-center">Workshop Day</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$99</strong></p>
-                        <p>Available to full and part time students; student ID required at the event.</p>
+                        <p class="lead"><strong>$49</strong></p>
+                        <p>
+                            Choose one of the following:<br>
+                            <a href="./events#pnwphp-workshops">Two Half-day Workshops</a><br>
+                            <a href="./events-hackathon">AWS Hackathon &amp; Workshop</a>
+                        </p>
                     </div>
                     <div class="panel-footer">
                         <a class="btn btn-lg btn-block btn-info" href="https://pnwphp2015.busyconf.com/bookings/new"><i class="fa fa-ticket"></i> REGISTER NOW</a>
@@ -142,38 +142,35 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="panel panel-success">
+                <div class="panel panel-info">
                     <div class="panel-heading">
-                        <h4 class="text-center">FOR INDIVIDUALS</h4>
+                        <h4 class="text-center">Live Video Stream</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$249</strong></p>
-                        <p>Available to attendees who are paying for their own tickets.</p>
+                        <p class="lead"><strong>$39</strong></p>
+                        <p>Watch our <a href="./online-events">live video stream</a> from the main conference track,
+                            including 16 presentations from some amazing speakers.</p>
                     </div>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-info" href="https://pnwphp2015.busyconf.com/bookings/new"><i class="fa fa-ticket"></i> REGISTER NOW</a>
+                        <a class="btn btn-lg btn-block btn-info" href="https://pnwphp2015.busyconf.com/bookings/new#ticket_type_54dd586d49a161a49e00000c"><i class="fa fa-ticket"></i> REGISTER NOW</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="panel panel-primary">
+                <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h4 class="text-center">FOR EMPLOYEES</h4>
+                        <h4 class="text-center">Main Conference</h4>
                     </div>
                     <div class="panel-body text-center">
-                        <p class="lead"><strong>$349</strong></p>
-                        <p>Available to attendees whose tickets are being paid for or reimbursed by their company/employer.</p>
+                        <p class="lead"><strong>SOLD OUT</strong></p>
+                        <p>The conference is full, but there is still room to RSVP for our
+                            <a href="http://www.meetup.com/seaphp/events/222390720/">PNWPHP Kickoff Meetup</a>
+                            with Cal Evans on 9/9 if you'll be in town.
+                        </p>
                     </div>
                     <div class="panel-footer">
-                        <a class="btn btn-lg btn-block btn-info" href="https://pnwphp2015.busyconf.com/bookings/new"><i class="fa fa-ticket"></i> REGISTER NOW</a>
+                        <a class="btn btn-lg btn-block btn-default" href="https://pnwphp2015.busyconf.com/bookings/new"><i class="fa fa-ticket"></i> SOLD OUT</a>
                     </div>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="alert alert-info">
-                    <p class="lead text-center"><strong>NOTE:</strong> The Workshops and AWS Hackathon require a separate <strong>$49</strong> ticket.</p>
                 </div>
             </div>
         </div>

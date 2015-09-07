@@ -1,6 +1,6 @@
 <div class="wrapper wrapper-purple">
     <div class="title"><a href="/sponsors">Sponsors</a></div>
-    <p class="lead text-center">Thank you to all of our sponsors who are making it possible to hold this event.</p>
+    <p class="lead text-center">Thank you to all of our sponsors who are supporting this community-run event.</p>
     <div class="container">
         <div class="row sponsors">
             @foreach ($conference->sponsors->sortBy('rank', SORT_REGULAR, true) as $sponsor)
@@ -20,7 +20,7 @@
                 </div>
             </div>
             @endforeach
-            <div class="row">
+            {{--<div class="row">
                 <div class="col-md-12">
                     <p class="text-center">
                         If you are interested in becoming a sponsor, take a look at our
@@ -28,9 +28,9 @@
                         <a href="mailto:jeremy@seaphp.com?Subject=PNWPHP%20Sponsorship%20Request">jeremy@seaphp.com</a>
                     </p>
                 </div>
-            </div>
+            </div>--}}
 
-            @include('sections.community-sponsors')
+        @include('sections.community-sponsors')
         </div>
     </div>
 </div>

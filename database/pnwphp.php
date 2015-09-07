@@ -1667,6 +1667,22 @@ DESC
             'logo' => 'img/logos/pnwdrupalsummit.jpg',
             'type' => 'conference',
         ],
+        'osfeels' => [
+            'name' => 'Open Source & Feelings',
+            'code' => 'osfeels',
+            'rank' => 28,
+            'url' => 'http://osfeels.com/',
+            'logo' => 'img/logos/osfeels.jpg',
+            'type' => 'conference',
+        ],
+        'seaphp' => [
+            'name' => 'SeaPHP User Group',
+            'code' => 'seaphp',
+            'rank' => 25,
+            'url' => 'http://www.meetup.com/seaphp//',
+            'logo' => 'img/logos/seaphp.jpg',
+            'type' => 'group',
+        ],
     ],
    'hotels' => [
         'hotel-max' =>  [

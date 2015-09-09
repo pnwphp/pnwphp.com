@@ -1855,4 +1855,13 @@ DESC
         ],
 
     ],
+
+    'individualSponsors' => [
+        ['name' => 'Norm Johanson'],
+        ['name' => 'Chris Cornutt'],
+        ['name' => 'Samantha Quiñones'],
+        ['name' => 'Brian Newsham'],
+        ['name' => 'David Stanley'],
+    ],
+
 ];

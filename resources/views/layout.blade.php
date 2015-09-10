@@ -10,6 +10,8 @@
     <script src='//maps.googleapis.com/maps/api/js?key=AIzaSyDPVQLUTxH8YyiajhCBj5yYevAW6zRX570&sensor=false'></script>
 
     <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -145,6 +147,7 @@
 
         }
     })();
+    window.onload=function(){if(window.location.hash)window.scrollTo(0,window.scrollY-80);};
 </script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

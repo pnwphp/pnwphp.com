@@ -24,5 +24,6 @@
         </div>
 
         @include('sections.community-sponsors')
+        @include('sections.individual-sponsors')
     </div>
 @stop

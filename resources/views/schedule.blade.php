@@ -54,7 +54,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row hidden-xs">
                     <div class="col-md-4 schedule-header">
                         <strong>1918 8th Ave. (3rd Floor)</strong>
                     </div>
@@ -79,9 +79,11 @@
                     </div>
                     <div class="col-md-4">
                         @include('session', ['talk_id' => 'clean-application-development'])
+                        <span class="visible-xs-inline">Learning Studio 1</span>
                     </div>
                     <div class="col-md-4">
                         @include('session', ['talk_id' => 'git-and-github-for-php-projects'])
+                        <span class="visible-xs-inline">Learning Studio 2</span>
                     </div>
                 </div>
 
@@ -105,9 +107,11 @@
                     </div>
                     <div class="col-md-4">
                         @include('session', ['talk_id' => 'code-review-for-security'])
+                        <span class="visible-xs-inline">Learning Studio 1</span>
                     </div>
                     <div class="col-md-4">
                         @include('session', ['talk_id' => 'wax-on-wax-off-code-kata-dojo'])
+                        <span class="visible-xs-inline">Learning Studio 2</span>
                     </div>
                 </div>
 
@@ -135,7 +139,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row hidden-xs">
                     <div class="col-md-3 schedule-header">
                         <strong>Main Event Room (1st Floor)</strong>
                     </div>
@@ -159,11 +163,13 @@
                 <div class="row schedule-row">
                     <div class="col-md-12">
                         @include('session', ['talk_id' => 'emcee', 'message' => 'Welcome to PNWPHP'])
+                        <span class="visible-xs-inline">Main Event Room (1st Floor)</span>
                     </div>
                 </div>
                 <div class="row schedule-row">
                     <div class="col-md-12">
                         @include('session', ['talk_id' => 'open-source-love'])
+                        <span class="visible-xs-inline">Main Event Room (1st Floor)</span>
                     </div>
                 </div>
 
@@ -200,6 +206,7 @@
                 <div class="row schedule-row">
                     <div class="col-md-12">
                         @include('session', ['talk_id' => 'cloud-is-the-new-normal'])
+                        <span class="visible-xs-inline">Main Event Room (1st Floor)</span>
                     </div>
                 </div>
 
@@ -238,6 +245,7 @@
                 <div class="row schedule-row">
                     <div class="col-md-12">
                         @include('session', ['talk_id' => 'stronger-than-fear'])
+                        <span class="visible-xs-inline">Main Event Room (1st Floor)</span>
                     </div>
                 </div>
 
@@ -264,7 +272,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row hidden-xs">
                     <div class="col-md-3 schedule-header">
                         <strong>Main Event Room (1st Floor)</strong>
                     </div>
@@ -288,6 +296,7 @@
                 <div class="row schedule-row">
                     <div class="col-md-12">
                         @include('session', ['talk_id' => 'eating-elephpants'])
+                        <span class="visible-xs-inline">Main Event Room (1st Floor)</span>
                     </div>
                 </div>
 
@@ -324,6 +333,7 @@
                 <div class="row schedule-row">
                     <div class="col-md-12">
                         @include('session', ['talk_id' => 'sara-golemon-keynote'])
+                        <span class="visible-xs-inline">Main Event Room (1st Floor)</span>
                     </div>
                 </div>
 
@@ -362,11 +372,13 @@
                 <div class="row schedule-row">
                     <div class="col-md-12">
                         @include('session', ['talk_id' => 'down-the-rabbit-hole'])
+                        <span class="visible-xs-inline">Main Event Room (1st Floor)</span>
                     </div>
                 </div>
                 <div class="row schedule-row">
                     <div class="col-md-12">
                         @include('session', ['talk_id' => 'emcee', 'message' => 'Raffle and Closing Comments'])
+                        <span class="visible-xs-inline">Main Event Room (1st Floor)</span>
                     </div>
                 </div>
 

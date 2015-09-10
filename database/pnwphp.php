@@ -1785,7 +1785,7 @@ DESC
             "contact_email" => "john.m.kelly@cdk.com",
             "title" => "Software UI Engineer",
             "location" => "Seattle, WA",
-            "description" => "At CDK Global, we are driven by your success. We engage your unique talents and perspectives. We welcome your ideas on how to do things differently and better. In your efforts to achieve, learn and grow, we support you all the way.
+            "description" => "At CDK Global, we are driven by your success. We engage your unique talents and perspectives. We welcome your ideas on how to do things differently and better. In your efforts to achieve, learn and grow, we support you all the way.  
 
          In this role, you'll have the opportunity to create tools and features used by over a million unique web visitors each day. You'll work in small agile teams to rapidly prototype and deploy new product features.
 
@@ -1827,6 +1827,9 @@ DESC
         <li>Experienced building internal tooling, full-stack. (CRUD front-end)</li>
         <li>RESTful APIs for public and private usage.</li>
         </ul>
+
+
+
         ",
             "url" => "https://hire.jobvite.com/j?cj=oMPkYfwD&s=PNWPHP",
 
@@ -1851,6 +1854,45 @@ DESC
             "location" => "Southfield, MI / Remote",
             "description" => "We are hiring a Quality Assurance Engineer to spearhead a redoubled initiative of softwarequality for our internal systems. As this initiative’s “gatekeeper of quality,” you will require masterful planning skills coupled with a keen sense of how to help our software engineers achieve their high standards of quality.",
             "url" => "http://nexcess.applicantstack.com/x/detail/a2a5ksfdgr7y",
+
+        ],
+        "tune--senior-front-end-engineer-" => [
+            "company_name" => "TUNE",
+            "company_url" => "www.TUNE.com",
+            "contact_name" => "Sabrina Oldham",
+            "contact_email" => "sabrina@tune.com",
+            "title" => "Senior Front End Engineer ",
+            "location" => "Seattle, WA ",
+            "description" => "TUNE is looking for someone who understands that Front-end technology is evolving and is looking to apply their experience with traditional software engineering practices in writing front end application code. TML5, CSS3 and Responsive Design are just fancy marketing terms for the technology you’ve been using for years. This person is fluent in a variety of development environments and is up to date on the latest standards for development across multiple types. At HasOffers, you’ll have the chance to contribute right away. You'll get to tackle different opportunities and challenges that expand and strengthen your skills and experience.
+
+        -Architect and implement features and reusable framework pieces using AngularJS and React.
+        -Identify and implement support tooling for the team.
+        -Keep abreast of trends and innovations in web development, user interfaces, and web design.
+        -Ensure a high quality of code through code reviews and unit tests
+        ",
+            "url" => "https://careers-tune.icims.com/jobs/1161/senior-front-end-engineer/job",
+
+        ],
+        "tune--software-development-manager-(data-infrastructure)" => [
+            "company_name" => "TUNE",
+            "company_url" => "TUNE",
+            "contact_name" => "Sabrina Oldham",
+            "contact_email" => "sabrina@tune.com",
+            "title" => "Software Development Manager (Data Infrastructure)",
+            "location" => "Seattle, WA ",
+            "description" => "We are looking for a Software Development Manager to guide, mentor and lead a team of engineers focused on Data Infrastructure. The Data Infrastructure team is responsible for archiving, transforming/repairing, performing predefined analysis, and providing ad-hoc query availability on a data set that’s growing by billions of events per month. We are looking for someone who is an inspirational leader but also highly technical, who can inform technical discussions and contribute code while remaining primarily focused on maximizing the team’s productivity.",
+            "url" => "https://careers-tune.icims.com/jobs/1228/software-development-manager-%28data-infrastructure%29/job",
+
+        ],
+        "tune--software-development-manager-(reporting)" => [
+            "company_name" => "TUNE",
+            "company_url" => "www.TUNE.com",
+            "contact_name" => "Sabrina Oldham",
+            "contact_email" => "sabrina@tune.com",
+            "title" => "Software Development Manager (Reporting)",
+            "location" => "Seattle, WA ",
+            "description" => "We are looking for a Software Development Manager to guide, mentor and lead a team of engineers focused on reporting and data insights for our Attribution Analytics (MobileAppTracking) product. The Reporting team is responsible for serving predefined and ad-hoc queries on a large and growing dataset, and providing fast and beautiful visualizations of data. The development manager will work closely with a project manager and a dedicated product manager to build solutions for our most visible product segment. We are looking for someone who is an inspirational leader but also highly technical, who can inform technical discussions and contribute code while remaining primarily focused on maximizing the team’s productivity.",
+            "url" => "https://careers-tune.icims.com/jobs/1227/software-development-manager-%28reporting%29/job",
 
         ],
 

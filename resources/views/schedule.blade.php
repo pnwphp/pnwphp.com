@@ -54,7 +54,7 @@
                     </div>
                 </div>
 
-                <div class="row">
+                <div class="row hidden-xs">
                     <div class="col-md-4 schedule-header">
                         <strong>1918 8th Ave. (3rd Floor)</strong>
                     </div>
@@ -79,9 +79,11 @@
                     </div>
                     <div class="col-md-4">
                         @include('session', ['talk_id' => 'clean-application-development'])
+                        <span class="visible-xs-inline">Learning Studio 1</span>
                     </div>
                     <div class="col-md-4">
                         @include('session', ['talk_id' => 'git-and-github-for-php-projects'])
+                        <span class="visible-xs-inline">Learning Studio 2</span>
                     </div>
                 </div>
 
@@ -105,9 +107,11 @@
                     </div>
                     <div class="col-md-4">
                         @include('session', ['talk_id' => 'code-review-for-security'])
+                        <span class="visible-xs-inline">Learning Studio 1</span>
                     </div>
                     <div class="col-md-4">
                         @include('session', ['talk_id' => 'wax-on-wax-off-code-kata-dojo'])
+                        <span class="visible-xs-inline">Learning Studio 2</span>
                     </div>
                 </div>
 

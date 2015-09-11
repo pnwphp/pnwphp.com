@@ -187,7 +187,7 @@
                     'talks' => [
                         'massively-scaling-wordpress-in-the-cloud-a-case-study',
                         'from-procedural-to-object-oriented-php-in-drupal',
-                        'from-dev-to-dev-management',
+                        'vim-not-your-grandpas-editor',
                     ]
                 ])
 

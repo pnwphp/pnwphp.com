@@ -8,27 +8,13 @@
     <div>
         <h1>Pacific Northwest PHP</h1>
         <h2>September 10th–12th, 2015 &#8226 Seattle, WA</h2>
-        <a class="btn btn-lg btn-info" target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new"><i class="fa fa-ticket"></i> Register for Workshops - $49</a>
-        &emsp;
-        <a class="btn btn-lg btn-info" target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new#ticket_type_54dd586d49a161a49e00000c"><i class="fa fa-ticket"></i> Register for Live Stream - $39</a>
+        <a class="btn btn-lg btn-info" target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new"><i class="fa fa-ticket"></i> Register for Live Stream - $39</a>
     </div>
 </div>
 
 <div class="wrapper wrapper-white">
     <div class="title">PNWPHP Conference</div>
     <div class="container">
-        <!--<div class="row">
-            <div class="col-md-12">
-                <div class="alert alert-success">
-                    <p class="lead text-center">
-                        <strong>New:</strong> Can't make it in person?
-                        <a href="https://pnwphp2015.busyconf.com/bookings/new#ticket_type_54dd586d49a161a49e00000c">
-                        Register as a Virtual Attendee</a> to watch the live stream of the event.
-                    </p>
-                </div>
-            </div>
-        </div>-->
-
         <div class="row">
             <div class="col-md-2">
                 <img src="img/pnwphp.png" width="160" />

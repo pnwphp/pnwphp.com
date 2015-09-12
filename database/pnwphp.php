@@ -367,17 +367,19 @@ and the developers who will build it alongside you (and maintain it afterwards).
 most of her free time swing and blues dancing, rock climbing, and wishing it weren&rsquo;t snowing.
 BIO
         ],
-        'robert-purcell' => [
-            'code' => 'robert-purcell',
-            'name' => 'Robert Purcell',
+        'frank-laszlo' => [
+            'code' => 'frank-laszlo',
+            'name' => 'Frank Laszlo',
             'location' => '',
-            'twitter' => '',
-            'avatar' => 'img/avatars/robert-purcell.png',
+            'twitter' => 'FrankLaszlo',
+            'avatar' => 'img/avatars/frank-laszlo.jpg',
             'company' => 'nexcess',
             'bio' => <<<BIO
-Programming from the age of eight (BASIC), Robert is now Sr. Software Engineer and head of the internal development
-team at Nexcess.net working in PHP and javascript all day. Based in Michigan, husband, and father of three with the dad
-jokes to prove it.
+Frank Laszlo is a Software Engineer at Nexcess (@nexcess) where he spends his time writing Object Oriented PHP and
+full-stack Javascript implementations. He has worn many hats over the last 15 years in the industry, including System
+Administrator, Security Analyst, and Small Business Owner. He was a Ports Committer for the FreeBSD Project and contributed
+to many Open Source projects, both large and small. In his spare time, he enjoys cooking, composing/playing music, and
+flying model aircraft.
 BIO
         ],
         'jeff-barr' => [
@@ -575,17 +577,17 @@ chose the framework, and lessons we've learned deploying it at scale. We'll also
 the framework from the first feature branch to production sign off.
 DESC
         ],
-        'from-dev-to-dev-management' => [
-            'code' => 'from-dev-to-dev-management',
+        'vim-not-your-grandpas-editor' => [
+            'code' => 'vim-not-your-grandpas-editor',
             'reviewId' => '14916',
-            'title' => 'From Dev to Dev Management',
-            'tags' => ['leadership', 'management', 'career-growth'],
-            'speaker' => 'robert-purcell',
+            'title' => 'Vim: Not Your Grandpa\'s Editor',
+            'tags' => ['vim', 'editor', 'ide', 'linux'],
+            'speaker' => 'frank-laszlo',
             'type' => 'session',
             'description' => <<<DESC
-One career advancement path common for a developer is into management. One thing that's not always common for a
-developer, though, is managerial skills. Let's discuss what it takes to be a manager, the management of other
-developers, and the unique challenges of a programmer acting as manager.
+Everyone has an editor of choice when it comes to writing code. But every once in awhile, you find yourself in a
+situation where you’re editing on a remote server, and you have a very limited choice of editors. Whether a novice or a
+seasoned vet, you should find this talk on Vim Editor a great learning experience.
 DESC
         ],
         'symfony-create-mmorpg' => [

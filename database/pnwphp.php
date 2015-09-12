@@ -1767,6 +1767,7 @@ DESC
         ],
     ],
     'jobs' => [
+
         "cdk-global--software-engineer-i" => [
             "company_name" => "CDK Global",
             "company_url" => "http://www.cdk.com",
@@ -1791,9 +1792,11 @@ DESC
 
          In this role, you'll have the opportunity to create tools and features used by over a million unique web visitors each day. You'll work in small agile teams to rapidly prototype and deploy new product features.
 
-        Use comprehensive knowledge of current web technologies and best practices to create sophisticated, imaginative and efficient reusable UI solutions across multiple browsers for various devices and operating systems.
-        Design reusable components by utilizing various standard frameworks
-        Evaluate requirements and initial mock-ups; make technology recommendations that support optimal construction, maintenance and performance
+        <ul>
+        <li>Use comprehensive knowledge of current web technologies and best practices to create sophisticated, imaginative and efficient reusable UI solutions across multiple browsers for various devices and operating systems.</li>
+        <li>Design reusable components by utilizing various standard frameworks</li>
+        <li>Evaluate requirements and initial mock-ups; make technology recommendations that support optimal construction, maintenance and performance</li>
+        </ul>
         ...",
             "url" => "http://www.cdkjobs.com/jobs/technology/seattle-wa-usa/software-ui-engineer/82616?lang=en",
 
@@ -1897,6 +1900,142 @@ DESC
             "url" => "https://careers-tune.icims.com/jobs/1227/software-development-manager-%28reporting%29/job",
 
         ],
+        "amazon--software-development-engineer" => [
+            "company_name" => "Amazon",
+            "company_url" => "www.amazon.com",
+            "contact_name" => "Dave Wheeler",
+            "contact_email" => "dgw@amazon.com",
+            "title" => "Software Development Engineer",
+            "location" => "Seattle, WA",
+            "description" => "The AWS Developer Resources team is searching for PHP experts to help make using AWS seamless and natural for PHP developers. This is an opportunity to influence PHP developers around the world through SDKs, tools, and more..
+
+        If you are:
+        <ul>
+        <li>Passionate about PHP API design,</li>
+        <li>Thrive in a startup-like environment,</li>
+        <li>Strive to get it right the first time, and</li>
+        <li>Aim to improve your work with each release,</li>
+        </ul>
+        Then we want to talk to you.
+
+        In this role, you will be the voice of AWS in the PHP community. You will design and implement APIs and features to enable PHP developers to harness the power of AWS cloud computing. You will build sample applications that demonstrate best practices for using Amazon Web Services. You will have strong web development skills and be interested in releasing open source software. Experience contributing to open source PHP frameworks a plus.
+
+        Join the Developer Resources team and help bring the power of AWS cloud computing to the PHP community!",
+            "url" => "http://www.amazon.jobs/jobs/293512/software-development-engineer-aws-developer-resources",
+
+        ],
+        "gosolid--php-developer" => [
+            "company_name" => "GoSolid",
+            "company_url" => "www.GoSolid.net",
+            "contact_name" => "Mac McClain",
+            "contact_email" => "mac@gosolid.net",
+            "title" => "PHP Developer",
+            "location" => "Georgetown, Seattle",
+            "description" => "GoSolid is a relaxed company that values balance for ourselves and delivering the best to our clients. We prioritize understanding our clients' needs and we constantly innovate to give them tailored solutions.
+
+        We're looking for a developer with strong knowledge in PHP, Mysql and javascript. Should have worked on projects using JSON, XML and Jquery.
+
+        Desired experience/qualities:
+        3+ years with PHP, Magento, Zend Framework, MySQL 4+, (X)HTML), Linux administration, Apache, Subversion, APC. Strong communication skills, Self-disciplined in a development environment that requires system testing and documentation.",
+            "url" => "http://www.gosolid.net/php-developer",
+
+        ],
+        "tableau-software--software-engineer,-business-systems" => [
+            "company_name" => "Tableau Software",
+            "company_url" => "http://www.tableau.com/",
+            "contact_name" => "Katy Oesterle",
+            "contact_email" => "koesterle@tableau.com",
+            "title" => "Software Engineer, Business Systems",
+            "location" => "Seattle, WA",
+            "description" => "•Develop software, in projects small to large, to address the needs of our internal and external systems users. 
+        •Learn and develop proficiency with 3rd party applications Tableau’s business depends on. Apply your analytical skills to research, develop and integrate new functionalities and requirements by customizing and configuring of 3rd party applications.
+        •Develop applications from ground up using various platforms, technologies and languages. Involved through the entire SDLC by actively participating in requirement analysis, development, testing and deployment. Help develop tools and support systems for our development environments.
+        •Solid understanding of HTML, XML, CSS, AJAX, JavaScript, and programming languages, such as Java, Python, or PHP. Strong understanding of REST & SOAP web-based services.  Comfortable developing in both Windows and Mac/Linux environments.
+        •2+ years of development experience on the Salesforce.com platform. You have a BSCS or equivalent",
+            "url" => "https://chj.tbe.taleo.net/chj06/ats/careers/requisition.jsp?org=TABLEAU&cws=1&rid=4138",
+
+        ],
+        "tableau-software--software-engineer,-business-systems-(online)" => [
+            "company_name" => "Tableau Software",
+            "company_url" => "http://www.tableau.com/",
+            "contact_name" => "Katy",
+            "contact_email" => "koesterle@tableau.com",
+            "title" => "Software Engineer, Business Systems (Online)",
+            "location" => "Seattle, WA",
+            "description" => "• Help expand Tableau Online and Tableau’s identity management infrastructure by integrating and scaling multiple web services and distributed systems.
+        •   Develop proficiency with Tableau's distributed applications to enable system integration, data management, geographic distribution, automation and optimal configuration of applications.
+        •   Develop solutions that utilize a wide variety of platforms, languages, and tools, including: Linux, git, Java, PHP, Bamboo, Zabbix, Splunk, MySQL, ldap, memcached, Chef, virtualization and others.
+        •   5 years of years building web-based and/or business systems applications with a solid understanding of HTML, XML, CSS, AJAX, JavaScript, and programming languages, such as Java, Python, or PHP. Strong understanding of REST & SOAP web-based services.  Comfortable developing in both Windows and Mac/Linux environments.
+        •   2+ years of development experience on the Salesforce.com platform. You have a BSCS or equivalent 
+
+        ",
+            "url" => "https://chj.tbe.taleo.net/chj06/ats/careers/requisition.jsp?org=TABLEAU&cws=1&rid=14277",
+
+        ],
+        "tableau-software--website-developer,-marketing" => [
+            "company_name" => "Tableau Software",
+            "company_url" => "http://www.tableau.com/",
+            "contact_name" => "Katy",
+            "contact_email" => "koesterle@tableau.com",
+            "title" => "Website Developer, Marketing",
+            "location" => "Seattle, WA",
+            "description" => "• Optimizing front-end and/or back-end experiences of Tableau's web presence for all devices
+        •   Managing code and configuration within an enterprise-scale CMS
+        •   Troubleshooting issues and providing support to both internal staff and end users.
+        •   BA/BS degree or equivalent experience
+        •   Advanced knowledge of front-end website languages/libraries/frameworks (3+ years), or advanced experience creating modular components/extensions for Drupal (2+ years) or another PHP-based, enterprise-ready CMS; experience with in-browser debugging and replicating customer issues; experience with source control like Git or SVN; experience with design software like Adobe Creative Suite; a history with open-source CMSs and/or other libraries and projects
+        •   An analytical problem solver, and creative thinker. You enjoy interacting with designers, developers, project managers, and marketers to help them and end-users. Solid developer, specializing in creating re-useable, bug-free website components and design
+
+        ",
+            "url" => "https://chj.tbe.taleo.net/chj06/ats/careers/requisition.jsp?org=TABLEAU&cws=1&rid=4230",
+
+        ],
+        "talentwise--sr.-software-engineer" => [
+            "company_name" => "TalentWise",
+            "company_url" => "http://corp.talentwise.com/",
+            "contact_name" => "Darrell Hines",
+            "contact_email" => "dhines@talentwise.com",
+            "title" => "Sr. Software Engineer",
+            "location" => "Bellevue, WA",
+            "description" => "We are seeking a motivated, intelligent software design engineer to design and develop the next generation of employment screening services and products.  Experiences in coding, analyzing and troubleshooting large-scale enterprise web systems are the skills that 
+        would make this a perfect fit.
+
+        We're looking for local candidates
+
+        SDE REQUIREMENTS
+
+            <ul>
+            <li>BA/BS or Masters in Computer Science or related field – or equivalent experience - required.</li>
+            <li>5+ years of experience developing enterprise SaaS applications</li>
+            <li>Fluency in one or more of: PHP, C/C++ or Java.</li>
+            <li>Demonstrated experience with web services and application integration with external systems</li>
+            <li>Experience with building and implementing APIs using REST/SOAP, OAuth and JSON</li>
+            </ul>
+        ",
+            "url" => "http://hire.jobvite.com/CompanyJobs/Careers.aspx?c=qfl9Vfwo&v=1&page=Job%20Description&j=o4Lf1fwP",
+
+        ],
+        "talentwise--director-of-engineering" => [
+            "company_name" => "TalentWise",
+            "company_url" => "http://corp.talentwise.com/",
+            "contact_name" => "Darrell Hines",
+            "contact_email" => "dhines@talentwise.com",
+            "title" => "Director of Engineering",
+            "location" => "Bellevue, WA",
+            "description" => "Qualifications
+
+            BS degree in Computer Science or related discipline, MS preferred.
+            15+ years of overall technology experience in a software development role and a deep knowledge of software development methodologies
+            8+ years of experience architecting and developing SaaS enterprise applications.
+            8+ years in a management role, leading growing software engineering and QA teams in a SaaS environment.
+            Strong architecture, design, and implementation skills with a strong coding background in object oriented languages (e.g. C#, C++, Java)
+            High degree of competency within all phases of project management / SDLC including: issue and risk identification and management, change management, tracking dependencies and milestones, and communication of overall project status.
+            Experience with SQL, enterprise architecture, web technologies, and distributed services highly desired.
+            Excellent organizational and communication skills across, up, and down the organization.",
+            "url" => "http://hire.jobvite.com/CompanyJobs/Careers.aspx?c=qfl9Vfwo&v=1&page=Job%20Description&j=o4KA1fw9",
+
+        ],
+
 
     ],
 

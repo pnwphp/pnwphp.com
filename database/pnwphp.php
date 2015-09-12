@@ -1768,6 +1768,17 @@ DESC
     ],
     'jobs' => [
 
+        "company-name--job-title" => [
+            "company_name" => "Company Name",
+            "company_url" => "Company Website URL",
+            "contact_name" => "Contact Name",
+            "contact_email" => "Contact Email",
+            "title" => "Job Title",
+            "location" => "Job Location",
+            "description" => "Brief Job Description",
+            "url" => "Job URL",
+
+        ],
         "cdk-global--software-engineer-i" => [
             "company_name" => "CDK Global",
             "company_url" => "http://www.cdk.com",
@@ -1792,11 +1803,9 @@ DESC
 
          In this role, you'll have the opportunity to create tools and features used by over a million unique web visitors each day. You'll work in small agile teams to rapidly prototype and deploy new product features.
 
-        <ul>
-        <li>Use comprehensive knowledge of current web technologies and best practices to create sophisticated, imaginative and efficient reusable UI solutions across multiple browsers for various devices and operating systems.</li>
-        <li>Design reusable components by utilizing various standard frameworks</li>
-        <li>Evaluate requirements and initial mock-ups; make technology recommendations that support optimal construction, maintenance and performance</li>
-        </ul>
+        Use comprehensive knowledge of current web technologies and best practices to create sophisticated, imaginative and efficient reusable UI solutions across multiple browsers for various devices and operating systems.
+        Design reusable components by utilizing various standard frameworks
+        Evaluate requirements and initial mock-ups; make technology recommendations that support optimal construction, maintenance and performance
         ...",
             "url" => "http://www.cdkjobs.com/jobs/technology/seattle-wa-usa/software-ui-engineer/82616?lang=en",
 
@@ -1814,24 +1823,22 @@ DESC
             "url" => "http://www.cdkjobs.com/jobs/technology/seattle-wa-usa/ui-software-engineer-web-developer/82720?lang=en",
 
         ],
-        "ispot.tv--director-engineering" => [
+        "ispot.tv--sr-software-engineer---php" => [
             "company_name" => "iSpot.TV",
             "company_url" => "http://www.ispot.tv",
             "contact_name" => "Al Castle",
             "contact_email" => "al@ispot.tv",
-            "title" => "Director Engineering",
+            "title" => "Sr Software Engineer - PHP",
             "location" => "Bellevue",
             "description" => "We do: Real-Time TV Advertising Metrics
 
-        We're stable, growing, innovating & are looking for Sr PHP Engineers.
+        We're stable, growing, innovating & are looking for Sr PHP Engineers.  
 
-        Ideal candidate has many years of experience with:
-        <ul>
-        <li>Building enterprise platforms (SaaS) in Symfony2 or Laravel.</li>
-        <li>Owns their projects & code. From spec to deployment.</li>
-        <li>Experienced building internal tooling, full-stack. (CRUD front-end)</li>
-        <li>RESTful APIs for public and private usage.</li>
-        </ul>
+        Ideal candidate has many years of experience with: 
+        - Building enterprise platforms (SaaS) in Symfony2 or Laravel. 
+        - Owns their projects & code. From spec to deployment.
+        - Experienced building internal tooling, full-stack. (CRUD front-end)
+        - RESTful APIs for public and private usage.
 
 
 
@@ -1873,7 +1880,7 @@ DESC
         -Architect and implement features and reusable framework pieces using AngularJS and React.
         -Identify and implement support tooling for the team.
         -Keep abreast of trends and innovations in web development, user interfaces, and web design.
-        -Ensure a high quality of code through code reviews and unit tests
+        -Ensure a high quality of code through code reviews and unit tests 
         ",
             "url" => "https://careers-tune.icims.com/jobs/1161/senior-front-end-engineer/job",
 
@@ -1910,12 +1917,10 @@ DESC
             "description" => "The AWS Developer Resources team is searching for PHP experts to help make using AWS seamless and natural for PHP developers. This is an opportunity to influence PHP developers around the world through SDKs, tools, and more..
 
         If you are:
-        <ul>
-        <li>Passionate about PHP API design,</li>
-        <li>Thrive in a startup-like environment,</li>
-        <li>Strive to get it right the first time, and</li>
-        <li>Aim to improve your work with each release,</li>
-        </ul>
+        · Passionate about PHP API design,
+        · Thrive in a startup-like environment,
+        · Strive to get it right the first time, and
+        · Aim to improve your work with each release,
         Then we want to talk to you.
 
         In this role, you will be the voice of AWS in the PHP community. You will design and implement APIs and features to enable PHP developers to harness the power of AWS cloud computing. You will build sample applications that demonstrate best practices for using Amazon Web Services. You will have strong web development skills and be interested in releasing open source software. Experience contributing to open source PHP frameworks a plus.
@@ -2004,13 +2009,11 @@ DESC
 
         SDE REQUIREMENTS
 
-            <ul>
-            <li>BA/BS or Masters in Computer Science or related field – or equivalent experience - required.</li>
-            <li>5+ years of experience developing enterprise SaaS applications</li>
-            <li>Fluency in one or more of: PHP, C/C++ or Java.</li>
-            <li>Demonstrated experience with web services and application integration with external systems</li>
-            <li>Experience with building and implementing APIs using REST/SOAP, OAuth and JSON</li>
-            </ul>
+            BA/BS or Masters in Computer Science or related field – or equivalent experience - required.
+            5+ years of experience developing enterprise SaaS applications
+            Fluency in one or more of: PHP, C/C++ or Java.
+            Demonstrated experience with web services and application integration with external systems
+            Experience with building and implementing APIs using REST/SOAP, OAuth and JSON   
         ",
             "url" => "http://hire.jobvite.com/CompanyJobs/Careers.aspx?c=qfl9Vfwo&v=1&page=Job%20Description&j=o4Lf1fwP",
 
@@ -2035,7 +2038,6 @@ DESC
             "url" => "http://hire.jobvite.com/CompanyJobs/Careers.aspx?c=qfl9Vfwo&v=1&page=Job%20Description&j=o4KA1fw9",
 
         ],
-
 
     ],
 

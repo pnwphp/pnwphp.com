@@ -8,7 +8,6 @@
     <div>
         <h1>Pacific Northwest PHP</h1>
         <h2>September 10th–12th, 2015 &#8226 Seattle, WA</h2>
-        <a class="btn btn-lg btn-info" target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new"><i class="fa fa-ticket"></i> Register for Live Stream - $39</a>
     </div>
 </div>
 
@@ -88,9 +87,9 @@
                             </ul>
                         </td>
                     </tr>
-                    <tr class="bg-success">
+                    {{--<tr class="bg-success">
                         <th colspan="2" class="text-center"><a href="./online-events">Live Stream</a></th>
-                    </tr>
+                    </tr>--}}
                 </table>
             </div>
             <div class="col-md-4">
@@ -150,6 +149,7 @@
     </div>
 </div>
 
+{{--
 <div class="wrapper wrapper-light">
     <div class="title">Registration</div>
     <div class="container">
@@ -207,6 +207,7 @@
         </div>
     </div>
 </div>
+--}}
 
 <div class="wrapper wrapper-dark">
     <div class="title">The Venue</div>

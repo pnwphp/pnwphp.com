@@ -63,7 +63,7 @@
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new"><b>Register</b></a></li>
+                {{--<li><a target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new"><b>Register</b></a></li>--}}
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                     <ul class="dropdown-menu">

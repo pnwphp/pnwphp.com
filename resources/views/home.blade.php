@@ -8,6 +8,9 @@
     <div>
         <h1>Pacific Northwest PHP</h1>
         <h2>September 10th–12th, 2015 &#8226 Seattle, WA</h2>
+        <a href="https://nomadphp.com/pnwphp-videos/" target="_blank" class="btn btn-lg btn-info">
+            <i class="fa fa-video-camera"></i>&ensp;Buy PNWPHP 2015 Videos
+        </a>
     </div>
 </div>
 

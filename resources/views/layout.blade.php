@@ -36,53 +36,18 @@
 
         <div class="navbar-collapse collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav">
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Schedule <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./schedule">Full Schedule</a></li>
-                        <li><a href="./talks">Talks</a></li>
-                        <li><a href="./speakers">Speakers</a></li>
-                        <li><a href="./tags">Topics</a></li>
-                    </ul>
+                <li>
+                    <a href="https://pnwphp2016.dryfta.com/en/abstract-submission">Call for Papers</a>
                 </li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./events#conference">Main Conference</a></li>
-                        <li><a href="./events#pnwphp-workshops">Half-Day Workshops</a></li>
-                        <li><a href="./events-hackathon">AWS Hackathon</a></li>
-                        <li><a href="./online-events">Live Stream</a></li>
-                        <li><a href="./live">Live Blog</a></li>
-                        <li><a href="./events#seaphp-meetup">SeaPHP Meetup</a></li>
-                        <li><a href="./events#uncon">UnCon</a></li>
-                        <li><a href="./events#podcast-devhell">Podcasts</a></li>
-                        <li><a href="./events#wurstcon">WurstCon</a></li>
-                    </ul>
+                <li>
+                    <a href="https://pnwphp2016.dryfta.com/en/attendees-authors-registration">Register</a>
                 </li>
-                <li><a href="./live">Live Blog</a></li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new"><b>Register</b></a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        {{--<li><a href="./venue">Venue</a></li>--}}
-                        <li><a href="/what-to-expect">What to Expect</a></li>
-                        <li><a href="./hotels-and-transit">Hotels &amp; Transit</a></li>
-                        <li><a href="./sponsors">Sponsors</a></li>
-                        <li><a target="_blank" href="http://www.meetup.com/seaphp/">SeaPHP User Group</a></li>
-                    </ul></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Help <b class="caret"></b></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./code-of-conduct">Code of Conduct</a></li>
-                        <li><a href="./scholarship">Scholarships</a></li>
-                        <li><a href="https://gitter.im/pnwphp/PNWPHP">Chat Room</a></li>
-                        <li><a href="mailto:admins@seaphp.com?Subject=Question%20About%20PNWPHP">Contact Organizers</a></li>
-                    </ul>
-                </li>
-                <li><a href="./jobs">Local Jobs</a></li>
+                <li><a href="https://pnwphp2016.dryfta.com/en/sponsors">Sponsors</a></li>
+                <li><a href="https://pnwphp2016.dryfta.com/en/code-of-conduct_1456806894">The Code</a></li>
+                <li> <a href="#venue">Venue</a> </li>
             </ul>
         </div>
 
@@ -116,7 +81,7 @@
         var map;
         function init() {
             var mapOptions = {
-                center: new google.maps.LatLng(47.600612, -122.331253),
+                center: new google.maps.LatLng(47.624317, -122.352438),
                 zoom: 15,
                 draggable : false,
                 scrollwheel: false,
@@ -126,7 +91,7 @@
             var mapElement = document.getElementById('location-map');
             var map = new google.maps.Map(mapElement, mapOptions);
             var locations = [
-                ['Impact Hub Seattle', 'undefined', 'undefined', 'undefined', 'undefined', 47.600612, -122.331253, 'http://mapbuildr.com/assets/img/markers/solid-pin-red.png']
+                ['Cornish Playhouse', 'undefined', 'undefined', 'undefined', 'undefined', 47.624317, -122.352438, 'http://mapbuildr.com/assets/img/markers/solid-pin-red.png']
             ];
             for (i = 0; i < locations.length; i++) {
                 if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}

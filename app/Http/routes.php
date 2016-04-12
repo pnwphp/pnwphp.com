@@ -3,7 +3,7 @@
 use Illuminate\Http\Request;
 
 $app->get('/', function() use ($app) {
-    return page('home');
+    return page('home-2016');
 });
 
 $app->get('jobs', function() use ($app) {

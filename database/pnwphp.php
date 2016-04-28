@@ -367,17 +367,19 @@ and the developers who will build it alongside you (and maintain it afterwards).
 most of her free time swing and blues dancing, rock climbing, and wishing it weren&rsquo;t snowing.
 BIO
         ],
-        'robert-purcell' => [
-            'code' => 'robert-purcell',
-            'name' => 'Robert Purcell',
+        'frank-laszlo' => [
+            'code' => 'frank-laszlo',
+            'name' => 'Frank Laszlo',
             'location' => '',
-            'twitter' => '',
-            'avatar' => 'img/avatars/robert-purcell.png',
+            'twitter' => 'FrankLaszlo',
+            'avatar' => 'img/avatars/frank-laszlo.jpg',
             'company' => 'nexcess',
             'bio' => <<<BIO
-Programming from the age of eight (BASIC), Robert is now Sr. Software Engineer and head of the internal development
-team at Nexcess.net working in PHP and javascript all day. Based in Michigan, husband, and father of three with the dad
-jokes to prove it.
+Frank Laszlo is a Software Engineer at Nexcess (@nexcess) where he spends his time writing Object Oriented PHP and
+full-stack Javascript implementations. He has worn many hats over the last 15 years in the industry, including System
+Administrator, Security Analyst, and Small Business Owner. He was a Ports Committer for the FreeBSD Project and contributed
+to many Open Source projects, both large and small. In his spare time, he enjoys cooking, composing/playing music, and
+flying model aircraft.
 BIO
         ],
         'jeff-barr' => [
@@ -575,17 +577,17 @@ chose the framework, and lessons we've learned deploying it at scale. We'll also
 the framework from the first feature branch to production sign off.
 DESC
         ],
-        'from-dev-to-dev-management' => [
-            'code' => 'from-dev-to-dev-management',
+        'vim-not-your-grandpas-editor' => [
+            'code' => 'vim-not-your-grandpas-editor',
             'reviewId' => '14916',
-            'title' => 'From Dev to Dev Management',
-            'tags' => ['leadership', 'management', 'career-growth'],
-            'speaker' => 'robert-purcell',
+            'title' => 'Vim: Not Your Grandpa\'s Editor',
+            'tags' => ['vim', 'editor', 'ide', 'linux'],
+            'speaker' => 'frank-laszlo',
             'type' => 'session',
             'description' => <<<DESC
-One career advancement path common for a developer is into management. One thing that's not always common for a
-developer, though, is managerial skills. Let's discuss what it takes to be a manager, the management of other
-developers, and the unique challenges of a programmer acting as manager.
+Everyone has an editor of choice when it comes to writing code. But every once in awhile, you find yourself in a
+situation where you’re editing on a remote server, and you have a very limited choice of editors. Whether a novice or a
+seasoned vet, you should find this talk on Vim Editor a great learning experience.
 DESC
         ],
         'symfony-create-mmorpg' => [
@@ -1765,6 +1767,18 @@ DESC
         ],
     ],
     'jobs' => [
+
+        "company-name--job-title" => [
+            "company_name" => "Company Name",
+            "company_url" => "Company Website URL",
+            "contact_name" => "Contact Name",
+            "contact_email" => "Contact Email",
+            "title" => "Job Title",
+            "location" => "Job Location",
+            "description" => "Brief Job Description",
+            "url" => "Job URL",
+
+        ],
         "cdk-global--software-engineer-i" => [
             "company_name" => "CDK Global",
             "company_url" => "http://www.cdk.com",
@@ -1785,7 +1799,7 @@ DESC
             "contact_email" => "john.m.kelly@cdk.com",
             "title" => "Software UI Engineer",
             "location" => "Seattle, WA",
-            "description" => "At CDK Global, we are driven by your success. We engage your unique talents and perspectives. We welcome your ideas on how to do things differently and better. In your efforts to achieve, learn and grow, we support you all the way.
+            "description" => "At CDK Global, we are driven by your success. We engage your unique talents and perspectives. We welcome your ideas on how to do things differently and better. In your efforts to achieve, learn and grow, we support you all the way.  
 
          In this role, you'll have the opportunity to create tools and features used by over a million unique web visitors each day. You'll work in small agile teams to rapidly prototype and deploy new product features.
 
@@ -1809,7 +1823,7 @@ DESC
             "url" => "http://www.cdkjobs.com/jobs/technology/seattle-wa-usa/ui-software-engineer-web-developer/82720?lang=en",
 
         ],
-        "ispot.tv-sr-software-engineer" => [
+        "ispot.tv--sr-software-engineer---php" => [
             "company_name" => "iSpot.TV",
             "company_url" => "http://www.ispot.tv",
             "contact_name" => "Al Castle",
@@ -1818,15 +1832,16 @@ DESC
             "location" => "Bellevue",
             "description" => "We do: Real-Time TV Advertising Metrics
 
-        We're stable, growing, innovating & are looking for Sr PHP Engineers.
+        We're stable, growing, innovating & are looking for Sr PHP Engineers.  
 
-        Ideal candidate has many years of experience with:
-        <ul>
-        <li>Building enterprise platforms (SaaS) in Symfony2 or Laravel.</li>
-        <li>Owns their projects & code. From spec to deployment.</li>
-        <li>Experienced building internal tooling, full-stack. (CRUD front-end)</li>
-        <li>RESTful APIs for public and private usage.</li>
-        </ul>
+        Ideal candidate has many years of experience with: 
+        - Building enterprise platforms (SaaS) in Symfony2 or Laravel. 
+        - Owns their projects & code. From spec to deployment.
+        - Experienced building internal tooling, full-stack. (CRUD front-end)
+        - RESTful APIs for public and private usage.
+
+
+
         ",
             "url" => "https://hire.jobvite.com/j?cj=oMPkYfwD&s=PNWPHP",
 
@@ -1851,6 +1866,176 @@ DESC
             "location" => "Southfield, MI / Remote",
             "description" => "We are hiring a Quality Assurance Engineer to spearhead a redoubled initiative of softwarequality for our internal systems. As this initiative’s “gatekeeper of quality,” you will require masterful planning skills coupled with a keen sense of how to help our software engineers achieve their high standards of quality.",
             "url" => "http://nexcess.applicantstack.com/x/detail/a2a5ksfdgr7y",
+
+        ],
+        "tune--senior-front-end-engineer-" => [
+            "company_name" => "TUNE",
+            "company_url" => "www.TUNE.com",
+            "contact_name" => "Sabrina Oldham",
+            "contact_email" => "sabrina@tune.com",
+            "title" => "Senior Front End Engineer ",
+            "location" => "Seattle, WA ",
+            "description" => "TUNE is looking for someone who understands that Front-end technology is evolving and is looking to apply their experience with traditional software engineering practices in writing front end application code. TML5, CSS3 and Responsive Design are just fancy marketing terms for the technology you’ve been using for years. This person is fluent in a variety of development environments and is up to date on the latest standards for development across multiple types. At HasOffers, you’ll have the chance to contribute right away. You'll get to tackle different opportunities and challenges that expand and strengthen your skills and experience.
+
+        -Architect and implement features and reusable framework pieces using AngularJS and React.
+        -Identify and implement support tooling for the team.
+        -Keep abreast of trends and innovations in web development, user interfaces, and web design.
+        -Ensure a high quality of code through code reviews and unit tests 
+        ",
+            "url" => "https://careers-tune.icims.com/jobs/1161/senior-front-end-engineer/job",
+
+        ],
+        "tune--software-development-manager-(data-infrastructure)" => [
+            "company_name" => "TUNE",
+            "company_url" => "TUNE",
+            "contact_name" => "Sabrina Oldham",
+            "contact_email" => "sabrina@tune.com",
+            "title" => "Software Development Manager (Data Infrastructure)",
+            "location" => "Seattle, WA ",
+            "description" => "We are looking for a Software Development Manager to guide, mentor and lead a team of engineers focused on Data Infrastructure. The Data Infrastructure team is responsible for archiving, transforming/repairing, performing predefined analysis, and providing ad-hoc query availability on a data set that’s growing by billions of events per month. We are looking for someone who is an inspirational leader but also highly technical, who can inform technical discussions and contribute code while remaining primarily focused on maximizing the team’s productivity.",
+            "url" => "https://careers-tune.icims.com/jobs/1228/software-development-manager-%28data-infrastructure%29/job",
+
+        ],
+        "tune--software-development-manager-(reporting)" => [
+            "company_name" => "TUNE",
+            "company_url" => "www.TUNE.com",
+            "contact_name" => "Sabrina Oldham",
+            "contact_email" => "sabrina@tune.com",
+            "title" => "Software Development Manager (Reporting)",
+            "location" => "Seattle, WA ",
+            "description" => "We are looking for a Software Development Manager to guide, mentor and lead a team of engineers focused on reporting and data insights for our Attribution Analytics (MobileAppTracking) product. The Reporting team is responsible for serving predefined and ad-hoc queries on a large and growing dataset, and providing fast and beautiful visualizations of data. The development manager will work closely with a project manager and a dedicated product manager to build solutions for our most visible product segment. We are looking for someone who is an inspirational leader but also highly technical, who can inform technical discussions and contribute code while remaining primarily focused on maximizing the team’s productivity.",
+            "url" => "https://careers-tune.icims.com/jobs/1227/software-development-manager-%28reporting%29/job",
+
+        ],
+        "amazon--software-development-engineer" => [
+            "company_name" => "Amazon",
+            "company_url" => "www.amazon.com",
+            "contact_name" => "Dave Wheeler",
+            "contact_email" => "dgw@amazon.com",
+            "title" => "Software Development Engineer",
+            "location" => "Seattle, WA",
+            "description" => "The AWS Developer Resources team is searching for PHP experts to help make using AWS seamless and natural for PHP developers. This is an opportunity to influence PHP developers around the world through SDKs, tools, and more..
+
+        If you are:
+        · Passionate about PHP API design,
+        · Thrive in a startup-like environment,
+        · Strive to get it right the first time, and
+        · Aim to improve your work with each release,
+        Then we want to talk to you.
+
+        In this role, you will be the voice of AWS in the PHP community. You will design and implement APIs and features to enable PHP developers to harness the power of AWS cloud computing. You will build sample applications that demonstrate best practices for using Amazon Web Services. You will have strong web development skills and be interested in releasing open source software. Experience contributing to open source PHP frameworks a plus.
+
+        Join the Developer Resources team and help bring the power of AWS cloud computing to the PHP community!",
+            "url" => "http://www.amazon.jobs/jobs/293512/software-development-engineer-aws-developer-resources",
+
+        ],
+        "gosolid--php-developer" => [
+            "company_name" => "GoSolid",
+            "company_url" => "www.GoSolid.net",
+            "contact_name" => "Mac McClain",
+            "contact_email" => "mac@gosolid.net",
+            "title" => "PHP Developer",
+            "location" => "Georgetown, Seattle",
+            "description" => "GoSolid is a relaxed company that values balance for ourselves and delivering the best to our clients. We prioritize understanding our clients' needs and we constantly innovate to give them tailored solutions.
+
+        We're looking for a developer with strong knowledge in PHP, Mysql and javascript. Should have worked on projects using JSON, XML and Jquery.
+
+        Desired experience/qualities:
+        3+ years with PHP, Magento, Zend Framework, MySQL 4+, (X)HTML), Linux administration, Apache, Subversion, APC. Strong communication skills, Self-disciplined in a development environment that requires system testing and documentation.",
+            "url" => "http://www.gosolid.net/php-developer",
+
+        ],
+        "tableau-software--software-engineer,-business-systems" => [
+            "company_name" => "Tableau Software",
+            "company_url" => "http://www.tableau.com/",
+            "contact_name" => "Katy Oesterle",
+            "contact_email" => "koesterle@tableau.com",
+            "title" => "Software Engineer, Business Systems",
+            "location" => "Seattle, WA",
+            "description" => "•Develop software, in projects small to large, to address the needs of our internal and external systems users. 
+        •Learn and develop proficiency with 3rd party applications Tableau’s business depends on. Apply your analytical skills to research, develop and integrate new functionalities and requirements by customizing and configuring of 3rd party applications.
+        •Develop applications from ground up using various platforms, technologies and languages. Involved through the entire SDLC by actively participating in requirement analysis, development, testing and deployment. Help develop tools and support systems for our development environments.
+        •Solid understanding of HTML, XML, CSS, AJAX, JavaScript, and programming languages, such as Java, Python, or PHP. Strong understanding of REST & SOAP web-based services.  Comfortable developing in both Windows and Mac/Linux environments.
+        •2+ years of development experience on the Salesforce.com platform. You have a BSCS or equivalent",
+            "url" => "https://chj.tbe.taleo.net/chj06/ats/careers/requisition.jsp?org=TABLEAU&cws=1&rid=4138",
+
+        ],
+        "tableau-software--software-engineer,-business-systems-(online)" => [
+            "company_name" => "Tableau Software",
+            "company_url" => "http://www.tableau.com/",
+            "contact_name" => "Katy",
+            "contact_email" => "koesterle@tableau.com",
+            "title" => "Software Engineer, Business Systems (Online)",
+            "location" => "Seattle, WA",
+            "description" => "• Help expand Tableau Online and Tableau’s identity management infrastructure by integrating and scaling multiple web services and distributed systems.
+        •   Develop proficiency with Tableau's distributed applications to enable system integration, data management, geographic distribution, automation and optimal configuration of applications.
+        •   Develop solutions that utilize a wide variety of platforms, languages, and tools, including: Linux, git, Java, PHP, Bamboo, Zabbix, Splunk, MySQL, ldap, memcached, Chef, virtualization and others.
+        •   5 years of years building web-based and/or business systems applications with a solid understanding of HTML, XML, CSS, AJAX, JavaScript, and programming languages, such as Java, Python, or PHP. Strong understanding of REST & SOAP web-based services.  Comfortable developing in both Windows and Mac/Linux environments.
+        •   2+ years of development experience on the Salesforce.com platform. You have a BSCS or equivalent 
+
+        ",
+            "url" => "https://chj.tbe.taleo.net/chj06/ats/careers/requisition.jsp?org=TABLEAU&cws=1&rid=14277",
+
+        ],
+        "tableau-software--website-developer,-marketing" => [
+            "company_name" => "Tableau Software",
+            "company_url" => "http://www.tableau.com/",
+            "contact_name" => "Katy",
+            "contact_email" => "koesterle@tableau.com",
+            "title" => "Website Developer, Marketing",
+            "location" => "Seattle, WA",
+            "description" => "• Optimizing front-end and/or back-end experiences of Tableau's web presence for all devices
+        •   Managing code and configuration within an enterprise-scale CMS
+        •   Troubleshooting issues and providing support to both internal staff and end users.
+        •   BA/BS degree or equivalent experience
+        •   Advanced knowledge of front-end website languages/libraries/frameworks (3+ years), or advanced experience creating modular components/extensions for Drupal (2+ years) or another PHP-based, enterprise-ready CMS; experience with in-browser debugging and replicating customer issues; experience with source control like Git or SVN; experience with design software like Adobe Creative Suite; a history with open-source CMSs and/or other libraries and projects
+        •   An analytical problem solver, and creative thinker. You enjoy interacting with designers, developers, project managers, and marketers to help them and end-users. Solid developer, specializing in creating re-useable, bug-free website components and design
+
+        ",
+            "url" => "https://chj.tbe.taleo.net/chj06/ats/careers/requisition.jsp?org=TABLEAU&cws=1&rid=4230",
+
+        ],
+        "talentwise--sr.-software-engineer" => [
+            "company_name" => "TalentWise",
+            "company_url" => "http://corp.talentwise.com/",
+            "contact_name" => "Darrell Hines",
+            "contact_email" => "dhines@talentwise.com",
+            "title" => "Sr. Software Engineer",
+            "location" => "Bellevue, WA",
+            "description" => "We are seeking a motivated, intelligent software design engineer to design and develop the next generation of employment screening services and products.  Experiences in coding, analyzing and troubleshooting large-scale enterprise web systems are the skills that 
+        would make this a perfect fit.
+
+        We're looking for local candidates
+
+        SDE REQUIREMENTS
+
+            BA/BS or Masters in Computer Science or related field – or equivalent experience - required.
+            5+ years of experience developing enterprise SaaS applications
+            Fluency in one or more of: PHP, C/C++ or Java.
+            Demonstrated experience with web services and application integration with external systems
+            Experience with building and implementing APIs using REST/SOAP, OAuth and JSON   
+        ",
+            "url" => "http://hire.jobvite.com/CompanyJobs/Careers.aspx?c=qfl9Vfwo&v=1&page=Job%20Description&j=o4Lf1fwP",
+
+        ],
+        "talentwise--director-of-engineering" => [
+            "company_name" => "TalentWise",
+            "company_url" => "http://corp.talentwise.com/",
+            "contact_name" => "Darrell Hines",
+            "contact_email" => "dhines@talentwise.com",
+            "title" => "Director of Engineering",
+            "location" => "Bellevue, WA",
+            "description" => "Qualifications
+
+            BS degree in Computer Science or related discipline, MS preferred.
+            15+ years of overall technology experience in a software development role and a deep knowledge of software development methodologies
+            8+ years of experience architecting and developing SaaS enterprise applications.
+            8+ years in a management role, leading growing software engineering and QA teams in a SaaS environment.
+            Strong architecture, design, and implementation skills with a strong coding background in object oriented languages (e.g. C#, C++, Java)
+            High degree of competency within all phases of project management / SDLC including: issue and risk identification and management, change management, tracking dependencies and milestones, and communication of overall project status.
+            Experience with SQL, enterprise architecture, web technologies, and distributed services highly desired.
+            Excellent organizational and communication skills across, up, and down the organization.",
+            "url" => "http://hire.jobvite.com/CompanyJobs/Careers.aspx?c=qfl9Vfwo&v=1&page=Job%20Description&j=o4KA1fw9",
 
         ],
 

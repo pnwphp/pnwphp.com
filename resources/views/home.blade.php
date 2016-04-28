@@ -8,27 +8,15 @@
     <div>
         <h1>Pacific Northwest PHP</h1>
         <h2>September 10th–12th, 2015 &#8226 Seattle, WA</h2>
-        <a class="btn btn-lg btn-info" target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new"><i class="fa fa-ticket"></i> Register for Workshops - $49</a>
-        &emsp;
-        <a class="btn btn-lg btn-info" target="_blank" href="https://pnwphp2015.busyconf.com/bookings/new#ticket_type_54dd586d49a161a49e00000c"><i class="fa fa-ticket"></i> Register for Live Stream - $39</a>
+        <a href="https://nomadphp.com/pnwphp-videos/" target="_blank" class="btn btn-lg btn-info">
+            <i class="fa fa-video-camera"></i>&ensp;Buy PNWPHP 2015 Videos
+        </a>
     </div>
 </div>
 
 <div class="wrapper wrapper-white">
     <div class="title">PNWPHP Conference</div>
     <div class="container">
-        <!--<div class="row">
-            <div class="col-md-12">
-                <div class="alert alert-success">
-                    <p class="lead text-center">
-                        <strong>New:</strong> Can't make it in person?
-                        <a href="https://pnwphp2015.busyconf.com/bookings/new#ticket_type_54dd586d49a161a49e00000c">
-                        Register as a Virtual Attendee</a> to watch the live stream of the event.
-                    </p>
-                </div>
-            </div>
-        </div>-->
-
         <div class="row">
             <div class="col-md-2">
                 <img src="img/pnwphp.png" width="160" />
@@ -57,7 +45,7 @@
                 </a>
             </div>
         </div>
-        <div class="row">
+        <div class="row hidden-xs">
             <div class="col-md-8">
                 <table class="table table-bordered text-center">
                     <tr class="bg-info">
@@ -102,10 +90,55 @@
                             </ul>
                         </td>
                     </tr>
-                    <tr class="bg-success">
+                    {{--<tr class="bg-success">
                         <th colspan="2" class="text-center"><a href="./online-events">Live Stream</a></th>
-                    </tr>
+                    </tr>--}}
                 </table>
+            </div>
+            <div class="col-md-4">
+                @if ($sponsor = $conference->sponsors->filter(function ($sponsor) {return $sponsor->rank >= 1070;})->random(1))
+                    <p class="text-center">PNWPHP is sponsored in part by:</p>
+                    <a target="_blank" href="{{ $sponsor->url }}" title="{{ $sponsor->name }}">
+                        <img src="{{ $sponsor->logo }}" alt="{{ $sponsor->name }}" class="img-responsive center-block" />
+                    </a>
+                @endif
+            </div>
+        </div>
+        <div class="row visible-xs-block">
+            <div class="col-md-8">
+                <h3>EVENTS: </h3>
+                <hr>
+
+                <p><strong>WED, SEP 9TH</strong></p>
+                <ul>
+                    <li><a href="./events#seaphp-meetup">Meetup</a></li>
+                    <li><a href="./events#seaphp-drinkup">Drinkup</a></li>
+                </ul>
+                <p><strong>THU, SEP 10TH</strong></p>
+                <ul>
+                    <li><a href="./events#pnwphp-workshops">Workshops</a></li>
+                    <li><a href="./events-hackathon">Hackathon</a></li>
+                </ul>
+                <p><strong>FRI, SEP 11TH</strong></p>
+                <ul>
+                    <li><a href="./events#conference">Conference</a></li>
+                    <li><a href="./events#uncon">UnCon</a></li>
+                    <li><a href="./events#social">Social</a></li>
+                    <li><a href="./events#social">JeoPHPardy</a></li>
+                    <li><a href="./online-events">Live Stream</a></li>
+                </ul>
+                <p><strong>SAT, SEP 12TH</strong></p>
+                <ul>
+                    <li><a href="./events#pnwphp">Conference</a></li>
+                    <li><a href="./events#uncon">UnCon</a></li>
+                    <li>Prizes</li>
+                    <li><a href="./events#podcast-devhell">Podcasts</a></li>
+                    <li><a href="./online-events">Live Stream</a></li>
+                </ul>
+                <p><strong>SUN, SEP 13TH</strong></p>
+                <ul>
+                    <li><a href="./events#wurstcon">WurstConSEA</a></li>
+                </ul>
             </div>
             <div class="col-md-4">
                 @if ($sponsor = $conference->sponsors->filter(function ($sponsor) {return $sponsor->rank >= 1070;})->random(1))
@@ -119,6 +152,7 @@
     </div>
 </div>
 
+{{--
 <div class="wrapper wrapper-light">
     <div class="title">Registration</div>
     <div class="container">
@@ -176,6 +210,7 @@
         </div>
     </div>
 </div>
+--}}
 
 <div class="wrapper wrapper-dark">
     <div class="title">The Venue</div>

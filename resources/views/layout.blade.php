@@ -40,7 +40,7 @@
                     <a href="https://pnwphp2016.dryfta.com/en/abstract-submission">Call for Papers</a>
                 </li>
                 <li>
-                    <a href="https://pnwphp2016.dryfta.com/en/attendees-authors-registration">Register</a>
+                    <a href="https://pnwphp2016.dryfta.com/en/buy-tickets">Buy Tickets</a>
                 </li>
             </ul>
 

@@ -9,7 +9,7 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
     <script src='//maps.googleapis.com/maps/api/js?key=AIzaSyDPVQLUTxH8YyiajhCBj5yYevAW6zRX570&sensor=false'></script>
 
-    <link rel="stylesheet" href="css/styles.min.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
@@ -37,17 +37,17 @@
         <div class="navbar-collapse collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav">
                 <li>
-                    <a href="https://pnwphp2016.dryfta.com/en/abstract-submission">Call for Papers</a>
+                    <span class="a">Call for Papers</span>
                 </li>
                 <li>
-                    <a href="https://pnwphp2016.dryfta.com/en/buy-tickets">Buy Tickets</a>
+                    <span class="a">Buy Tickets</span>
                 </li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="https://pnwphp2016.dryfta.com/en/sponsors">Sponsors</a></li>
-                <li><a href="https://pnwphp2016.dryfta.com/en/code-of-conduct_1456806894">The Code</a></li>
-                <li> <a href="#venue">Venue</a> </li>
+                <li><span class="a">Sponsors</span></li>
+                <li><span class="a">The Code</span></li>
+                <li><a href="#venue">Venue</a></li>
             </ul>
         </div>
 

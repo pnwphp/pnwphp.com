@@ -26,8 +26,7 @@
                     The <strong>Pacific Northwest PHP Conference</strong> is a <em>3-day</em> event for PHP developers
                     living in the Pacific Northwest region. We've invited world-renowned <strong>speakers</strong>
                     from the PHP community to teach about <strong>topics</strong> ranging from continuous
-                    integration to the cloud. Join us for the amazing presentations, catered food, musical numbers,
-                    the <strong>hackathon</strong>, and the <strong>live blog</strong>.
+                    integration to the cloud. Join us for the amazing presentations, and catered food.
                 </p>
             </div>
             <div class="col-md-4">

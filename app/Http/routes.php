@@ -6,6 +6,20 @@ $app->get('/', function() use ($app) {
     return page('landing-2016');
 });
 
+// 2016 Website
+$app->get('/2016/', function() use ($app) {
+    dryfta();
+});
+$app->get('/2016/call-for-papers', function() use ($app) {
+    dryfta('call-for-papers_1462157073');
+});
+$app->get('/2016/tickets', function() use ($app) {
+    dryfta('buy-tickets');
+});
+$app->get('/2016/code-of-conduct', function() use ($app) {
+    dryfta('code-of-conduct_1456806894');
+});
+
 $app->get('jobs', function() use ($app) {
     return page('jobs');
 });
@@ -95,4 +109,12 @@ function page($view, $args = [])
 {
     global $app;
     return view($view, $args + ['conference' => $app['conference']]);
+}
+
+function dryfta($path = '')
+{
+    $base = 'https://pnwphp2016.dryfta.com/en';
+    header('HTTP/1.1 301 Moved Permanently');
+    header("Location: {$base}/{$path}");
+    exit;
 }

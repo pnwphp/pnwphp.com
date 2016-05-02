@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>PNWPHP - Pacific Northwest PHP Conference</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Bree+Serif"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src='//maps.googleapis.com/maps/api/js?key=AIzaSyDPVQLUTxH8YyiajhCBj5yYevAW6zRX570&sensor=false'></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="http://cdn.jsdelivr.net/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="http://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <div class="navbar-brand navbar-brand-centered">
+                <a href="./"><img src="img/logo-horizontal-160x50.png"/></a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="head-banner">
+    <div class="bg"></div>
+</div>
+<div class="head-banner-content">
+    <div>
+        <h1>Pacific Northwest PHP</h1>
+        <h2>September 15th–17th, 2016 &#8226 Seattle, WA</h2>
+        <div>
+            <a href="http://twitter.com/pnwphp" target="_blank" class="btn btn-info">
+                <i class="fa fa-twitter"></i>&ensp;Follow @PNWPHP
+            </a>
+            &emsp;
+            <a href="https://pnwphp2016.dryfta.com/en/" class="btn btn-lg btn-default">
+                <i class="fa fa-ticket"></i>&ensp;PNWPHP 2016 Website
+            </a>
+            &emsp;
+            <a href="https://nomadphp.com/pnwphp-videos/" target="_blank" class="btn btn-info">
+                <i class="fa fa-video-camera"></i>&ensp;Buy 2015 Videos
+            </a>
+        </div>
+        <p style="margin-top: 1.5em; color: white; font-weight: bold;">
+            Visit our 2016 website to register, buy tickets, and submit to our call for papers.
+        </p>
+    </div>
+</div>
+<div class="footer" style="background-color: transparent;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>PNWPHP is brought to you by the Seattle PHP User Group (<a href="http://twitter.com/seaphp" target="_blank">@seaphp</a>).</p>
+                <p>Copyright © 2015-2016 SeaPHP User Group — All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="js/scripts.min.js"></script>
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-59945896-2', 'auto');
+    ga('send', 'pageview');
+</script>
+</body>
+</html>

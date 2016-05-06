@@ -31,7 +31,7 @@
 <div class="head-banner-content">
     <div class="bg"></div>
 	<h1>Pacific Northwest PHP</h1>
-	<h2>September 15th–17th, 2016 &#8226 Seattle, WA</h2>
+	<h2>September 15th–17th, 2016 <span class="location">Seattle, WA</span></h2>
     <div>
         <div>
             <a href="http://twitter.com/pnwphp" target="_blank" class="btn btn-info">

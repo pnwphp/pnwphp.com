@@ -7,7 +7,6 @@
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Bree+Serif"/>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src='//maps.googleapis.com/maps/api/js?key=AIzaSyDPVQLUTxH8YyiajhCBj5yYevAW6zRX570&sensor=false'></script>
 
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -29,13 +28,11 @@
         </div>
     </div>
 </div>
-<div class="head-banner">
-    <div class="bg"></div>
-</div>
 <div class="head-banner-content">
+    <div class="bg"></div>
+	<h1>Pacific Northwest PHP</h1>
+	<h2>September 15th–17th, 2016 &#8226 Seattle, WA</h2>
     <div>
-        <h1>Pacific Northwest PHP</h1>
-        <h2>September 15th–17th, 2016 &#8226 Seattle, WA</h2>
         <div>
             <a href="http://twitter.com/pnwphp" target="_blank" class="btn btn-info">
                 <i class="fa fa-twitter"></i>&ensp;Follow @PNWPHP
@@ -49,17 +46,17 @@
                 <i class="fa fa-video-camera"></i>&ensp;Buy 2015 Videos
             </a>
         </div>
-        <p style="margin-top: 1.5em; color: white; font-weight: bold;">
+        <p>
             Visit our 2016 website to register, buy tickets, and submit to our call for papers.
         </p>
     </div>
 </div>
-<div class="footer" style="background-color: transparent;">
+<div class="footer">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
                 <p>PNWPHP is brought to you by the Seattle PHP User Group (<a href="http://twitter.com/seaphp" target="_blank">@seaphp</a>).</p>
-                <p>Copyright © 2015-2016 SeaPHP User Group — All Rights Reserved</p>
+                <p>Copyright © 2015-2016 Seattle PHP User Group — All Rights Reserved</p>
             </div>
         </div>
     </div>

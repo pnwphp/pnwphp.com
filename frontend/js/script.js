@@ -66,7 +66,7 @@ $( document ).ready(function() {
        * Do The Dirty Work Here
        */
       var slowScroll = currentScrollY / 4;
-
+	/*
       $header1.css({
         'transform'         : 'translateY(+' + slowScroll + 'px)',
         '-moz-transform'    : 'translateY(+' + slowScroll + 'px)',
@@ -78,6 +78,7 @@ $( document ).ready(function() {
         '-moz-transform'    : 'translateY(+' + slowScroll/2 + 'px)',
         '-webkit-transform' : 'translateY(+' + slowScroll/2 + 'px)'
       });
+	  */
 
     }
   };

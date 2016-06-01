@@ -4951,3 +4951,10 @@ p.talk-title {
 .scholarship-buttons {
   margin-top: 10px;
   text-align: center; }
+
+.message-important {
+  background-color: #fefefe;
+  width: 68%;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  font-size: x-large; }

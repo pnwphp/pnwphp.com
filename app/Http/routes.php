@@ -3,7 +3,17 @@
 use Illuminate\Http\Request;
 
 $app->get('/', function() use ($app) {
-    return page('landing-2016');
+	$currentDate = date('Y-m-d');
+
+	if ( $currentDate <= '2016-06-01' ) {
+		$message_id = 'cfp-closing';
+	} else if ( $currentDate >= '2016-07-01' &&  $currentDate <= '2016-07-17' ) {
+		$message_id = 'early-bird-closing';
+	} else {
+		$message_id = 0;
+	}
+
+    return page('landing-2016', ['message_id' => $message_id]);
 });
 
 // 2016 Website
@@ -21,7 +31,7 @@ $app->get('/2016/code-of-conduct', function() use ($app) {
 });
 
 $app->get('jobs', function() use ($app) {
-    return page('jobs');
+    return cfp-closingpage('jobs');
 });
 
 

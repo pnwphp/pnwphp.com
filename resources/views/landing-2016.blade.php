@@ -18,6 +18,15 @@
     <script src="http://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+<?php
+    if ( 'cfp-closing' === $message_id ){
+        $message = '<strong>Hurry!</strong> <a href="http://pnwphp.com/2016/call-for-papers">Submit your talks</a> by <strong>June 5th!</strong>';
+    } else if ( 'early-bird-closing' === $message_id ){
+        $message = '<strong>Early Bird closing soon!</strong> <a href="http://pnwphp.com/2016/tickets">Buy your tickets</a> by <strong>July 17th!</strong>';
+    } else {
+        $message = null;
+    }
+?>
 <body>
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -32,6 +41,11 @@
     <div class="bg"></div>
 	<h1>Pacific Northwest PHP</h1>
 	<h2>September 15th–17th, 2016 <span class="location">Seattle, WA</span></h2>
+    <?php if ( $message ): ?>
+	<div class="message-important">
+	    <?php echo $message; ?>
+	</div>
+    <?php endif; ?>
     <div>
         <div>
             <a href="http://twitter.com/pnwphp" target="_blank" class="btn btn-info">

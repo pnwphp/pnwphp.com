@@ -26,6 +26,12 @@ $app->get('/2016/call-for-papers', function() use ($app) {
 $app->get('/2016/tickets', function() use ($app) {
     dryfta('buy-tickets');
 });
+$app->get('/2016/speakers', function() use ($app) {
+    dryfta('speakers');
+});
+$app->get('/2016/schedule', function() use ($app) {
+    dryfta('program-schedule');
+});
 $app->get('/2016/code-of-conduct', function() use ($app) {
     dryfta('code-of-conduct_1456806894');
 });

@@ -32,7 +32,7 @@
 
         <div class="navbar-collapse collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav">
-                <li> <a herf="http://pnwphp.com/2016/">2016</a> </li>
+                <li> <a href="http://pnwphp.com/2016/">2016</a> </li>
                 <li> <a href="http://pnwphp.com/2016/schedule/">Schedule</a> </li>
                 <li><a href="http://pnwphp.com/2016/schedule/#venue">Venue</a></li>
             </ul>

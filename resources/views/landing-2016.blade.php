@@ -24,7 +24,7 @@
     } else if ( 'early-bird-closing' === $message_id ){
         $message = '<strong>Early Bird closing soon!</strong> <a href="http://pnwphp.com/2016/tickets">Buy your tickets</a> by <strong>July 17th!</strong>';
     } else {
-        $message = null;
+        $message = '<a href="http://pnwphp.com/2016/tickets">Buy your tickets</a> by <strong>Sept 14th!</strong>';
     }
 ?>
 <body>
@@ -60,9 +60,6 @@
                 <i class="fa fa-video-camera"></i>&ensp;Buy 2015 Videos
             </a>
         </div>
-        <p>
-            Visit our 2016 website to register, buy tickets, and submit to our call for papers.
-        </p>
     </div>
 </div>
 <div class="footer">

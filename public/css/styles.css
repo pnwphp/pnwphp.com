@@ -4445,7 +4445,7 @@ body {
   z-index: 1; }
 
 .head-banner-sm {
-  height: 240px; }
+  height: 110px; }
   .head-banner-sm div {
     height: 240px; }
 
@@ -4958,3 +4958,11 @@ p.talk-title {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   font-size: x-large; }
+
+  .p-center {
+      width: 20em;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+

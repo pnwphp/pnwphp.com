@@ -36,6 +36,15 @@ $app->get('/2016/code-of-conduct', function() use ($app) {
     dryfta('code-of-conduct_1456806894');
 });
 
+
+$app->get('/2016/live-blog', function() use ($app) {
+	$message_id = 'standard';
+
+    return page('live', ['message_id' => $message_id] );
+});
+
+
+
 $app->get('jobs', function() use ($app) {
     return cfp-closingpage('jobs');
 });

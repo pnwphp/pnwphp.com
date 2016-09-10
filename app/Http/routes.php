@@ -36,6 +36,9 @@ $app->get('/2016/code-of-conduct', function() use ($app) {
     dryfta('code-of-conduct_1456806894');
 });
 
+$app->get('/2016/sponsors', function() use ($app) {
+    dryfta('sponsors');
+});
 
 $app->get('/2016/live-blog', function() use ($app) {
 	$message_id = 'standard';
@@ -43,23 +46,26 @@ $app->get('/2016/live-blog', function() use ($app) {
     return page('live', ['message_id' => $message_id] );
 });
 
-
+/*
+ * 2015 URLs
+ */
 
 $app->get('jobs', function() use ($app) {
+	// @TODO: Fix this
     return cfp-closingpage('jobs');
 });
 
 
 $app->get('sponsors', function() use ($app) {
-    return page('sponsors');
+    dryfta('sponsors');
 });
 
 $app->get('code-of-conduct', function() use ($app) {
-    return page('code-of-conduct');
+	dryfta('14731931811/about-1473196711/code-of-conduct-1456806894');
 });
 
 $app->get('venue', function() use ($app) {
-    return page('venue');
+	dryfta('14731931811/about-1473196711/venue-1456444816');
 });
 
 $app->get('what-to-expect', function() use ($app) {
@@ -67,63 +73,42 @@ $app->get('what-to-expect', function() use ($app) {
 });
 
 $app->get('events', function() use ($app) {
-    return page('events');
+	dryfta('program-schedule');
 });
 
 $app->get('hotels-and-transit', function() use ($app) {
-    return page('hotels-and-transit');
+	dryfta('14731931811/about-1473196711/hotels-amp-transit-1456530150/documents');
 });
 
 $app->get('scholarship', function() use ($app) {
-    return page('scholarship');
+    dryfta('buy-tickets');
 });
 
 $app->get('schedule', function() use ($app) {
-    return page('schedule');
+    dryfta('schedule');
 });
 
 $app->get('events-hackathon', function() use ($app) {
-    return page('hackathon');
+    dryfta('schedule');
 });
 
 $app->get('online-events', function() use ($app) {
-    return page('online-events');
+    return page('live');
 });
 
 $app->get('speakers', function() use ($app) {
-    $talkFilter = function ($speaker) {
-        return function ($talk) use ($speaker) {
-            return $speaker['code'] === $talk['speaker']
-               || (is_array($talk['speaker']) && in_array($speaker['code'], $talk['speaker'], true));
-        };
-    };
-    return page('speakers', ['talkFilter' => $talkFilter]);
+    // Redirect the 2015 url to 2016 page
+    dryfta('speakers');
 });
 
 $app->get('tags', function(Request $request) use ($app) {
-    $tags = [];
-    foreach ($app['conference']->talks as $talk) {
-        foreach ($talk['tags'] as $tag) {
-            if (isset($tags[$tag])) {
-                $tags[$tag]++;
-            } else {
-                $tags[$tag] = 1;
-            }
-        }
-    }
-    arsort($tags);
-
-    return page('tags', ['tags' => $tags]);
+    // Redirect the 2015 url to 2016 page
+    dryfta('schedule');
 });
 
 $app->get('talks', function(Request $request) use ($app) {
-    return page('talks', [
-        'tagFilter' => function ($talk) use ($request) {
-            return ($query = $request->query->get('tag'))
-                ? in_array($query, $talk['tags'])
-                : true;
-        },
-    ]);
+    // Redirect the 2015 url to 2016 page
+    dryfta('schedule');
 });
 
 $app->get('live', function(Request $request) use ($app) {
@@ -143,3 +128,5 @@ function dryfta($path = '')
     header("Location: {$base}/{$path}");
     exit;
 }
+
+

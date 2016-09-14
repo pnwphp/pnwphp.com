@@ -17,12 +17,7 @@
                 <div class="panel panel-info">
                     <div class="panel-heading text-center">Other ways to participate online with us!</div>
                     <div class="panel-body">
-                        <div class="col-md-6">
-                            <a href="https://pnwphp2015.busyconf.com/bookings/new#ticket_type_54dd586d49a161a49e00000c" target="_blank" class="btn btn-lg btn-primary btn-block">
-                                <i class="fa fa-ticket"></i>&ensp;Register for the Live Stream
-                            </a>
-                        </div>
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <a href="https://twitter.com/hashtag/PNWPHP" target="_blank" class="btn btn-lg btn-info btn-block">
                                 <i class="fa fa-twitter"></i>&ensp;#PNWPHP on Twitter
                             </a>

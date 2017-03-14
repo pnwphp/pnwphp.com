@@ -15,15 +15,12 @@
         <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <p class="lead text-center">
-                    Thank you to all of our sponsors who are making it possible to hold this event.
+                    Great sponsors help make successful event possible. If you're
+                    interested in sponsoring our upcoming 2017 conference on
+                    September 7-9, please get in touch with us.
                 </p>
             </div>
-            @foreach ($conference->sponsors->sortBy('rank', SORT_REGULAR, true) as $sponsor)
-                @include('single-sponsor', ['sponsor' => $sponsor])
-            @endforeach
         </div>
 
-        @include('sections.community-sponsors')
-        @include('sections.individual-sponsors')
     </div>
 @stop

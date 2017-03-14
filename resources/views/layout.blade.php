@@ -7,7 +7,7 @@
     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700,400italic,600italic,700italic,800italic,300italic" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Bree+Serif"/>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
-    <script src='//maps.googleapis.com/maps/api/js?key=AIzaSyDPVQLUTxH8YyiajhCBj5yYevAW6zRX570&sensor=false'></script>
+    <script src='//maps.googleapis.com/maps/api/js?key=AIzaSyC3hIrVsO5oZw9ske9GwIETeUlemPE1LpY&sensor=false'></script>
 
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
@@ -36,18 +36,13 @@
 
         <div class="navbar-collapse collapse navbar-responsive-collapse">
             <ul class="nav navbar-nav">
-                <li>
-                    <span class="a">Call for Papers</span>
-                </li>
-                <li>
-                    <span class="a">Buy Tickets</span>
-                </li>
+                <li> &nbsp; </li>
+                <li> &nbsp; </li>
             </ul>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><span class="a">Sponsors</span></li>
-                <li><span class="a">The Code</span></li>
-                <li><a href="#venue">Venue</a></li>
+                <li> &nbsp; </li>
+                <li> &nbsp; </li>
             </ul>
         </div>
 
@@ -60,10 +55,8 @@
             <div class="col-md-12">
                 <p>
                     PNWPHP is brought to you by the Seattle PHP User Group (<a href="http://twitter.com/seaphp" target="_blank">@seaphp</a>),
-                    PDX PHP Users Group (<a href="http://twitter.com/phpdx" target="_blank">@phpdx</a>), and Vancouver
-                    PHP Meetup (<a href="http://twitter.com/phpvancouver" target="_blank">@phpvancouver</a>).
                 </p>
-                <p>Copyright © 2015 SeaPHP User Group — All Rights Reserved</p>
+                <p>Copyright © 2017 SeaPHP User Group — All Rights Reserved</p>
             </div>
         </div>
     </div>
@@ -81,7 +74,7 @@
         var map;
         function init() {
             var mapOptions = {
-                center: new google.maps.LatLng(47.624317, -122.352438),
+                center: new google.maps.LatLng(47.655729, -122.309082),
                 zoom: 15,
                 draggable : false,
                 scrollwheel: false,
@@ -91,7 +84,8 @@
             var mapElement = document.getElementById('location-map');
             var map = new google.maps.Map(mapElement, mapOptions);
             var locations = [
-                ['Cornish Playhouse', 'undefined', 'undefined', 'undefined', 'undefined', 47.624317, -122.352438, 'http://mapbuildr.com/assets/img/markers/solid-pin-red.png']
+                ['Kane Hall', 'undefined', 'undefined', 'undefined', 'undefined', 47.656888, -122.309044, 'http://mapbuildr.com/assets/img/markers/solid-pin-red.png'],
+                ['Johnson Hall', 'undefined', 'undefined', 'undefined', 'undefined', 47.654758, -122.308878, 'http://mapbuildr.com/assets/img/markers/solid-pin-red.png']
             ];
             for (i = 0; i < locations.length; i++) {
                 if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}

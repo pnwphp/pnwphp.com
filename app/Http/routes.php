@@ -3,29 +3,53 @@
 use Illuminate\Http\Request;
 
 $app->get('/', function() use ($app) {
-	$currentDate = date('Y-m-d');
+    $currentDate = date('Y-m-d');
 
-	if ( $currentDate <= '2016-06-01' ) {
-		$message_id = 'cfp-closing';
-	} else if ( $currentDate >= '2016-07-01' &&  $currentDate <= '2016-07-17' ) {
-		$message_id = 'early-bird-closing';
-	} else {
-		$message_id = 0;
-	}
+    /*
+    if ( $currentDate <= '2016-06-01' ) {
+        message_id = 'cfp-closing';
+    } else if ( $currentDate >= '2016-07-01' &&  $currentDate <= '2016-07-17' ) {
+        $message_id = 'early-bird-closing';
+    }
+     */
 
-    return page('landing-2016', ['message_id' => $message_id]);
+    $message_id = '';
+
+    return page('home', ['message_id' => $message_id]);
 });
 
-// 2016 Website
+
+/**
+ * Some URLs need to be year specific. Others don't.
+ *
+ * @todo organize routes into years.
+ *
+ */
+
+/*
+ * Global
+ */
+$app->get('/code-of-conduct', function() use ($app) {
+    return page('code-of-conduct');
+});
+
+$app->get('/sponsors', function() use ($app) {
+    return page('sponsors');
+});
+
+/*
+ * 2017 Site URLs
+ */
+
+
+/*
+ * 2016 Site URLs
+ */
 $app->get('/2016/', function() use ($app) {
-    dryfta();
+    $dryfta = new \App\Dryfta();
+    $dryfta->redirect();
 });
-$app->get('/2016/call-for-papers', function() use ($app) {
-    dryfta('call-for-papers_1462157073');
-});
-$app->get('/2016/tickets', function() use ($app) {
-    dryfta('buy-tickets');
-});
+
 $app->get('/2016/speakers', function() use ($app) {
     dryfta('speakers');
 });
@@ -40,33 +64,26 @@ $app->get('/2016/sponsors', function() use ($app) {
     dryfta('sponsors');
 });
 
-$app->get('/2016/live-blog', function() use ($app) {
-	$message_id = 'standard';
-
-    return page('live', ['message_id' => $message_id] );
-});
 
 /*
- * 2015 URLs
+ * 2015 Site URLs
  */
 
+/*
 $app->get('jobs', function() use ($app) {
 	// @TODO: Fix this
     return cfp-closingpage('jobs');
 });
+ */
 
 
+/*
 $app->get('sponsors', function() use ($app) {
     dryfta('sponsors');
 });
+*/
 
-$app->get('code-of-conduct', function() use ($app) {
-	dryfta('14731931811/about-1473196711/code-of-conduct-1456806894');
-});
 
-$app->get('venue', function() use ($app) {
-	dryfta('14731931811/about-1473196711/venue-1456444816');
-});
 
 $app->get('what-to-expect', function() use ($app) {
     return page('what-to-expect');

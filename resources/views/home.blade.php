@@ -57,86 +57,37 @@
                     <tr>
                         <td>
                             <ul class="list-unstyled text-center">
-                                <li><a href="./events#seaphp-meetup">Meetup</a></li>
-                                <li><a href="./events#seaphp-drinkup">Drinkup</a></li>
+                                <li><strong>Meetup</strong></li>
+                                <li><strong>Drinkup</strong></li>
                             </ul>
                         </td>
                         <td>
                             <ul class="list-unstyled text-center">
-                                <li><a href="./events#pnwphp-workshops">Workshops</a></li>
-                                <li><a href="./events#speaker-dinner">Speaker Dinner</a></li>
+                                <li><strong>Workshops</strong></li>
+                                <li><strong>Speaker Dinner</strong></li>
                             </ul>
                         </td>
                         <td>
                             <ul class="list-unstyled text-center">
-                                <li><a href="./events#conference">Conference</a></li>
-                                <li><a href="./events#social">Social</a></li>
+                                <li><strong>Conference</strong></li>
+                                <li><strong>Social</strong></li>
                             </ul>
                         </td>
                         <td>
                             <ul class="list-unstyled text-center">
-                                <li><a href="./events#pnwphp">Conference</a></li>
-                                <li>Prizes</li>
+                                <li><strong>Conference</strong></li>
                             </ul>
                         </td>
                         <td>
                             <ul class="list-unstyled text-center">
-                                <li><a href="./events#wurstcon">WurstConSEA</a></li>
+                                <li><strong>WurstConSEA</strong></li>
                             </ul>
                         </td>
                     </tr>
-                    {{--<tr class="bg-success">
-                        <th colspan="2" class="text-center"><a href="./online-events">Live Stream</a></th>
-                    </tr>--}}
                 </table>
             </div>
             <div class="col-md-4">
                 &nbsp;
-            </div>
-        </div>
-        <div class="row visible-xs-block">
-            <div class="col-md-8">
-                <h3>EVENTS: </h3>
-                <hr>
-
-                <p><strong>WED, SEP 9TH</strong></p>
-                <ul>
-                    <li><a href="./events#seaphp-meetup">Meetup</a></li>
-                    <li><a href="./events#seaphp-drinkup">Drinkup</a></li>
-                </ul>
-                <p><strong>THU, SEP 10TH</strong></p>
-                <ul>
-                    <li><a href="./events#pnwphp-workshops">Workshops</a></li>
-                    <li><a href="./events-hackathon">Hackathon</a></li>
-                </ul>
-                <p><strong>FRI, SEP 11TH</strong></p>
-                <ul>
-                    <li><a href="./events#conference">Conference</a></li>
-                    <li><a href="./events#uncon">UnCon</a></li>
-                    <li><a href="./events#social">Social</a></li>
-                    <li><a href="./events#social">JeoPHPardy</a></li>
-                    <li><a href="./online-events">Live Stream</a></li>
-                </ul>
-                <p><strong>SAT, SEP 12TH</strong></p>
-                <ul>
-                    <li><a href="./events#pnwphp">Conference</a></li>
-                    <li><a href="./events#uncon">UnCon</a></li>
-                    <li>Prizes</li>
-                    <li><a href="./events#podcast-devhell">Podcasts</a></li>
-                    <li><a href="./online-events">Live Stream</a></li>
-                </ul>
-                <p><strong>SUN, SEP 13TH</strong></p>
-                <ul>
-                    <li><a href="./events#wurstcon">WurstConSEA</a></li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                @if ($sponsor = $conference->sponsors->filter(function ($sponsor) {return $sponsor->rank >= 1070;})->random(1))
-                    <p class="text-center">PNWPHP is sponsored in part by:</p>
-                    <a target="_blank" href="{{ $sponsor->url }}" title="{{ $sponsor->name }}">
-                        <img src="{{ $sponsor->logo }}" alt="{{ $sponsor->name }}" class="img-responsive center-block" />
-                    </a>
-                @endif
             </div>
         </div>
     </div>
@@ -160,9 +111,8 @@
                     <img class="img-responsive img-thumbnail" src="img/impacthub.jpg" alt=""/>
                 </p>
                 <p class="lead">
-                    <a href="http://www.washington.edu/maps/#!/kne" target="_blank">University of Washington</a> is an excellent University, located in the heart of Seattle.
+                    <a href="http://www.washington.edu/maps/#!/kne" target="_blank">University of Washington</a> is an excellent University, located in the heart of Seattle. The main conference will be held at <strong>Kane Hall</strong>, and the workshops in nearby <strong>Johnson Hall</strong>. 
                 </p>
-                {{--<p class="lead"><a href="./venue"><i class="fa fa-hand-o-right"></i> More Details</a></p>--}}
             </div>
         </div>
     </div>

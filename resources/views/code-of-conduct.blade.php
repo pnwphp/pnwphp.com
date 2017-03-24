@@ -76,16 +76,8 @@
                 </p>
                 <ul>
                     <li>
-                        Jeremy Lindblom (@jeremeamia)<br />
-                        (480) 205-5465 | <a href="mailto:jeremy@seaphp.com">jeremy@seaphp.com</a>
-                    </li>
-                    <li>
                         Tessa Mero (@TessaMero)<br />
                         (425) 879-1911 | <a href="mailto:tessa@seaphp.com">tessa@seaphp.com</a>
-                    </li>
-                    <li>
-                        Ian Maddox (@isNoOp)<br />
-                        <a href="mailto:ian@seaphp.com">ian@seaphp.com</a>
                     </li>
                     <li>
                         Andrew Woods (@awoods)<br />

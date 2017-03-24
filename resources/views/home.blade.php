@@ -2,7 +2,7 @@
 
 @section('content')
 <?php
-    $cfpUrl = 'https://cfp.pnwphp.com';
+    $cfpUrl = 'http://cfp.pnwphp.com';
 ?>
 <div class="head-banner">
     <div class="bg"></div>

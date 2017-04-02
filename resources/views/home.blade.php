@@ -24,11 +24,11 @@
             <div class="col-md-6">
                 <p class="lead">
                 The <strong>Pacific Northwest PHP Conference</strong> is a
-                3-day event in the Pacific Northwest region of the United
-                States for PHP and Web developers. Our past conferences have
-                included <strong>world renown speakers</strong> from the PHP
-                community, about a <strong>wide range of topics</strong>
-                &mdash; from APIs and CMS to unit testing and version control.
+                3-day event in Seattle, Washington for PHP and Web developers. 
+                Our past conferences have included <strong>world renown 
+                speakers</strong> from the PHP community, about a <strong>wide 
+                range of topics</strong> &mdash; from APIs and CMS to unit 
+                testing and version control.
                 </p>
 
                 <p class="lead">

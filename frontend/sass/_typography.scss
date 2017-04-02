@@ -1,0 +1,47 @@
+
+
+$font-sans-serif: 'Helvetica';
+
+$heading-font-family: $font-sans-serif;
+$heading-font-color: $gray-10;
+
+$copy-font-family: $font-sans-serif;
+$copy-font-color: $gray-20;
+
+$font-size-base: 16px;
+
+body {
+	font-size: $font-size-base;
+	font-family: $copy-font-family;
+	color: $copy-font-color
+}
+
+p, ul, ol, li {
+	font-size: 1rem;
+	color: $heading-font-color;
+}
+
+h1 {
+	color: $heading-font-color;
+	font-family: $copy-font-family;
+	font-size: 1.8rem;
+}
+
+h2 {
+	color: $heading-font-color;
+	font-family: $copy-font-family;
+	font-size: 1.6rem;
+}
+
+h3 {
+	color: $heading-font-color;
+	font-family: $copy-font-family;
+	font-size: 1.3rem;
+}
+
+h4, h5, h6 {
+	font-size: 1rem;
+	color: $gray-20;
+}
+
+

@@ -91,8 +91,7 @@ gulp.task('scripts', function () {
 // Define a task to watch changes in js and sass folders
 gulp.task('watch', function () {
   gulp.watch('frontend/js/*.js', ['scripts']);
-  //gulp.watch('frontend/js/admin/app.js', ['bro','scripts-admin']);
-  gulp.watch(['frontend/sass/bootstrap/*.scss', 'frontend/sass/custom.scss'], ['sass']);
+  gulp.watch(['frontend/sass/*.scss'], ['sass']);
 });
 
 // Define a default task

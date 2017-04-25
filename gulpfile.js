@@ -87,50 +87,6 @@ gulp.task('scripts', function () {
     .pipe(bytediff.stop());
 });
 
-// Concatenate & Minify JS for admin
-/*gulp.task('scripts-admin',['build-ace'], function () {
-    return gulp.src([
-        'frontend/js/admin/ace-bundled.js',
-        'frontend/js/admin/bundle.js'
-    ])
-        .pipe(concat('scripts-admin.js'))
-        .pipe(bytediff.start())
-        .pipe(gulp.dest('public/js/admin'))
-        .pipe(rename('scripts-admin.min.js'))
-        .pipe(uglify())
-        .pipe(gulp.dest('public/js/admin'))
-        .pipe(bytediff.stop());
-});*/
-
-// Concatenate & Minify JS for ACE editor
-/*gulp.task('build-ace', function () {
-    return gulp.src([
-        'frontend/js/admin/ace/ace.js',
-        'frontend/js/admin/ace/ext-language_tools.js',
-        'frontend/js/admin/ace/mode-markdown.js',
-        'frontend/js/admin/ace/theme-github.js',
-        'frontend/js/admin/ace/snippets/markdown.js'
-    ])
-        .pipe(concat('ace-bundled.js'))
-        .pipe(gulp.dest('frontend/js/admin'));
-});*/
-
-// Browserify packaging
-/*gulp.task('bro', function() {
-    return browserify('frontend/js/admin/app.js')
-        .bundle()
-        //Pass desired output filename to vinyl-source-stream
-        .pipe(source('bundle.js'))
-        // Start piping stream to tasks!
-        .pipe(gulp.dest('frontend/js/admin'));
-});*/
-
-// Define Lint Task for admin JS
-/*gulp.task('lint-admin', function () {
-    return gulp.src('frontend/js/admin/app.js')
-        .pipe(jshint())
-        .pipe(jshint.reporter('default'));
-});*/
 
 // Define a task to watch changes in js and sass folders
 gulp.task('watch', function () {

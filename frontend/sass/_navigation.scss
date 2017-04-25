@@ -1,0 +1,190 @@
+
+.nav-skip {
+	a {
+		display: block;
+		font-size: 1.6rem;
+		width: auto;
+		padding: 1em;
+		position: absolute;
+		left: -999em;
+		text-decoration: underline;
+
+
+		&:link {
+			background-color: $green-light;
+			color: $pnwphp-green-dark;
+		}
+
+		&:visited {
+			background-color: $green-light;
+			color: $pnwphp-green-dark;
+		}
+
+		&:hover, &:focus {
+			background-color: $pnwphp-green-dark;
+			color: $green-light;
+			top: 2em;
+			left: 2em;
+		}
+
+		&:active {
+			background-color: $pnwphp-blue;
+			color: $pnwphp-blue-dark;
+			top: 2em;
+			left: 2em;
+		}
+	}
+}
+
+.menu-main {
+	border-radius: 6px;
+
+	ul {
+		background-color: $pnwphp-blue-dark;
+		color: $white;
+		list-style-type: none;
+		margin: 1em 0 0;
+		padding: 0;
+		font-size: 1.2em;
+	}
+
+	li {
+		display: block;
+		@media (min-width: 400px) {
+			display: inline-block;
+		}
+	}
+
+	a {
+		display: block;
+		text-decoration: none;
+		padding: $padding-medium;
+
+		&:link {
+			background-color: $pnwphp-blue-dark;
+			color: white;
+		}
+
+		&:visited {
+			background-color: $pnwphp-blue-dark;
+			color: white;
+		}
+
+		&:hover, &:focus {
+			background-color: $pnwphp-blue;
+			color: white;
+		}
+
+		&:active {
+			background-color: $white;
+			color: $pnwphp-blue-dark;
+		}
+	}
+
+}
+
+.footer {
+	background-color: $gray-30;
+	color: $white;
+	padding: 1em;
+
+	.container {
+		display: flex;
+		width: $desktop-content-width;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.menu-footer {
+		width: 50%;
+		flex: 1;
+		padding-right: 1em;
+	}
+
+	.menu-archive {
+		width: 50%;
+		flex: 1;
+		padding-right: 1em;
+	}
+
+	a {
+		color: $green-light;
+	}
+
+	.copyright {
+		text-align: left;
+		width: $desktop-content-width;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.wrapper-blue {
+	background-color: $pnwphp-blue;
+	color: $white;
+
+	/*
+	*/
+	a:link {
+		background-color: $pnwphp-blue;
+		color: $gray-80;
+	}
+
+	a:visited {
+		background-color: $pnwphp-blue;
+		color: $gray-80;
+	}
+
+	a:hover, a:focus {
+		background-color: $gray-80;
+		color: $pnwphp-blue;
+	}
+
+	a:active {
+		background-color: $pnwphp-blue-dark;
+		color: $gray-80;
+	}
+
+	h2 {
+		color: $white;
+	}
+
+	h3 {
+		color: $white;
+	}
+
+	h4 {
+		color: $white;
+	}
+}
+
+.wrapper-green {
+	background-color: $pnwphp-green;
+	color: $white;
+
+	a:link {
+		background-color: $pnwphp-green;
+		color: $green-light;
+	}
+
+	a:visited {
+		background-color: $pnwphp-green;
+		color: $gray-80;
+	}
+
+	a:hover, a:focus {
+		background-color: $gray-80;
+		color: $pnwphp-green;
+
+	}
+
+	a:active {
+		background-color: $pnwphp-green-dark;
+		color: $gray-80;
+	}
+
+	h2, h3, h4 {
+		color: $white;
+	}
+
+}

@@ -1,0 +1,186 @@
+
+@mixin base-button($size: medium){
+	border-radius: 6px;
+	display: inline-block;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+}
+
+.btn {
+	@include base-button();
+	background-color: $gray-40;
+	color: $gray-90;
+	font-size: 1.2em;
+	padding: $padding-medium;
+
+	&:link {
+		background-color: $gray-40;
+		color: $gray-90;
+	}
+
+	&:visited {
+		background-color: $gray-40;
+		color: $gray-90;
+	}
+
+	&:hover, &:focus {
+		background-color: $gray-30;
+		color: $white;
+	}
+
+	&:active {
+		background-color: $white;
+		color: $gray-30;
+	}
+}
+
+.btn-reverse {
+	@extend .btn;
+	border: 1px solid $gray-40;
+	background-color: $gray-90;
+	color: $gray-40;
+
+	&:link {
+		background-color: $gray-90;
+		color: $gray-40;
+	}
+
+	&:visited {
+		background-color: $gray-90;
+		color: $gray-40;
+	}
+
+	&:hover, &:focus {
+		background-color: $white;
+		color: $gray-30;
+	}
+
+	&:active {
+		background-color: $gray-30;
+		color: $white;
+	}
+}
+
+.wrapper-blue {
+
+	.btn {
+		@extend .btn;
+		background-color: $pnwphp-blue;
+		color: $white;
+
+		&:link {
+			background-color: $pnwphp-blue;
+			color: $gray-90;
+		}
+
+		&:visited {
+			background-color: $pnwphp-blue;
+			color: $gray-90;
+		}
+
+		&:hover, &:focus {
+			background-color: darken($pnwphp-blue, 10%);
+			color: $white;
+		}
+
+		&:active {
+			background-color: $white;
+			color: darken($pnwphp-blue, 10%);
+		}
+	}
+
+	.btn-reverse {
+		@extend .btn;
+		border: 1px solid $pnwphp-blue;
+		background-color: $white;
+		color: $pnwphp-blue;
+
+		&:link {
+			background-color: $gray-90;
+			color: $pnwphp-blue;
+		}
+
+		&:visited {
+			background-color: $gray-90;
+			color: $pnwphp-blue;
+		}
+
+		&:hover, &:focus {
+			background-color: $white;
+			color: darken($pnwphp-blue, 10%);
+		}
+
+		&:active {
+			background-color: darken($pnwphp-blue, 10%);
+			color: $white;
+		}
+	}
+}
+
+.wrapper-green {
+	.btn {
+		@extend .btn;
+		background-color: $pnwphp-green;
+		color: $white;
+
+		&:link {
+			background-color: $pnwphp-green;
+			color: $gray-90;
+		}
+
+		&:visited {
+			background-color: $pnwphp-green;
+			color: $gray-90;
+		}
+
+		&:hover, &:focus {
+			background-color: darken($pnwphp-green, 10%);
+			color: $white;
+		}
+
+		&:active {
+			background-color: $white;
+			color: darken($pnwphp-green, 10%);
+		}
+	}
+
+	.btn-reverse {
+		@extend .btn;
+		border: 1px solid $pnwphp-green-dark;
+		background-color: $white;
+		color: $pnwphp-green-dark;
+
+		&:link {
+			background-color: $gray-90;
+			color: $pnwphp-green;
+		}
+
+		&:visited {
+			background-color: $gray-90;
+			color: $pnwphp-green;
+		}
+
+		&:hover, &:focus {
+			background-color: $white;
+			color: darken($pnwphp-green, 10%);
+		}
+
+		&:active {
+			background-color: darken($pnwphp-green, 10%);
+			color: $white;
+		}
+	}
+
+}
+
+.btn-large {
+	font-size: 1.4rem;
+	padding: $padding-large;
+}
+
+.btn-small {
+	font-size: 1.0rem;
+	padding: $padding-small;
+}
+

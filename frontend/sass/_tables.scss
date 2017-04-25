@@ -1,0 +1,22 @@
+
+table {
+	border-spacing: 1px;
+	border-collapse: separate;
+	box-sizing: border-box;
+	text-indent: 0;
+}
+
+th {
+	font-weight: bold;
+	background-color: $gray-90;
+	color: $gray-30;
+	padding: $padding-medium;
+	width: 100%;
+}
+
+td {
+	background-color: $white;
+	color: $gray-20;
+	padding: $padding-small;
+}
+

@@ -261,7 +261,7 @@ html {
 
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1.42857;
   color: #333333;
   background-color: #F5F7FA; }
@@ -4445,7 +4445,7 @@ body {
   z-index: 1; }
 
 .head-banner-sm {
-  height: 110px; }
+  height: 240px; }
   .head-banner-sm div {
     height: 240px; }
 
@@ -4958,11 +4958,3 @@ p.talk-title {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   font-size: x-large; }
-
-  .p-center {
-      width: 20em;
-      text-align: center;
-      margin-left: auto;
-      margin-right: auto;
-  }
-

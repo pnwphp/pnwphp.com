@@ -12,33 +12,48 @@
     <script src='//maps.googleapis.com/maps/api/js?key=AIzaSyC3hIrVsO5oZw9ske9GwIETeUlemPE1LpY&sensor=false'></script>
 
 </head>
-<body>
-<nav id="skip">
+<?php $bodyClass = (isset($bodyClass)) ? $bodyClass : ''; ?>
+<body class="<?php echo bodyClass($bodyClass); ?>">
+<nav id="skip" class="nav-skip">
     <a href="#main-content">Go to Main Content</a>
     <a href="#site-search">Go to Site Search</a>
     <a href="#footer">Go to Footer</a>
 </nav>
 <div id="main-nav" class="nav-main navbar-default navbar-fixed-top" role="navigation">
     <div class="navbar-brand">
-        <a href="/"><img src="img/logo-horizontal-160x50.png"/></a>
+        <a href="/"><img src="/img/logo-horizontal-160x50.png"/></a>
     </div>
 
-    <nav id="main-menu" class="main-menu">
-        <li><a href="/how-to-sponsor">Sponsors</a></li>
-        <li><a href="http://cfp.pnwphp.com/">CFP</a></li>
+    <nav id="main-menu" class="menu-main">
+        <ul>
+            <li><a href="/how-to-sponsor">Sponsor Us</a></li>
+            <li><a href="http://cfp.pnwphp.com/">CFP</a></li>
+            <li><a href="/about">About</a></li>
+        </ul>
     </nav>
 </div>
 @yield('content')
 <div class="footer">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <p>
-                    PNWPHP is brought to you by the Seattle PHP User Group (<a href="https://twitter.com/seaphp" target="_blank">@seaphp</a>),
-                </p>
-                <p>Copyright © 2015&ndash;<?php echo date('Y'); ?> SeaPHP User Group &mdash; All Rights Reserved</p>
-            </div>
-        </div>
+        <nav class="menu-footer">
+           <ul>
+               <li><a href="/code-of-conduct">Code of Conduct</a></li>
+               <li><a href="/accessibility">Accessibility</a></li>
+           </ul>
+        </nav>
+        <nav class="menu-archive">
+            <ul>
+                <li><a href="http://twitter.com/seaphp">@seaphp</a></li>
+                <li><a href="http://twitter.com/pnwphp">@pnwphp</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="copyright">
+        <p>
+            The Pacific Northwest PHP Conference is brought to you by the Seattle PHP User Group (<a href="https://twitter.com/seaphp" target="_blank">@seaphp</a>),
+        </p>
+        <p>Copyright © 2015 &mdash; <?php echo date('Y'); ?> SeaPHP User Group<br>
+            All Rights Reserved</p>
     </div>
 </div>
 

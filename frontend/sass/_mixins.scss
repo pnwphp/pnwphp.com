@@ -1,0 +1,86 @@
+//------------------------------------------------------------------------------
+// Color Contrast
+//
+
+//@import "compass/css3";
+
+@function luma($color){
+	// Adapted from: https://gist.github.com/voxpelli/6304812
+	$rgba: red($color), green($color), blue($color);
+	$rgba2: ();
+
+	@for $i from 1 through 3 {
+		$rgb: nth($rgba, $i);
+		$rgb: $rgb / 255;
+		$rgb: if($rgb < .03928, $rgb / 12.92, pow(($rgb + .055) / 1.055, 2.4));
+		$rgba2: append($rgba2, $rgb);
+	}
+
+	@return (.2126 * nth($rgba2, 1) + .7152 * nth($rgba2, 2) + 0.0722 * nth($rgba2, 3)) * 100;
+}
+
+// Adapted from http://codepen.io/MadeByMike/pen/sDpxg
+@function contrast_ratio($color1, $color2) {
+	$luma1: luma($color1) + 5;
+	$luma2: luma($color2) + 5;
+	$ratio: $luma1 / $luma2;
+
+	@if $luma1 < $luma2 {
+		$ratio: 1 / $ratio;
+	}
+
+	@return $ratio;
+}
+
+@mixin color-contrast($fg_color, $bg_color: #ffffff){
+	$contrast: contrast_ratio($fg_color, $bg_color);
+	/* color contrast: #{$contrast}; */
+}
+
+@mixin fg-bg-colors($fg_color, $bg_color: #ffffff, $warn: 1){
+	background-color: $bg_color;
+	color: $fg_color;
+
+	$contrast-ratio: contrast-ratio($fg_color, $bg_color);
+	/* color contrast: #{$contrast-ratio}; */
+
+	@if ($warn == 1){
+		@if ($contrast-ratio < 4.5){
+			@warn "the contrast between #{$fg_color} and #{$bg_color} is #{$contrast-ratio}, which that WCAG 2 Level AA";
+		}
+	}
+}
+
+@function pow($base, $exponent, $prec: 12) {
+	// Handles decimal exponents by trying to convert them into a fraction and then use a nthRoot-algorithm for parts of the calculation
+	@if (floor($exponent) != $exponent) {
+		$prec2 : pow(10, $prec);
+		$exponent: round($exponent * $prec2);
+		$denominator: gcd($exponent, $prec2);
+		@return nthRoot(pow($base, $exponent / $denominator), $prec2 / $denominator, $prec);
+	}
+
+	$value: $base;
+	@if $exponent > 1 {
+		@for $i from 2 through $exponent {
+			$value: $value * $base;
+		}
+	} @else if $exponent < 1 {
+		@for $i from 0 through -$exponent {
+			$value: $value / $base;
+		}
+	}
+
+	@return $value;
+}
+
+@function nthRoot($num, $n: 2, $prec: 12) {
+	// From: http://rosettacode.org/wiki/Nth_root#JavaScript
+	$x: 1;
+
+	@for $i from 0 through $prec {
+		$x: 1 / $n * (($n - 1) * $x + ($num / pow($x, $n - 1)));
+	}
+
+	@return $x;
+}

@@ -1,6 +1,10 @@
-$black: #000;
+//==============================================================================
+//  Colors
+//==============================================================================
 
-
+//
+// Shades of gray/grey by percent
+//
 $gray-10: #191919;
 $grey-10: $gray-10;
 $gray-15: #262626;
@@ -27,76 +31,94 @@ $gray-80: #cccccc;
 $grey-80: $gray-80;
 $gray-90: #e5e5e5;
 $grey-90: $gray-90;
-//
-$color: #5e5e5e;
-$color: #777777;
-$color: #777;
-$gray-53: #888;
-$gray-55: #8b8b8b;
-$color: #959bb4;
 
-$color: rgba(122, 125, 184, 0.2);
-$color: #343849;
-$color: #245269;
-$color: #2494be;
-$blue-light: #1c92c7;
-$color: #228eb6;
-$green-dark: #2b542c;
-$pnwphp-blue: #30487b;
-$color: #31708f;
-$color: #38b9e6;
-$color: #3bafda;
-$color: #4Fc1e9;
-$color: #4fc1e9;
-$color: #66c9ec;
-$color: #7cd1ef;
-$color: #3e4358;
-$color: #454a61;
-$color: #494e67;
-$color: #5e6585;
-$pnwphp-green: #3c763d;
-$color: #6d9d38;
-$color: #72a53b;
-$color: #8CC152;
-$color: #94ce54;
-$color: #A0D468;
-$color: #a0d468;
-$color: #acda7c;
-$color: #b9df90;
-$color: #66512c;
-$color: #8a6d3b;
-$color: #b58700;
-$color: #ddd442;
-$color: #efa50b;
-$color: #f4a911;
-$color: #f6bb42;
-$color: #ffC850;
-$color: #ffc73b;
-$color: #ffc94c;
-$color: #ffce54;
-$color: #ffce54;
-$color: #ffd56e;
-$color: #ffdd87;
-$color: rgba(181, 135, 0, 0.9);
-$color: rgba(221, 212, 66, 0.8);
-$color: rgba(255, 201, 76, 0.8);
-$color: #843534;
-$color: #a56660;
-$color: #a94442;
-$color: #c7254e;
-$color: #ca3523;
-$color: #d33218;
-$color: #dc3519;
-$color: #e9573f;
-$color: #eb3e50;
-$color: #ed5565;
-// same as above: #ED5565;
-$color: #ef6c7a;
-$color: #f2838f;
-$color: #a4a9bf;
-$color: #d1d3de;
-$gray-93: #eeeeee;
-$color: #efeff3;
+
+//--------------------------------------
+//  Generic
+
+$black: #000;
+$blue-ice: #7cd1ef;
+$charcoal: #3e4358;
 $white: #f9f9f9;
 $white-bright: #fff;
-$color: white;
+
+
+
+//--------------------------------------
+//  Brand Colors
+
+$pnwphp-green: #49904A;
+$pnwphp-green-dark: #306131;
+$pnwphp-blue-light: #8ba5d1;
+$pnwphp-blue: #1B75BB ; // #38b9e6 #228eb6
+$pnwphp-blue-dark: #30487b;
+$pnwphp-gray: #8c8c8c;
+
+
+
+//--------------------------------------
+//  Greens
+
+$green-light: #b9df90;
+
+
+
+
+
+//==============================================================================
+//  Spacing
+//==============================================================================
+
+
+
+//--------------------------------------
+//  Margin
+
+$margin-small: 0.20em;
+$spacing-medium: 0.50em;
+$spacing-large: 1em;
+
+
+
+//--------------------------------------
+//  Padding
+//
+
+$padding-small: 0.20em;
+$padding-medium: 0.50em;
+$padding-large: 1em;
+
+
+//==============================================================================
+//  Layout
+//==============================================================================
+
+$desktop-content-width: 50em;
+$tablet-content-width: 50em;
+
+
+//==============================================================================
+//  Typography
+//==============================================================================
+
+
+$font-size-base: 16px;
+
+//--------------------------------------
+// Sans Serif fonts
+//
+$helvetica: Helvetica, "Helvetica Neue";
+$arial: 'Arial';
+
+
+//--------------------------------------
+// Font Settings
+//
+$heading-font-family: $helvetica, "sans-serif";
+$heading-font-color: $gray-10;
+
+$copy-font-family: $helvetica, Arial, "sans-serif";
+$copy-font-color: $gray-20;
+
+
+

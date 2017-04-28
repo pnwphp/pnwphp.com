@@ -1,4 +1,4 @@
-/* 
+/*
 
  Gulpfile for SASS -> CSS conversion, JS combination and minification of Bootstrap files and a custom theme.
 
@@ -51,12 +51,7 @@ gulp.task('sass', function () {
   return sass('frontend/sass/_theme.scss')
     .pipe(prefixer('last 5 versions', 'ie 8'))
     .pipe(rename("styles.css"))
-    .pipe(gulp.dest('public/css'))
-    .pipe(bytediff.start())
-    .pipe(minifycss())
-    .pipe(rename("styles.min.css"))
-    .pipe(gulp.dest('public/css'))
-    .pipe(bytediff.stop());
+    .pipe(gulp.dest('public/css'));
 });
 
 // Concatenate & Minify JS

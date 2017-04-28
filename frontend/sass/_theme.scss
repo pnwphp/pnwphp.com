@@ -1,7 +1,8 @@
 
 // Project settings - colors, padding, fonts, etc
 @import "settings";
-@import "mixins.scss";
+@import "mixins";
+@import "base";
 
 //
 // Modules
@@ -39,11 +40,12 @@
 
 .home-wrapper-content {
 
-	margin: 1em auto;
+	margin: 0 auto 1em;
 	font-size: 1.2em;
-
+	margin-block-start: 0;
 	// @todo add media queries to set the width for different devices
 	width: $desktop-content-width;
+	color: #F0C;
 
 	.container {
 		padding: $padding-small;

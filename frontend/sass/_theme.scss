@@ -40,12 +40,12 @@
 
 .home-wrapper-content {
 
-	margin: 0 auto 1em;
+	margin: 0 auto;
+	padding: 1em 0;
 	font-size: 1.2em;
 	margin-block-start: 0;
 	// @todo add media queries to set the width for different devices
 	width: $desktop-content-width;
-	color: #F0C;
 
 	.container {
 		padding: $padding-small;

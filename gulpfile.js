@@ -48,7 +48,7 @@ gulp.task('lint', function () {
 
 // Define a task for converting SASS files to CSS minifying and saving in dist/css folder:
 gulp.task('sass', function () {
-  return sass('frontend/sass/_bootstrap.scss')
+  return sass('frontend/sass/_theme.scss')
     .pipe(prefixer('last 5 versions', 'ie 8'))
     .pipe(rename("styles.css"))
     .pipe(gulp.dest('public/css'))

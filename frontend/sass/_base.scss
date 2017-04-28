@@ -1,0 +1,78 @@
+
+html {
+	box-sizing: border-box;
+}
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+
+
+.wrapper-blue {
+	background-color: $pnwphp-blue;
+	color: $white;
+
+	a:link {
+		background-color: $pnwphp-blue;
+		color: $gray-80;
+	}
+
+	a:visited {
+		background-color: $pnwphp-blue;
+		color: $gray-80;
+	}
+
+	a:hover, a:focus {
+		background-color: $gray-80;
+		color: $pnwphp-blue;
+	}
+
+	a:active {
+		background-color: $pnwphp-blue-dark;
+		color: $gray-80;
+	}
+
+	h2 {
+		margin-block-start: 0;
+		color: $white;
+	}
+
+	h3 {
+		color: $white;
+	}
+
+	h4 {
+		color: $white;
+	}
+}
+
+.wrapper-green {
+	background-color: $pnwphp-green;
+	color: $white;
+
+	a:link {
+		background-color: $pnwphp-green;
+		color: $green-light;
+	}
+
+	a:visited {
+		background-color: $pnwphp-green;
+		color: $gray-80;
+	}
+
+	a:hover, a:focus {
+		background-color: $gray-80;
+		color: $pnwphp-green;
+
+	}
+
+	a:active {
+		background-color: $pnwphp-green-dark;
+		color: $gray-80;
+	}
+
+	h2, h3, h4 {
+		color: $white;
+	}
+
+}

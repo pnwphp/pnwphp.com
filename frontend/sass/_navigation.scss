@@ -35,6 +35,20 @@
 		}
 	}
 }
+.navbar-brand {
+	$logo_width: 170px;
+	a {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: $logo_width;
+	}
+
+	img {
+		width: $logo_width;
+		height: auto;
+	}
+}
 
 .menu-main {
 	border-radius: 6px;
@@ -43,7 +57,7 @@
 		background-color: $pnwphp-blue-dark;
 		color: $white;
 		list-style-type: none;
-		margin: 1em 0 0;
+		margin: 0;
 		padding: 0;
 		font-size: 1.2em;
 	}

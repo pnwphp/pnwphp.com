@@ -38,6 +38,8 @@
 	}
 }
 
+
+
 .home-wrapper-content {
 
 	margin: 0 auto;
@@ -65,22 +67,27 @@
 			width: 33%;
 			flex: 1;
 		}
-	}
-}
-
-.wrapper-blue {
-	th {
-		background-color: $pnwphp-blue-dark;
-		color: $white;
-	}
-}
-.wrapper-blue {
-	th {
-		background-color: $pnwphp-blue-dark;
-		color: $white;
 
 	}
+
+	.box {
+		padding: $padding-medium;
+		flex: 1;
+	}
+
+	.boxes-two .box {
+		@extend .box;
+		width: 50%;
+	}
+
+	.outline {
+		border: 1px solid $gray-80;
+		padding: $padding-medium;
+	}
+
 }
+
+
 
 
 

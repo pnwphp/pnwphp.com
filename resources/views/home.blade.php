@@ -20,6 +20,29 @@
         </div>
     </div>
 
+    <div class="wrapper wrapper-blue-dark">
+        <div class="home-wrapper-content">
+            <h2>Be Part of PNWPHP</h2>
+            <div class="container">
+                <div class="row boxes-two">
+                    <div id="become-a-sponsor" class="box outline">
+                       <p>
+                          Would you or your company like to sponsor PNWPHP?
+                          Please get in touch!
+                       </p>
+                        <a href="/become-a-sponsor/" class="btn-reverse">Yes I'll Sponsor</a>
+                    </div>
+                    <div id="current-status" class="box outline" style="margin-left: 0.5em;">
+                        <p>
+                            The CFP is open <strong>until 2017 May 15</strong>. Anyone interested in speaking should
+                            submit their talk ideas.
+                        </p>
+                        <a href="https://cfp.pnwphp.com" class="btn-reverse">Submit CFP</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="wrapper wrapper-blue">
         <div class="home-wrapper-content">
@@ -122,26 +145,26 @@
             <h2>The Venue</h2>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h3>University of Washington</h3>
-                    </div>
-                </div>
+                            <div class="col-md-12 text-center">
+                            <h3>University of Washington</h3>
+                            </div>
+                            </div>
                 <div class="row">
-                    <div class="col-md-8">
-                        <div id="location-map"></div>
-                    </div>
-                    <div class="col-md-4">
-                        <p>
+                            <div class="col-md-8">
+                            <div id="location-map"></div>
+                            </div>
+                            <div class="col-md-4">
+                            <p>
                             <img class="img-responsive img-thumbnail" src="img/impacthub.jpg" alt=""/>
-                        </p>
-                        <p class="lead">
+                            </p>
+                            <p class="lead">
                             <a href="http://www.washington.edu/maps/#!/kne" target="_blank">University of Washington</a>
                             is an excellent University, located in the heart of Seattle. The main conference will be
                             held at <strong>Kane Hall</strong>, and the workshops in nearby <strong>Johnson
-                                Hall</strong>.
-                        </p>
-                    </div>
-                </div>
+                            Hall</strong>.
+                            </p>
+                            </div>
+                            </div>
             </div>
         </div>
     </div>

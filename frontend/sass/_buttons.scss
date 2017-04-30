@@ -52,13 +52,13 @@
 	}
 
 	&:hover, &:focus {
-		background-color: $white;
+		background-color: $white-bright;
 		color: $gray-30;
 	}
 
 	&:active {
 		background-color: $gray-30;
-		color: $white;
+		color: $white-bright;
 	}
 }
 
@@ -81,11 +81,11 @@
 
 		&:hover, &:focus {
 			background-color: darken($pnwphp-blue, 10%);
-			color: $white;
+			color: $white-bright;
 		}
 
 		&:active {
-			background-color: $white;
+			background-color: $white-bright;
 			color: darken($pnwphp-blue, 10%);
 		}
 	}
@@ -107,16 +107,74 @@
 		}
 
 		&:hover, &:focus {
-			background-color: $white;
+			background-color: $white-bright;
 			color: darken($pnwphp-blue, 10%);
 		}
 
 		&:active {
 			background-color: darken($pnwphp-blue, 10%);
-			color: $white;
+			color: $white-bright;
 		}
 	}
 }
+
+
+.wrapper-blue-dark {
+
+	.btn {
+		@extend .btn;
+		background-color: $pnwphp-blue-dark;
+		color: $white;
+
+		&:link {
+			background-color: $pnwphp-blue-dark;
+			color: $gray-90;
+		}
+
+		&:visited {
+			background-color: $pnwphp-blue-dark;
+			color: $gray-90;
+		}
+
+		&:hover, &:focus {
+			background-color: $pnwphp-blue-dark;
+			color: $white-bright;
+		}
+
+		&:active {
+			background-color: $white-bright;
+			color: $pnwphp-blue-dark;
+		}
+	}
+
+	.btn-reverse {
+		@extend .btn;
+		border: 1px solid $pnwphp-blue-dark;
+		background-color: $white;
+		color: $pnwphp-blue-dark;
+
+		&:link {
+			background-color: $gray-90;
+			color: $pnwphp-blue-dark;
+		}
+
+		&:visited {
+			background-color: $gray-90;
+			color: $pnwphp-blue-dark;
+		}
+
+		&:hover, &:focus {
+			background-color: $white-bright;
+			color: $pnwphp-blue-dark;
+		}
+
+		&:active {
+			background-color: $pnwphp-blue-dark;
+			color: $white-bright;
+		}
+	}
+}
+
 
 .wrapper-green {
 	.btn {

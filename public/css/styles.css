@@ -28,6 +28,30 @@ html {
   .wrapper-blue h4 {
     color: #f9f9f9; }
 
+.wrapper-blue-dark {
+  background-color: #30487b;
+  color: #f9f9f9; }
+  .wrapper-blue-dark a:link {
+    background-color: #30487b;
+    color: #cccccc; }
+  .wrapper-blue-dark a:visited {
+    background-color: #30487b;
+    color: #cccccc; }
+  .wrapper-blue-dark a:hover, .wrapper-blue-dark a:focus {
+    background-color: #cccccc;
+    color: #30487b; }
+  .wrapper-blue-dark a:active {
+    background-color: #1B75BB;
+    color: #cccccc; }
+  .wrapper-blue-dark h2 {
+    -webkit-margin-before: 0;
+            margin-block-start: 0;
+    color: #f9f9f9; }
+  .wrapper-blue-dark h3 {
+    color: #f9f9f9; }
+  .wrapper-blue-dark h4 {
+    color: #f9f9f9; }
+
 .wrapper-green {
   background-color: #49904A;
   color: #f9f9f9; }
@@ -102,13 +126,22 @@ h4, h5, h6 {
     top: 2em;
     left: 2em; }
 
+.navbar-brand a {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 170px; }
+.navbar-brand img {
+  width: 170px;
+  height: auto; }
+
 .menu-main {
   border-radius: 6px; }
   .menu-main ul {
     background-color: #30487b;
     color: #f9f9f9;
     list-style-type: none;
-    margin: 1em 0 0;
+    margin: 0;
     padding: 0;
     font-size: 1.2em; }
   .menu-main li {
@@ -185,7 +218,7 @@ td {
   color: #333333;
   padding: 0.2em; }
 
-.btn, .btn-reverse, .wrapper-blue .btn, .wrapper-blue .btn-reverse, .wrapper-green .btn, .wrapper-green .btn-reverse {
+.btn, .btn-reverse, .wrapper-blue .btn, .wrapper-blue .btn-reverse, .wrapper-blue-dark .btn, .wrapper-blue-dark .btn-reverse, .wrapper-green .btn, .wrapper-green .btn-reverse {
   border-radius: 6px;
   display: inline-block;
   font-weight: bold;
@@ -219,11 +252,11 @@ td {
     background-color: #e5e5e5;
     color: #666666; }
   .btn-reverse:hover, .btn-reverse:focus {
-    background-color: #f9f9f9;
+    background-color: #fff;
     color: #4c4c4c; }
   .btn-reverse:active {
     background-color: #4c4c4c;
-    color: #f9f9f9; }
+    color: #fff; }
 
 .wrapper-blue .btn, .wrapper-blue .btn-reverse {
   background-color: #1B75BB;
@@ -236,9 +269,9 @@ td {
     color: #e5e5e5; }
   .wrapper-blue .btn:hover, .wrapper-blue .btn-reverse:hover, .wrapper-blue .btn:focus, .wrapper-blue .btn-reverse:focus {
     background-color: #15598e;
-    color: #f9f9f9; }
+    color: #fff; }
   .wrapper-blue .btn:active, .wrapper-blue .btn-reverse:active {
-    background-color: #f9f9f9;
+    background-color: #fff;
     color: #15598e; }
 .wrapper-blue .btn-reverse {
   border: 1px solid #1B75BB;
@@ -251,11 +284,43 @@ td {
     background-color: #e5e5e5;
     color: #1B75BB; }
   .wrapper-blue .btn-reverse:hover, .wrapper-blue .btn-reverse:focus {
-    background-color: #f9f9f9;
+    background-color: #fff;
     color: #15598e; }
   .wrapper-blue .btn-reverse:active {
     background-color: #15598e;
-    color: #f9f9f9; }
+    color: #fff; }
+
+.wrapper-blue-dark .btn, .wrapper-blue-dark .btn-reverse {
+  background-color: #30487b;
+  color: #f9f9f9; }
+  .wrapper-blue-dark .btn:link, .wrapper-blue-dark .btn-reverse:link {
+    background-color: #30487b;
+    color: #e5e5e5; }
+  .wrapper-blue-dark .btn:visited, .wrapper-blue-dark .btn-reverse:visited {
+    background-color: #30487b;
+    color: #e5e5e5; }
+  .wrapper-blue-dark .btn:hover, .wrapper-blue-dark .btn-reverse:hover, .wrapper-blue-dark .btn:focus, .wrapper-blue-dark .btn-reverse:focus {
+    background-color: #30487b;
+    color: #fff; }
+  .wrapper-blue-dark .btn:active, .wrapper-blue-dark .btn-reverse:active {
+    background-color: #fff;
+    color: #30487b; }
+.wrapper-blue-dark .btn-reverse {
+  border: 1px solid #30487b;
+  background-color: #f9f9f9;
+  color: #30487b; }
+  .wrapper-blue-dark .btn-reverse:link {
+    background-color: #e5e5e5;
+    color: #30487b; }
+  .wrapper-blue-dark .btn-reverse:visited {
+    background-color: #e5e5e5;
+    color: #30487b; }
+  .wrapper-blue-dark .btn-reverse:hover, .wrapper-blue-dark .btn-reverse:focus {
+    background-color: #fff;
+    color: #30487b; }
+  .wrapper-blue-dark .btn-reverse:active {
+    background-color: #30487b;
+    color: #fff; }
 
 .wrapper-green .btn, .wrapper-green .btn-reverse {
   background-color: #49904A;
@@ -345,11 +410,14 @@ td {
       -webkit-flex: 1;
           -ms-flex: 1;
               flex: 1; }
-
-.wrapper-blue th {
-  background-color: #30487b;
-  color: #f9f9f9; }
-
-.wrapper-blue th {
-  background-color: #30487b;
-  color: #f9f9f9; }
+  .home-wrapper-content .box, .home-wrapper-content .boxes-two .box {
+    padding: 0.5em;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+  .home-wrapper-content .boxes-two .box {
+    width: 50%; }
+  .home-wrapper-content .outline {
+    border: 1px solid #cccccc;
+    padding: 0.5em; }

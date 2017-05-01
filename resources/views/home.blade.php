@@ -142,29 +142,28 @@
 
     <div class="wrapper wrapper-green">
         <div class="home-wrapper-content">
-            <h2>The Venue</h2>
+            <h2>University of Washington</h2>
             <div class="container">
-                <div class="row">
-                            <div class="col-md-12 text-center">
-                            <h3>University of Washington</h3>
-                            </div>
-                            </div>
-                <div class="row">
-                            <div class="col-md-8">
-                            <div id="location-map"></div>
-                            </div>
-                            <div class="col-md-4">
-                            <p>
-                            <img class="img-responsive img-thumbnail" src="img/impacthub.jpg" alt=""/>
-                            </p>
-                            <p class="lead">
-                            <a href="http://www.washington.edu/maps/#!/kne" target="_blank">University of Washington</a>
+                <div class="row boxes-two">
+                   <div class="box">
+                      <div id="location-map">
+                         <a href="https://www.google.com/maps/place/Kane+Hall+(KNE)/@47.6567215,-122.311249,17z/data=!3m1!4b1!4m5!3m4!1s0x5490148d297e703f:0x46fb837b5e7c7474!8m2!3d47.6567215!4d-122.3090603">
+                            <img src="/img/2017-uw-kane-hall-johnson-hall.png"
+                                 style="width: 100%;"
+                                 alt="map of PNWPHP Venues - Kane Hall and Johnson Hall">
+                         </a>
+
+                      </div>
+                   </div>
+                   <div class="box">
+                      <p class="lead" style="margin-top: 0;">
+                           <strong>University of Washington</strong>
                             is an excellent University, located in the heart of Seattle. The main conference will be
                             held at <strong>Kane Hall</strong>, and the workshops in nearby <strong>Johnson
                             Hall</strong>.
-                            </p>
-                            </div>
-                            </div>
+                      </p>
+                   </div>
+                </div>
             </div>
         </div>
     </div>

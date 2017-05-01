@@ -30,7 +30,7 @@
                           Would you or your company like to sponsor PNWPHP?
                           Please get in touch!
                        </p>
-                        <a href="/become-a-sponsor/" class="btn-reverse">Yes I'll Sponsor</a>
+                        <a href="mailto:pnwphp@seaphp.com" class="btn-reverse">Yes I'll Sponsor</a>
                     </div>
                     <div id="current-status" class="box outline" style="margin-left: 0.5em;">
                         <p>

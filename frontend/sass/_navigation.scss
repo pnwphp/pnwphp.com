@@ -103,22 +103,34 @@
 	padding: 1em;
 
 	.container {
-		display: flex;
-		width: $desktop-content-width;
+		display: block;
+		width: 100%;
+		@media  (min-width: $desktop-content-width) {
+			display: flex;
+			width: $desktop-content-width;
+		}
 		margin-left: auto;
 		margin-right: auto;
 	}
 
 	.menu-footer {
-		width: 50%;
-		flex: 1;
-		padding-right: 1em;
+		display: block;
+		width: 100%;
+		@media  (min-width: $desktop-content-width) {
+			width: 50%;
+			flex: 1;
+			padding-right: 1em;
+		}
 	}
 
 	.menu-archive {
-		width: 50%;
-		flex: 1;
-		padding-right: 1em;
+		display: block;
+		width: 100%;
+		@media  (min-width: $desktop-content-width) {
+			width: 50%;
+			flex: 1;
+			padding-right: 1em;
+		}
 	}
 
 	a {
@@ -127,7 +139,10 @@
 
 	.copyright {
 		text-align: left;
-		width: $desktop-content-width;
+		width: 100%;
+		@media  (min-width: $desktop-content-width) {
+			width: $desktop-content-width;
+		}
 		margin-left: auto;
 		margin-right: auto;
 	}

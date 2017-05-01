@@ -27,14 +27,27 @@
 	h1 {
 		margin-top: 0;
 		padding-top: 1.5em;
-		font-size: 4em;
 		text-shadow:  4px 4px 4px darken($pnwphp-blue-dark, 10%);
+		font-size: 3em;
+		@media  (min-width: 530px) {
+			// do stuff
+			font-size: 4em;
+
+		}
 	}
 
 	h2 {
 		font-size: 2rem;
 		background-color: $pnwphp-green;
 		text-shadow:  4px 4px 4px darken($pnwphp-green-dark, 10%);
+	}
+
+	@media (min-device-width: 14em) {
+		a {
+			margin-left: auto;
+			margin-right: auto;
+			width: 12em;
+		}
 	}
 }
 
@@ -43,29 +56,43 @@
 .home-wrapper-content {
 
 	margin: 0 auto;
-	padding: 1em 0;
+	padding: 5em 0 1em;
 	font-size: 1.2em;
 	margin-block-start: 0;
 	// @todo add media queries to set the width for different devices
-	width: $desktop-content-width;
+	@media  (min-width: $desktop-content-width) {
+		width: $desktop-content-width;
+		padding: 1em 0 1em;
+	}
+
 
 	.container {
 		padding: $padding-small;
 	}
 
 	.row {
-		display: flex;
+		display: block;
+		@media  (min-width: 768px) {
+			display: flex;
+		}
 
 		.main-content {
 			margin-top: 0;
-			width: 66%;
-			flex: 2;
-			padding-right: 1em;
+			width: 100%;
+			@media  (min-width: 768px) {
+				// do stuff
+				width: 66%;
+				flex: 2;
+				padding-right: 1em;
+			}
 		}
 
 		.schedule {
-			width: 33%;
-			flex: 1;
+			width: 100%;
+			@media  (min-width: 768px) {
+				width: 33%;
+				flex: 1;
+			}
 		}
 
 	}
@@ -77,7 +104,10 @@
 
 	.boxes-two .box {
 		@extend .box;
-		width: 50%;
+		@media  (min-width: 768px) {
+			width: 50%;
+
+		}
 	}
 
 	.outline {

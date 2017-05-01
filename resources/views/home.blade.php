@@ -32,7 +32,7 @@
                        </p>
                         <a href="mailto:pnwphp@seaphp.com" class="btn-reverse">Yes I'll Sponsor</a>
                     </div>
-                    <div id="current-status" class="box outline" style="margin-left: 0.5em;">
+                    <div id="current-status" class="box outline">
                         <p>
                             The CFP is open <strong>until 2017 May 15</strong>. Anyone interested in speaking should
                             submit their talk ideas.

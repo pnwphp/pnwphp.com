@@ -4,6 +4,9 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
+body {
+  margin: 0; }
+
 .wrapper-blue {
   background-color: #1B75BB;
   color: #f9f9f9; }
@@ -171,34 +174,49 @@ h4, h5, h6 {
   color: #f9f9f9;
   padding: 1em; }
   .footer .container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 50em;
+    display: block;
+    width: 100%;
     margin-left: auto;
     margin-right: auto; }
+    @media (min-width: 50em) {
+      .footer .container {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 50em; } }
   .footer .menu-footer {
-    width: 50%;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    padding-right: 1em; }
+    display: block;
+    width: 100%; }
+    @media (min-width: 50em) {
+      .footer .menu-footer {
+        width: 50%;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        padding-right: 1em; } }
   .footer .menu-archive {
-    width: 50%;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    padding-right: 1em; }
+    display: block;
+    width: 100%; }
+    @media (min-width: 50em) {
+      .footer .menu-archive {
+        width: 50%;
+        -webkit-box-flex: 1;
+        -webkit-flex: 1;
+            -ms-flex: 1;
+                flex: 1;
+        padding-right: 1em; } }
   .footer a {
     color: #b9df90; }
   .footer .copyright {
     text-align: left;
-    width: 50em;
+    width: 100%;
     margin-left: auto;
     margin-right: auto; }
+    @media (min-width: 50em) {
+      .footer .copyright {
+        width: 50em; } }
 
 table {
   border-spacing: 1px;
@@ -375,49 +393,70 @@ td {
   .head-banner-content h1 {
     margin-top: 0;
     padding-top: 1.5em;
-    font-size: 4em;
-    text-shadow: 4px 4px 4px #223356; }
+    text-shadow: 4px 4px 4px #223356;
+    font-size: 3em; }
+    @media (min-width: 530px) {
+      .head-banner-content h1 {
+        font-size: 4em; } }
   .head-banner-content h2 {
     font-size: 2rem;
     background-color: #49904A;
     text-shadow: 4px 4px 4px #1f3f20; }
+  @media (min-device-width: 14em) {
+    .head-banner-content a {
+      margin-left: auto;
+      margin-right: auto;
+      width: 12em; } }
 
 .home-wrapper-content {
   margin: 0 auto;
-  padding: 1em 0;
+  padding: 5em 0 1em;
   font-size: 1.2em;
   -webkit-margin-before: 0;
-          margin-block-start: 0;
-  width: 50em; }
+          margin-block-start: 0; }
+  @media (min-width: 50em) {
+    .home-wrapper-content {
+      width: 50em;
+      padding: 1em 0 1em; } }
   .home-wrapper-content .container {
     padding: 0.2em; }
   .home-wrapper-content .row {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex; }
+    display: block; }
+    @media (min-width: 768px) {
+      .home-wrapper-content .row {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; } }
     .home-wrapper-content .row .main-content {
       margin-top: 0;
-      width: 66%;
-      -webkit-box-flex: 2;
-      -webkit-flex: 2;
-          -ms-flex: 2;
-              flex: 2;
-      padding-right: 1em; }
+      width: 100%; }
+      @media (min-width: 768px) {
+        .home-wrapper-content .row .main-content {
+          width: 66%;
+          -webkit-box-flex: 2;
+          -webkit-flex: 2;
+              -ms-flex: 2;
+                  flex: 2;
+          padding-right: 1em; } }
     .home-wrapper-content .row .schedule {
-      width: 33%;
-      -webkit-box-flex: 1;
-      -webkit-flex: 1;
-          -ms-flex: 1;
-              flex: 1; }
+      width: 100%; }
+      @media (min-width: 768px) {
+        .home-wrapper-content .row .schedule {
+          width: 33%;
+          -webkit-box-flex: 1;
+          -webkit-flex: 1;
+              -ms-flex: 1;
+                  flex: 1; } }
   .home-wrapper-content .box, .home-wrapper-content .boxes-two .box {
     padding: 0.5em;
     -webkit-box-flex: 1;
     -webkit-flex: 1;
         -ms-flex: 1;
             flex: 1; }
-  .home-wrapper-content .boxes-two .box {
-    width: 50%; }
+  @media (min-width: 768px) {
+    .home-wrapper-content .boxes-two .box {
+      width: 50%; } }
   .home-wrapper-content .outline {
     border: 1px solid #cccccc;
     padding: 0.5em; }

@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
-    <title>PNWPHP - Pacific Northwest PHP Conference</title>
+    <title>PNWPHP - Pacific Northwest PHP Conference - Seattle, WA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="icon" href="favicon.ico" type="image/x-icon">

@@ -11,7 +11,7 @@ try {
     //
 }
 
-error_reporting(-1);
+error_reporting(E_ALL);
 
 /*
 |--------------------------------------------------------------------------
@@ -100,6 +100,12 @@ $app->singleton('conference', 'App\Model\Conference');
 */
 
 require_once BOOTSTRAP_DIR . '/functions.php';
+
+function global_exception_handler($exception) {
+	error_log("Uncaught exception: " . $exception->getMessage());
+}
+
+set_exception_handler('global_exception_handler');
 
 
 /*

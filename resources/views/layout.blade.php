@@ -26,11 +26,32 @@
 
     <nav id="main-menu" class="menu-main">
         <ul>
-            <li><a href="/how-to-sponsor">Sponsor Us</a></li>
+            <?php
+            # Keeping the desired order of the items
+            # while hiding them from HTML
+            # <li><a href="/sponsor/how-to">How to Sponsor</a></li>
+            ?>
             <li><a href="http://cfp.pnwphp.com/">CFP</a></li>
-            <li><a href="/about">About</a></li>
+            <?php
+            # <li><a href="/2017/sponsors">Sponsors</a></li>
+            # <li><a href="/about">About</a></li>
+            ?>
         </ul>
     </nav>
+</div>
+
+<div class="head-banner">
+    <div class="bg"></div>
+</div>
+
+<div class="head-banner-content">
+        <h1>Pacific Northwest PHP</h1>
+        <h2><span class="date">September 7th–9th, 2017</span> <span class="dot">&#8226</span> <span class="location">Seattle, WA</span></h2>
+        <a href="<?php echo $cfpUrl; ?>" target="_blank"
+           class="btn-reverse"
+           style="margin-left: auto; margin-right: auto; width: 12em;">
+            Submit Your CFP
+        </a>
 </div>
 @yield('content')
 <div class="footer">

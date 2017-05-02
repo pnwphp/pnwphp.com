@@ -4,24 +4,10 @@
 	<?php
 	$cfpUrl = 'http://cfp.pnwphp.com';
 	?>
-    <div class="head-banner">
-        <div class="bg"></div>
-    </div>
 
-    <div class="head-banner-content">
-        <div>
-            <h1>Pacific Northwest PHP</h1>
-            <h2>September 7th–9th, 2017 &#8226 Seattle, WA</h2>
-            <a href="<?php echo $cfpUrl; ?>" target="_blank"
-               class="btn-reverse"
-               style="margin-left: auto; margin-right: auto; width: 12em;">
-                Submit Your CFP
-            </a>
-        </div>
-    </div>
 
     <div class="wrapper wrapper-blue-dark">
-        <div class="home-wrapper-content">
+        <div class="wrapper-content">
             <h2>Be Part of PNWPHP</h2>
             <div class="container">
                 <div class="row boxes-two">
@@ -45,7 +31,7 @@
     </div>
 
     <div class="wrapper wrapper-blue">
-        <div class="home-wrapper-content">
+        <div class="wrapper-content">
             <h2>PNWPHP Conference</h2>
             <div class="container">
                 <div class="row">
@@ -141,7 +127,7 @@
 
 
     <div class="wrapper wrapper-green">
-        <div class="home-wrapper-content">
+        <div class="wrapper-content">
             <h2>University of Washington</h2>
             <div class="container">
                 <div class="row boxes-two">

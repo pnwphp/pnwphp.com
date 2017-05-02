@@ -22,17 +22,22 @@
 	top: 0;
 	width: 100%;
 	// Wrap the height in a media query
-	height: 440px;
+
+	height: 260px;
+	@media  (min-width: 768px) {
+		height: 440px;
+	}
 
 	h1 {
 		margin-top: 0;
-		padding-top: 1.5em;
+		padding-top: 0.8em;
+		@media  (min-width: 768px) {
+			padding-top: 1.5em;
+		}
 		text-shadow:  4px 4px 4px darken($pnwphp-blue-dark, 10%);
-		font-size: 3em;
-		@media  (min-width: 530px) {
-			// do stuff
+		font-size: 2em;
+		@media  (min-width: 768px) {
 			font-size: 4em;
-
 		}
 	}
 
@@ -40,6 +45,20 @@
 		font-size: 2rem;
 		background-color: $pnwphp-green;
 		text-shadow:  4px 4px 4px darken($pnwphp-green-dark, 10%);
+        @media (max-device-width: 530px){
+		    font-size: 1.5rem;
+            margin-bottom: 2em;
+            .date {
+                display: block;
+            }
+            .dot {
+                display: none;
+            }
+            .location {
+                display: block;
+            }
+
+        }
 	}
 
 	@media (min-device-width: 14em) {
@@ -53,7 +72,7 @@
 
 
 
-.home-wrapper-content {
+.wrapper-content {
 
 	margin: 0 auto;
 	padding: 5em 0 1em;
@@ -110,13 +129,13 @@
 		}
 	}
 
-	.outline {
-		border: 1px solid $gray-80;
-		padding: $padding-medium;
-	}
-
 }
 
+
+.outline {
+	border: 1px solid $gray-80;
+	padding: $padding-medium;
+}
 
 
 

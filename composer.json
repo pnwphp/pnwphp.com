@@ -5,8 +5,8 @@
     "license": "MIT",
     "type": "project",
     "require": {
-        "laravel/lumen-framework": "5.0.*",
-        "vlucas/phpdotenv": "~1.0"
+        "laravel/lumen-framework": "5.2.*",
+        "vlucas/phpdotenv": "~2.2"
     },
     "autoload": {
         "psr-4": {

@@ -55,6 +55,30 @@ body {
   .wrapper-blue-dark h4 {
     color: #f9f9f9; }
 
+.wrapper-blue-navy {
+  background-color: #1b2946;
+  color: #f9f9f9; }
+  .wrapper-blue-navy a:link {
+    background-color: #1b2946;
+    color: #cccccc; }
+  .wrapper-blue-navy a:visited {
+    background-color: #1b2946;
+    color: #cccccc; }
+  .wrapper-blue-navy a:hover, .wrapper-blue-navy a:focus {
+    background-color: #cccccc;
+    color: #1b2946; }
+  .wrapper-blue-navy a:active {
+    background-color: #1B75BB;
+    color: #cccccc; }
+  .wrapper-blue-navy h2 {
+    -webkit-margin-before: 0;
+            margin-block-start: 0;
+    color: #f9f9f9; }
+  .wrapper-blue-navy h3 {
+    color: #f9f9f9; }
+  .wrapper-blue-navy h4 {
+    color: #f9f9f9; }
+
 .wrapper-green {
   background-color: #49904A;
   color: #f9f9f9; }
@@ -380,6 +404,44 @@ td {
   font-size: 1.0rem;
   padding: 0.2em; }
 
+.sponsor-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.sponsor-card {
+  max-width: 300px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin: 0 10px 0.2em; }
+  @media (min-width: 530px) {
+    .sponsor-card {
+      max-width: 350px; } }
+  .sponsor-card:first-child {
+    margin-left: 0; }
+  .sponsor-card:last-child {
+    margin-right: 0; }
+  .sponsor-card img {
+    width: 100%;
+    max-width: 350px; }
+
+.sponsor-level h2, .sponsor-level-silver h2, .sponsor-level-community h2 {
+  text-transform: uppercase;
+  padding: 0.2em 0.5em;
+  background-color: #30487b;
+  color: #f9f9f9; }
+
+.sponsor-level-silver h2 {
+  background-color: #cccccc;
+  color: #1b2946; }
+
+.sponsor-level-community h2 {
+  background-color: #8892bf;
+  color: #1b2946; }
+
 .head-banner-content {
   background-size: cover;
   background-color: #30487b;
@@ -430,6 +492,10 @@ td {
   font-size: 1.2em;
   -webkit-margin-before: 0;
           margin-block-start: 0; }
+  @media (min-width: 530px) {
+    .wrapper-content {
+      width: 530px;
+      padding: 1em 0 1em; } }
   @media (min-width: 50em) {
     .wrapper-content {
       width: 50em;

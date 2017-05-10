@@ -91,6 +91,48 @@ body {
 	}
 }
 
+.wrapper-blue-navy {
+	background-color: $pnwphp-blue-navy;
+	color: $white;
+
+	a {
+		&:link {
+			background-color: $pnwphp-blue-navy;
+			color: $gray-80;
+		}
+
+		&:visited {
+			background-color: $pnwphp-blue-navy;
+			color: $gray-80;
+		}
+
+		&:hover, &:focus {
+			background-color: $gray-80;
+			color: $pnwphp-blue-navy;
+		}
+
+		&:active {
+			background-color: $pnwphp-blue;
+			color: $gray-80;
+		}
+	}
+
+
+	h2 {
+		margin-block-start: 0;
+		color: $white;
+	}
+
+	h3 {
+		color: $white;
+	}
+
+	h4 {
+		color: $white;
+	}
+}
+
+
 .wrapper-green {
 	background-color: $pnwphp-green;
 	color: $white;

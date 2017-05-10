@@ -1,0 +1,60 @@
+
+// Platinum
+// Gold
+// Silver
+// Bronze
+// Copper
+// Community
+
+.sponsor-list {
+	display: flex;
+}
+
+.sponsor-card {
+	max-width: 300px;
+	flex: 1;
+	margin: 0 10px $margin-small;
+	@media  (min-width: $tablet-content-width) {
+		max-width: 350px;
+	}
+
+	&:first-child {
+		margin-left: 0;
+	}
+
+	&:last-child {
+		margin-right: 0;
+	}
+
+	img {
+		width: 100%;
+		max-width: 350px;
+	}
+}
+
+.sponsor-level {
+	h2 {
+		text-transform: uppercase;
+		padding: $padding-small $padding-medium;
+		background-color: $pnwphp-blue-dark;
+		color: $white;
+	}
+}
+
+.sponsor-level-silver {
+	@extend .sponsor-level;
+
+	h2 {
+		background-color: $gray-80;
+		color: $pnwphp-blue-navy;
+	}
+}
+
+.sponsor-level-community {
+	@extend .sponsor-level;
+
+	h2 {
+		background-color: $php-purple;
+		color: $pnwphp-blue-navy;
+	}
+}

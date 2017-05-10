@@ -11,6 +11,7 @@
 @import "navigation";
 @import "tables";
 @import "buttons";
+@import "sponsors";
 
 .head-banner-content {
 	background-size: cover;
@@ -79,6 +80,10 @@
 	font-size: 1.2em;
 	margin-block-start: 0;
 	// @todo add media queries to set the width for different devices
+	@media  (min-width: $tablet-content-width) {
+		width: $tablet-content-width;
+		padding: 1em 0 1em;
+	}
 	@media  (min-width: $desktop-content-width) {
 		width: $desktop-content-width;
 		padding: 1em 0 1em;

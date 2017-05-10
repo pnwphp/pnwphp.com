@@ -19,7 +19,7 @@
     <div class="wrapper wrapper-blue-navy">
 
         @foreach($sponsor_levels AS $sponsor_level)
-        <div class="wrapper-content sponsor-level-community">
+        <div class="wrapper-content sponsor-level-{{ $sponsor_level->level }}">
             <h2>{{ $sponsor_level->title }}</h2>
             <div class="sponsor-list">
 

@@ -35,8 +35,8 @@
             # <li><a href="/sponsor/how-to">How to Sponsor</a></li>
             ?>
             <li><a href="<?php echo $cfpUrl; ?>">CFP</a></li>
+            <li><a href="/2017/sponsors">Sponsors</a></li>
             <?php
-            # <li><a href="/2017/sponsors">Sponsors</a></li>
             # <li><a href="/about">About</a></li>
             ?>
         </ul>

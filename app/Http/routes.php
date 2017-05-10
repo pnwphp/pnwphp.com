@@ -33,14 +33,13 @@ $app->get('/code-of-conduct', function() use ($app) {
     return page('code-of-conduct');
 });
 
-$app->get('/sponsors', function() use ($app) {
-    return page('sponsors');
-});
+$app->get('/sponsors', '\App\Http\Controllers\SponsorController@index');
 
 /*
  * 2017 Site URLs
  */
 
+$app->get('/2017/sponsors', '\App\Http\Controllers\SponsorController@index');
 
 
 /*

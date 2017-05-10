@@ -9,13 +9,13 @@ class Conference extends Model
 		if (!$database) {
 			$database = new Database();
 		}
-		
-		parent::__construct($database->get('conference'), $database); 
+
+		parent::__construct($database->get('conference'), $database);
 	}
-	
+
 	public function __get($key)
 	{
-		static $collections = ['speakers', 'sponsors', 'communitySponsors', 'talks', 'rooms', 'hotels', 'jobs', 'individualSponsors'];
+		static $collections = [ 'conference', 'rooms', 'speakers', 'talks', 'sponsors', 'sponsor_levels', 'hotels' ];
 		if (in_array($key, $collections, true)) {
 			$data = $this->database->get($key);
 			foreach ($data as &$item) {

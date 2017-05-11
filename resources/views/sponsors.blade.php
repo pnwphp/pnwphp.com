@@ -22,14 +22,13 @@
         <div class="wrapper-content sponsor-level-{{ $sponsor_level->level }}">
             <h2>{{ $sponsor_level->title }}</h2>
             <div class="sponsor-list">
-
                 @foreach($sponsors[$sponsor_level->level] AS $sponsor_code)
                     @php
                      $sponsor = $sponsors[ $sponsor_code ];
                     @endphp
                 <div class="sponsor-card">
                     <a href="{{ $sponsor->url }}" rel="nofollow">
-                        <img alt="{{ $sponsor->name }}" src="https://dummyimage.com/300x300/c2c2c2/3a3a3a.png&text={{ $sponsor->name }}">
+                        <img alt="{{ $sponsor->name }}" src="{{ $sponsor->logo }}">
 
                     </a>
                 </div>

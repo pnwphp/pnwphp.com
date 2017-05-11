@@ -63,10 +63,10 @@
     'sponsors' => [
 	    'platinum'  => ['sample'],
 	    'gold'      => ['sample', 'sample', 'sample'],
-	    'silver'    => ['cisco', 'sample', 'sample'],
+	    'silver'    => ['sample', 'sample', 'sample'],
 	    'bronze'    => ['sample', 'sample', 'sample'],
 	    'copper'    => ['sample', 'sample', 'sample'],
-	    'community' => ['nomad-php', 'sample', 'sample'],
+	    'community' => ['sample', 'sample', 'sample'],
 
 	    'sample' => [
 		    'name' => 'Example',

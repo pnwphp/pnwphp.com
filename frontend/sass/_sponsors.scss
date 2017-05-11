@@ -7,28 +7,36 @@
 // Community
 
 .sponsor-list {
-	display: flex;
+	display: block;
+
+	@media  (min-width: $desktop-content-width) {
+		width: $desktop-content-width;
+	}
 }
 
 .sponsor-card {
 	max-width: 300px;
-	flex: 1;
+
+	display: inline-block;
 	margin: 0 10px $margin-small;
+	width: 180px;
 	@media  (min-width: $tablet-content-width) {
-		max-width: 350px;
 	}
 
-	&:first-child {
-		margin-left: 0;
+	@media  (min-width: $desktop-content-width) {
+		&:nth-child(3n+1) {
+			margin-left: 0;
+		}
+
+		&:nth-child(3n) {
+			margin-right: 0;
+		}
+		width: 300px;
 	}
 
-	&:last-child {
-		margin-right: 0;
-	}
 
 	img {
 		width: 100%;
-		max-width: 350px;
 	}
 }
 
@@ -41,6 +49,23 @@
 	}
 }
 
+.sponsor-level-platinum {
+	@extend .sponsor-level;
+
+	h2 {
+		background-color: #D7D4C6;
+		color: $pnwphp-blue-navy;
+	}
+}
+.sponsor-level-gold {
+	@extend .sponsor-level;
+
+	h2 {
+		background-color: #FFC94C;
+		color: $pnwphp-blue-navy;
+	}
+}
+
 .sponsor-level-silver {
 	@extend .sponsor-level;
 
@@ -50,6 +75,23 @@
 	}
 }
 
+.sponsor-level-bronze {
+	@extend .sponsor-level;
+
+	h2 {
+		background-color: #b58700;
+		color: $pnwphp-blue-navy;
+	}
+}
+
+.sponsor-level-copper {
+	@extend .sponsor-level;
+
+	h2 {
+		background-color: #DA7C56;
+		color: $pnwphp-blue-navy;
+	}
+}
 .sponsor-level-community {
 	@extend .sponsor-level;
 

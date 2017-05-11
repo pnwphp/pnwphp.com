@@ -36,8 +36,8 @@
             ?>
             <li><a href="<?php echo $cfpUrl; ?>">CFP</a></li>
             <li><a href="/2017/sponsors">Sponsors</a></li>
+            <li><a href="/code-of-conduct">Code of Conduct</a></li>
             <?php
-            # <li><a href="/about">About</a></li>
             ?>
         </ul>
     </nav>

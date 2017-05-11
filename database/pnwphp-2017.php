@@ -34,21 +34,18 @@
     'talks' => [],
 
 	'sponsor_levels' => [
-		/*
 		'platinum' => [
-			'title' => 'Platinum Sponsors',
+			'title' => 'Platinum Sponsor',
 			'level' => 'platinum'
 		],
 		'gold' => [
 			'title' => 'Gold Sponsors',
 			'level' => 'gold'
 		],
-		*/
 		'silver' => [
 			'title' => 'Silver Sponsors',
 			'level' => 'silver'
 		],
-		/*
 		'bronze' => [
 			'title' => 'Bronze Sponsors',
 			'level' => 'bronze'
@@ -57,32 +54,35 @@
 			'title' => 'Copper Sponsors',
 			'level' => 'copper'
 		],
-		*/
 		'community' => [
 			'title' => 'Community Sponsors',
 			'level' => 'community'
 		],
 	],
-    'sponsors' => [
-	    'community' => ['nomad-php', 'dc4d'],
-	    'silver' => ['cisco'],
 
+    'sponsors' => [
+	    'platinum'  => ['sample'],
+	    'gold'      => ['sample', 'sample', 'sample'],
+	    'silver'    => ['cisco', 'sample', 'sample'],
+	    'bronze'    => ['sample', 'sample', 'sample'],
+	    'copper'    => ['sample', 'sample', 'sample'],
+	    'community' => ['nomad-php', 'sample', 'sample'],
+
+	    'sample' => [
+		    'name' => 'Example',
+		    'code' => 'sample',
+		    'url' => 'http://example.com/',
+		    'logo' => 'https://dummyimage.com/300x300/f2f2f2/3a3a3a.png&text=Example',
+		    'about' => <<<DESC
+This could be your company. Get in touch with the organizers to become a sponsor.
+DESC
+	    ],
 	    'nomad-php' => [
 		    'name' => 'Nomad PHP',
 		    'code' => 'nomad-php',
 		    'level' => 'community',
 		    'url' => 'http://nomadphp.com/',
-		    'logo' => 'img/logos/joule.jpg',
-		    'about' => <<<DESC
-This is a description about the sponsoring company. Who they are, and what they do.
-DESC
-	    ],
-	    'dc4d' => [
-		    'name' => 'Day Camp For Developers',
-		    'code' => 'dc4f',
-		    'level' => 'community',
-		    'url' => 'http://nomadphp.com/',
-		    'logo' => 'img/logos/joule.jpg',
+		    'logo' => 'https://dummyimage.com/300x300/f0f0c0/3a3a3a.png&text=Nomad+PHP',
 		    'about' => <<<DESC
 This is a description about the sponsoring company. Who they are, and what they do.
 DESC
@@ -92,7 +92,7 @@ DESC
 		    'code' => 'cisco',
 		    'level' => 'silver',
 		    'url' => 'http://cisco.com/',
-		    'logo' => 'img/logos/joule.jpg',
+		    'logo' => 'https://dummyimage.com/300x300/c2f2c2/3a3a3a.png&text=Cisco',
 		    'about' => <<<DESC
 This is a description about the sponsoring company. Who they are, and what they do.
 DESC

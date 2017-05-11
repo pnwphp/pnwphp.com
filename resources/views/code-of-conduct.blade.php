@@ -1,17 +1,21 @@
 @extends('layout')
 
 @section('content')
-<div class="wrapper wrapper-white">
-    <div class="container">
-        <div class="page-header" id="banner">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h1>Code of conduct</h1>
-                    <h2>Purpose</h2>
-                </div>
-            </div>
+<div class="wrapper wrapper-blue-dark">
+    <div class="wrapper-content">
+        <h1>Code of Conduct</h1>
+        <div class="container">
+            <p class="lead">
+               We want everyone to have a good time. We have this code of conduct
+               to clarify the standard of behavior, to ensure that can happen.
+            </p>
         </div>
-        <div class="row">
+    </div>
+</div>
+<div class="wrapper wrapper-blue">
+    <div class="wrapper-content">
+        <h2>Purpose</h2>
+        <div class="container">
             <div class="col-md-8 col-md-offset-2">
                 <p>
                     The Pacific Northwest PHP conference strives to be inclusive to the largest number of attendees

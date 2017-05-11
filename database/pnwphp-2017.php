@@ -69,10 +69,10 @@
 	    'community' => ['sample', 'sample', 'sample'],
 
 	    'sample' => [
-		    'name' => 'Example',
+		    'name' => 'Sample',
 		    'code' => 'sample',
 		    'url' => 'http://example.com/',
-		    'logo' => 'https://dummyimage.com/300x300/f2f2f2/3a3a3a.png&text=Example',
+		    'logo' => 'https://dummyimage.com/300x300/f2f2f2/3a3a3a.png&text=Sample',
 		    'about' => <<<DESC
 This could be your company. Get in touch with the organizers to become a sponsor.
 DESC

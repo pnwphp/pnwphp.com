@@ -20,10 +20,8 @@
                     </div>
                     <div id="current-status" class="box outline">
                         <p>
-                            The CFP is open <strong>until 2017 May 15</strong>. Anyone interested in speaking should
-                            submit their talk ideas.
+                            The CFP is closed. We are currently reviewing the submissions.
                         </p>
-                        <a href="https://cfp.pnwphp.com" class="btn-reverse">Submit CFP</a>
                     </div>
                 </div>
             </div>

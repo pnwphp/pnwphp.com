@@ -34,7 +34,6 @@
             # while hiding them from HTML
             # <li><a href="/sponsor/how-to">How to Sponsor</a></li>
             ?>
-            <li><a href="<?php echo $cfpUrl; ?>">CFP</a></li>
             <li><a href="/2017/sponsors">Sponsors</a></li>
             <li><a href="/code-of-conduct">Code of Conduct</a></li>
             <?php
@@ -50,11 +49,6 @@
 <div class="head-banner-content">
         <h1>Pacific Northwest PHP</h1>
         <h2><span class="date">September 7th–9th, 2017</span> <span class="dot">&#8226</span> <span class="location">Seattle, WA</span></h2>
-        <a href="<?php echo $cfpUrl; ?>" target="_blank"
-           class="btn-reverse"
-           style="margin-left: auto; margin-right: auto; width: 12em;">
-            Submit Your CFP
-        </a>
 </div>
 @yield('content')
 <div class="footer">

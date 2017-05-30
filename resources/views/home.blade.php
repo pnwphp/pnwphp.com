@@ -44,10 +44,7 @@
                         </p>
 
                         <p class="lead">
-                            <em>Add your voice to the herd!</em> <strong>Become a part</strong> of our upcoming 2017
-                            conference
-                            &mdash; <a href="<?php echo $cfpUrl; ?>">Submit your CFPs</a>
-                            to become a speaker.
+                            <em>Stay tuned!</em> We will <strong>announce the speakers</strong> of our upcoming 2017 conference, when we complete our review.
                         </p>
 
                     </div>

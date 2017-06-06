@@ -61,12 +61,12 @@
 	],
 
     'sponsors' => [
-	    'platinum'  => ['sample'],
-	    'gold'      => ['sample', 'sample', 'sample'],
-	    'silver'    => ['sample', 'sample', 'sample'],
-	    'bronze'    => ['sample', 'sample', 'sample'],
-	    'copper'    => ['sample', 'sample', 'sample'],
-	    'community' => ['sample', 'sample', 'sample'],
+        'platinum'  => [],
+        'gold'      => [],
+        'silver'    => [],
+        'bronze'    => ['ispot-tv', 'get-mercutio'],
+        'copper'    => ['cool-blue-web'],
+        'community' => ['nomad-php'],
 
 	    'sample' => [
 		    'name' => 'Sample',
@@ -76,27 +76,57 @@
 		    'about' => <<<DESC
 This could be your company. Get in touch with the organizers to become a sponsor.
 DESC
-	    ],
-	    'nomad-php' => [
-		    'name' => 'Nomad PHP',
-		    'code' => 'nomad-php',
-		    'level' => 'community',
-		    'url' => 'http://nomadphp.com/',
-		    'logo' => 'https://dummyimage.com/300x300/f0f0c0/3a3a3a.png&text=Nomad+PHP',
-		    'about' => <<<DESC
+        ],
+        'nomad-php'     => [
+            'name'  => 'Nomad PHP',
+            'code'  => 'nomad-php',
+            'level' => 'community',
+            'url'   => 'http://nomadphp.com/',
+            'logo'  => '/img/logos/2017/community-nomadphp.png',
+            'about' => <<<DESC
 This is a description about the sponsoring company. Who they are, and what they do.
 DESC
-	    ],
-	    'cisco' => [
-		    'name' => 'Cisco',
-		    'code' => 'cisco',
-		    'level' => 'silver',
-		    'url' => 'http://cisco.com/',
-		    'logo' => 'https://dummyimage.com/300x300/c2f2c2/3a3a3a.png&text=Cisco',
-		    'about' => <<<DESC
+        ],
+        'ispot-tv'      => [
+            'name'  => 'ISpot TV',
+            'code'  => 'ispot-tv',
+            'level' => 'bronze',
+            'url'   => 'https://www.ispot.tv/',
+            'logo'  => 'https://dummyimage.com/300x300/f2f2f2/3a3a3a.png&text=iSpot.tv',
+            'about' => <<<DESC
 This is a description about the sponsoring company. Who they are, and what they do.
 DESC
-	    ],
+        ],
+        'mysql'         => [
+            'name'  => 'MySQL',
+            'code'  => 'mysql',
+            'level' => 'silver',
+            'url'   => 'http://mysql.com/',
+            'logo'  => 'https://dummyimage.com/300x300/f2f2f2/3a3a3a.png&text=MySQL',
+            'about' => <<<DESC
+MySQL is the most popular open source RDBMS today!
+DESC
+        ],
+        'cool-blue-web' => [
+            'name'  => 'Cool Blue Web',
+            'code'  => 'cool-blue-web',
+            'level' => 'copper',
+            'url'   => 'http://coolblueweb.com/',
+            'logo'  => '/img/logos/2017/cool-blue-web.png',
+            'about' => <<<DESC
+Cool Blue Web is a software consulting services company that specializes in PHP.
+DESC
+        ],
+        'get-mercutio'  => [
+            'name'  => 'Get Mercutio',
+            'code'  => 'get-mercutio',
+            'level' => 'bronze',
+            'url'   => 'http://getmercutio.com/',
+            'logo'  => 'https://dummyimage.com/300x300/f2f2f2/3a3a3a.png&text=Get+Mercutio',
+            'about' => <<<DESC
+Get Mercutio is a web consulting services company that specializes in PHP.
+DESC
+        ],
     ],
 
     'hotels' => [],

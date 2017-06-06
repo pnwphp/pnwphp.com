@@ -20,8 +20,10 @@
                     </div>
                     <div id="current-status" class="box outline">
                         <p>
-                            The CFP is closed. We are currently reviewing the submissions.
+                            Early Bird Tickets are now available.<br>
+                            <strong>Get your tickets today!</strong>
                         </p>
+                        <a class="btn-reverse" href="https://www.eventbrite.com/e/pacific-northwest-php-conference-2017-tickets-34673958744">Buy Tickets</a>
                     </div>
                 </div>
             </div>
